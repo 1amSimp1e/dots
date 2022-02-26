@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Dracula-Solid
+Comment[es]=Un tema oscuro creado usando la asombrosa paleta de colores Dracula.
+Comment=A dark theme created using the awesome Dracula color palette.
+X-KDE-PluginInfo-Author=EliverLara
+X-KDE-PluginInfo-Email=eliverlara@gmail.com
+X-KDE-PluginInfo-Name=Dracula-Solid
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Website=https://github.com/EliverLara/Dracula/tree/master/kde
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[AdaptiveTransparency]
+enabled=true

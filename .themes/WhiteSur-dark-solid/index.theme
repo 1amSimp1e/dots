@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=WhiteSur-dark-solid
+Comment=A MacOS BigSur like Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=WhiteSur-dark-solid
+MetacityTheme=WhiteSur-dark-solid
+IconTheme=WhiteSur-dark
+CursorTheme=WhiteSur-cursors
+ButtonLayout=close,minimize,maximize:menu
+

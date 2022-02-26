@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="48"
+   width="48"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="ndisgtk.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="765"
+     inkscape:window-height="480"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="24"
+     inkscape:cy="24"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <path
+     d="m44.322082 27.405077a19.729762 19.729765 0 0 1 -19.729762 19.729765 19.729762 19.729765 0 0 1 -19.7297621-19.729765 19.729762 19.729765 0 0 1 19.7297621-19.7297632 19.729762 19.729765 0 0 1 19.729762 19.7297632z"
+     fill="#909676"
+     opacity=".99"
+     transform="matrix(1.1503549 0 0 1.1503549 -4.486125 -7.525565)"
+     id="path2"
+     style="fill:#71616d;fill-opacity:1" />
+  <circle
+     cx="23.803772"
+     cy="24"
+     fill="#fbfbfb"
+     fill-opacity=".432624"
+     r=".3"
+     id="circle4" />
+  <g
+     fill="#fff"
+     id="g10">
+    <path
+       d="m15.458984 11.617188c-.804796 0-1.453125.648329-1.453125 1.453125v2.09375c0 .804796.648329 1.453125 1.453125 1.453125h17.09375c.804796 0 1.453125-.648329 1.453125-1.453125v-2.09375c0-.804796-.648329-1.453125-1.453125-1.453125zm1.041016 2.382812a1 1 0 0 1 1 1 1 1 0 0 1 -1 1 1 1 0 0 1 -1-1 1 1 0 0 1 1-1zm-1.041016 4.617188c-.804796 0-1.453125.648329-1.453125 1.453125v2.09375c0 .804796.648329 1.453125 1.453125 1.453125h17.09375c.804796 0 1.453125-.648329 1.453125-1.453125v-2.09375c0-.804796-.648329-1.453125-1.453125-1.453125zm1.041016 2.382812a1 1 0 0 1 1 1 1 1 0 0 1 -1 1 1 1 0 0 1 -1-1 1 1 0 0 1 1-1zm-1.041016 4.617188c-.804796 0-1.453125.648329-1.453125 1.453125v2.09375c0 .804796.648329 1.453125 1.453125 1.453125h17.09375c.804796 0 1.453125-.648329 1.453125-1.453125v-2.09375c0-.804796-.648329-1.453125-1.453125-1.453125zm1.041016 2.382812a1 1 0 0 1 1 1 1 1 0 0 1 -1 1 1 1 0 0 1 -1-1 1 1 0 0 1 1-1z"
+       id="path6" />
+    <path
+       d="m22.755859 31.617188v2h-2.75v1.5h-6v1h6v.5h8v-.5h6v-1h-6v-1.5h-2.75v-2z"
+       id="path8" />
+  </g>
+</svg>

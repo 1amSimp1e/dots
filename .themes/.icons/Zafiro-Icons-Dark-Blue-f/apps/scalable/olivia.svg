@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   viewBox="0 0 640 640"
+   width="64"
+   height="64"
+   id="svg71"
+   sodipodi:docname="olivia.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata75">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1040"
+     id="namedview73"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="19.633879"
+     inkscape:cy="37.842884"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg71" />
+  <defs
+     id="defs9">
+    <path
+       d="M619.71 324.88C619.71 483.63 485.03 612.52 319.14 612.52C153.26 612.52 18.58 483.63 18.58 324.88C18.58 166.12 153.26 37.24 319.14 37.24C485.03 37.24 619.71 166.12 619.71 324.88Z"
+       id="a5nBlLjrc" />
+    <path
+       d="M175.12 267.85C175.12 275.19 175.12 333.93 175.12 341.27C175.12 350.81 184.3 358.57 195.58 358.57C206.86 358.57 216.03 350.81 216.03 341.27C216.03 333.93 216.03 275.19 216.03 267.85C216.03 219.77 262.29 180.66 319.14 180.66C376 180.66 422.26 219.77 422.26 267.85C422.26 275.19 422.26 333.93 422.26 341.27C422.26 350.81 431.43 358.57 442.71 358.57C453.99 358.57 463.17 350.81 463.17 341.27C463.17 333.93 463.17 275.19 463.17 267.85C463.17 200.7 398.56 146.07 319.15 146.07C239.73 146.07 175.12 200.7 175.12 267.85Z"
+       id="b3eof2L0e" />
+    <path
+       d="M175.12 341.27C175.12 350.81 184.3 358.57 195.58 358.57C206.86 358.57 216.03 350.81 216.03 341.27C216.03 333.93 216.03 275.19 216.03 267.85C216.03 219.77 262.29 180.66 319.14 180.66C319.14 177.2 319.14 149.53 319.14 146.07C239.73 146.07 175.12 200.7 175.12 267.85C175.12 282.54 175.12 333.93 175.12 341.27Z"
+       id="d3tddR1cAb" />
+    <path
+       d="M138.12 398.72C138.12 434.34 172.39 463.32 214.51 463.32C217.97 463.32 220.78 460.95 220.78 458.02C220.78 446.16 220.78 351.28 220.78 339.41C220.78 336.49 217.97 334.12 214.51 334.12C172.39 334.12 138.12 363.1 138.12 398.72Z"
+       id="gZfIUaxQ" />
+    <path
+       d="M418.33 339.41C418.33 351.28 418.33 446.16 418.33 458.02C418.33 460.95 421.13 463.32 424.59 463.32C466.71 463.32 500.98 434.34 500.98 398.72C500.98 363.1 466.71 334.12 424.59 334.12C421.13 334.12 418.33 336.49 418.33 339.41Z"
+       id="b42twxSCwN" />
+    <path
+       d="M348.61 324.88C345.15 324.88 342.35 327.1 342.35 329.84C342.35 343.62 342.35 453.82 342.35 467.59C342.35 470.34 345.15 472.56 348.61 472.56C354.96 472.56 405.72 472.56 412.07 472.56C415.52 472.56 418.33 470.34 418.33 467.59C418.33 453.82 418.33 343.62 418.33 329.84C418.33 327.1 415.52 324.88 412.07 324.88C399.37 324.88 354.96 324.88 348.61 324.88Z"
+       id="bemwVNEvV" />
+    <path
+       d="M227.04 324.88C223.58 324.88 220.78 327.1 220.78 329.84C220.78 343.62 220.78 453.82 220.78 467.59C220.78 470.34 223.58 472.56 227.04 472.56C233.38 472.56 284.15 472.56 290.49 472.56C293.95 472.56 296.75 470.34 296.75 467.59C296.75 453.82 296.75 343.62 296.75 329.84C296.75 327.1 293.95 324.88 290.49 324.88C277.8 324.88 233.38 324.88 227.04 324.88Z"
+       id="bPbUAzU2o" />
+  </defs>
+  <g
+     id="g69">
+    <g
+       id="g67">
+      <g
+         id="g17">
+        <use
+           xlink:href="#a5nBlLjrc"
+           opacity="1"
+           fill="#bbb0ce"
+           fill-opacity="1"
+           id="use11" />
+        <g
+           id="g15">
+          <use
+             xlink:href="#a5nBlLjrc"
+             opacity="1"
+             fill-opacity="0"
+             stroke="#000000"
+             stroke-width="0"
+             stroke-opacity="1"
+             id="use13" />
+        </g>
+      </g>
+      <g
+         id="g25">
+        <use
+           xlink:href="#b3eof2L0e"
+           opacity="1"
+           fill="#dee9ea"
+           fill-opacity="1"
+           id="use19"
+           style="fill:#ffffff" />
+        <g
+           id="g23">
+          <use
+             xlink:href="#b3eof2L0e"
+             opacity="1"
+             fill-opacity="0"
+             stroke="#000000"
+             stroke-width="1"
+             stroke-opacity="0"
+             id="use21" />
+        </g>
+      </g>
+      <g
+         id="g33">
+        <use
+           xlink:href="#d3tddR1cAb"
+           opacity="1"
+           fill="#dee9ea"
+           fill-opacity="1"
+           id="use27"
+           style="fill:#ffffff" />
+        <g
+           id="g31">
+          <use
+             xlink:href="#d3tddR1cAb"
+             opacity="1"
+             fill-opacity="0"
+             stroke="#000000"
+             stroke-width="1"
+             stroke-opacity="0"
+             id="use29" />
+        </g>
+      </g>
+      <g
+         id="g41">
+        <use
+           xlink:href="#gZfIUaxQ"
+           opacity="1"
+           fill="#e5e69c"
+           fill-opacity="1"
+           id="use35"
+           style="fill:#e6e2ed;fill-opacity:1" />
+        <g
+           id="g39">
+          <use
+             xlink:href="#gZfIUaxQ"
+             opacity="1"
+             fill-opacity="0"
+             stroke="#000000"
+             stroke-width="1"
+             stroke-opacity="0"
+             id="use37" />
+        </g>
+      </g>
+      <g
+         id="g49">
+        <use
+           xlink:href="#b42twxSCwN"
+           opacity="1"
+           fill="#e5e69c"
+           fill-opacity="1"
+           id="use43"
+           style="fill:#e6e2ed;fill-opacity:1" />
+        <g
+           id="g47">
+          <use
+             xlink:href="#b42twxSCwN"
+             opacity="1"
+             fill-opacity="0"
+             stroke="#000000"
+             stroke-width="1"
+             stroke-opacity="0"
+             id="use45" />
+        </g>
+      </g>
+      <g
+         id="g57">
+        <use
+           xlink:href="#bemwVNEvV"
+           opacity="1"
+           fill="#9397dd"
+           fill-opacity="1"
+           id="use51"
+           style="fill:#ffffff" />
+        <g
+           id="g55">
+          <use
+             xlink:href="#bemwVNEvV"
+             opacity="1"
+             fill-opacity="0"
+             stroke="#000000"
+             stroke-width="1"
+             stroke-opacity="0"
+             id="use53" />
+        </g>
+      </g>
+      <g
+         id="g65">
+        <use
+           xlink:href="#bPbUAzU2o"
+           opacity="1"
+           fill="#9397dd"
+           fill-opacity="1"
+           id="use59"
+           style="fill:#ffffff" />
+        <g
+           id="g63">
+          <use
+             xlink:href="#bPbUAzU2o"
+             opacity="1"
+             fill-opacity="0"
+             stroke="#000000"
+             stroke-width="1"
+             stroke-opacity="0"
+             id="use61" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

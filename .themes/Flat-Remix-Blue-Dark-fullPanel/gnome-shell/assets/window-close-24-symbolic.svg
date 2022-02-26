@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="24"
+   height="24"
+   viewBox="0 0 6.3499999 6.3500002"
+   version="1.1"
+   id="svg59656">
+  <defs
+     id="defs59650" />
+  <metadata
+     id="metadata59653">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#241f31;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.471289;marker:none;enable-background:new"
+     id="path10839-9"
+     d="m 1.5875,1.5875 h 0.2645834 c 0.00274,-3.18e-5 0.0055,-1.217e-4 0.00827,0 0.067456,0.00296 0.1349031,0.03402 0.181901,0.082682 L 3.1758323,2.8029916 4.3160156,1.670182 C 4.3862956,1.609196 4.4341976,1.589352 4.4979166,1.5875 H 4.7625 v 0.264583 c 0,0.075795 -0.00909,0.1456928 -0.066146,0.1984375 L 3.5644391,3.175 4.688086,4.3077474 C 4.737877,4.3575344 4.762498,4.4277227 4.7625,4.4979167 V 4.7625 H 4.4979167 C 4.4277225,4.7624974 4.3575325,4.7378673 4.3077475,4.6880859 L 3.1758323,3.5554004 2.0422526,4.688086 C 1.9924676,4.737878 1.9222747,4.7625 1.8520834,4.7625 H 1.5875 V 4.4979168 c -8e-7,-0.070191 0.024622,-0.1403827 0.074414,-0.1901693 L 2.7954938,3.175 1.6619141,2.0505208 C 1.6061553,1.9990249 1.581703,1.9263651 1.5875,1.8520833 Z" />
+</svg>

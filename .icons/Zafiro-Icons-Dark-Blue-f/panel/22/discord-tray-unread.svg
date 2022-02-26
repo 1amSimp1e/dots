@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="discord-tray-unread.svg"
+   inkscape:version="1.1-dev (1:0.92.0+devel+202004260039+9758c7a)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     id="namedview11"
+     showgrid="true"
+     inkscape:zoom="33.057242"
+     inkscape:cx="9.5962768"
+     inkscape:cy="10.909021"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9">
+    <inkscape:grid
+       type="xygrid"
+       id="grid828" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#dfdfdf; } .ColorScheme-Highlight { color:#4285f4; }
+  </style>
+  </defs>
+  <path
+     id="path5"
+     style="fill:#ffffff;fill-opacity:1"
+     d="M 6 2 L 1 4 L 1 13 L 5 15 L 6 14 L 4 12 L 8 13 L 12 12 L 10 14 L 11 15 L 15 13 L 15 5.8632812 C 14.449805 6.2764945 13.775755 6.5312502 13.041016 6.53125 C 11.882278 6.5312499 10.861542 5.9151323 10.273438 5 L 3 5 L 6 3 L 6 2 z M 11.84375 2.7363281 C 11.781033 2.8896575 11.746094 3.0575649 11.746094 3.2363281 C 11.746094 3.9628302 12.314514 4.5312499 13.041016 4.53125 C 13.603142 4.5312502 14.06581 4.1897434 14.248047 3.6992188 L 11.84375 2.7363281 z M 5.5 8 C 6.3381317 8 7.0149989 8.668 7 9.5 C 7 10.332 6.3381317 11 5.5 11 C 4.6766671 11 4 10.332 4 9.5 C 4 8.668 4.6619684 8 5.5 8 z M 10.5 8 C 11.338032 8 12 8.668 12 9.5 C 12 10.332 11.323333 11 10.5 11 C 9.661868 11 9 10.332 9 9.5 C 8.9850011 8.668 9.661868 8 10.5 8 z " />
+  <circle
+     style="fill:#7097c1;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path1047"
+     cx="13.040401"
+     cy="3.2365637"
+     r="2.2940032" />
+  <g
+     id="g1052">
+    <path
+       style="color:#000000;fill:#7097c1;stroke-width:2;stroke-linejoin:round"
+       d="M 15.334405,3.2365637 A 2.2940032,2.2940032 0 0 1 13.040401,5.5305669 2.2940032,2.2940032 0 0 1 10.746398,3.2365637 2.2940032,2.2940032 0 0 1 13.040401,0.94256043 2.2940032,2.2940032 0 0 1 15.334405,3.2365637"
+       id="path1054" />
+  </g>
+</svg>

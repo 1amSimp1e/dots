@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Dracula
+Description=Dracula sddm theme
+Author=Eliver Lara
+Copyright=(c) 2019, Eliver Lara
+License=GPL 3+
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/EliverLara/Ant-Dracula/tree/master/kde/sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=eliverlara@gmail.com
+Theme-Id=Dracula
+Theme-API=2.0

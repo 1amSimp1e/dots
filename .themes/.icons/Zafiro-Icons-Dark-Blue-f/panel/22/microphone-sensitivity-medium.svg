@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="microphone-sensitivity-medium.svg"
+   inkscape:version="1.1-dev (1:0.92.0+devel+202004260039+9758c7a)"
+   version="1.1"
+   width="24"
+   height="24"
+   style="enable-background:new"
+   id="svg7384">
+  <sodipodi:namedview
+     inkscape:guide-bbox="true"
+     showguides="true"
+     inkscape:current-layer="svg7384"
+     inkscape:window-maximized="1"
+     inkscape:window-y="30"
+     inkscape:window-x="0"
+     inkscape:cy="6.0599989"
+     inkscape:cx="13.372279"
+     inkscape:zoom="22.627418"
+     showgrid="true"
+     id="namedview11"
+     inkscape:window-height="1024"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#a1a1a1">
+    <inkscape:grid
+       spacingy="0.25"
+       spacingx="0.25"
+       id="grid843"
+       type="xygrid" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide928"
+       orientation="0,1"
+       position="6.25,4.5" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide934"
+       orientation="0,1"
+       position="6.75,14.5" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide936"
+       orientation="1,0"
+       position="12.5,13.25" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Paper Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title8473">Paper Symbolic Icon Theme</title>
+  <defs
+     id="defs7386">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556" />
+    </filter>
+    <filter
+       id="filter7554-5"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-4"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-6">
+      <feBlend
+         id="feBlend7556-6"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <linearGradient
+       gradientTransform="translate(-1,-2)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3678"
+       id="linearGradient2868"
+       y2="19"
+       x2="8.9254236"
+       y1="5.9997859"
+       x1="8.9254236" />
+    <linearGradient
+       id="linearGradient3678">
+      <stop
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1"
+         id="stop3680" />
+      <stop
+         offset="1"
+         style="stop-color:#e6e6e6;stop-opacity:1"
+         id="stop3682" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-2,-1)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3678"
+       id="linearGradient2393"
+       y2="21"
+       x2="9"
+       y1="3"
+       x1="9" />
+    <linearGradient
+       x1="14"
+       y1="3"
+       x2="14"
+       y2="21"
+       id="linearGradient2398"
+       xlink:href="#linearGradient3587-6-5-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.0001235,-5)" />
+    <linearGradient
+       id="linearGradient3587-6-5-3">
+      <stop
+         id="stop3589-9-2-0"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3591-7-4-7"
+         style="stop-color:#363636;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="66.09668"
+       y1="9.3638258"
+       x2="66.09668"
+       y2="27.363825"
+       id="linearGradient2395"
+       xlink:href="#linearGradient3587-6-5-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-52.096803,-11.363826)" />
+    <linearGradient
+       x1="4.9554448"
+       y1="2.6841583"
+       x2="4.9554448"
+       y2="13.496136"
+       id="linearGradient7390"
+       xlink:href="#linearGradient3587-6-5-3"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="7.9109159"
+       y1="4.5762329"
+       x2="7.9109159"
+       y2="11.649005"
+       id="linearGradient7392"
+       xlink:href="#linearGradient3587-6-5-3"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="10.186814"
+       y1="2.7742527"
+       x2="10.186814"
+       y2="13.317288"
+       id="linearGradient7394"
+       xlink:href="#linearGradient3587-6-5-3"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="13.917011"
+       y1="0.88217813"
+       x2="13.917011"
+       y2="15.183488"
+       id="linearGradient7396"
+       xlink:href="#linearGradient3587-6-5-3"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient5263">
+      <stop
+         id="stop5265"
+         style="stop-color:#a0d5ff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop5267"
+         style="stop-color:#a0d5ff;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <filter
+       id="filter7554-7"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-0"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-35"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-35"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-5-9">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-4-5" />
+    </filter>
+    <filter
+       id="filter7554-6-3"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-6-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-2">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-29">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-0">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-5" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-3">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-48" />
+    </filter>
+    <filter
+       id="filter7554-5-3"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-4-4"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-6-8">
+      <feBlend
+         id="feBlend7556-6-4"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-7-7"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-0-2"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-61"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-98"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-5-8">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-4-6" />
+    </filter>
+    <filter
+       id="filter7554-6-84"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-6-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-7-71">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-0-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-35-2">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-35-1" />
+    </filter>
+    <filter
+       id="filter7554-5-9-1"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-4-5-9"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-6-3-8">
+      <feBlend
+         id="feBlend7556-6-2-4"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-2-7"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-9-4"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-29-9"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-3-2"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-0-9"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-5-0"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-3-6"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-48-5"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-5-3-1">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-4-4-5" />
+    </filter>
+    <filter
+       id="filter7554-6-8-6"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-6-4-2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-7-7-1">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-0-2-4" />
+    </filter>
+    <filter
+       id="filter7554-22"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-01"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-5-6">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-4-2" />
+    </filter>
+    <filter
+       id="filter7554-6-6"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-6-16" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-7-6">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-0-1" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-35-9">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-35-4" />
+    </filter>
+    <filter
+       id="filter7554-5-9-0"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-4-5-1"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-6-3-7">
+      <feBlend
+         id="feBlend7556-6-2-3"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-2-0"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-9-3"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-29-5"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-3-0"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-0-4"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-5-6"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       id="filter7554-3-8"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         id="feBlend7556-48-4"
+         in2="BackgroundImage"
+         mode="darken" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-5-3-0">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-4-4-0" />
+    </filter>
+    <filter
+       id="filter7554-6-8-64"
+       style="color-interpolation-filters:sRGB">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-6-4-9" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7554-7-7-9">
+      <feBlend
+         mode="darken"
+         in2="BackgroundImage"
+         id="feBlend7556-0-2-0" />
+    </filter>
+  </defs>
+  <g
+     transform="translate(-1,-1)"
+     id="g908"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1;enable-background:new" />
+  <path
+     sodipodi:nodetypes="ccccc"
+     inkscape:connector-curvature="0"
+     id="path111"
+     d="m 8.75,19.5 v 1 h 7.5 v -1 z"
+     style="fill:#ffffff;fill-opacity:0.60000002;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     id="path918"
+     d="M 12 17.640625 L 12 19.5 L 13 19.5 L 13 17.640625 C 12.666721 17.673128 12.333279 17.673128 12 17.640625 z "
+     style="fill:#ffffff;fill-opacity:0.60000002;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     sodipodi:nodetypes="ccccc"
+     inkscape:connector-curvature="0"
+     id="path920"
+     d="m 16.5,12.25 c 0,5.5 -8,5.5 -8,0 h -1 c 0,7.25 10,7.25 10,0 z"
+     style="fill:#ffffff;fill-opacity:0.60000002;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 12.5 3.546875 C 10.838 3.546875 9.5 4.884875 9.5 6.546875 L 9.5 12.546875 C 9.5 14.208875 10.838 15.546875 12.5 15.546875 C 14.162 15.546875 15.5 14.208875 15.5 12.546875 L 15.5 6.546875 C 15.5 4.884875 14.162 3.546875 12.5 3.546875 z M 12.5 4.25 C 13.7465 4.25 14.75 5.2535 14.75 6.5 L 14.75 9.5 L 10.25 9.5 L 10.25 6.5 C 10.25 5.2535 11.2535 4.25 12.5 4.25 z "
+     style="opacity:1;fill:#ffffff;fill-opacity:0.60000002;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+     id="rect924" />
+  <path
+     sodipodi:nodetypes="ccccc"
+     inkscape:connector-curvature="0"
+     id="path930"
+     d="M 8.5,12.25 V 9.5 h -1 v 2.75 z"
+     style="fill:#ffffff;fill-opacity:0.60000002;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     sodipodi:nodetypes="ccccc"
+     style="fill:#ffffff;fill-opacity:0.60000002;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 17.5,12.25 V 9.5 h -1 v 2.75 z"
+     id="path932"
+     inkscape:connector-curvature="0" />
+</svg>

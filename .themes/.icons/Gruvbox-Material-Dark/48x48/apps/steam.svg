@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" version="1.1">
+ <path style="opacity:0.2" d="M 19.32931,33.023892 29.359194,15.089956 42.165353,24.207543 25.459332,38.164206 Z"/>
+ <circle style="opacity:0.2" cx="24" cy="34" r="7"/>
+ <circle style="opacity:0.2" cx="9" cy="23" r="7"/>
+ <path style="fill:#2d4461" transform="rotate(-50.018574)" d="M -12.118556,35.387745 8.0679663,31.549914 9.3100496,47.221076 -12.118556,43.387745 Z"/>
+ <circle style="opacity:0.2" cx="36" cy="19" r="10"/>
+ <circle style="fill:#3b597f" cx="36" cy="18" r="10"/>
+ <circle style="fill:#3b597f" cx="24" cy="33" r="7"/>
+ <circle style="fill:#3b597f" cx="9" cy="22" r="7"/>
+ <path style="opacity:0.2;fill:none;stroke:#000000;stroke-width:8;stroke-linecap:round" d="m 9,23.000147 15,11"/>
+ <path style="opacity:0.1;fill:#ffffff" d="M 24 26 A 7 7 0 0 0 17 33 A 7 7 0 0 0 17.023438 33.541016 A 7 7 0 0 1 24 27 A 7 7 0 0 1 30.976562 33.458984 A 7 7 0 0 0 31 33 A 7 7 0 0 0 24 26 z"/>
+ <path style="fill:none;stroke:#3db8ff;stroke-width:8;stroke-linecap:round" d="M 9,22 24,33"/>
+ <circle style="opacity:0.2" cx="36" cy="19" r="6"/>
+ <circle style="fill:#3db8ff" cx="36" cy="18" r="6"/>
+ <path style="opacity:0.1;fill:#ffffff" d="M 36 8 A 10 10 0 0 0 26 18 A 10 10 0 0 0 26.021484 18.585938 A 10 10 0 0 1 36 9 A 10 10 0 0 1 45.978516 18.414062 A 10 10 0 0 0 46 18 A 10 10 0 0 0 36 8 z"/>
+ <path style="opacity:0.1;fill:#ffffff" d="M 9 15 A 7 7 0 0 0 2 22 A 7 7 0 0 0 2.0234375 22.541016 A 7 7 0 0 1 9 16 A 7 7 0 0 1 15.976562 22.458984 A 7 7 0 0 0 16 22 A 7 7 0 0 0 9 15 z"/>
+ <path style="opacity:0.2;fill:#ffffff" d="M 9.1425781 17.970703 A 4.0004 4.0004 0 0 0 4.9882812 22.451172 A 4.0004 4.0004 0 0 1 9.1425781 18.970703 A 4.0004 4.0004 0 0 1 11.365234 19.773438 L 26.365234 30.773438 A 4.0006292 4.0006292 0 0 1 27.964844 33.498047 A 4.0006292 4.0006292 0 0 0 26.365234 29.773438 L 11.365234 18.773438 A 4.0004 4.0004 0 0 0 9.1425781 17.970703 z"/>
+ <path style="opacity:0.2;fill:#ffffff" d="M 36 12 A 6 6 0 0 0 30 18 A 6 6 0 0 0 30.025391 18.498047 A 6 6 0 0 1 36 13 A 6 6 0 0 1 41.974609 18.501953 A 6 6 0 0 0 42 18 A 6 6 0 0 0 36 12 z"/>
+</svg>

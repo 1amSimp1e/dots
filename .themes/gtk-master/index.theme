@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Ant-Dracula
+Comment=A flat and light theme with a modern look
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Ant-Dracula
+MetacityTheme=Ant-Dracula
+IconTheme=Ozon
+ButtonLayout=:minimize,maximize,close

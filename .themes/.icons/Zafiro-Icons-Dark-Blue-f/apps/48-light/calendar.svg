@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="48"
+   width="48"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="system-config-date.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="836"
+     inkscape:window-height="480"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="3.2542373"
+     inkscape:cy="24"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" />
+  <rect
+     fill="#565a61"
+     height="42.224369"
+     ry="1.71676"
+     width="39.485497"
+     x="4.242641"
+     y="4.563441"
+     id="rect2"
+     style="fill:#586870;fill-opacity:1" />
+  <path
+     d="m5.9594007 4.5634412h36.0519793c.951085 0 1.71676.7656749 1.71676 1.7167601v5.9292767h-39.4854991v-5.9292767c0-.9510852.7656749-1.7167601 1.7167598-1.7167601z"
+     fill="#ec7876"
+     id="path4" />
+  <g
+     fill="#fff"
+     transform="matrix(.91243509 0 0 .91243509 13.848165 -16.706107)"
+     id="g10">
+    <path
+       d="m-3.4636719 42.291094q.76-.44 1.56-1.08.84-.64 1.60000002-1.36.76000001-.76 1.39999998-1.52.68-.8 1.12-1.56h2.64v27.72h-3.44v-22.28q-.67999997.72-1.59999998 1.36-.88000002.64-1.88000002 1.2z"
+       id="path6" />
+    <path
+       d="m12.683828 38.491094q2.36-2.36 5.76-2.36 3.24 0 4.96 1.72 1.72 1.68 1.72 5.28 0 1.68-.56 3.2-.56 1.52-1.4 2.96-.84 1.4-1.84 2.8-1 1.4-1.92 2.88-.92 1.44-1.6 3.04-.68 1.56-.84 3.36h8.72v3.12h-12.4v-.76q0-2.68.6-4.76.64-2.08 1.52-3.76.92-1.68 2-3.12 1.08-1.44 1.96-2.8.92-1.4 1.52-2.84.64-1.48.64-3.24 0-2.12-.84-3.04-.84-.96-2.52-.96-1.16 0-2.12.48-.92.44-1.68 1.16z"
+       id="path8" />
+  </g>
+</svg>
