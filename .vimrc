@@ -49,7 +49,6 @@ Plug '~/my-prototype-plugin'
 " Vim Pathogen: 
 execute pathogen#infect()
 execute pathogen#infect()
-syntax on
 filetype plugin indent on
 "Vim Rain bow (Brackets) 
 Plug 'frazrepo/vim-rainbow'
@@ -69,7 +68,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Rigellute/rigel'
 let g:rigel_airline = 1
 "let g:airline_theme = 'wombat' 
-let g:airline_theme='rigel'
+"let g:airline_theme='rigel'
+"let g:airline_theme='oceanicnext'
 let g:airline_powerline_fonts = 1
 "Vim Last Place
 let g:lastplace_ignore = "gitcommit,gitrebase,svn,hgcommit"
@@ -80,6 +80,12 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
 " dracula 
 Plug 'dracula/vim', { 'as': 'dracula' }
+" Oceanic next Themes:
+Plug 'mhartington/oceanic-next'
+"Ayu Themes:
+Plug 'ayu-theme/ayu-vim'
+
+
 "Coc nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Initialize plugin system
@@ -98,11 +104,35 @@ set expandtab
 " Gruvbox themes:
 "colorscheme gruvbox 
 "set background=dark
-colorscheme solarized 
+syntax on
+"Ayu colorscheme:
+set termguicolors     " enable true colors support
+"let ayucolor="light"  " for light version of theme
+"let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
+"OceanicNext Theme
+ "syntax enable
+" for vim 7
+ "set t_Co=256
+
+" for vim 8
+ "if (has("termguicolors"))
+  "set termguicolors
+ "endif
+
+"colorscheme OceanicNext
+"let g:oceanic_next_terminal_bold = 1
+"let g:oceanic_next_terminal_italic = 1
+
+"Solarized themes:
+"colorscheme solarized 
 "nord Themes:
 "let g:nord_italic = 1
 "let g:nord_underline = 1
 "colorscheme nord
+
+"Vim-commentary config:
 
 "coc config
 let g:coc_global_extensions = [

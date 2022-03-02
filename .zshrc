@@ -32,6 +32,10 @@ alias src="source ~/.zshrc"
 alias update="sudo apt update && sudo apt upgrade"
 alias ls="lsd -Fl"
 alias la="lsd -Fla"
+# Directory:
+alias gotodl="cd ~/Downloads"
+alias gotodocs="cd ~/Documents"
+alias gotopics="cd ~/Pictures"
 #Apps and tools:
 alias soundbeat="cava"
 alias pipe="pipes.sh"
@@ -42,14 +46,18 @@ alias bspwmrc="vim ~/.config/bspwm/bspwmrc"
 alias sxhkdrc="vim ~/.config/sxhkd/sxhkdrc"
 alias starshipconfig="vim ~/.config/starship.toml"
 alias brewupdate="brew update --force --quiet"
+alias neofetchconfig="vim ~/.config/neofetch/config.conf" 
+alias vimrc="vim ~/.vimrc"
+
+
 #Starship
 #eval "$(starship init zsh)"
 #Brew Laucher:
-eval "$(homebrew/bin/brew shellenv)"
+#eval "$(homebrew/bin/brew shellenv)"
 
 # Launching Script:
 # ColorScript 
-colorscript random
+#colorscript random
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

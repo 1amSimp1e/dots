@@ -98,7 +98,7 @@ entry selection, label selection, textview text selection:focus, textview text s
  * Base States *
  ***************/
 .background {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
@@ -115,22 +115,22 @@ entry selection, label selection, textview text selection:focus, textview text s
 }
 
 .gtkstyle-fallback {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
 .gtkstyle-fallback:hover {
-  background-color: #1f1f1f;
+  background-color: #020202;
   color: #FFFFFF;
 }
 
 .gtkstyle-fallback:active {
-  background-color: #131313;
+  background-color: black;
   color: #FFFFFF;
 }
 
 .gtkstyle-fallback:disabled {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -140,7 +140,7 @@ entry selection, label selection, textview text selection:focus, textview text s
 }
 
 .view {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
@@ -161,11 +161,11 @@ window.background.csd > stack.view {
 }
 
 textview text {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 textview border {
-  background-color: #242424;
+  background-color: #030303;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -378,7 +378,7 @@ headerbar label:disabled, tab label:disabled, button label:disabled {
 
 label.osd {
   border-radius: 6px;
-  background-color: rgba(25, 25, 25, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #FFFFFF;
 }
 
@@ -575,7 +575,7 @@ entry progress {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1), box-shadow 300ms cubic-bezier(0, 0, 0.2, 1);
   border-image: none;
   box-shadow: inset 0 0 0 2px transparent;
-  background-color: #3C3C3C;
+  background-color: #121212;
   color: #FFFFFF;
 }
 
@@ -590,7 +590,7 @@ entry progress {
 
 .gedit-search-slider .linked:not(.vertical) > entry:disabled {
   box-shadow: inset 0 0 0 2px transparent;
-  background-color: #242424;
+  background-color: #030303;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -609,7 +609,7 @@ entry progress {
 
 .gedit-search-slider .linked:not(.vertical) > entry.error:disabled {
   box-shadow: inset 0 0 0 2px transparent;
-  background-color: #242424;
+  background-color: #030303;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -640,7 +640,7 @@ entry progress {
 
 .gedit-search-slider .linked:not(.vertical) > entry.warning:disabled {
   box-shadow: inset 0 0 0 2px transparent;
-  background-color: #242424;
+  background-color: #030303;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -657,7 +657,7 @@ entry progress {
 }
 
 treeview entry.flat, treeview entry {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 treeview entry.flat, treeview entry.flat:focus, treeview entry, treeview entry:focus {
@@ -892,12 +892,6 @@ button.text-button {
   min-width: 32px;
   padding-left: 16px;
   padding-right: 16px;
-}
-
-button.text-button.flat {
-  min-width: 48px;
-  padding-left: 8px;
-  padding-right: 8px;
 }
 
 button.image-button {
@@ -1328,7 +1322,7 @@ button.combo:only-child:disabled {
 toolbar {
   -GtkWidget-window-dragging: true;
   padding: 2px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .osd toolbar {
@@ -1340,7 +1334,7 @@ frame.documents-dropdown, .app-notification, toolbar.osd {
   padding: 6px;
   border-radius: 6px;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 frame.documents-dropdown:backdrop, .app-notification:backdrop, toolbar.osd:backdrop {
@@ -1398,7 +1392,7 @@ toolbar:not(.inline-toolbar):not(.osd) switch {
   border-style: solid;
   border-width: 0 1px 1px;
   border-color: rgba(255, 255, 255, 0.12);
-  background-color: #242424;
+  background-color: #030303;
 }
 
 searchbar > revealer > box,
@@ -1407,7 +1401,7 @@ searchbar > revealer > box,
   border-style: solid;
   border-width: 0 0 1px;
   border-color: rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   background-clip: border-box;
 }
 
@@ -1483,7 +1477,7 @@ searchbar > revealer > box {
 
 .titlebar {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
-  background-color: #242424;
+  background-color: #030303;
   color: #FFFFFF;
   border-radius: 12px 12px 0 0;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
@@ -1494,7 +1488,7 @@ searchbar > revealer > box {
 }
 
 .titlebar:backdrop {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1529,14 +1523,14 @@ searchbar > revealer > box {
 }
 
 .titlebar + separator, .titlebar + separator.sidebar {
-  background-color: #242424;
+  background-color: #030303;
   background-image: none;
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
 }
 
 .titlebar + separator:backdrop, .titlebar + separator.sidebar:backdrop {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .titlebar.selection-mode + separator, .titlebar.selection-mode + separator.sidebar, .selection-mode .titlebar + separator, .selection-mode .titlebar + separator.sidebar {
@@ -1678,7 +1672,7 @@ headerbar {
 }
 
 box.vertical headerbar {
-  background-color: #242424;
+  background-color: #030303;
 }
 
 headerbar entry,
@@ -1835,7 +1829,7 @@ treeview.view {
 
 treeview.view:selected {
   background-image: image(alpha(currentColor, 0.1));
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
@@ -1944,7 +1938,7 @@ treeview.view header button:not(:focus):not(:hover):not(:active) {
 }
 
 treeview.view header button, treeview.view header button:disabled {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 treeview.view header button:last-child {
@@ -1959,7 +1953,7 @@ treeview.view header.button.dnd {
   border-color: rgba(255, 255, 255, 0.12);
   border-radius: 0;
   box-shadow: none;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   background-clip: border-box;
   color: #5b9bf8;
 }
@@ -1975,14 +1969,14 @@ menubar,
 .menubar {
   -GtkWidget-window-dragging: true;
   padding: 0;
-  background-color: #242424;
+  background-color: #030303;
   color: #FFFFFF;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
 }
 
 menubar:backdrop,
 .menubar:backdrop {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -2030,10 +2024,10 @@ menu,
 .context-menu {
   margin: 6px;
   padding: 6px;
-  background-color: #3C3C3C;
+  background-color: #121212;
   background-clip: border-box;
   border-radius: 12px;
-  border: 1px solid #4b4b4b;
+  border: 1px solid #2e2e2e;
 }
 
 .csd menu, .csd .menu, .csd .context-menu {
@@ -2116,7 +2110,7 @@ menu menuitem label:dir(rtl), menu menuitem label:dir(ltr),
 menu .view:selected,
 .menu .view:selected,
 .context-menu .view:selected {
-  background-color: #505050;
+  background-color: #2a2a2a;
 }
 
 menu > arrow,
@@ -2125,7 +2119,7 @@ menu > arrow,
   min-height: 16px;
   min-width: 16px;
   padding: 4px;
-  background-color: #3C3C3C;
+  background-color: #121212;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -2173,7 +2167,7 @@ menu separator,
 popover.background {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   padding: 0;
-  background-color: #3C3C3C;
+  background-color: #121212;
   border-radius: 12px;
 }
 
@@ -2215,7 +2209,7 @@ popover.background > scrolledwindow > viewport.frame > list > row {
 
 popover.background .view:not(:selected),
 popover.background toolbar {
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 popover.background .linked > button:not(.radio) {
@@ -2290,7 +2284,7 @@ frame > paned > notebook > header, notebook.frame > header {
 }
 
 notebook, notebook.frame {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-radius: 12px;
 }
 
@@ -2423,7 +2417,7 @@ notebook > stack:not(:only-child) {
  **************/
 scrollbar {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 * {
@@ -2495,14 +2489,14 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering) slider {
   min-width: 4px;
   min-height: 4px;
   margin: 3px;
-  border: 1px solid rgba(44, 44, 44, 0.3);
+  border: 1px solid rgba(15, 15, 15, 0.3);
 }
 
 scrollbar.overlay-indicator:not(.dragging):not(.hovering) button {
   min-width: 4px;
   min-height: 4px;
   margin: 3px;
-  border: 1px solid rgba(44, 44, 44, 0.3);
+  border: 1px solid rgba(15, 15, 15, 0.3);
   border-radius: 9999px;
   background-color: rgba(255, 255, 255, 0.5);
   background-clip: padding-box;
@@ -2530,7 +2524,7 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering).vertical button {
 }
 
 scrollbar.overlay-indicator.dragging, scrollbar.overlay-indicator.hovering {
-  background-color: rgba(60, 60, 60, 0.9);
+  background-color: rgba(18, 18, 18, 0.9);
 }
 
 scrollbar.horizontal slider {
@@ -2869,7 +2863,7 @@ scale highlight {
 }
 
 scale highlight:disabled {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   background-image: image(rgba(255, 255, 255, 0.3));
 }
 
@@ -2886,7 +2880,7 @@ scale slider {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 9999px;
   color: #5b9bf8;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   box-shadow: inset 0 0 0 2px #5b9bf8;
 }
 
@@ -3281,7 +3275,7 @@ levelbar block.empty {
 printdialog paper {
   padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
@@ -3292,8 +3286,7 @@ printdialog .dialog-action-box {
 /**********
  * Frames *
  **********/
-frame > border,
-.frame {
+frame > border, .frame {
   margin: 0;
   padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -3301,24 +3294,22 @@ frame > border,
   box-shadow: none;
 }
 
-frame > border.view,
 .frame.view {
   border-radius: 6px;
 }
 
-frame > border.flat,
 .frame.flat {
   border-style: none;
 }
 
-frame.flat > border, statusbar frame > border {
+frame.flat > border, frame > border.flat, statusbar frame > border {
   border: none;
 }
 
 actionbar > revealer > box {
   padding: 6px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   background-clip: border-box;
 }
 
@@ -3378,7 +3369,7 @@ junction {
   border-style: solid none none solid;
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 junction:dir(rtl) {
@@ -3411,40 +3402,54 @@ window.background.csd > stack > box > stack > scrolledwindow > viewport frame > 
 window.background.csd > stack > box > stack > box > scrolledwindow > viewport > frame > list,
 window.background.csd > stack > grid > scrolledwindow > viewport > box > frame > list, window.background.csd > stack > list,
 window.background.csd > stack > scrolledwindow > viewport > box > list,
-window.background.csd > box > stack > scrolledwindow > viewport > box > list, preferencesgroup list, .geary-accounts-editor-pane list, window.background.csd.unified > deck > deck > deck list, hdyleaflet list.view, hdyleaflet list.frame, leaflet list.view, leaflet list.frame, box.horizontal > stack.background list.view, box.horizontal > stack.background list.frame, hdyleaflet frame.view, leaflet frame.view, box.horizontal > stack.background frame.view, hdyleaflet stack.background scrolledwindow > viewport list, hdyleaflet overlay scrolledwindow > viewport list, leaflet stack.background scrolledwindow > viewport list, leaflet overlay scrolledwindow > viewport list, box.horizontal > stack.background stack.background scrolledwindow > viewport list, box.horizontal > stack.background overlay scrolledwindow > viewport list, hdyleaflet frame:not(.view) list:not(.contacts-contact-list), leaflet frame:not(.view) list:not(.contacts-contact-list), box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list), list.tweak-group list, .tweak-group-startup, list.content:not(.conversation-listbox) {
+window.background.csd > box > stack > scrolledwindow > viewport > box > list, preferencesgroup list, .geary-accounts-editor-pane list, window.background.csd.unified > deck > deck > deck list, hdyleaflet list.view, hdyleaflet list.frame, leaflet list.view, leaflet list.frame, box.horizontal > stack.background list.view, box.horizontal > stack.background list.frame, hdyleaflet stack.background scrolledwindow > viewport list, hdyleaflet overlay scrolledwindow > viewport list, leaflet stack.background scrolledwindow > viewport list, leaflet overlay scrolledwindow > viewport list, box.horizontal > stack.background stack.background scrolledwindow > viewport list, box.horizontal > stack.background overlay scrolledwindow > viewport list, hdyleaflet frame:not(.view) list:not(.contacts-contact-list), leaflet frame:not(.view) list:not(.contacts-contact-list), box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list), list.tweak-group list, .tweak-group-startup, list.content:not(.conversation-listbox) {
   border-radius: 7px;
   box-shadow: none;
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-window.background.csd stack stack stack frame > list row.activatable,
-window.background.csd > stack > stack > box > frame > list row.activatable,
-window.background.csd > stack > box > stack > scrolledwindow > viewport frame > list row.activatable,
-window.background.csd > stack > grid > scrolledwindow > viewport > box > frame > list row.activatable, window.background.csd > stack > list row.activatable, preferencesgroup list row.activatable, .geary-accounts-editor-pane list row.activatable, window.background.csd.unified > deck > deck > deck list row.activatable, hdyleaflet list.view row.activatable, hdyleaflet list.frame row.activatable, leaflet list.view row.activatable, leaflet list.frame row.activatable, box.horizontal > stack.background list.view row.activatable, box.horizontal > stack.background list.frame row.activatable, hdyleaflet frame.view list row.activatable, leaflet frame.view list row.activatable, box.horizontal > stack.background frame.view list row.activatable, hdyleaflet stack.background scrolledwindow > viewport list row.activatable, hdyleaflet overlay scrolledwindow > viewport list row.activatable, leaflet stack.background scrolledwindow > viewport list row.activatable, leaflet overlay scrolledwindow > viewport list row.activatable, box.horizontal > stack.background stack.background scrolledwindow > viewport list row.activatable, box.horizontal > stack.background overlay scrolledwindow > viewport list row.activatable, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable, leaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row.activatable, list.tweak-group list row.activatable, .tweak-group-startup row.activatable, list.content:not(.conversation-listbox) > row {
+window.background.csd stack stack stack frame > list > separator,
+window.background.csd > stack > stack > box > frame > list > separator,
+window.background.csd > stack > box > stack > scrolledwindow > viewport frame > list > separator,
+window.background.csd > stack > grid > scrolledwindow > viewport > box > frame > list > separator, window.background.csd > stack > list > separator,
+window.background.csd > stack > scrolledwindow > viewport > box > list > separator, preferencesgroup list > separator, .geary-accounts-editor-pane list > separator, window.background.csd.unified > deck > deck > deck list > separator, hdyleaflet list.view > separator, hdyleaflet list.frame > separator, leaflet list.view > separator, leaflet list.frame > separator, box.horizontal > stack.background list.view > separator, box.horizontal > stack.background list.frame > separator, hdyleaflet stack.background scrolledwindow > viewport list > separator, hdyleaflet overlay scrolledwindow > viewport list > separator, leaflet stack.background scrolledwindow > viewport list > separator, leaflet overlay scrolledwindow > viewport list > separator, box.horizontal > stack.background stack.background scrolledwindow > viewport list > separator, box.horizontal > stack.background overlay scrolledwindow > viewport list > separator, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) > separator, leaflet frame:not(.view) list:not(.contacts-contact-list) > separator, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) > separator, list.tweak-group list > separator, .tweak-group-startup > separator, list.content:not(.conversation-listbox) > separator {
+  background: none;
+  min-height: 0;
+}
+
+window.background.csd stack stack stack frame > list row,
+window.background.csd > stack > stack > box > frame > list row,
+window.background.csd > stack > box > stack > scrolledwindow > viewport frame > list row,
+window.background.csd > stack > grid > scrolledwindow > viewport > box > frame > list row, window.background.csd > stack > list row,
+window.background.csd > stack > scrolledwindow > viewport > box > list row, preferencesgroup list row, .geary-accounts-editor-pane list row, window.background.csd.unified > deck > deck > deck list row, hdyleaflet list.view row, hdyleaflet list.frame row, leaflet list.view row, leaflet list.frame row, box.horizontal > stack.background list.view row, box.horizontal > stack.background list.frame row, hdyleaflet stack.background scrolledwindow > viewport list row, hdyleaflet overlay scrolledwindow > viewport list row, leaflet stack.background scrolledwindow > viewport list row, leaflet overlay scrolledwindow > viewport list row, box.horizontal > stack.background stack.background scrolledwindow > viewport list row, box.horizontal > stack.background overlay scrolledwindow > viewport list row, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row, leaflet frame:not(.view) list:not(.contacts-contact-list) row, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row, list.tweak-group list row, .tweak-group-startup row, list.content:not(.conversation-listbox) > row {
   border-radius: 0;
 }
 
-window.background.csd stack stack stack frame > list row.activatable:first-child, window.background.csd > stack > list row.activatable:first-child, preferencesgroup list row.activatable:first-child, .geary-accounts-editor-pane list row.activatable:first-child, window.background.csd.unified > deck > deck > deck list row.activatable:first-child, hdyleaflet list.view row.activatable:first-child, hdyleaflet list.frame row.activatable:first-child, leaflet list.view row.activatable:first-child, leaflet list.frame row.activatable:first-child, box.horizontal > stack.background list.view row.activatable:first-child, box.horizontal > stack.background list.frame row.activatable:first-child, hdyleaflet frame.view list row.activatable:first-child, leaflet frame.view list row.activatable:first-child, box.horizontal > stack.background frame.view list row.activatable:first-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:first-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:first-child, leaflet stack.background scrolledwindow > viewport list row.activatable:first-child, leaflet overlay scrolledwindow > viewport list row.activatable:first-child, box.horizontal > stack.background stack.background scrolledwindow > viewport list row.activatable:first-child, box.horizontal > stack.background overlay scrolledwindow > viewport list row.activatable:first-child, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:first-child, leaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:first-child, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row.activatable:first-child, list.tweak-group list row.activatable:first-child, .tweak-group-startup row.activatable:first-child, list.content:not(.conversation-listbox) > row:first-child {
+window.background.csd stack stack stack frame > list row:not(:first-child), window.background.csd > stack > list row:not(:first-child), preferencesgroup list row:not(:first-child), .geary-accounts-editor-pane list row:not(:first-child), window.background.csd.unified > deck > deck > deck list row:not(:first-child), hdyleaflet list.view row:not(:first-child), hdyleaflet list.frame row:not(:first-child), leaflet list.view row:not(:first-child), leaflet list.frame row:not(:first-child), box.horizontal > stack.background list.view row:not(:first-child), box.horizontal > stack.background list.frame row:not(:first-child), hdyleaflet stack.background scrolledwindow > viewport list row:not(:first-child), hdyleaflet overlay scrolledwindow > viewport list row:not(:first-child), leaflet stack.background scrolledwindow > viewport list row:not(:first-child), leaflet overlay scrolledwindow > viewport list row:not(:first-child), box.horizontal > stack.background stack.background scrolledwindow > viewport list row:not(:first-child), box.horizontal > stack.background overlay scrolledwindow > viewport list row:not(:first-child), hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row:not(:first-child), leaflet frame:not(.view) list:not(.contacts-contact-list) row:not(:first-child), box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row:not(:first-child), list.tweak-group list row:not(:first-child), .tweak-group-startup row:not(:first-child), list.content:not(.conversation-listbox) > row:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+window.background.csd stack stack stack frame > list row:first-child, window.background.csd > stack > list row:first-child, preferencesgroup list row:first-child, .geary-accounts-editor-pane list row:first-child, window.background.csd.unified > deck > deck > deck list row:first-child, hdyleaflet list.view row:first-child, hdyleaflet list.frame row:first-child, leaflet list.view row:first-child, leaflet list.frame row:first-child, box.horizontal > stack.background list.view row:first-child, box.horizontal > stack.background list.frame row:first-child, hdyleaflet stack.background scrolledwindow > viewport list row:first-child, hdyleaflet overlay scrolledwindow > viewport list row:first-child, leaflet stack.background scrolledwindow > viewport list row:first-child, leaflet overlay scrolledwindow > viewport list row:first-child, box.horizontal > stack.background stack.background scrolledwindow > viewport list row:first-child, box.horizontal > stack.background overlay scrolledwindow > viewport list row:first-child, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row:first-child, leaflet frame:not(.view) list:not(.contacts-contact-list) row:first-child, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row:first-child, list.tweak-group list row:first-child, .tweak-group-startup row:first-child, list.content:not(.conversation-listbox) > row:first-child {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
 
-window.background.csd stack stack stack frame > list row.activatable:last-child, window.background.csd > stack > list row.activatable:last-child, preferencesgroup list row.activatable:last-child, .geary-accounts-editor-pane list row.activatable:last-child, window.background.csd.unified > deck > deck > deck list row.activatable:last-child, hdyleaflet list.view row.activatable:last-child, hdyleaflet list.frame row.activatable:last-child, leaflet list.view row.activatable:last-child, leaflet list.frame row.activatable:last-child, box.horizontal > stack.background list.view row.activatable:last-child, box.horizontal > stack.background list.frame row.activatable:last-child, hdyleaflet frame.view list row.activatable:last-child, leaflet frame.view list row.activatable:last-child, box.horizontal > stack.background frame.view list row.activatable:last-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:last-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:last-child, leaflet stack.background scrolledwindow > viewport list row.activatable:last-child, leaflet overlay scrolledwindow > viewport list row.activatable:last-child, box.horizontal > stack.background stack.background scrolledwindow > viewport list row.activatable:last-child, box.horizontal > stack.background overlay scrolledwindow > viewport list row.activatable:last-child, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:last-child, leaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:last-child, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row.activatable:last-child, list.tweak-group list row.activatable:last-child, .tweak-group-startup row.activatable:last-child, list.content:not(.conversation-listbox) > row:last-child {
+window.background.csd stack stack stack frame > list row:last-child, window.background.csd > stack > list row:last-child, preferencesgroup list row:last-child, .geary-accounts-editor-pane list row:last-child, window.background.csd.unified > deck > deck > deck list row:last-child, hdyleaflet list.view row:last-child, hdyleaflet list.frame row:last-child, leaflet list.view row:last-child, leaflet list.frame row:last-child, box.horizontal > stack.background list.view row:last-child, box.horizontal > stack.background list.frame row:last-child, hdyleaflet stack.background scrolledwindow > viewport list row:last-child, hdyleaflet overlay scrolledwindow > viewport list row:last-child, leaflet stack.background scrolledwindow > viewport list row:last-child, leaflet overlay scrolledwindow > viewport list row:last-child, box.horizontal > stack.background stack.background scrolledwindow > viewport list row:last-child, box.horizontal > stack.background overlay scrolledwindow > viewport list row:last-child, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row:last-child, leaflet frame:not(.view) list:not(.contacts-contact-list) row:last-child, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row:last-child, list.tweak-group list row:last-child, .tweak-group-startup row:last-child, list.content:not(.conversation-listbox) > row:last-child {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
 
-window.background.csd stack stack stack frame > list row.activatable:only-child, window.background.csd > stack > list row.activatable:only-child, preferencesgroup list row.activatable:only-child, .geary-accounts-editor-pane list row.activatable:only-child, window.background.csd.unified > deck > deck > deck list row.activatable:only-child, hdyleaflet list.view row.activatable:only-child, hdyleaflet list.frame row.activatable:only-child, leaflet list.view row.activatable:only-child, leaflet list.frame row.activatable:only-child, box.horizontal > stack.background list.view row.activatable:only-child, box.horizontal > stack.background list.frame row.activatable:only-child, hdyleaflet frame.view list row.activatable:only-child, leaflet frame.view list row.activatable:only-child, box.horizontal > stack.background frame.view list row.activatable:only-child, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:only-child, hdyleaflet overlay scrolledwindow > viewport list row.activatable:only-child, leaflet stack.background scrolledwindow > viewport list row.activatable:only-child, leaflet overlay scrolledwindow > viewport list row.activatable:only-child, box.horizontal > stack.background stack.background scrolledwindow > viewport list row.activatable:only-child, box.horizontal > stack.background overlay scrolledwindow > viewport list row.activatable:only-child, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:only-child, leaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:only-child, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row.activatable:only-child, list.tweak-group list row.activatable:only-child, .tweak-group-startup row.activatable:only-child, list.content:not(.conversation-listbox) > row:only-child {
+window.background.csd stack stack stack frame > list row:only-child, window.background.csd > stack > list row:only-child, preferencesgroup list row:only-child, .geary-accounts-editor-pane list row:only-child, window.background.csd.unified > deck > deck > deck list row:only-child, hdyleaflet list.view row:only-child, hdyleaflet list.frame row:only-child, leaflet list.view row:only-child, leaflet list.frame row:only-child, box.horizontal > stack.background list.view row:only-child, box.horizontal > stack.background list.frame row:only-child, hdyleaflet stack.background scrolledwindow > viewport list row:only-child, hdyleaflet overlay scrolledwindow > viewport list row:only-child, leaflet stack.background scrolledwindow > viewport list row:only-child, leaflet overlay scrolledwindow > viewport list row:only-child, box.horizontal > stack.background stack.background scrolledwindow > viewport list row:only-child, box.horizontal > stack.background overlay scrolledwindow > viewport list row:only-child, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row:only-child, leaflet frame:not(.view) list:not(.contacts-contact-list) row:only-child, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row:only-child, list.tweak-group list row:only-child, .tweak-group-startup row:only-child, list.content:not(.conversation-listbox) > row:only-child {
   border-radius: 6px;
 }
 
-window.background.csd stack stack stack frame > list row.activatable:focus, window.background.csd > stack > list row.activatable:focus, preferencesgroup list row.activatable:focus, .geary-accounts-editor-pane list row.activatable:focus, window.background.csd.unified > deck > deck > deck list row.activatable:focus, hdyleaflet list.view row.activatable:focus, hdyleaflet list.frame row.activatable:focus, leaflet list.view row.activatable:focus, leaflet list.frame row.activatable:focus, box.horizontal > stack.background list.view row.activatable:focus, box.horizontal > stack.background list.frame row.activatable:focus, hdyleaflet frame.view list row.activatable:focus, leaflet frame.view list row.activatable:focus, box.horizontal > stack.background frame.view list row.activatable:focus, hdyleaflet stack.background scrolledwindow > viewport list row.activatable:focus, hdyleaflet overlay scrolledwindow > viewport list row.activatable:focus, leaflet stack.background scrolledwindow > viewport list row.activatable:focus, leaflet overlay scrolledwindow > viewport list row.activatable:focus, box.horizontal > stack.background stack.background scrolledwindow > viewport list row.activatable:focus, box.horizontal > stack.background overlay scrolledwindow > viewport list row.activatable:focus, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:focus, leaflet frame:not(.view) list:not(.contacts-contact-list) row.activatable:focus, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row.activatable:focus, list.tweak-group list row.activatable:focus, .tweak-group-startup row.activatable:focus, list.content:not(.conversation-listbox) > row:focus {
+window.background.csd stack stack stack frame > list row:focus, window.background.csd > stack > list row:focus, preferencesgroup list row:focus, .geary-accounts-editor-pane list row:focus, window.background.csd.unified > deck > deck > deck list row:focus, hdyleaflet list.view row:focus, hdyleaflet list.frame row:focus, leaflet list.view row:focus, leaflet list.frame row:focus, box.horizontal > stack.background list.view row:focus, box.horizontal > stack.background list.frame row:focus, hdyleaflet stack.background scrolledwindow > viewport list row:focus, hdyleaflet overlay scrolledwindow > viewport list row:focus, leaflet stack.background scrolledwindow > viewport list row:focus, leaflet overlay scrolledwindow > viewport list row:focus, box.horizontal > stack.background stack.background scrolledwindow > viewport list row:focus, box.horizontal > stack.background overlay scrolledwindow > viewport list row:focus, hdyleaflet frame:not(.view) list:not(.contacts-contact-list) row:focus, leaflet frame:not(.view) list:not(.contacts-contact-list) row:focus, box.horizontal > stack.background frame:not(.view) list:not(.contacts-contact-list) row:focus, list.tweak-group list row:focus, .tweak-group-startup row:focus, list.content:not(.conversation-listbox) > row:focus {
   box-shadow: inset 0 0 0 1000px alpha(currentColor, 0.08);
 }
 
 list {
   border-color: rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 list row {
@@ -3586,7 +3591,7 @@ calendar:indeterminate {
  * Dialogs *
  ***********/
 messagedialog.background {
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 messagedialog.background.csd {
@@ -3598,12 +3603,12 @@ messagedialog .titlebar {
   min-height: 24px;
   border-style: none;
   box-shadow: none;
-  background-color: #3C3C3C;
+  background-color: #121212;
   color: #FFFFFF;
 }
 
 messagedialog .titlebar:backdrop {
-  background-color: #3C3C3C;
+  background-color: #121212;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -3628,7 +3633,7 @@ messagedialog .dialog-action-box button.destructive-action:not(:disabled), messa
 }
 
 .csd filechooser {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-radius: 0 0 12px 12px;
 }
 
@@ -3638,7 +3643,7 @@ filechooser .dialog-action-box {
 
 filechooser #pathbarbox {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 filechooser stack.view {
@@ -3703,7 +3708,7 @@ paned .sidebar.left, paned .sidebar.right, paned .sidebar.left:dir(rtl), paned .
 
 stacksidebar.sidebar list {
   padding: 3px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 stacksidebar.sidebar row {
@@ -3839,7 +3844,7 @@ paned > separator {
 paned > separator.wide {
   min-width: 6px;
   min-height: 6px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   background-image: image(rgba(255, 255, 255, 0.12)), image(rgba(255, 255, 255, 0.12));
   background-size: 1px 1px, 1px 1px;
 }
@@ -3890,7 +3895,7 @@ infobar {
 }
 
 infobar.info > revealer > box, infobar.info:hover > revealer > box, infobar.info:backdrop > revealer > box {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 infobar.info > revealer > box link:link, infobar.info:hover > revealer > box link:link, infobar.info:backdrop > revealer > box link:link {
@@ -3961,7 +3966,7 @@ tooltip {
 }
 
 tooltip.background {
-  background-color: rgba(25, 25, 25, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #FFFFFF;
 }
 
@@ -4083,7 +4088,7 @@ colorchooser .popover.osd {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 6px;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 colorchooser .popover.osd:backdrop {
@@ -4094,7 +4099,7 @@ colorchooser .popover.osd:backdrop {
  * Misc *
  ********/
 .content-view {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 /**********************
@@ -4109,7 +4114,7 @@ decoration {
 
 .csd decoration {
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   background-clip: border-box;
 }
 
@@ -4153,7 +4158,7 @@ tooltip.csd decoration {
 messagedialog.csd decoration {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
   background-clip: border-box;
 }
 
@@ -4162,12 +4167,12 @@ messagedialog.csd decoration {
   padding: 2px;
   border-radius: 0;
   box-shadow: none;
-  background-color: #242424;
-  border: 1px solid #4b4b4b;
+  background-color: #030303;
+  border: 1px solid #2e2e2e;
 }
 
 .solid-csd decoration:backdrop {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 button.titlebutton:not(.suggested-action):not(.destructive-action) {
@@ -4179,6 +4184,15 @@ button.titlebutton:not(.suggested-action):not(.destructive-action) {
 
 button.minimize.titlebutton:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:not(.suggested-action):not(.destructive-action), button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
   color: transparent;
+}
+
+button.minimize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.close.titlebutton:hover:not(.suggested-action):not(.destructive-action) {
+  box-shadow: none;
+}
+
+button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.12);
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.12) 10%, transparent 0%);
 }
 
 button.minimize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action), button.close.titlebutton:hover:not(.suggested-action):not(.destructive-action), button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
@@ -4215,6 +4229,35 @@ button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
 
 button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
   background-color: #fe877d;
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: center;
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:not(.suggested-action):not(.destructive-action) {
+  box-shadow: none;
+  color: transparent;
+  animation: none;
+  transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton:hover, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:hover:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.minimize.titlebutton:active, .background.csd headerbar.titlebar.default-decoration button.minimize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-image: url("assets/scalable/minimize.svg");
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton:hover, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:hover:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.maximize.titlebutton:active, .background.csd headerbar.titlebar.default-decoration button.maximize.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-image: url("assets/scalable/maximize.svg");
+}
+
+#MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton:hover, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:hover:not(.suggested-action):not(.destructive-action), #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.close.titlebutton:active, .background.csd headerbar.titlebar.default-decoration button.close.titlebutton:active:not(.suggested-action):not(.destructive-action) {
+  background-image: url("assets/scalable/close.svg");
+}
+
+.background.csd.maximized headerbar.titlebar.default-decoration button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:hover, .background.csd.maximized headerbar.titlebar.default-decoration button.titlebutton:not(.suggested-action):not(.destructive-action).maximize:active {
+  background-image: url("assets/scalable/unmaximize.svg");
 }
 
 .monospace {
@@ -4256,7 +4299,7 @@ cursor-handle.insertion-cursor:dir(ltr), cursor-handle.insertion-cursor:dir(rtl)
   border: solid 1px rgba(255, 255, 255, 0.12);
   border-radius: 7px;
   box-shadow: inset 0 -2px rgba(255, 255, 255, 0.12);
-  background-color: #3C3C3C;
+  background-color: #121212;
   color: #FFFFFF;
   font-size: smaller;
 }
@@ -4379,11 +4422,11 @@ popover.emoji-completion .emoji:hover {
  ************/
 .nautilus-window.background.csd {
   border-radius: 0 0 12px 12px;
-  background-color: #242424;
+  background-color: #030303;
 }
 
 .nautilus-window.background.csd:backdrop {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .nautilus-window.background.csd > grid.horizontal > paned.horizontal > separator,
@@ -4405,7 +4448,7 @@ popover.emoji-completion .emoji:hover {
 }
 
 .nautilus-window.background.csd:not(.unified) notebook {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-radius: 0 0 12px 12px;
 }
 
@@ -4430,11 +4473,11 @@ popover.emoji-completion .emoji:hover {
   background-color: transparent;
 }
 
-.nautilus-window.background.csd:not(.unified) paned > separator {
+.nautilus-window.background.csd:not(.unified) paned > separator.wide {
   min-width: 12px;
-  box-shadow: 12px 0 #2C2C2C;
-  background-color: #2C2C2C;
-  background-image: image(#3e3e3e);
+  box-shadow: 12px 0 #0F0F0F;
+  background-color: #0F0F0F;
+  background-image: image(#212121);
 }
 
 .nautilus-window.maximized, .nautilus-window.maximized placessidebar {
@@ -4557,12 +4600,12 @@ popover.emoji-completion .emoji:hover {
 .search-information {
   padding: 2px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
 .conflict-row:not(:selected) {
-  background-color: #6a582c;
+  background-color: #564418;
 }
 
 .nautilus-window flowboxchild .icon-item-background {
@@ -4625,7 +4668,7 @@ dialog.background > box.dialog-vbox.vertical > grid.horizontal > box.horizontal:
 }
 
 .nautilus-window paned > separator {
-  background-color: #242424;
+  background-color: #030303;
 }
 
 /*********
@@ -4658,7 +4701,7 @@ window.org-gnome-gedit > overlay > box.vertical > paned.gedit-side-panel-paned s
 }
 
 .gedit-document-panel {
-  background-color: #242424;
+  background-color: #030303;
 }
 
 .gedit-document-panel row button.flat {
@@ -4715,7 +4758,7 @@ window.org-gnome-gedit > overlay > box.vertical > paned.gedit-side-panel-paned s
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry:not(.error) {
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry.error ~ button {
@@ -4769,16 +4812,16 @@ frame.gedit-map-frame > border:dir(rtl) {
 .tweak-group-white,
 .tweak-white,
 .tweak-white:hover {
-  background-image: image(#2C2C2C);
+  background-image: image(#0F0F0F);
 }
 
 .tweak-startup,
 .tweak-startup:hover {
-  background-image: image(#2C2C2C);
+  background-image: image(#0F0F0F);
 }
 
 .tweak-group-startup {
-  background-image: image(#2C2C2C);
+  background-image: image(#0F0F0F);
 }
 
 .tweak-group-startup row.tweak-startup {
@@ -4833,10 +4876,16 @@ window.background.csd > box.horizontal > stack.background {
   background: none;
 }
 
+window.background.csd > leaflet > stack.background frame > border,
+window.background.csd > hdyleaflet > stack.background frame > border,
+window.background.csd > box.horizontal > stack.background frame > border {
+  border: none;
+}
+
 window.background.csd > leaflet > stack.background > widget > box.vertical > box.vertical > scrolledwindow > viewport.frame,
 window.background.csd > hdyleaflet > stack.background > widget > box.vertical > box.vertical > scrolledwindow > viewport.frame,
 window.background.csd > box.horizontal > stack.background > widget > box.vertical > box.vertical > scrolledwindow > viewport.frame {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-bottom-right-radius: 12px;
 }
 
@@ -4846,10 +4895,17 @@ window.background.csd > box.horizontal > stack.background > widget > box.vertica
   background: none;
 }
 
+window.background.csd > leaflet frame.view,
+window.background.csd > hdyleaflet frame.view,
+window.background.csd > box.horizontal frame.view {
+  border-radius: 6px;
+  background: none;
+}
+
 window.background.csd > leaflet > box.vertical > scrolledwindow.view,
 window.background.csd > hdyleaflet > box.vertical > scrolledwindow.view,
 window.background.csd > box.horizontal > box.vertical > scrolledwindow.view {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-bottom-left-radius: 12px;
 }
 
@@ -4878,6 +4934,31 @@ window.background.csd > box.horizontal > box.vertical > scrolledwindow.view > vi
   background-color: transparent;
 }
 
+window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical > list {
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical > list, window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical > list > row {
+  border-radius: 0;
+}
+
+window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical:first-child > list {
+  border-top-width: 1px;
+}
+
+window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical:first-child > list, window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical:first-child > list > row {
+  border-radius: 6px 6px 0 0;
+}
+
+window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical:last-child > list {
+  border-bottom-width: 1px;
+}
+
+window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical:last-child > list, window.background.csd stack.background clamp.medium frame > box.vertical > box.vertical:last-child > list > row {
+  border-radius: 0 0 6px 6px;
+}
+
 window.background.csd hdycolumn stack frame.view > stack > stack list > separator {
   background-color: rgba(255, 255, 255, 0.12);
 }
@@ -4894,10 +4975,6 @@ dialog.background.csd > box.vertical.dialog-vbox > scrolledwindow > viewport.fra
   background-color: transparent;
 }
 
-hdyleaflet frame > border, leaflet frame > border, box.horizontal > stack.background frame > border {
-  border: none;
-}
-
 hdyleaflet > box.vertical > scrolledwindow > viewport.frame list:not(.view):not(.tweak-group), leaflet > box.vertical > scrolledwindow > viewport.frame list:not(.view):not(.tweak-group), box.horizontal > stack.background > box.vertical > scrolledwindow > viewport.frame list:not(.view):not(.tweak-group) {
   padding: 3px;
 }
@@ -4906,20 +4983,11 @@ hdyleaflet > box.vertical > scrolledwindow > viewport.frame list:not(.view):not(
   border-radius: 6px;
 }
 
-hdyleaflet frame.view list, leaflet frame.view list, box.horizontal > stack.background frame.view list {
-  background: none;
-}
-
-hdyleaflet frame.view list > separator, leaflet frame.view list > separator, box.horizontal > stack.background frame.view list > separator {
-  background: none;
-  min-height: 0;
-}
-
 /************************
  * Gnome system monitor *
  ************************/
 window#gnome-system-monitor.background.csd > box.vertical > stack {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-radius: 0 0 12px 12px;
 }
 
@@ -4958,7 +5026,7 @@ window.background.csd scrolledwindow.contacts-contact-form {
  * Epiphany (Gnome Web) *
  ************************/
 tabbox {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
   padding: 3px 3px 0;
 }
@@ -5074,13 +5142,13 @@ window.background > box.vertical > toolbar.primary-toolbar > toolitem > .linked 
 }
 
 stack.view.polari-entry-area {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   border-bottom-right-radius: 12px;
 }
 
 stack:disabled.view.polari-entry-area {
-  background-image: image(#2C2C2C);
+  background-image: image(#0F0F0F);
 }
 
 /***********
@@ -5088,7 +5156,7 @@ stack:disabled.view.polari-entry-area {
  ***********/
 layouttabbar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 layouttabbar > box > button {
@@ -5101,7 +5169,7 @@ layouttab {
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 -2px #5b9bf8;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 layouttab separator.vertical {
@@ -5167,11 +5235,11 @@ popover.omnibar list row:not(:last-child) {
 entry.preferences-search {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: none;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 preferences stacksidebar.sidebar list {
-  background-color: #242424;
+  background-color: #030303;
 }
 
 preferences stacksidebar.sidebar:dir(ltr) list, preferences stacksidebar.sidebar:dir(rtl) list {
@@ -5232,13 +5300,13 @@ dockpaned {
 eggsearchbar box.search-bar {
   padding: 0 8px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 docktabstrip {
   padding: 0 8px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 docktab {
@@ -5273,7 +5341,7 @@ docktab:checked {
 }
 
 dockoverlayedge {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 dockoverlayedge docktabstrip {
@@ -5290,14 +5358,14 @@ dockoverlayedge.right-edge docktab:checked {
 }
 
 pillbox {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-radius: 6px;
 }
 
 layoutpane entry.search {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: none;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 editortweak entry.search {
@@ -5352,7 +5420,7 @@ idelayoutstackheader button:checked {
 
 ideeditorutilities > dzldockpaned > box > stackswitcher {
   padding: 8px 0;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 ideeditorutilities > dzldockpaned > box > stackswitcher:dir(ltr) {
@@ -5476,11 +5544,11 @@ overlay grid.horizontal > revealer > scrolledwindow.frame:dir(rtl) {
 }
 
 .side-panel .view {
-  background-image: image(#242424);
+  background-image: image(#030303);
 }
 
 .side-panel .view:hover {
-  background-image: image(#363636);
+  background-image: image(#171717);
 }
 
 .side-panel .view:selected {
@@ -5547,16 +5615,16 @@ window.background.csd evview.view.content-view {
  *********************************/
 .background.csd > grid.horizontal > paned.horizontal > scrolledwindow {
   border-radius: 0 0 12px 12px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .background.csd > grid.horizontal > paned.horizontal > scrolledwindow > treeview.view:not(:hover):not(:selected):not(:selected):not(:hover):not(.progressbar):not(.expander):not(.trough):not(.separator) {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .background.csd > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow {
   border-radius: 0 0 0 12px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 /************
@@ -5684,7 +5752,7 @@ box.dialog-vbox scrolledwindow.related {
 }
 
 list.categories {
-  background-image: image(#242424);
+  background-image: image(#030303);
 }
 
 /*********
@@ -5694,7 +5762,7 @@ list.categories {
   min-height: 24px;
   padding: 0 4px;
   border-radius: 6px;
-  background-color: #242424;
+  background-color: #030303;
   color: #FFFFFF;
 }
 
@@ -5743,7 +5811,7 @@ window#GearyMainWindow.background.csd stack#conversation_viewer .geary-expanded 
 window.background.csd.geary-main-window stack#conversation_viewer .geary-expanded > .geary-composer-embed headerbar,
 window#GearyMainWindow.background.csd stack#conversation_viewer .geary-expanded > .geary-composer-embed headerbar {
   color: #FFFFFF;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   box-shadow: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -5759,7 +5827,7 @@ window#GearyMainWindow.background.csd stack#conversation_viewer .geary-composer-
 }
 
 .geary-main-window.unified > deck > overlay > .geary-main-layout {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .geary-main-window.unified > deck > overlay > .geary-main-layout > leaflet > headerbar,
@@ -5769,14 +5837,14 @@ window#GearyMainWindow.background.csd stack#conversation_viewer .geary-composer-
 
 .geary-main-window.unified > deck > overlay > .geary-main-layout > leaflet > separator.sidebar,
 .geary-main-window.unified > deck > overlay > .geary-main-layout > leaflet > leaflet > separator.sidebar {
-  background-color: #242424;
+  background-color: #030303;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.12);
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), color 75ms cubic-bezier(0, 0, 0.2, 1), box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
 }
 
 .geary-main-window.unified > deck > overlay > .geary-main-layout > leaflet > separator.sidebar:backdrop,
 .geary-main-window.unified > deck > overlay > .geary-main-layout > leaflet > leaflet > separator.sidebar:backdrop {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .geary-main-window.unified > deck > overlay > .geary-main-layout > leaflet > leaflet > box.vertical + separator.sidebar {
@@ -5808,7 +5876,7 @@ window#GearyMainWindow.background.csd stack#conversation_viewer .geary-composer-
 .geary-main-window.unified geary-conversation-viewer#conversation_viewer list.background.conversation-listbox.content > row.activatable {
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-bottom-width: 0;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .geary-main-window.unified geary-conversation-viewer#conversation_viewer list.background.conversation-listbox.content > row.activatable:first-child {
@@ -5864,7 +5932,7 @@ dialog.background.csd > box.vertical.dialog-vbox > grid.horizontal > scrolledwin
 dialog.background.csd > box.vertical.dialog-vbox > stack > scrolledwindow,
 dialog.background.csd > box.vertical.dialog-vbox > stack > stack > scrolledwindow {
   border-radius: 0 0 12px 12px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 dialog.background.csd > box.vertical.dialog-vbox > stack > scrolledwindow iconview.view:not(:hover):not(:selected):not(:active),
@@ -5958,7 +6026,7 @@ overlay > revealer.right > scrolledwindow.frame {
 
 .terminix-session-sidebar,
 .tilix-session-sidebar {
-  background-image: image(#3C3C3C);
+  background-image: image(#121212);
 }
 
 .terminal-titlebar button {
@@ -5982,7 +6050,7 @@ button.flat.tilix-small-button {
  * Terminator *
  **************/
 .terminator-terminal-window paned > separator {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .terminator-terminal-window notebook.frame {
@@ -6017,7 +6085,7 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
  * Chromium *
  ************/
 window.background.chromium {
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 window.background.chromium entry,
@@ -6057,11 +6125,11 @@ window.background.chromium treeview.view.cell:selected:focus {
 
 window.background.chromium treeview.view button {
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 window.background.chromium menu {
-  border-color: #555555;
+  border-color: #383838;
 }
 
 window.background.chromium menu menuitem {
@@ -6069,14 +6137,14 @@ window.background.chromium menu menuitem {
 }
 
 tooltip.background.chromium {
-  background-color: #191919;
+  background-color: black;
 }
 
 /***********
  * Firefox *
  ***********/
 #MozillaGtkWidget > widget text {
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 #MozillaGtkWidget > widget text:selected {
@@ -6085,7 +6153,7 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > separator {
-  color: #4b4b4b;
+  color: #2e2e2e;
 }
 
 #MozillaGtkWidget > widget > scrollbar {
@@ -6093,12 +6161,12 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > frame > border {
-  border-color: #4b4b4b;
+  border-color: #2e2e2e;
 }
 
 #MozillaGtkWidget > widget > entry,
 #MozillaGtkWidget > widget > button > button {
-  border: 1px solid #4b4b4b;
+  border: 1px solid #2e2e2e;
   border-radius: 6px;
   box-shadow: none;
 }
@@ -6110,7 +6178,7 @@ tooltip.background.chromium {
 
 #MozillaGtkWidget > widget > entry {
   min-height: 30px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 #MozillaGtkWidget > widget > entry:focus {
@@ -6119,7 +6187,7 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > entry:disabled {
-  background-color: #242424;
+  background-color: #030303;
 }
 
 #MozillaGtkWidget > widget > button > button {
@@ -6174,11 +6242,11 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > frame {
-  color: #4b4b4b;
+  color: #2e2e2e;
 }
 
 #MozillaGtkWidget menu > separator {
-  color: #4b4b4b;
+  color: #2e2e2e;
 }
 
 window.background:not(.csd) > window > menu menuitem {
@@ -6270,7 +6338,7 @@ scrolledwindow#DialogNotebook > viewport.frame > notebook.frame button.close-but
  * Libreoffice *
  ***************/
 window.background > grid > widget > widget > scrolledwindow > viewport > grid > box > box > frame > box {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 /*********
@@ -6313,12 +6381,12 @@ UnityDecoration .top {
   border-style: none;
   border-radius: 12px 12px 0 0;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #242424;
+  background-color: #030303;
   color: #FFFFFF;
 }
 
 UnityDecoration .top:backdrop {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -6343,7 +6411,7 @@ UnityDecoration .menuitem:hover {
 
 UnityPanelWidget,
 .unity-panel {
-  background-color: #212121;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -6379,7 +6447,7 @@ UnityPanelWidget:backdrop,
 }
 
 .mate-panel-menu-bar {
-  background-color: #212121;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
 }
@@ -6504,7 +6572,7 @@ PanelApplet.wnck-applet .wnck-pager:selected {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 #MatePanelPopupWindow frame > border {
@@ -6550,7 +6618,7 @@ na-tray-applet {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 .mate-panel-applet-slider frame > border {
@@ -6568,7 +6636,7 @@ na-tray-applet {
 
 #mate-menu {
   border: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 #mate-menu button {
@@ -6603,7 +6671,7 @@ na-tray-applet {
 
 .brisk-menu {
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 .brisk-menu entry {
@@ -6685,7 +6753,7 @@ na-tray-applet {
 
 .caja-side-pane notebook viewport.frame,
 .caja-side-pane notebook widget .vertical {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .caja-side-pane notebook,
@@ -6717,7 +6785,7 @@ na-tray-applet {
 }
 
 .caja-desktop.view .entry {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
   caret-color: currentColor;
 }
@@ -6738,7 +6806,7 @@ na-tray-applet {
 
 #caja-extra-view-widget {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 #caja-extra-view-widget > box > box > label {
@@ -6805,7 +6873,7 @@ na-tray-applet {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 .lock-dialog frame > border {
@@ -6819,7 +6887,7 @@ na-tray-applet {
 /* multimedia OSD */
 MsdOsdWindow.background.osd {
   border-radius: 6px;
-  background-color: rgba(25, 25, 25, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #FFFFFF;
 }
 
@@ -6856,7 +6924,7 @@ MsdOsdWindow.background.osd .progressbar {
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.75);
   background-clip: border-box;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-radius: 12px;
 }
 
@@ -7109,13 +7177,13 @@ MsdOsdWindow.background.osd .progressbar {
 
 .budgie-panel {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
-  background-color: #212121;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
 }
 
 .budgie-panel.transparent {
-  background-color: rgba(33, 33, 33, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .budgie-panel button {
@@ -7292,7 +7360,7 @@ frame.raven-frame > border {
 }
 
 .raven {
-  background-color: #3C3C3C;
+  background-color: #121212;
   box-shadow: 0 8px 6px -5px rgba(0, 0, 0, 0.2), 0 16px 15px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12);
 }
 
@@ -7340,7 +7408,7 @@ frame.raven-frame > border {
   border-style: solid none;
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.12);
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 .raven .raven-background > overlay > widget > image {
@@ -7400,7 +7468,7 @@ calendar.raven-calendar:selected {
 }
 
 .raven-mpris {
-  background-color: #242424;
+  background-color: #030303;
   color: #FFFFFF;
 }
 
@@ -7473,7 +7541,7 @@ calendar.raven-calendar:selected {
   padding: 3px;
   border-radius: 12px;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 .drop-shadow .linked > button {
@@ -7483,7 +7551,7 @@ calendar.raven-calendar:selected {
 .budgie-session-dialog,
 .budgie-polkit-dialog,
 .budgie-run-dialog {
-  background-color: #3C3C3C;
+  background-color: #121212;
   border: none;
   padding: 0;
 }
@@ -7560,7 +7628,7 @@ calendar.raven-calendar:selected {
  * Xfce4 Apps *
  **************/
 .XfceHeading {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 /***************
@@ -7568,7 +7636,7 @@ calendar.raven-calendar:selected {
  ***************/
 .xfce4-panel.background {
   border: none;
-  background-color: #212121;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
 }
@@ -7617,7 +7685,7 @@ window#whiskermenu-window {
 }
 
 window#whiskermenu-window entry.search:focus {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
 }
 
 window#whiskermenu-window > frame > border {
@@ -7625,7 +7693,7 @@ window#whiskermenu-window > frame > border {
   padding: 6px 8px 6px 9px;
   margin: 6px;
   border: none;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.75), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -7649,7 +7717,7 @@ window#whiskermenu-window box.categories > button.radio:checked:hover, window#wh
 
 window#whiskermenu-window scrolledwindow.frame {
   padding: 3px;
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   border-radius: 6px;
 }
 
@@ -7753,7 +7821,7 @@ menubar.-vala-panel-background > menuitem:disabled {
  * LightDM GTK+ Greeter *
  ************************/
 #panel_window {
-  background-color: #2C2C2C;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
@@ -7788,7 +7856,7 @@ menubar.-vala-panel-background > menuitem:disabled {
   margin: 8px;
   border-radius: 6px;
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15), 0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #3C3C3C;
+  background-color: #121212;
 }
 
 #content_frame {
@@ -7812,7 +7880,7 @@ menubar.-vala-panel-background > menuitem:disabled {
  * Nemo *
  ********/
 .nemo-window .primary-toolbar {
-  background-color: #242424;
+  background-color: #030303;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -7873,7 +7941,7 @@ menubar.-vala-panel-background > menuitem:disabled {
 }
 
 .nemo-window .nemo-inactive-pane .view:not(:selected) {
-  background-color: #242424;
+  background-color: #030303;
 }
 
 .nemo-window .nemo-window-pane widget.entry {
@@ -7882,7 +7950,7 @@ menubar.-vala-panel-background > menuitem:disabled {
 }
 
 .places-treeview {
-  -NemoPlacesTreeView-disk-full-bg-color: #6b6b6b;
+  -NemoPlacesTreeView-disk-full-bg-color: #575757;
   -NemoPlacesTreeView-disk-full-fg-color: #5b9bf8;
   -NemoPlacesTreeView-disk-full-bar-width: 2px;
   -NemoPlacesTreeView-disk-full-bar-radius: 0;
@@ -7903,10 +7971,10 @@ text color for entries, views and content in general */
 @define-color theme_text_color #FFFFFF;
 /*
 widget base background color */
-@define-color theme_bg_color #2C2C2C;
+@define-color theme_bg_color #0F0F0F;
 /*
 text widgets and the like base background color */
-@define-color theme_base_color #2C2C2C;
+@define-color theme_base_color #0F0F0F;
 /*
 base background color of selections */
 @define-color theme_selected_bg_color #5b9bf8;
@@ -7915,13 +7983,13 @@ text/foreground color of selections */
 @define-color theme_selected_fg_color #FFFFFF;
 /*
 base background color of insensitive widgets */
-@define-color insensitive_bg_color #2C2C2C;
+@define-color insensitive_bg_color #0F0F0F;
 /*
 text foreground color of insensitive widgets */
 @define-color insensitive_fg_color rgba(255, 255, 255, 0.5);
 /*
 insensitive text widgets and the like base background color */
-@define-color insensitive_base_color #242424;
+@define-color insensitive_base_color #030303;
 /*
 widget text/foreground color on backdrop windows */
 @define-color theme_unfocused_fg_color #FFFFFF;
@@ -7930,10 +7998,10 @@ text color for entries, views and content in general on backdrop windows */
 @define-color theme_unfocused_text_color #FFFFFF;
 /*
 widget base background color on backdrop windows */
-@define-color theme_unfocused_bg_color #2C2C2C;
+@define-color theme_unfocused_bg_color #0F0F0F;
 /*
 text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color #2C2C2C;
+@define-color theme_unfocused_base_color #0F0F0F;
 /*
 base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color #5b9bf8;
@@ -7960,17 +8028,25 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_title #FFFFFF;
 @define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
-@define-color wm_bg #242424;
-@define-color wm_unfocused_bg #2C2C2C;
+@define-color wm_border #030303;
+@define-color wm_bg #030303;
+@define-color wm_unfocused_bg #0F0F0F;
+@define-color wm_button_icon white;
+@define-color wm_button_close_hover_bg #fd5f51;
+@define-color wm_button_close_active_bg #fc2714;
+@define-color wm_button_max_hover_bg #38c76a;
+@define-color wm_button_max_active_bg #2b9751;
+@define-color wm_button_min_hover_bg #fdbe04;
+@define-color wm_button_min_active_bg #c29102;
 /*
 FIXME this is really an API */
-@define-color content_view_bg #2C2C2C;
-@define-color placeholder_text_color silver;
+@define-color content_view_bg #0F0F0F;
+@define-color placeholder_text_color #b7b7b7;
 /* Very contrasty background for text views (@theme_text_color foreground) */
-@define-color text_view_bg #2C2C2C;
+@define-color text_view_bg #0F0F0F;
 @define-color budgie_tasklist_indicator_color white;
 @define-color budgie_tasklist_indicator_color_active white;
-@define-color budgie_tasklist_indicator_color_active_window #999999;
+@define-color budgie_tasklist_indicator_color_active_window #8a8a8a;
 @define-color budgie_tasklist_indicator_color_attention #FBC02D;
 @define-color STRAWBERRY_100 #FF9262;
 @define-color STRAWBERRY_300 #FF793E;
