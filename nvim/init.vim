@@ -18,6 +18,9 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'joshdick/onedark.vim', 
 Plug 'voldikss/vim-floaterm'
 Plug 'https://github.com/tpope/vim-commentary' "For commenting with gcc and gc 
+" gcc : comment the current line without in visual mode 
+" gc : comment multiple lines in visual mode 
+
 " Initialize plugin system
 call plug#end()
 syntax on
