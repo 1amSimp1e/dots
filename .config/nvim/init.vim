@@ -72,8 +72,27 @@ let g:airline_powerline_fonts = 1
 "let g:airline_theme = 'wombat' 
 let g:airline#extensions#tabline#enabled = 1
 " Themes:
+" Neosolarized Dark themes:
+" Syntax theme "{{{
+" ---------------------------------------------------------------------
+
+" true color
+if exists("&termguicolors") && exists("&winblend")
+  syntax enable
+  set termguicolors
+  set winblend=0
+  set wildoptions=pum
+  set pumblend=5
+  set background=dark
+  " Use NeoSolarized
+  let g:neosolarized_termtrans=1
+  runtime ./colors/NeoSolarized.vim
+  colorscheme NeoSolarized
+endif
+
+:set cursorline
 " gruvbox:
-colorscheme gruvbox
+"colorscheme gruvbox
 set termguicolors
 " Dracula:
 "colorscheme dracula
