@@ -2,13 +2,9 @@ call plug#begin()
 " ============== PLUGINS iNSTALLATION ==================== "
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'fatih/vim-go', { 'tag': '*' }
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 Plug 'frazrepo/vim-rainbow'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Rigellute/rigel'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'scrooloose/nerdcommenter'
@@ -22,17 +18,39 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "Syntax Highlight fo
 Plug 'tpope/vim-fugitive'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
+Plug 'folke/lsp-colors.nvim'
+Plug 'hoob3rt/lualine.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'ray-x/lsp_signature.nvim'
+"Enable if you use vim-airline and vim-airline-themes"
+""Plug 'vim-airline/vim-airline'
+""Plug 'vim-airline/vim-airline-themes'
 
+" ----- Auto completion ------ #
+   "nvim-cmp
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
+  " For vsnip users.
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/vim-vsnip'
 Plug 'onsails/lspkind.nvim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer'
+  
+  "Coc Nvim:
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+  " Github Copilot
+Plug 'github/copilot.vim'
+
 " ================== INITIALIZE PLUGIN SYSTEM  ==================== "
 call plug#end()
+autocmd!
 syntax on
 set number
 set relativenumber
@@ -44,11 +62,23 @@ set shiftwidth=2
 set expandtab
 set encoding=utf-8
 set noswapfile
-set scrolloff=7 
+set scrolloff=10 
 set autoindent 
-
-"requires plugin config
+set backspace=start,eol,indent
+set nowrap "No Wrap lines
+set si
+"requires lua plugin config
 lua require('tuenhan')
+
+"Auto Close the bracket
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
 " --------------------- BRACKET COLORIZE ---------------------- " 
 let g:rainbow_active = 1
 let g:rainbow_load_separately = [
@@ -82,31 +112,80 @@ let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourse
 let g:NERDTreeIgnore = ['^node_modules$']
 
 " -------------------- VIM AIRLINE  ----------------------- "
-let g:airline_powerline_fonts = 1
-let g:airline_theme = 'solarized' 
-let g:airline#extensions#tabline#enabled = 1
+"let g:airline_powerline_fonts = 1
+"" let g:airline_theme = 'solarized' 
+"let g:airline#extensions#tabline#enabled = 1
 
-"True Symbol
-if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
-endif
+""True Symbol
+"if !exists('g:airline_symbols')
+"  let g:airline_symbols = {}
+"endif
   
-"" powerline symbols
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
-let g:airline_symbols.branch = ''
-let g:airline_symbols.readonly = ''
-let g:airline_symbols.linenr = 'ln'
-let g:airline_symbols.maxlinenr = ''
-let g:airline_symbols.dirty='⚡'
-let g:airline_symbols.colnr='col'"
+""" powerline symbols
+"let g:airline_left_sep = ''
+"let g:airline_left_alt_sep = ''
+"let g:airline_right_sep = ''
+"let g:airline_right_alt_sep = ''
+"let g:airline_symbols.branch = ''
+"let g:airline_symbols.readonly = ''
+"let g:airline_symbols.linenr = 'ln'
+"let g:airline_symbols.maxlinenr = ''
+"let g:airline_symbols.dirty='⚡'
+"let g:airline_symbols.colnr='col'"
 
-" Display the branch nameL:
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#hunks#enabled=0
-let g:airline#extensions#hunks#coc_git = 1
+"" Display the branch nameL:
+"let g:airline#extensions#hunks#enabled=0
+"let g:airline#extensions#hunks#coc_git = 1
+
+" ================ TAB LINE CONFIGURATION ======================== "
+function MyTabLine()
+  let s = ''
+  for i in range(tabpagenr('$'))
+    " select the highlighting
+    if i + 1 == tabpagenr()
+      let s .= '%#TabLineSel#'
+    else
+      let s .= '%#TabLine#'
+    endif
+
+    " set the tab page number (for mouse clicks)
+    let s .= '%' . (i + 1) . 'T'
+
+    " the label is made by MyTabLabel()
+    let s .= ' %{MyTabLabel(' . (i + 1) . ')} '
+
+    if i + 1 == tabpagenr()
+      let s .= '%#TabLineSep#'
+    elseif i + 2 == tabpagenr()
+      let s .= '%#TabLineSep2#'
+    else
+      let s .= ''
+    endif
+  endfor
+
+  " after the last tab fill with TabLineFill and reset tab page nr
+  let s .= '%#TabLineFill#%T'
+
+  " right-align the label to close the current tab page
+  if tabpagenr('$') > 1
+    let s .= '%=%#TabLine#%999X'
+  endif
+
+  return s
+endfunction
+
+function MyTabLabel(n)
+  let buflist = tabpagebuflist(a:n)
+  let winnr = tabpagewinnr(a:n)
+  let name = bufname(buflist[winnr - 1])
+  let label = fnamemodify(name, ':t')
+  return len(label) == 0 ? '[No Name]' : label
+endfunction
+
+set tabline=%!MyTabLine()
+set showtabline=2
+" ================ TERMINAL CONFIG ======================== "
+let g:terminal_cursor_style = 'bar'
 
 " ================ THEMES ================== "
 
@@ -140,7 +219,7 @@ let g:prettier#autoformat = 1
 " prettier command for coc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
-" ================== COC NVIM ================ "
+" ================ COC NVIM ================ "
 ""coc config
 "let g:coc_global_extensions = [
 "  \ 'coc-snippets',
@@ -270,10 +349,3 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 "nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 "" Resume latest coc list
 "nnoremap <silent> <space>p :<C-u>CocListResume <CR>
-
-
-
-
-
-
-

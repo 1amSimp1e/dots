@@ -1,7 +1,50 @@
-  local cmp = require'cmp'
-
+local cmp = require'cmp'
+local kind_icons = {
+  Text = ' ',
+  Method = ' ',
+  Function = ' ',
+  Constructor = ' ',
+  Field = ' ',
+  Variable = ' ',
+  Class = ' ',
+  Interface = ' ',
+  Module = ' ',
+  Property = ' ',
+  Unit = ' ',
+  Value = ' ',
+  Enum = ' ',
+  Keyword = ' ',
+  Snippet = '﬌ ',
+  Color = ' ',
+  File = ' ',
+  Reference = ' ',
+  Folder = ' ',
+  EnumMember = ' ',
+  Constant = ' ',
+  Struct = ' ',
+  Event = ' ',
+  Operator = 'ﬦ ',
+  TypeParameter = ' ',
+}
   cmp.setup({
-       mapping = cmp.mapping.preset.insert({
+    formatting = {
+      format = function(entry,vim_item)
+        --Icons
+      vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind],vim_item.kind) -- This concatonates the icons with the name of the item kind
+      -- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind)
+      -- Source
+      vim_item.menu = ({
+        buffer = "[Buffer]",
+        nvim_lsp = "[LSP]",
+        luasnip = "[LuaSnip]",
+        nvim_lua = "[Lua]",
+        latex_symbols = "[LaTeX]",
+      })[entry.source.name]
+      return vim_item
+    end
+
+    },
+    mapping = cmp.mapping.preset.insert({
       ['<C-b>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
       ['<C-Space>'] = cmp.mapping.complete(),
@@ -30,6 +73,10 @@
 
   -- Use buffer source for `/` (if you enabled `native_menu`, this won't work anymore).
   cmp.setup.cmdline('/', {
+    view = {
+      --entries = {name = 'wildmenu',separator = '|'}
+      entries = {name = 'custom',selectopm_order = 'near_cursor'}
+    },
     mapping = cmp.mapping.preset.cmdline(),
     sources = {
       { name = 'buffer' }
@@ -49,7 +96,6 @@
   -- Setup lspconfig.
   local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
   -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-  require('lspconfig')['<YOUR_LSP_SERVER>'].setup {
+  require('lspconfig')['pyright'].setup {
     capabilities = capabilities
   }
-  
