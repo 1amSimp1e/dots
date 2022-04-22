@@ -11,7 +11,7 @@ Plug 'morhetz/gruvbox'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'joshdick/onedark.vim', 
 Plug 'voldikss/vim-floaterm'
-Plug 'https://github.com/tpope/vim-commentary' "For commenting with gcc and gc 
+Plug 'tpope/vim-commentary' "For commenting with gcc and gc 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "Syntax Highlight for programming languages 
 Plug 'tpope/vim-fugitive'
 Plug 'nvim-lua/plenary.nvim'
@@ -23,6 +23,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'folke/lsp-colors.nvim'
 "Unused Plugins enable if needed
 "Enable if you use vim-airline and vim-airline-themes"
 ""Plug 'vim-airline/vim-airline'
@@ -80,6 +81,11 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
+"=======================  VIM-SNIPPETS ==========================="
+let g:UltiSnipsSnippetDirectories = ['~/.vim/snippets']
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 " --------------------- BRACKET COLORIZE ---------------------- " 
 let g:rainbow_active = 1
 let g:rainbow_load_separately = [
@@ -154,6 +160,10 @@ endfunction
 
 set tabline=%!MyTabLine()
 set showtabline=2
+nnoremap <leader>o :tabnew<CR>
+nnoremap <leader>c :tabclose<CR>
+nnoremap <C-l>     :tabnext<CR>
+nnoremap <C-h>     :tabprevious<CR>
 " ================ TERMINAL CONFIG ======================== "
 let g:terminal_cursor_style = 'bar'
 nnoremap <leader>t :terminal<CR>

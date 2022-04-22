@@ -1,45 +1,46 @@
 local cmp = require'cmp'
 local kind_icons = {
-  Text = ' ',
+  Text = '  ',
   Method = ' ',
   Function = ' ',
-  Constructor = ' ',
-  Field = ' ',
+  Constructor = '  ',
+  Field = '  ',
   Variable = ' ',
-  Class = ' ',
-  Interface = ' ',
+  Class = '  ',
+  Interface = '  ',
   Module = ' ',
   Property = ' ',
   Unit = ' ',
-  Value = ' ',
+  Value = '  ',
   Enum = ' ',
-  Keyword = ' ',
-  Snippet = '﬌ ',
-  Color = ' ',
+  Keyword = '  ',
+  Snippet = '﬌  ',
+  Color = '  ',
   File = ' ',
-  Reference = ' ',
+  Reference = '  ',
   Folder = ' ',
   EnumMember = ' ',
   Constant = ' ',
   Struct = ' ',
-  Event = ' ',
+  Event = '  ',
   Operator = 'ﬦ ',
-  TypeParameter = ' ',
+  TypeParameter = '  ',
 }
   cmp.setup({
     formatting = {
+      fields = {"abbr","menu","kind"},
       format = function(entry,vim_item)
         --Icons
-      vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind],vim_item.kind) -- This concatonates the icons with the name of the item kind
-      -- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind)
+        -- vim_item.kind = string.format(kind_icons[vim_item.kind],vim_item.kind) --DISLAY THE ICONS ONLY
+        vim_item.kind = string.format('%s %s',kind_icons[vim_item.kind],vim_item.kind) --DISLAY THE ICONS AND THE TEXT (Kind)
       -- Source
-      vim_item.menu = ({
-        buffer = "[Buffer]",
-        nvim_lsp = "[LSP]",
-        luasnip = "[LuaSnip]",
-        nvim_lua = "[Lua]",
-        latex_symbols = "[LaTeX]",
-      })[entry.source.name]
+      -- vim_item.menu = ({
+      --   buffer = "[Buffer]",
+      --   nvim_lsp = "[LSP]",
+      --   luasnip = "[LuaSnip]",
+      --   nvim_lua = "[Lua]",
+      --   latex_symbols = "[LaTeX]",
+      -- })[entry.source.name]
       return vim_item
     end
 
@@ -54,11 +55,11 @@ local kind_icons = {
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },
       { name = 'vsnip' }, -- For vsnip users.
+      { name = 'buffer' },
       -- { name = 'luasnip' }, -- For luasnip users.
       -- { name = 'ultisnips' }, -- For ultisnips users.
       -- { name = 'snippy' }, -- For snippy users.
     }, {
-      { name = 'buffer' },
     })
   })
 
@@ -94,7 +95,9 @@ local kind_icons = {
   })
 
   -- Setup lspconfig.
-  local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+  local capabilities = require('cmp_nvim_lsp').update_capabilities(
+  vim.lsp.protocol.make_client_capabilities()
+  )
   -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
   require('lspconfig')['pyright'].setup {
     capabilities = capabilities
