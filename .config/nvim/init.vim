@@ -1,12 +1,10 @@
 call plug#begin()
 " ============== PLUGINS iNSTALLATION ==================== "
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 Plug 'frazrepo/vim-rainbow'
 Plug 'Rigellute/rigel'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'scrooloose/nerdcommenter'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'morhetz/gruvbox'
@@ -21,13 +19,16 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'folke/lsp-colors.nvim'
 Plug 'hoob3rt/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'ray-x/lsp_signature.nvim'
+Plug 'lukas-reineke/indent-blankline.nvim'
+"Unused Plugins enable if needed
 "Enable if you use vim-airline and vim-airline-themes"
 ""Plug 'vim-airline/vim-airline'
 ""Plug 'vim-airline/vim-airline-themes'
-
+" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " ----- Auto completion ------ #
    "nvim-cmp
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -90,52 +91,21 @@ let g:rainbow_load_separately = [
 
 let g:rainbow_guifgs = ['RoyalBlue3', 'DarkOrange3', 'DarkOrchid3', 'FireBrick']
 let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
+" -------------------- NVIM TREE CONFIG ----------------------- "
+nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <leader>r :NvimTreeRefresh<CR>
+nnoremap <leader>n :NvimTreeFindFile<CR>
 
-" -------------------- NERD TREE CONFIG ----------------------- "
-map <C-n> :NERDTreeToggle<CR>
-" Devi_icons:
-set encoding=UTF-8
-" NerdTree_Git-Plugins:
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
-let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
-let g:NERDTreeIgnore = ['^node_modules$']
 
-" -------------------- VIM AIRLINE  ----------------------- "
-"let g:airline_powerline_fonts = 1
-"" let g:airline_theme = 'solarized' 
-"let g:airline#extensions#tabline#enabled = 1
+" a list of groups can be found at `:help nvim_tree_highlight`
+highlight NvimTreeFolderIcon guibg=blue
+set termguicolors " this variable must be enabled for colors to be applied properly
 
-""True Symbol
-"if !exists('g:airline_symbols')
-"  let g:airline_symbols = {}
-"endif
-  
-""" powerline symbols
-"let g:airline_left_sep = ''
-"let g:airline_left_alt_sep = ''
-"let g:airline_right_sep = ''
-"let g:airline_right_alt_sep = ''
-"let g:airline_symbols.branch = ''
-"let g:airline_symbols.readonly = ''
-"let g:airline_symbols.linenr = 'ln'
-"let g:airline_symbols.maxlinenr = ''
-"let g:airline_symbols.dirty='⚡'
-"let g:airline_symbols.colnr='col'"
+" a list of groups can be found at `:help nvim_tree_highlight`
+highlight NvimTreeFolderIcon guibg=blue
 
-"" Display the branch nameL:
-"let g:airline#extensions#hunks#enabled=0
-"let g:airline#extensions#hunks#coc_git = 1
+"Indent Line"
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 " ================ TAB LINE CONFIGURATION ======================== "
 function MyTabLine()
@@ -186,7 +156,7 @@ set tabline=%!MyTabLine()
 set showtabline=2
 " ================ TERMINAL CONFIG ======================== "
 let g:terminal_cursor_style = 'bar'
-
+nnoremap <leader>t :terminal<CR>
 " ================ THEMES ================== "
 
 " Neosolarized Dark themes:
@@ -218,6 +188,52 @@ set cursorline
 let g:prettier#autoformat = 1
 " prettier command for coc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+" -------------------- NERD TREE CONFIG ----------------------- "
+" map <C-n> :NERDTreeToggle<CR>
+" " Devi_icons:
+" set encoding=UTF-8
+" " NerdTree_Git-Plugins:
+" let g:NERDTreeGitStatusIndicatorMapCustom = {
+"                 \ 'Modified'  :'✹',
+"                 \ 'Staged'    :'✚',
+"                 \ 'Untracked' :'✭',
+"                 \ 'Renamed'   :'➜',
+"                 \ 'Unmerged'  :'═',
+"                 \ 'Deleted'   :'✖',
+"                 \ 'Dirty'     :'✗',
+"                 \ 'Ignored'   :'☒',
+"                 \ 'Clean'     :'✔︎',
+"                 \ 'Unknown'   :'?',
+"                 \ }
+" let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
+" let g:NERDTreeIgnore = ['^node_modules$']
+
+" -------------------- VIM AIRLINE  ----------------------- "
+"let g:airline_powerline_fonts = 1
+"" let g:airline_theme = 'solarized' 
+"let g:airline#extensions#tabline#enabled = 1
+
+""True Symbol
+"if !exists('g:airline_symbols')
+"  let g:airline_symbols = {}
+"endif
+  
+""" powerline symbols
+"let g:airline_left_sep = ''
+"let g:airline_left_alt_sep = ''
+"let g:airline_right_sep = ''
+"let g:airline_right_alt_sep = ''
+"let g:airline_symbols.branch = ''
+"let g:airline_symbols.readonly = ''
+"let g:airline_symbols.linenr = 'ln'
+"let g:airline_symbols.maxlinenr = ''
+"let g:airline_symbols.dirty='⚡'
+"let g:airline_symbols.colnr='col'"
+
+"" Display the branch nameL:
+"let g:airline#extensions#hunks#enabled=0
+"let g:airline#extensions#hunks#coc_git = 1
 
 " ================ COC NVIM ================ "
 ""coc config
