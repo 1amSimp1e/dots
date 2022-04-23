@@ -160,13 +160,14 @@ endfunction
 
 set tabline=%!MyTabLine()
 set showtabline=2
-nnoremap <leader>o :tabnew<CR>
-nnoremap <leader>c :tabclose<CR>
-nnoremap <C-l>     :tabnext<CR>
-nnoremap <C-h>     :tabprevious<CR>
+
+nnoremap <leader>t :tabnew<CR>
+nnoremap <leader><S-c> :tabclose<CR>
+nnoremap <S-l>     :tabnext<CR>
+nnoremap <S-h>     :tabprevious<CR>
 " ================ TERMINAL CONFIG ======================== "
 let g:terminal_cursor_style = 'bar'
-nnoremap <leader>t :terminal<CR>
+nnoremap <S-t> :terminal<CR>
 " ================ THEMES ================== "
 
 " Neosolarized Dark themes:
