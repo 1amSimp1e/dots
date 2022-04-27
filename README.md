@@ -11,7 +11,7 @@
 
 ## Contents:
 - [Vim (NeoVim) Config](#neovim)
-- [GNOME Themes and Icons](#gnome)
+- [GNOME](#gnome)
 - [Fish](#fish)
 
 ## Vim Setups <a name = "neovim"></a>: 
@@ -44,7 +44,7 @@ shell for Linux, macOS, and the rest of the family.
 - [peco](https://github.com/peco/peco)
 
 ## GNOME SETUPS<a name = "gnome"></a>:
-- [Gnome Shell Extensions](https://extensions.gnome.org/)
+- [Gnome Shell Extensions](https://extensions.gnome.org/) 
    - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
    - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
    - [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/): The simple color picker for gnome shell
@@ -64,7 +64,7 @@ shell for Linux, macOS, and the rest of the family.
    - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows.
    - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
 
-* Gnome tweaks (for apply themes and icons ) installation:
+- Gnome tweaks (for apply themes and icons ) installation:
 ```bash
 sudo apt update && sudo apt upgrade
 sudo apt install gnome-tweaks
