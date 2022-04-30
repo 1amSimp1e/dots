@@ -3,7 +3,10 @@
 
 
 
-![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
+![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
+
+
+![Pictures 3](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice5.png)
 
 # Tue Nhan's dot files
 - My dot files  inspired by [Takuya Matsuyama's Dot Files](https://github.com/craftzdog/dotfiles-public)
