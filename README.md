@@ -43,7 +43,7 @@ shell for Linux, macOS, and the rest of the family.
 
 - [peco](https://github.com/peco/peco)
 
-- [oh my fish ](https://github.com/oh-my-fish/oh-my-fish)
+- [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
 ## GNOME SETUPS<a name = "gnome"></a>:
 - [Gnome Shell Extensions](https://extensions.gnome.org/) 
    - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
