@@ -1,9 +1,9 @@
-![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/2.png)
+![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
 
 
 
 
-![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/3.png)
+![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
 
 # Tue Nhan's dot files
 - My dot files  inspired by [Takuya Matsuyama's Dot Files](https://github.com/craftzdog/dotfiles-public)
