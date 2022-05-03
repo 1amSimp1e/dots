@@ -34,7 +34,7 @@ shell for Linux, macOS, and the rest of the family.
 
 - [Tide](https://github.com/IlanCosman/tide): Prompt Themes for Fish like PowerLevel10k
 
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts): I use Hack Nerd Font and Fira Code Nerd Font
 
 - [Z](https://github.com/jethrokuan/z): Directory Jumper
 
@@ -49,23 +49,22 @@ shell for Linux, macOS, and the rest of the family.
    - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
    - [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/): The simple color picker for gnome shell
    - [Compiz alike magic lamp effect](https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/): Magic lamp effect alike the macos minimize effect
-   - [CPU Power Manager](https://extensions.gnome.org/extension/3194/cpu-power-manager/): A simple power manager for gnome shell
-   - [Dash to Dock](https://extensions.gnome.org/extension/3195/dash-to-dock/): A Mac os alike dock for gnome 
+   - [Dash to Dock Lite ](https://extensions.gnome.org/extension/4994/dash2dock-lite/): A Minimal dock alike macos dock 
    - [Extension List](https://extensions.gnome.org/extension/3088/extension-list/): A Simple Gnome shell extension manager in the top panel 
    - [Hide top bar](https://extensions.gnome.org/extension/545/hide-top-bar/): Hide the top bar to maximize the screen space
    - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/): SImple tweak tools to customize the gnome shell and disable some UI Features
    - [Open Weather](https://extensions.gnome.org/extension/750/openweather/): A simple weather app for gnome shell
-   - [Panel OSD](https://extensions.gnome.org/extension/708/panel-osd/):Reduce the top bar space
+   - [Panel OSD](https://extensions.gnome.org/extension/708/panel-osd/):Reduce the top bar space (**Incompatible for newest Ubuntu release**)
    - [Remove app menu](https://extensions.gnome.org/extension/3906/remove-app-menu/): Remove the applicatin menu from the top bar
    - [Refresh Wifi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/): Adds a refresh butoon to the Wifi Connection selection dialog to manually refresh the network scan
    - [Screenshot Tools](https://extensions.gnome.org/extension/1112/screenshot-tool/): Extension for taking screenshots quickly and easily
    - [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/):Shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. 
    - [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/): Reduce the horizontal space between icons in the top right status area
-   - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows.
+   - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows for the minimalist in windows 
    - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
 
 - Gnome tweaks (for apply themes and icons ) installation:
-```bash
+```fish
 sudo apt update && sudo apt upgrade
 sudo apt install gnome-tweaks
 ```
