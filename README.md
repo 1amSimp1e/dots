@@ -62,7 +62,7 @@ shell for Linux, macOS, and the rest of the family.
    - [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/): Reduce the horizontal space between icons in the top right status area
    - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows for the minimalist in windows 
    - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
-
+	 - [Workspace bar](https://extensions.gnome.org/extension/3851/workspaces-bar/): Replace the Activites button by all current workspaces buttons
 - Gnome tweaks (for apply themes and icons ) installation:
 ```fish
 sudo apt update && sudo apt upgrade
