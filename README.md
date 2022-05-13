@@ -44,6 +44,7 @@ shell for Linux, macOS, and the rest of the family.
 
 - [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
 ## GNOME SETUPS<a name = "gnome"></a>:
+- [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
 - [Gnome Shell Extensions](https://extensions.gnome.org/) 
    - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
    - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
