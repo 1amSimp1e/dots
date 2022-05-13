@@ -18,8 +18,9 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'folke/lsp-colors.nvim'
 Plug 'hoob3rt/lualine.nvim'
-Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
+Plug 'kyazdani42/nvim-web-devicons'
+" Plug 'kyazdani42/nvim-tree.lua'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'lukas-reineke/indent-blankline.nvim'
@@ -72,6 +73,8 @@ set nowrap "No Wrap lines
 set title 
 "requires lua plugin config
 lua require('tuenhan')
+
+
 
 " ================ THEMES ================== "
 " Sonokai
@@ -270,8 +273,8 @@ set showtabline=2
 "KeyMaps for tab "
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader><S-c> :tabclose<CR>
-nnoremap <S-k>     :tabnext<CR>
-nnoremap <S-j>     :tabprevious<CR>
+nnoremap <S-l>     :tabnext<CR>
+nnoremap <S-h>     :tabprevious<CR>
 " ================ TERMINAL CONFIG ======================== "
 let g:terminal_cursor_style = 'bar'
 nnoremap <S-t> :terminal<CR>

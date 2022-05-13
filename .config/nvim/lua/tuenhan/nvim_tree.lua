@@ -8,10 +8,10 @@ require'nvim-tree'.setup {
 
 -- setup with all defaults
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
+-- nested options are documented by accessing them with `.` (eg: `:help nvim-tree.view.mappings.list`).
 require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
   auto_reload_on_write = true,
   disable_netrw = false,
-  hide_root_folder = false,
   hijack_cursor = false,
   hijack_netrw = true,
   hijack_unnamed_buffer_when_opening = false,
@@ -24,6 +24,7 @@ require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
   view = {
     width = 30,
     height = 30,
+    hide_root_folder = false,
     side = "left",
     preserve_window_proportions = false,
     number = false,
@@ -47,7 +48,8 @@ require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
     },
     icons = {
       webdev_colors = true,
-    },
+      git_placement = "before",
+    }
   },
   hijack_directories = {
     enable = true,
@@ -60,7 +62,7 @@ require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
   },
   ignore_ft_on_setup = {},
   system_open = {
-    cmd = nil,
+    cmd = "",
     args = {},
   },
   diagnostics = {
@@ -88,6 +90,7 @@ require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
     change_dir = {
       enable = true,
       global = false,
+      restrict_above_cwd = false,
     },
     open_file = {
       quit_on_open = false,

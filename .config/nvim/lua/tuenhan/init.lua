@@ -1,5 +1,5 @@
 require('tuenhan.telescope')
-require('tuenhan.lspconfig')
+-- require('tuenhan.lspconfig')
 require('tuenhan.lsp-colors')
 require('tuenhan.treesitter')
 -- require('tuenhan.completions')
