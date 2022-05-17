@@ -12,10 +12,17 @@
 - [Vim (NeoVim) Config](#neovim)
 - [GNOME](#gnome)
 - [Fish](#fish)
+- [Addition Apps and Terminal Tools](#Apps)
 
 ## Vim Setups <a name = "neovim"></a>: 
 Requires Neovim (>=0.5)
+- **Installations**: 
 
+```fish
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt update && sudo apt upgrade
+sudo apt install neovim
+```
 - [Vim-Plug](https://github.com/junegunn/vim-plug): Vim's Plugins Manager
 - [Lsp](https://github.com/neovim/nvim-lspconfig): A collection of common configurations for Neovim's built-in language server client.
 - [Cmp](https://github.com/hrsh7th/nvim-cmp): Code Completions write in Lua 
@@ -42,8 +49,7 @@ shell for Linux, macOS, and the rest of the family.
 
 - [peco](https://github.com/peco/peco)
 
-- [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
-## GNOME SETUPS<a name = "gnome"></a>:
+- [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish) ## GNOME SETUPS<a name = "gnome"></a>:
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
 - [Gnome Shell Extensions](https://extensions.gnome.org/) 
    - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
@@ -63,12 +69,24 @@ shell for Linux, macOS, and the rest of the family.
    - [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/): Reduce the horizontal space between icons in the top right status area
    - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows for the minimalist in windows 
    - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
-	 - [Workspace bar](https://extensions.gnome.org/extension/3851/workspaces-bar/): Replace the Activites button by all current workspaces buttons
+	- [Workspace bar](https://extensions.gnome.org/extension/3851/workspaces-bar/): Replace the Activites button by all current workspaces buttons
 - Gnome tweaks (for apply themes and icons ) installation:
 ```fish
 sudo apt update && sudo apt upgrade
 sudo apt install gnome-tweaks
 ```
+## Adition apps and terminal tools<a name = "Apps"></a>:
+- [Kitty](https://sw.kovidgoyal.net/kitty/): The fast,Features rich,GPU based Terminal emulator
+```fish
+sudo apt update && sudo apt upgrade 
+sudo apt install kitty 
+```
 
-   
+- [Howdy](https://github.com/boltgolt/howdy): Windows Hello Style authentication for Linux 
+- [Pipe.sh](https://github.com/pipeseroni/pipes.sh): Animated pipes terminal screeen saver
+- [Cmatrix](https://github.com/abishekvashok/cmatrix) Installations:
+```fish
+sudo apt update && sudo apt upgrade 
+sudo apt install cmatrix 
+```
 
