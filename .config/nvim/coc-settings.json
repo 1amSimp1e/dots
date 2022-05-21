@@ -7,6 +7,44 @@
     "json",
     "javascriptreact",
     "typescript.tsx",
-    "graphql"
-  ]
+    "graphql",
+    "markdown"
+  ],
+  // Icons for warning sign:
+  "codeLens.enable": true,
+  "diagnostic.errorSign": "✘",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic.enableMessage": "jump",
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  // Icons for Coc-NVIM completions
+  "suggest.completionItemKindLabels": {
+    "keyword": "\uf1de", //  sliders
+    "variable": "\ue79b", //  isometric box
+    "value": "\uf89f", //  digits 123
+    "operator": "\u03a8", // Ψ greek letter psi
+    "constructor": "\uf0ad", //  wrench
+    "function": "\u0192", // ƒ latin small letter F
+    "reference": "\ufa46", // 渚 retweet symbol
+    "constant": "\uf8fe", //  greek letter pi
+    "method": "\uf09a", //  facebook "f"
+    "struct": "\ufb44", // פּ file tree
+    "class": "\uf0e8", //  hierarchy / site map
+    "interface": "\uf417", //  git commit / line interrupted by circle
+    "text": "\ue612", //  left-justified lines
+    "enum": "\uf02c", //  pair of tags
+    "enumMember": "\uf02b", //  tag
+    "module": "\uf40d", //  code file / page showing angle brackets
+    "color": "\ue22b", //  palette
+    "property": "\ue624", //  predator dots
+    "field": "\uf9be", // 料left-justified sorted lines
+    "unit": "\uf475", //  negative-space ellipsis
+    "event": "\ufacd", // 鬒clock alert / clock with exclamation mark
+    "file": "\uf15b", //  file / blank page
+    "folder": "\uf07b", //  folder
+    "snippet": "\ue60b", //  pair of curly braces
+    "typeParameter": "\uf728", //  file presentation box
+    "default": "\uf29c" //  question mark in circle
+  }
 }

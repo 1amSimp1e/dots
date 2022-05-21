@@ -1,65 +1,5 @@
-call plug#begin()
-" ============== PLUGINS iNSTALLATION ==================== "
-Plug 'fatih/vim-go', { 'tag': '*' }
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons'
-Plug 'frazrepo/vim-rainbow'
-Plug 'Rigellute/rigel'
-Plug 'scrooloose/nerdcommenter'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-Plug 'morhetz/gruvbox'
-Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'joshdick/onedark.vim', 
-Plug 'voldikss/vim-floaterm'
-Plug 'tpope/vim-commentary' "For commenting with gcc and gc 
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "Syntax Highlight for programming languages 
-Plug 'tpope/vim-fugitive'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'folke/lsp-colors.nvim'
-Plug 'hoob3rt/lualine.nvim'
-Plug 'kyazdani42/nvim-tree.lua'
-Plug 'kyazdani42/nvim-web-devicons'
-" Plug 'kyazdani42/nvim-tree.lua'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'lukas-reineke/indent-blankline.nvim'
-Plug 'folke/lsp-colors.nvim'
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-Plug 'lewis6991/gitsigns.nvim'
-Plug 'jiangmiao/auto-pairs'
-Plug 'audibleblink/hackthebox.vim'
-Plug 'sainnhe/sonokai'
-" ----- Auto completion ------ #
-   "nvim-cmp
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
-Plug 'hrsh7th/nvim-cmp'
-  " For vsnip users.
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
-  " For luasnip users.
-Plug 'L3MON4D3/LuaSnip'
-Plug 'saadparwaiz1/cmp_luasnip'
-  "LSP
-Plug 'onsails/lspkind.nvim'
-Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
-" Github Copilot
-Plug 'github/copilot.vim'
-
-"Unused Plugins enable if needed
-"Enable if you use vim-airline and vim-airline-themes"
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-"Coc Nvim:
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" ================== INITIALIZE PLUGIN SYSTEM  ==================== "
-call plug#end()
+"Imports
+runtime ./plug.vim
 set number
 set mouse=a 
 set smarttab
@@ -69,35 +9,37 @@ set shiftwidth=2
 set encoding=utf-8
 set scrolloff=10 
 set autoindent 
+set si
 set nowrap "No Wrap lines
 set title 
+set nuw=1
 "requires lua plugin config
 lua require('tuenhan')
 
 
-
-" ================ THEMES ================== "
+"================ THEMES ================== "
 " Sonokai
-if has ('termguicolors')
-	set termguicolors
-endif
-let g:sonokai_style = 'atlantis' "andromeda , shusia , maia
-let g:sonokai_better_performance = 1
-colorscheme sonokai
+" if has ('termguicolors')
+" 	set termguicolors
+" endif
+" let g:sonokai_style = 'atlantis' "andromeda , shusia , maia
+" let g:sonokai_better_performance = 1
+" colorscheme sonokai
+
 " Neosolarized Dark themes:
 " true color
-" if exists("&termguicolors") && exists("&winblend")
-"   syntax enable
-"   set termguicolors
-"   set winblend=0
-"   set wildoptions=pum
-"   set pumblend=5
-"   set background=dark
-"   " Use NeoSolarized
-"   let g:neosolarized_termtrans=1
-"   colorscheme NeoSolarized
-" endif
-" set exrc
+if exists("&termguicolors") && exists("&winblend")
+  syntax enable
+  set termguicolors
+  set winblend=0
+  set wildoptions=pum
+  set pumblend=5
+  set background=dark
+  " Use NeoSolarized
+  let g:neosolarized_termtrans=1
+  colorscheme NeoSolarized
+endif
+set exrc
 "======================= AUTO-PAIRS ==========================="
 let g:AutoPairsFlyMode = 0
 let g:AutoPairsShortcutBackInsert = '<M-b>'
@@ -209,19 +151,20 @@ let g:rainbow_load_separately = [
 
 let g:rainbow_guifgs = ['RoyalBlue3', 'DarkOrange3', 'DarkOrchid3', 'FireBrick']
 let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
-" -------------------- NVIM TREE CONFIG ----------------------- "
+" " -------------------- NVIM TREE CONFIG ----------------------- "
 nnoremap <C-n> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
+" More available functions:
+" NvimTreeOpen
+" NvimTreeClose
+" NvimTreeFocus
+" NvimTreeFindFileToggle
+" NvimTreeResize
+" NvimTreeCollapse
+" NvimTreeCollapseKeepBuffers
 
-
-" a list of groups can be found at `:help nvim_tree_highlight`
-highlight NvimTreeFolderIcon guibg=blue
 set termguicolors " this variable must be enabled for colors to be applied properly
-
-" a list of groups can be found at `:help nvim_tree_highlight`
-highlight NvimTreeFolderIcon guibg=blue
-
 
 " ================ TAB LINE CONFIGURATION ======================== "
 function MyTabLine()
@@ -295,7 +238,8 @@ let g:coc_global_extensions = [
   \ 'coc-prettier', 
   \ 'coc-json',
   \ 'coc-pyright',
-  \ ]
+	\ 'coc-vimtex',
+	\]
 " from readme
 " if hidden is not set, TextEdit might fail.
 set hidden " Some servers have issues with backup files, see #649 set nobackup set nowritebackup " Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
@@ -329,14 +273,7 @@ inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Or use `complete_info` if your vim support it, like:
 " inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
 
-" Use `[g` and `]g` to navigate diagnostics
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-
-" Remap keys for gotos
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
+" Use `[g` and `]g` to navigate diagnostics nmap <silent> [g <Plug>(coc-diagnostic-prev) nmap <silent> ]g <Plug>(coc-diagnostic-next) Remap keys for gotos nmap <silent> gd <Plug>(coc-definition) nmap <silent> gy <Plug>(coc-type-definition) nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window
@@ -416,50 +353,3 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
- "-------------------- NERD TREE CONFIG ----------------------- "
- "map <C-n> :NERDTreeToggle<CR>
- "" Devi_icons:
- "set encoding=UTF-8
- "" NerdTree_Git-Plugins:
- "let g:NERDTreeGitStatusIndicatorMapCustom = {
- "                \ 'Modified'  :'✹',
- "                \ 'Staged'    :'✚',
- "                \ 'Untracked' :'✭',
- "                \ 'Renamed'   :'➜',
- "                \ 'Unmerged'  :'═',
- "                \ 'Deleted'   :'✖',
- "                \ 'Dirty'     :'✗',
- "                \ 'Ignored'   :'☒',
- "                \ 'Clean'     :'✔︎',
- "                \ 'Unknown'   :'?',
- "                \ }
- "let g:NERDTreeGitStatusUseNerdFonts = 1 " you should install nerdfonts by yourself. default: 0
- "let g:NERDTreeIgnore = ['^node_modules$']
-
- "-------------------- VIM AIRLINE  ----------------------- "
-"let g:airline_powerline_fonts = 1
-"let g:airline_theme = 'base16'
-"" let g:airline_theme = 'solarized' 
-"let g:airline#extensions#tabline#enabled = 1 
-
-""True Symbol
-"if !exists('g:airline_symbols')
-"  let g:airline_symbols = {}
-"endif
-  
-""" powerline symbols
-"let g:airline_left_sep = ''
-"let g:airline_left_alt_sep = ''
-"let g:airline_right_sep = ''
-"let g:airline_right_alt_sep = ''
-"let g:airline_symbols.branch = ''
-"let g:airline_symbols.readonly = ''
-"let g:airline_symbols.linenr = 'ln'
-"let g:airline_symbols.maxlinenr = ''
-"let g:airline_symbols.dirty='⚡'
-"let g:airline_symbols.colnr='col'"
-
-"" Display the branch nameL:
-"let g:airline#extensions#hunks#enabled=0
-"let g:airline#extensions#hunks#coc_git = 1
-
