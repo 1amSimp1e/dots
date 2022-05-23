@@ -21,7 +21,6 @@ lualine.setup {
       -- Table of diagnostic sources, available sources are:
       --   'nvim_lsp', 'nvim_diagnostic', 'coc', 'ale', 'vim_lsp'.
 			{ 'diagnostics', sources = {"nvim_lsp"}, symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '} },
-			{'fileformat',symbols = {unix = '',dos = '',mac = ''} },
 			'encoding',
       'filetype'
     },

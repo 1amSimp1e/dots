@@ -23,7 +23,6 @@
   "diagnostic.virtualTextCurrentLineOnly": false,
   // Icons for Coc-NVIM completions
   "suggest.completionItemKindLabels": {
-    "buffer": "\ufb18", // ﬘ Buffers
     "around": "\ue796", //  Around
     "keyword": "\uf80a", //  key
     "variable": "\uf6a6", //  isometric box
@@ -40,7 +39,7 @@
     "text": "\ue612", //  left-justified lines
     "enum": "\uf02c", //  pair of tags
     "enumMember": "\uf02b", //  tag
-    "module": "\uf487", //  package icons
+    "module": "\uf8d6", //  package icons
     "color": "\ue22b", //  palette
     "property": "\ue624", //  predator dots
     "field": "\uf9be", // 料left-justified sorted lines
@@ -48,7 +47,7 @@
     "event": "\uf0e7", //  lightning bolt
     "file": "\uf15b", //  file / blank page
     "folder": "\uf07b", //  folder
-    "snippet": "\ue60b", //  pair of curly braces
+    "snippet": "\ufb0c", // ﬌ arrow directory arrow
     "snippets-source": "\ue60b", //  pair of curly braces
     "default": "\uf29c" //  question mark in circle
   }

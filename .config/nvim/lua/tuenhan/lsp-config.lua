@@ -1,5 +1,6 @@
 local nvim_lsp = require('lspconfig')
 local lsp_installer = require("nvim-lsp-installer")
+
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = { noremap=true, silent=true }
