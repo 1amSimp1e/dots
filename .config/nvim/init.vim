@@ -1,5 +1,34 @@
-"Imports
+" Imports
 runtime ./plug.vim
+if has("unix")
+  let s:uname = system("uname -s")
+  " Do Mac stuff
+  if s:uname == "Darwin\n"
+    runtime ./macos.vim
+  endif
+endif
+if has('win32')
+  runtime ./windows.vim
+endif
+
+runtime ./maps.vim
+
+" Suppress appending <PasteStart> and <PasteEnd> when pasting
+set t_BE=
+
+set nosc noru nosm
+" incremental substitution (neovim)
+if has('nvim')
+  set inccommand=split
+endif
+" ignorecase when searching
+set ignorecase
+set backspace =start,eol,indent
+set nocompatible
+set nobackup 
+set showcmd
+set cmdheight =1
+set expandtab
 set number
 set mouse=a 
 set smarttab
@@ -40,6 +69,13 @@ if exists("&termguicolors") && exists("&winblend")
   colorscheme NeoSolarized
 endif
 set exrc
+
+"======================= TELESCOPE ==========================="
+nnoremap  <silent> ;f <cmd>lua require('telescope.builtin').find_files()<cr>
+nnoremap  <silent> ;r <cmd>lua require('telescope.builtin').live_grep()<cr>
+nnoremap <silent> \\ <cmd>Telescope buffers<cr>
+nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
+
 "======================= AUTO-PAIRS ==========================="
 let g:AutoPairsFlyMode = 0
 let g:AutoPairsShortcutBackInsert = '<M-b>'
@@ -213,11 +249,6 @@ endfunction
 
 set tabline=%!MyTabLine()
 set showtabline=2
-"KeyMaps for tab "
-nnoremap <leader>t :tabnew<CR>
-nnoremap <leader><S-c> :tabclose<CR>
-nnoremap <S-l>     :tabnext<CR>
-nnoremap <S-h>     :tabprevious<CR>
 " ================ TERMINAL CONFIG ======================== "
 let g:terminal_cursor_style = 'bar'
 nnoremap <S-t> :terminal<CR>
@@ -239,6 +270,7 @@ let g:coc_global_extensions = [
   \ 'coc-json',
   \ 'coc-pyright',
 	\ 'coc-vimtex',
+  \ 'coc-markdownlint',
 	\]
 " from readme
 " if hidden is not set, TextEdit might fail.

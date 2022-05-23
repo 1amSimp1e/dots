@@ -1,5 +1,7 @@
 call plug#begin()
 Plug 'ryanoasis/vim-devicons'
+Plug 'williamboman/nvim-lsp-installer'
+Plug 'neovim/nvim-lspconfig'
 Plug 'frazrepo/vim-rainbow'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'voldikss/vim-floaterm'

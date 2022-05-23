@@ -1,13 +1,3 @@
--- Sonokai Themes 
--- require'lualine'.setup{
--- 	options = {
--- 		themes = 'sonokai'
-
-
--- 	} 
-
--- }
-
 local status, lualine = pcall(require, "lualine")
 if (not status) then return end
 
@@ -20,7 +10,7 @@ lualine.setup {
     disabled_filetypes = {}
   },
   sections = {
-    lualine_a = {'mode'},
+		lualine_a = {'mode'},
     lualine_b = {'branch'},
     lualine_c = {{
       'filename',
@@ -28,8 +18,11 @@ lualine.setup {
       path = 0 -- 0 = just filename, 1 = relative path, 2 = absolute path
     }},
     lualine_x = {
-      { 'diagnostics', sources = {"nvim_diagnostic"}, symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '} },
-      'encoding',
+      -- Table of diagnostic sources, available sources are:
+      --   'nvim_lsp', 'nvim_diagnostic', 'coc', 'ale', 'vim_lsp'.
+			{ 'diagnostics', sources = {"nvim_lsp"}, symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '} },
+			{'fileformat',symbols = {unix = '',dos = '',mac = ''} },
+			'encoding',
       'filetype'
     },
     lualine_y = {'progress'},
@@ -50,4 +43,14 @@ lualine.setup {
   tabline = {},
   extensions = {'fugitive'}
 }
+
+-- Sonokai Themes 
+-- require'lualine'.setup{
+-- 	options = {
+-- 		themes = 'sonokai'
+
+
+-- 	} 
+
+-- }
 
