@@ -4,8 +4,6 @@ Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
 Plug 'frazrepo/vim-rainbow'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-Plug 'voldikss/vim-floaterm'
-Plug 'tpope/vim-commentary' "For commenting with gcc and gc 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "Syntax Highlight for programming languages 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -20,9 +18,9 @@ Plug 'lewis6991/gitsigns.nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'github/copilot.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'akinsho/toggleterm.nvim',
 Plug 'sainnhe/sonokai'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'joshdick/onedark.vim', 
-" ================== INITIALIZE PLUGIN SYSTEM  ==================== "
 call plug#end()

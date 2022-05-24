@@ -23,13 +23,16 @@
   "diagnostic.virtualTextCurrentLineOnly": false,
   // Icons for Coc-NVIM completions
   "suggest.completionItemKindLabels": {
-    "around": "\ue796", //  Around
+    "Namespace": "\uf954", // 凜Name box
+    "around": "\uf955", // 凌Name box
+    "buffers": "﬘", // ﬘ Buffers icons
+    "TypeParameter": "\ue796", //  Around
     "keyword": "\uf80a", //  key
     "variable": "\uf6a6", //  isometric box
     "value": "\uf89f", //  digits 123
     "operator": "\ufb26", // ﬦ lambda symbol
     "constructor": "\uf0ad", //  wrench
-    "function": "\uf794", //  latin small letter F
+    "function": "",
     "reference": "\ufa46", // 渚 retweet symbol
     "constant": "\uf8fe", //  greek letter pi
     "method": "\u0192", // ƒ facebook "f"
@@ -38,7 +41,7 @@
     "interface": "\uf417", //  git commit / line interrupted by circle
     "text": "\ue612", //  left-justified lines
     "enum": "\uf02c", //  pair of tags
-    "enumMember": "\uf02b", //  tag
+    "enumMember": "\uf15d", //  alphabelt a to z (lowercase)
     "module": "\uf8d6", //  package icons
     "color": "\ue22b", //  palette
     "property": "\ue624", //  predator dots
@@ -48,7 +51,7 @@
     "file": "\uf15b", //  file / blank page
     "folder": "\uf07b", //  folder
     "snippet": "\ufb0c", // ﬌ arrow directory arrow
-    "snippets-source": "\ue60b", //  pair of curly braces
     "default": "\uf29c" //  question mark in circle
-  }
+  },
+  "Lua.telemetry.enable": true
 }

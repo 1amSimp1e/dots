@@ -13,6 +13,8 @@ endif
 
 runtime ./maps.vim
 
+" Imports Lua configurations
+lua require('tuenhan')
 " Suppress appending <PasteStart> and <PasteEnd> when pasting
 set t_BE=
 
@@ -22,6 +24,12 @@ if has('nvim')
   set inccommand=split
 endif
 " ignorecase when searching
+
+set conceallevel=0 " See `` in markdown files
+set t_Co=256 "Supports 256 Colors
+set hidden 
+set cmdheight=2 "more space for display messages"
+set pumheight=10 "Make pop up menu smaller"
 set ignorecase
 set backspace =start,eol,indent
 set nocompatible
@@ -42,9 +50,14 @@ set si
 set nowrap "No Wrap lines
 set title 
 set nuw=1
-"requires lua plugin config
-lua require('tuenhan')
-
+set background=dark
+set clipboard=unnamedplus "copy and paste between vim and everything else
+set updatetime=300 "Faster completion
+set timeoutlen=100 "By default is 1000 ms 
+set noshowmode " Dont't need to see things like --INSERT-- more
+set formatoptions=cro " stop new line continution of comments" 
+set nowritebackup " Don't make backup files recommed by COC NVIM
+set nobackup "Don't make backup files recommed by COC nvim 
 
 "================ THEMES ================== "
 " Sonokai
@@ -271,6 +284,7 @@ let g:coc_global_extensions = [
   \ 'coc-pyright',
 	\ 'coc-vimtex',
   \ 'coc-markdownlint',
+  \ 'coc-sumneko-lua',
 	\]
 " from readme
 " if hidden is not set, TextEdit might fail.
