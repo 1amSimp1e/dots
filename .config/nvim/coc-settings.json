@@ -23,35 +23,35 @@
   "diagnostic.virtualTextCurrentLineOnly": false,
   // Icons for Coc-NVIM completions
   "suggest.completionItemKindLabels": {
-    "Namespace": "\uf954", // 凜Name box
-    "around": "\uf955", // 凌Name box
-    "buffers": "﬘", // ﬘ Buffers icons
-    "TypeParameter": "\ue796", //  Around
-    "keyword": "\uf80a", //  key
-    "variable": "\uf6a6", //  isometric box
-    "value": "\uf89f", //  digits 123
-    "operator": "\ufb26", // ﬦ lambda symbol
-    "constructor": "\uf0ad", //  wrench
+    "Namespace": "凜",
+    "Around": "凌",
+    "buffers": "﬘",
+    "TypeParameter": "",
+    "keyword": "",
+    "variable": "",
+    "value": "",
+    "operator": "ﬦ",
+    "constructor": "",
     "function": "",
-    "reference": "\ufa46", // 渚 retweet symbol
-    "constant": "\uf8fe", //  greek letter pi
-    "method": "\u0192", // ƒ facebook "f"
-    "struct": "\ufb44", // פּ file tree
-    "class": "\uf0e8", //  hierarchy / site map
-    "interface": "\uf417", //  git commit / line interrupted by circle
-    "text": "\ue612", //  left-justified lines
-    "enum": "\uf02c", //  pair of tags
-    "enumMember": "\uf15d", //  alphabelt a to z (lowercase)
-    "module": "\uf8d6", //  package icons
-    "color": "\ue22b", //  palette
-    "property": "\ue624", //  predator dots
-    "field": "\uf9be", // 料left-justified sorted lines
-    "unit": "\uf475", //  negative-space ellipsis
-    "event": "\uf0e7", //  lightning bolt
-    "file": "\uf15b", //  file / blank page
-    "folder": "\uf07b", //  folder
-    "snippet": "\ufb0c", // ﬌ arrow directory arrow
-    "default": "\uf29c" //  question mark in circle
+    "reference": "",
+    "constant": "",
+    "method": "",
+    "struct": "",
+    "class": "",
+    "interface": "ﰮ",
+    "text": "",
+    "enum": "",
+    "enumMember": "",
+    "module": "",
+    "color": "",
+    "property": "",
+    "field": "",
+    "unit": "ﲽ",
+    "event": "",
+    "file": "",
+    "folder": "",
+    "snippet": "﬌",
+    "default": ""
   },
   "Lua.telemetry.enable": true
 }

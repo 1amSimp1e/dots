@@ -39,9 +39,9 @@ vim.diagnostic.config({
   severity_sort = false,
 })
 -- Icons for Lsp config diagnostic
---local signs = { Error = " ", Warn = "", Hint = "", Info = "" }
+local signs = { Error = " ", Warn = "", Hint = "", Info = "" }
 -- or 
-local signs = { Error = "", Warn = "", Hint = "", Info = "" }
+--local signs = { Error = "", Warn = "", Hint = "", Info = "" }
 for type, icon in pairs(signs) do
   local hl = "DiagnosticSign" .. type
   vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
