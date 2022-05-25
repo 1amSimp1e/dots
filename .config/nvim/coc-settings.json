@@ -10,6 +10,9 @@
     "graphql",
     "markdown"
   ],
+  // Python Configurations
+  "python.liniting.pylintEnabled": true,
+  "python.linting.enabled": true,
   // Disable COC NVIM diagnostic and replaced with lspconfig
   "diagnostic.enable": false,
   // Icons for diagnostic:
@@ -49,7 +52,7 @@
     "unit": "ﲽ",
     "event": "",
     "file": "",
-    "folder": "",
+    "folder": "",
     "snippet": "﬌",
     "default": ""
   },
