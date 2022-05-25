@@ -82,14 +82,6 @@ au! BufWritePost $MYVIMRC source %
 "Auto source when writing to init.vim alternatively you can run run :source $MYVIMRC
 
 "================ THEMES ================== "
-" Sonokai
-" if has ('termguicolors')
-" 	set termguicolors
-" endif
-" let g:sonokai_style = 'atlantis' "andromeda , shusia , maia
-" let g:sonokai_better_performance = 1
-" colorscheme sonokai
-
 " Neosolarized Dark themes:
 " true color
 if exists("&termguicolors") && exists("&winblend")
@@ -104,3 +96,12 @@ if exists("&termguicolors") && exists("&winblend")
   colorscheme NeoSolarized
 endif
 set exrc
+
+" Sonokai
+" if has ('termguicolors')
+" 	set termguicolors
+" endif
+" let g:sonokai_style = 'atlantis' "andromeda , shusia , maia
+" let g:sonokai_better_performance = 1
+" colorscheme sonokai
+
