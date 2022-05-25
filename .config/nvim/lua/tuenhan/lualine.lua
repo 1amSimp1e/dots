@@ -22,9 +22,19 @@ lualine.setup {
       --   'nvim_lsp', 'nvim_diagnostic', 'coc', 'ale', 'vim_lsp'.
 			{ 'diagnostics', sources = {"nvim_lsp"}, symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '} },
 			'encoding',
-      'filetype'
+      'filetype',
+      {
+        'fileformat',
+        symbols = {
+          unix = '',
+          dos = '',
+          mac = '',
+        }
+      },
     },
-    lualine_y = {'progress'},
+    lualine_y = {
+      'progress'
+    },
     lualine_z = {'location'}
   },
   inactive_sections = {
@@ -43,13 +53,12 @@ lualine.setup {
   extensions = {'fugitive'}
 }
 
--- Sonokai Themes 
+-- Sonokai Themes
 -- require'lualine'.setup{
 -- 	options = {
 -- 		themes = 'sonokai'
 
 
--- 	} 
+-- 	}
 
 -- }
-

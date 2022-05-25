@@ -32,38 +32,92 @@ local on_attach = function(client, bufnr)
   vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 end
 vim.diagnostic.config({
+  -- Disable the virtual text
   virtual_text = true,
-  signs = true,
+  signs = {
+    active = true
+  },
   underline = true,
   update_in_insert = false,
   severity_sort = false,
+  float = {
+    focusable = false,
+    style = "minimal",
+    source = "always",
+    header = "",
+    prefix = "",
+  }
 })
--- Icons for Lsp config diagnostic
-local signs = { Error = " ", Warn = "", Hint = "", Info = "" }
+--Customize Icons for Lsp config diagnostic
+--local signs = { Error = " ", Warn = "", Hint = "", Info = "" }
 -- or 
---local signs = { Error = "", Warn = "", Hint = "", Info = "" }
+local signs = { Error = "", Warn = "", Hint = "", Info = "" }
 for type, icon in pairs(signs) do
   local hl = "DiagnosticSign" .. type
   vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
 end
 
--- LSP installer 
+-- LSP installer
 lsp_installer.setup{}
 
 nvim_lsp.pyright.setup {
-	on_attach = on_attach
+	on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "python" },
+  settings = {
+    python = {
+      analysis = {
+        autoSearchPaths = true,
+        diagnosticMode = "workspace",
+        typeCheckingMode = "off"
+      }
+    }
+  }
 }
 
 nvim_lsp.clangd.setup{
-	on_attach = on_attach
+	on_attach = on_attach,
+  capabilities = capabilities
 }
 
 nvim_lsp.sumneko_lua.setup{
-	on_attach = on_attach
+	on_attach = on_attach,
+  capabilities = capabilities,
+  settings = {
+    Lua = {
+      diagnostic = {
+        globals = { "vim" },
+      },
+      workspace = {
+        -- make the server aware of Neovim runtime files 
+        library ={
+          [vim.fn.expand "$VIMRUNTIME/lua"] = true,
+          [vim.fn.stdpath "config" .. "/lua"] = true,
+        },
+      },
+      -- Do not send telemtry data containing a randomized but uniqure identifier
+      telemtry = {
+        enable = false,
+      },
+    }
+  }
 }
 
-nvim_lsp.prosemd_lsp.setup{
-  on_attach = on_attach
+
+nvim_lsp.grammarly.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "markdown" },
+}
+
+nvim_lsp.vimls.setup{
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+nvim_lsp.jsonls.setup{
+  on_attach = on_attach,
+  capabilities = capabilities
 }
 
 -- icons 
@@ -77,3 +131,11 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
     }
   }
 )
+
+vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover,{
+  border = 'rounded',
+})
+
+vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help,{
+  border = 'rounded',
+})
