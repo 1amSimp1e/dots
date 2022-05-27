@@ -120,6 +120,12 @@ nvim_lsp.jsonls.setup{
   capabilities = capabilities
 }
 
+nvim_lsp.prosemd_lsp.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { "markdown"}
+
+}
 -- icons 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {
