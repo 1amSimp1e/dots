@@ -8,7 +8,8 @@
     "javascriptreact",
     "typescript.tsx",
     "graphql",
-    "markdown"
+    "markdown",
+    "css"
   ],
   "python.liniting.pylintEnabled": true,
   "python.linting.enabled": true,
@@ -26,8 +27,8 @@
   "diagnostic.virtualTextCurrentLineOnly": false,
   "suggest.completionItemKindLabels": {
     "Namespace": "凜",
-    "Around": "凌",
-    "buffers": "﬘",
+    "around": "凌",
+    "buffer": "﬘",
     "TypeParameter": "",
     "keyword": "",
     "variable": "",
@@ -53,7 +54,10 @@
     "file": "",
     "folder": "",
     "snippet": "﬌",
-    "default": ""
+    "tabnine": "",
+    "default": "",
+    "snippet-source": "",
+    "emoji": ""
   },
   "Lua.telemetry.enable": true
 }
