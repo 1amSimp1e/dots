@@ -1,3 +1,10 @@
+" ____  _            __     ___
+"|  _ \| |_   _  __ _\ \   / (_)_ __ ___
+"| |_) | | | | |/ _` \ \ / /| | '_ ` _ \
+"|  __/| | |_| | (_| |\ V / | | | | | | |
+"|_|   |_|\__,_|\__, (_\_/  |_|_| |_| |_|
+"               |___/
+
 call plug#begin()
 Plug 'ryanoasis/vim-devicons'
 Plug 'williamboman/nvim-lsp-installer'
