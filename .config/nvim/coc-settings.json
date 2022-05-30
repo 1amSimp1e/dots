@@ -13,9 +13,6 @@
   ],
   "python.liniting.pylintEnabled": true,
   "python.linting.enabled": true,
-  "coc-actions.hideCursor": true,
-  "coc-actions.showActionKind": true,
-  "coc-actions.useCursorLine": false,
   "diagnostic.enable": false,
   "codeLens.enable": true,
   "diagnostic.errorSign": "✘",
@@ -57,7 +54,10 @@
     "tabnine": "",
     "default": "",
     "snippet-source": "",
-    "emoji": ""
+    "emoji": "",
+    "number": "",
+    "boolean": "",
+    "null": ""
   },
   "Lua.telemetry.enable": true
 }

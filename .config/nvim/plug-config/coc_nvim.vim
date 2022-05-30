@@ -13,8 +13,8 @@ let g:coc_global_extensions = [
   \ 'coc-vimlsp',
   \ 'coc-tabnine',
   \ 'coc-lightbulb',
-  \ 'coc-actions',
 	\]
+
 
 " from readme
 " if hidden is not set, TextEdit might fail.
