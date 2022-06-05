@@ -111,3 +111,17 @@ set exrc
 " let g:sonokai_better_performance = 1
 " colorscheme sonokai
 
+"Gruv Box themes
+" if has ('termguicolors')
+"   set termguicolors
+"   colorscheme gruvbox
+
+" Dracula Themes:
+" if has ('termguicolors')
+"  set termguicolors
+"  colorscheme dracula
+
+" One Dark Themes: 
+" if has ('termguicolors')
+  " set termguicolors
+  " colorscheme onedark

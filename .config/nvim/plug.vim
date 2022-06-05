@@ -25,7 +25,6 @@ Plug 'github/copilot.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'akinsho/toggleterm.nvim',
 Plug 'norcalli/nvim-colorizer.lua',
-Plug 'tpope/vim-commentary',
 Plug 'sainnhe/sonokai'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim', { 'as': 'dracula' }

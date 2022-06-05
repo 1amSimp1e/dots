@@ -1,6 +1,5 @@
 local nvim_lsp = require('lspconfig')
 local lsp_installer = require("nvim-lsp-installer")
-
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = { noremap=true, silent=true }
@@ -124,8 +123,11 @@ nvim_lsp.prosemd_lsp.setup{
   on_attach = on_attach,
   capabilities = capabilities,
   filetypes = { "markdown"}
-
 }
+
+
+
+
 -- icons 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {
