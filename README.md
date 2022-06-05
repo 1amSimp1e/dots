@@ -59,6 +59,7 @@ sudo apt install neovim
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
 - [Gnome Shell Extensions](https://extensions.gnome.org/)
   - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
+  - [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Load shell themes from user directories
   - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
   - [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/): The simple color picker for gnome shell
   - [Compiz alike magic lamp effect](https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/): Magic lamp effect alike the macOS minimize effect
@@ -76,6 +77,7 @@ sudo apt install neovim
   - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows for the minimalist in windows
   - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
   - [Workspace bar](https://extensions.gnome.org/extension/3851/workspaces-bar/): Replace the Activites button by all current workspaces buttons
+  - [ddterm](https://extensions.gnome.org/extension/3780/ddterm/): Drop down terminal extension for gnome shell
 - Gnome tweaks (for apply themes and icons ) installation:
 
 ```fish
