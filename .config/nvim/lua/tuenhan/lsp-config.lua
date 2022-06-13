@@ -1,5 +1,6 @@
 local nvim_lsp = require('lspconfig')
 local lsp_installer = require("nvim-lsp-installer")
+local protocol = require("vim.lsp.protocol")
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 local opts = { noremap=true, silent=true }
@@ -29,7 +30,41 @@ local on_attach = function(client, bufnr)
   vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
   vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
   vim.api.nvim_buf_set_keymap(bufnr, 'n', '<space>f', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
+
+-- protool symbol kind {}
+protocol.CompletionItemKind = {
+  '', -- Text
+  '', -- Method
+  '', -- Function
+  '', -- Constructor
+  '', -- Field
+  '', -- Variable
+  '', -- Class
+  'ﰮ', -- Interface
+  '', -- Module
+  '', -- Property
+  '', -- Unit
+  '', -- Value
+  '', -- Enum
+  '', -- Keyword
+  '﬌', -- Snippet
+  '', -- Color
+  '', -- File
+  '', -- Reference
+  '', -- Folder
+  '', -- EnumMember
+  '', -- Constant
+  '', -- Struct
+  '', -- Event
+  'ﬦ', -- Operator
+  '', -- TypeParameter
+}
 end
+-- set up completions:
+local capabilities = require('cmp_nvim_lsp').update_capabilities(
+vim.lsp.protocol.make_client_capabilities()
+)
+
 vim.diagnostic.config({
   -- Disable the virtual text
   virtual_text = true,
@@ -102,12 +137,12 @@ nvim_lsp.sumneko_lua.setup{
   }
 }
 
-
-nvim_lsp.grammarly.setup{
+nvim_lsp.marksman.setup{
   on_attach = on_attach,
   capabilities = capabilities,
-  filetypes = { "markdown" },
+  filetypes = { "markdown" }
 }
+
 
 nvim_lsp.vimls.setup{
   on_attach = on_attach,
@@ -118,15 +153,6 @@ nvim_lsp.jsonls.setup{
   on_attach = on_attach,
   capabilities = capabilities
 }
-
-nvim_lsp.prosemd_lsp.setup{
-  on_attach = on_attach,
-  capabilities = capabilities,
-  filetypes = { "markdown"}
-}
-
-
-
 
 -- icons 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
