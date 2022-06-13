@@ -11,8 +11,8 @@ let g:coc_global_extensions = [
   \ 'coc-markdownlint',
   \ 'coc-sumneko-lua',
   \ 'coc-vimlsp',
-  \ 'coc-tabnine',
   \ 'coc-lightbulb',
+  \ 'coc-markdownlint',
 	\]
 
 
