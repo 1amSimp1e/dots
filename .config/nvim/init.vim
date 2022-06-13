@@ -28,7 +28,7 @@ source ~/.config/nvim/plug-config/autopairs.vim
   "Brakets_colorizer
 source ~/.config/nvim/plug-config/brackets_colorizer.vim
   "Coc NVIM
-source ~/.config/nvim/plug-config/coc_nvim.vim
+"source ~/.config/nvim/plug-config/coc_nvim.vim
   "Telescope
 source ~/.config/nvim/plug-config/telescope.vim
   "MarkdownPreview 
@@ -102,6 +102,41 @@ if exists("&termguicolors") && exists("&winblend")
   colorscheme NeoSolarized
 endif
 set exrc
+let &t_ut=''
+" highlight completion for cmp
+highlight clear Pmenu
+highlight Pmenu cterm=inverse
+highlight clear PmenuSel
+
+highlight! link CmpPmenu         Pmenu
+highlight! link CmpPmenuBorder   Pmenu
+highlight! link PmenuSel       Pmenu
+
+highlight! CmpPmenu         guibg=#7c8c8e 
+highlight! CmpItemAbbr          guifg=#152a2d
+highlight! CmpPmenuBorder   guibg=#7c8c8e
+highlight! PmenuSel         guibg=#93a1a1
+highlight! CmpPmenu         guifg=#1e393d
+
+highlight!      CmpItemKindModule        guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindClass         guibg=NONE guifg=#152a2d
+highlight! link CmpItemKindStruct        CmpItemKindClass
+highlight!      CmpItemKindVariable      guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindProperty      guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindFunction      guibg=NONE guifg=#152a2d
+highlight! link CmpItemKindConstructor   CmpItemKindFunction
+highlight! link CmpItemKindMethod        CmpItemKindFunction
+highlight!      CmpItemKindKeyword       guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindText          guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindUnit          guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindConstant      guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindSnippet       guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindColor         guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindFile          guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindReference     guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindFolder        guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindConstant      guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindTypeParameter guibg=NONE guifg=#152a2d
 
 " Sonokai
 " if has ('termguicolors')
