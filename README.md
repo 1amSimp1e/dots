@@ -35,6 +35,38 @@ sudo apt install neovim
 
 - [Tree-Sitter](https://github.com/nvim-treesitter/nvim-treesitter): Code Syntax highlight supports mutiples languages
 
+- Get healthy: 
+  - Open nvim and enter the following: 
+  ```
+  :checkhealth
+  ```
+  - You probably notice you don't have support for copy and paste also that python and node haven't been setup 
+     - On Ubuntu: 
+     ```
+     sudo apt install xsel
+     ```
+     - On Arch: 
+     ```
+     sudo pacman -S xsel
+     ```
+  - Next we need to install python support (Node is optional)
+    - Neovim python support: 
+    ```
+    pip install pynvim 
+    # or 
+    pip3 install pynvim
+    ```
+    - Neovim Node support 
+    ```
+    npm i -g neovim
+    ```
+- Other optional package: 
+```
+# Code Format 
+npm install -g prettier 
+pip3 install autopep8 
+pip3 install black
+```
 ## Fish Shell Setups <a name = "fish"></a>:
 
 - [Fish Shell](https://github.com/nvim-treesitter/nvim-treesitter): a smart and user-friendly command line
