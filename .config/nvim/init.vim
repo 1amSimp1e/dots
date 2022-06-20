@@ -40,106 +40,124 @@ source ~/.config/nvim/plug-config/tab_line.vim
   "Prettier 
 source ~/.config/nvim/plug-config/prettier.vim
 
-" Suppress appending <PasteStart> and <PasteEnd> when pasting
-set t_BE=
 
-set nosc noru nosm
-" incremental substitution (neovim)
-if has('nvim')
-  set inccommand=split
-endif
-" ignorecase when searching
+syntax enable                " Enable the syntax hightlighting
+set hidden                   "require to keep multiple buffers open multiple buffers"
+set nowrap                   "No Wrap lines
+set encoding=utf-8           "The encoding displayed
+set pumheight=10             "Make pop up menu smaller"
+set fileencoding=utf-8       "The encoding written to file 
+set ruler                    "Show the cursors position all the time
+set cmdheight=2              "more space for display messages"
+set iskeyword+=-             "Treat dash separated words as a word text object
+set mouse=a                  "Enable your mouse 
+set t_co=256                 "Supports 256 colors 
+set conceallevel=0           " See the `` markdown file
+set tabstop=2                "Insert 2 spaces for tab 
+set shiftwidth=2             "change the numder of spaces characters inserted for indentation
+set smarttab                 "Makes tabbing smarter will realize you have 2 vs 4 "
+set expandtab                "Convert tab to space
+set smartindent              "Makes indent smarter
+set autoindent               "Good auto indent 
+set number                   "Enable the line numbers
+set cursorline               "Enable hightlight current line 
+set background=dark          "Tell vim what's the color of the background should look like
+set showtabline=2            "Always display tab 
+set noshowmode               "Don't see things like --INSERT-- anymore
+set updatetime=300           "Faster completions 
+set timeoutlen=100           "By default timeoutlen is 1000ms 
+"set formatoptions-=cro       "Stoping newline continue of comments 
+autocmd VimEnter * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+set clipboard=unnamedplus    "Copy and paste between vim and everything else 
 
-
-set conceallevel=0 " See `` in markdown files
-set t_Co=256 "Supports 256 Colors
-set hidden "require to keep multiple buffers open multiple buffers"
-set cmdheight=2 "more space for display messages"
-set pumheight=10 "Make pop up menu smaller"
-set ignorecase
-set backspace =start,eol,indent
-set nocompatible
-set nobackup 
-set showcmd
-set cmdheight =1
-set expandtab
-set number
-set mouse=a 
-set smarttab
-set cindent
-set tabstop=2
-set shiftwidth=2
-set encoding=utf-8
-set scrolloff=10 
-set autoindent 
-set si
-set nowrap "No Wrap lines
-set title 
-set nuw=1
-set background=dark
-set clipboard=unnamedplus "copy and paste between vim and everything else
-set updatetime=300 "Faster completion
-set timeoutlen=100 "By default is 1000 ms 
-set noshowmode " Dont't need to see things like --INSERT-- more
-set formatoptions=cro " stop new line continution of comments" 
-set nowritebackup " Don't make backup files recommed by COC NVIM
-set nobackup "Don't make backup files recommed by COC nvim 
-set cursorline
 au! BufWritePost $MYVIMRC source % 
 "Auto source when writing to init.vim alternatively you can run run :source $MYVIMRC
 
 "================ THEMES ================== "
-" Neosolarized Dark themes:
-" true color
-if exists("&termguicolors") && exists("&winblend")
-  syntax enable
-  set termguicolors
-  set winblend=0
-  set wildoptions=pum
-  set pumblend=5
-  set background=dark
-  " Use NeoSolarized
+" Neo Solarized themes:
+if has ('termguicolors')
   let g:neosolarized_termtrans=1
-  colorscheme NeoSolarized
+  set termguicolors
 endif
-set exrc
-let &t_ut=''
-
-" highlight completion for cmp
+colorscheme NeoSolarized
 highlight clear Pmenu
 highlight Pmenu cterm=inverse
-highlight clear PmenuSel
+"highlight clear PmenuSel
 
-highlight! link CmpPmenu         Pmenu
-highlight! link CmpPmenuBorder   Pmenu
-highlight! link PmenuSel       Pmenu
+" Neosolarized Dark themes options 1:
+" true color
+"if exists("&termguicolors") && exists("&winblend")
+  "syntax enable
+  "set termguicolors
+  "set winblend=0
+  "set wildoptions=pum
+  "set pumblend=5
+  "set background=dark
+  "" Use NeoSolarized
+  "let g:neosolarized_termtrans=1
+  "colorscheme NeoSolarized
+"endif
+"set exrc
+"let &t_ut=''
+" highlight completion for cmp
+"highlight clear Pmenu
+"highlight Pmenu cterm=inverse
+"highlight clear PmenuSel
 
-highlight! CmpPmenu         guibg=#7c8c8e 
-highlight! CmpItemAbbr          guifg=#152a2d
-highlight! CmpPmenuBorder   guibg=#7c8c8e
-highlight! PmenuSel         guibg=#93a1a1
-highlight! CmpPmenu         guifg=#1e393d
+"highlight! link CmpPmenu         Pmenu
+"highlight! link CmpPmenuBorder   Pmenu
+"highlight! link PmenuSel       Pmenu
 
-highlight!      CmpItemKindModule        guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindClass         guibg=NONE guifg=#152a2d
+"highlight! CmpPmenu         guibg=#7c8c8e 
+"highlight! CmpItemAbbr          guifg=#152a2d
+"highlight! CmpPmenuBorder   guibg=#7c8c8e
+"highlight! PmenuSel         guibg=#93a1a1
+"highlight! CmpPmenu         guifg=#1e393d
+
+"highlight!      CmpItemKindModule        guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindClass         guibg=NONE guifg=#152a2d
+"highlight! link CmpItemKindStruct        CmpItemKindClass
+"highlight!      CmpItemKindVariable      guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindProperty      guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindFunction      guibg=NONE guifg=#152a2d
+"highlight! link CmpItemKindConstructor   CmpItemKindFunction
+"highlight! link CmpItemKindMethod        CmpItemKindFunction
+"highlight!      CmpItemKindKeyword       guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindText          guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindUnit          guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindConstant      guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindSnippet       guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindColor         guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindFile          guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindReference     guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindFolder        guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindConstant      guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindTypeParameter guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindOperator guibg=NONE guifg=#152a2d
+
+highlight!      CmpItemKindModule        guibg=NONE guifg=#727a81
+highlight!      CmpItemKindClass         guibg=NONE guifg=#727a81
 highlight! link CmpItemKindStruct        CmpItemKindClass
-highlight!      CmpItemKindVariable      guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindProperty      guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindFunction      guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindVariable      guibg=NONE guifg=#727a81
+highlight!      CmpItemKindProperty      guibg=NONE guifg=#727a81
+highlight!      CmpItemKindFunction      guibg=NONE guifg=#727a81
 highlight! link CmpItemKindConstructor   CmpItemKindFunction
 highlight! link CmpItemKindMethod        CmpItemKindFunction
-highlight!      CmpItemKindKeyword       guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindText          guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindUnit          guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindConstant      guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindSnippet       guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindColor         guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindFile          guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindReference     guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindFolder        guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindConstant      guibg=NONE guifg=#152a2d
-highlight!      CmpItemKindTypeParameter guibg=NONE guifg=#152a2d
+highlight!      CmpItemKindKeyword       guibg=NONE guifg=#727a81
+highlight!      CmpItemKindText          guibg=NONE guifg=#727a81
+highlight!      CmpItemKindUnit          guibg=NONE guifg=#727a81
+highlight!      CmpItemKindConstant      guibg=NONE guifg=#727a81
+highlight!      CmpItemKindSnippet       guibg=NONE guifg=#727a81
+highlight!      CmpItemKindColor         guibg=NONE guifg=#727a81
+highlight!      CmpItemKindFile          guibg=NONE guifg=#727a81
+highlight!      CmpItemKindReference     guibg=NONE guifg=#727a81
+highlight!      CmpItemKindFolder        guibg=NONE guifg=#727a81
+highlight!      CmpItemKindConstant      guibg=NONE guifg=#727a81
+highlight!      CmpItemKindTypeParameter guibg=NONE guifg=#727a81
 highlight!      CmpItemKindOperator guibg=NONE guifg=#152a2d
+
+
+
 
 " Sonokai
 " if has ('termguicolors')
@@ -163,3 +181,25 @@ highlight!      CmpItemKindOperator guibg=NONE guifg=#152a2d
 " if has ('termguicolors')
   " set termguicolors
   " colorscheme onedark
+
+" Everforest Themes:
+
+"if has('termguicolors')
+  "set termguicolors
+"endif
+
+"" For dark version.
+"set background=dark
+
+"" For light version.
+""set background=light
+
+"" Set contrast.
+"" This configuration option should be placed before `colorscheme everforest`.
+"" Available values: 'hard', 'medium'(default), 'soft'
+"let g:everforest_background = 'hard'
+
+"" For better performance
+"let g:everforest_better_performance = 1
+
+"colorscheme everforest
