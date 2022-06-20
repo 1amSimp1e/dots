@@ -33,6 +33,7 @@ Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
 Plug 'f3fora/cmp-spell',
 Plug 'hrsh7th/cmp-nvim-lua',
 Plug 'hrsh7th/cmp-emoji',
+Plug 'ray-x/lsp_signature.nvim'
 Plug 'akinsho/toggleterm.nvim',
 Plug 'jose-elias-alvarez/null-ls.nvim',
 Plug 'norcalli/nvim-colorizer.lua',
@@ -42,6 +43,9 @@ Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
 Plug 'sainnhe/sonokai'
+Plug 'marko-cerovac/material.nvim'
+Plug 'sainnhe/everforest'
+
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'joshdick/onedark.vim', 
