@@ -10,10 +10,12 @@ cmp.setup({
   window = {
     documentation = {
       winhighlight = 'Normal:CmpPmenu,CursorLine:PmenuSel,FloatBorder:CmpPmenuBorder',
-      scrollbar = '',
+      scrollbar = '|',
+      border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
     },
     completion = {
       winhighlight = 'Normal:CmpPmenu,FloatBorder:CmpPmenuBorder,CursorLine:PmenuSel,Search:None',
+      border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
     }
   },
   mapping = cmp.mapping.preset.insert({
