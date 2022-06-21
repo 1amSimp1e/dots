@@ -95,7 +95,9 @@ pip3 install black
   - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
   - [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/): The simple color picker for gnome shell
   - [Compiz alike magic lamp effect](https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/): Magic lamp effect alike the macOS minimize effect
+  - [Compiz window effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/): Compiz wobbly windows effect like a kelly windows btw
   - [Dash to Dock Lite ](https://extensions.gnome.org/extension/4994/dash2dock-lite/): A Minimal dock alike macOS dock
+  - [Dash to dock for COSMIC](https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/): A dosh to dock fork for the COSMIC/GNOME shell
   - [Extension List](https://extensions.gnome.org/extension/3088/extension-list/): A Simple Gnome shell extension manager in the top panel
   - [Hide top bar](https://extensions.gnome.org/extension/545/hide-top-bar/): Hide the top bar to maximize the screen space
   - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/): SImple tweak tools to customize the gnome shell and disable some UI Features
