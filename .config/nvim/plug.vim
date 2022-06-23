@@ -20,7 +20,7 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'github/copilot.vim'
+"Plug 'github/copilot.vim'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
@@ -33,6 +33,7 @@ Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
 Plug 'f3fora/cmp-spell',
 Plug 'hrsh7th/cmp-nvim-lua',
 Plug 'hrsh7th/cmp-emoji',
+Plug 'APZelos/blamer.nvim'
 Plug 'ray-x/lsp_signature.nvim'
 Plug 'akinsho/toggleterm.nvim',
 Plug 'jose-elias-alvarez/null-ls.nvim',

@@ -39,7 +39,8 @@ source ~/.config/nvim/plug-config/nvim_tree.vim
 source ~/.config/nvim/plug-config/tab_line.vim
   "Prettier 
 source ~/.config/nvim/plug-config/prettier.vim
-
+  "Blammer
+source ~/.config/nvim/plug-config/blammer.vim
 
 syntax enable                " Enable the syntax hightlighting
 set hidden                   "require to keep multiple buffers open multiple buffers"
