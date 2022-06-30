@@ -20,8 +20,6 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'jiangmiao/auto-pairs'
-"Plug 'github/copilot.vim'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
@@ -29,7 +27,6 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'L3MON4D3/LuaSnip'
 Plug 'onsails/lspkind-nvim'
-Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
 Plug 'f3fora/cmp-spell',
 Plug 'hrsh7th/cmp-nvim-lua',
 Plug 'hrsh7th/cmp-emoji',
@@ -43,11 +40,19 @@ Plug 'lukas-reineke/cmp-under-comparator'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install --frozen-lockfile --production',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
-Plug 'sainnhe/sonokai'
-Plug 'marko-cerovac/material.nvim'
-Plug 'sainnhe/everforest'
+Plug 'kosayoda/nvim-lightbulb'
+Plug 'antoinemadec/FixCursorHold.nvim'
 
+"Plug 'github/copilot.vim'
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
+
+" Multiple Colorscheme
+Plug 'sainnhe/sonokai'
+Plug 'sainnhe/everforest'
+Plug 'sainnhe/gruvbox-material'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'joshdick/onedark.vim', 
+
 call plug#end()
