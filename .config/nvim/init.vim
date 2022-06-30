@@ -49,7 +49,7 @@ set encoding=utf-8           "The encoding displayed
 set pumheight=10             "Make pop up menu smaller"
 set fileencoding=utf-8       "The encoding written to file 
 set ruler                    "Show the cursors position all the time
-set cmdheight=2              "more space for display messages"
+"set cmdheight=2              "more space for display messages"
 set iskeyword+=-             "Treat dash separated words as a word text object
 set mouse=a                  "Enable your mouse 
 set t_co=256                 "Supports 256 colors 
