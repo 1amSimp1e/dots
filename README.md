@@ -131,6 +131,13 @@ sudo apt install kitty
 - [FlatPak](https://www.flatpak.org/setup/): Package manager for Linux
   - [Kooha](https://flathub.org/apps/details/io.github.seadve.Kooha): Elegantly screen recorder
 - [Howdy](https://github.com/boltgolt/howdy): Windows Hello Style authentication for Linux
+- [Fusuma](https://github.com/iberianpig/fusuma): Multitouch gesture recognizer. This makes your linux able to recognize swipes or pinches 
+  - **How to make it runs when turn on your machine**: 
+     - Go to start up application
+     - Then click to add:
+       - Name section: fusuma
+       - Command section: fusuma
+
 
 ## Terminal Tools
 - [Pipe.sh](https://github.com/pipeseroni/pipes.sh): Animated pipes terminal screeen saver
