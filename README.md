@@ -128,9 +128,14 @@ sudo apt update && sudo apt upgrade
 sudo apt install kitty
 ```
 
+- [FlatPak](https://www.flatpak.org/setup/): Package manager for Linux
+  - [Kooha](https://flathub.org/apps/details/io.github.seadve.Kooha): Elegantly screen recorder
 - [Howdy](https://github.com/boltgolt/howdy): Windows Hello Style authentication for Linux
+
+## Terminal Tools
 - [Pipe.sh](https://github.com/pipeseroni/pipes.sh): Animated pipes terminal screeen saver
 - [Cmatrix](https://github.com/abishekvashok/cmatrix) Installations:
+
 
 ```fish
 sudo apt update && sudo apt upgrade
