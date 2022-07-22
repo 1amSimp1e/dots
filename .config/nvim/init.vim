@@ -76,13 +76,13 @@ au! BufWritePost $MYVIMRC source %
 
 "================ THEMES ================== "
 " Neo Solarized themes:
-if has ('termguicolors')
-  let g:neosolarized_termtrans=1
-  set termguicolors
-endif
-colorscheme NeoSolarized
-highlight clear Pmenu
-highlight Pmenu cterm=inverse
+"if has ('termguicolors')
+  "let g:neosolarized_termtrans=1
+  "set termguicolors
+"endif
+"colorscheme NeoSolarized
+"highlight clear Pmenu
+"highlight Pmenu cterm=inverse
 "highlight clear PmenuSel
 
 " Neosolarized Dark themes options 1:
@@ -136,26 +136,26 @@ highlight Pmenu cterm=inverse
 "highlight!      CmpItemKindTypeParameter guibg=NONE guifg=#152a2d
 "highlight!      CmpItemKindOperator guibg=NONE guifg=#152a2d
 
-highlight!      CmpItemKindModule        guibg=NONE guifg=#727a81
-highlight!      CmpItemKindClass         guibg=NONE guifg=#727a81
-highlight! link CmpItemKindStruct        CmpItemKindClass
-highlight!      CmpItemKindVariable      guibg=NONE guifg=#727a81
-highlight!      CmpItemKindProperty      guibg=NONE guifg=#727a81
-highlight!      CmpItemKindFunction      guibg=NONE guifg=#727a81
-highlight! link CmpItemKindConstructor   CmpItemKindFunction
-highlight! link CmpItemKindMethod        CmpItemKindFunction
-highlight!      CmpItemKindKeyword       guibg=NONE guifg=#727a81
-highlight!      CmpItemKindText          guibg=NONE guifg=#727a81
-highlight!      CmpItemKindUnit          guibg=NONE guifg=#727a81
-highlight!      CmpItemKindConstant      guibg=NONE guifg=#727a81
-highlight!      CmpItemKindSnippet       guibg=NONE guifg=#727a81
-highlight!      CmpItemKindColor         guibg=NONE guifg=#727a81
-highlight!      CmpItemKindFile          guibg=NONE guifg=#727a81
-highlight!      CmpItemKindReference     guibg=NONE guifg=#727a81
-highlight!      CmpItemKindFolder        guibg=NONE guifg=#727a81
-highlight!      CmpItemKindConstant      guibg=NONE guifg=#727a81
-highlight!      CmpItemKindTypeParameter guibg=NONE guifg=#727a81
-highlight!      CmpItemKindOperator guibg=NONE guifg=#152a2d
+"highlight!      CmpItemKindModule        guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindClass         guibg=NONE guifg=#727a81
+"highlight! link CmpItemKindStruct        CmpItemKindClass
+"highlight!      CmpItemKindVariable      guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindProperty      guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindFunction      guibg=NONE guifg=#727a81
+"highlight! link CmpItemKindConstructor   CmpItemKindFunction
+"highlight! link CmpItemKindMethod        CmpItemKindFunction
+"highlight!      CmpItemKindKeyword       guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindText          guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindUnit          guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindConstant      guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindSnippet       guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindColor         guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindFile          guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindReference     guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindFolder        guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindConstant      guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindTypeParameter guibg=NONE guifg=#727a81
+"highlight!      CmpItemKindOperator guibg=NONE guifg=#152a2d
 
 
 
@@ -179,10 +179,23 @@ highlight!      CmpItemKindOperator guibg=NONE guifg=#152a2d
 "  colorscheme dracula
 
 " One Dark Themes: 
-" if has ('termguicolors')
-  " set termguicolors
-  " colorscheme onedark
+if has ('termguicolors')
+  set termguicolors
+  set winblend=0
+  set wildoptions=pum
+  set pumblend=5
+endif
+colorscheme onedark
 
+"Vim transparent: 
+let t:is_transparent = 0
+if t:is_transparent == 0
+  hi Normal guibg=NONE ctermbg=NONE
+  let t:is_transparent = 1
+else
+  set background=dark
+  let t:is_transparent = 0
+endif
 " Everforest Themes:
 
 "if has('termguicolors')
