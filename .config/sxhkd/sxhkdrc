@@ -16,6 +16,9 @@ super + shift + Return
 super + b 
   brave
 
+# toggle screen shot apps 
+super + shift + s 
+  spectacle
 
 # terminal emulator
 super + t
