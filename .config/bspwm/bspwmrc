@@ -48,3 +48,5 @@ pidof ibus-daemon > /dev/null || ibus-daemon -drx
 /home/peter/.config/polybar/launch.sh
 # Wireless connections (network manager)
 nm-applet --indicator & 
+# Dunst notifications 
+dunst &
