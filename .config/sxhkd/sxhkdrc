@@ -1,24 +1,42 @@
 #
 # wm independent hotkeys
-#
-super + f
-  nemo
 
+# Restart sxhkd.
+super + BackSpace
+	pkill -USR1 -x sxhkd
+
+# Toggle floating 
+super + d 
+  bspc node focused -t \~floating
+# Sticky on current window.
+super + shift + Return
+	bspc node -g sticky
+
+# browser launcher 
 super + b 
-  google-chrome-stable
+  brave
+
 
 # terminal emulator
-super + Return
-  kitty	
+super + t
+	kitty
+
+# File manager 
+super + f 
+  dolphin
 
 # program launcher
-super + d
-  rofi -show drun -show-icons	
+super + @space
+  rofi -show run 
+	
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
+# Rofi launcher 
+super + space 
+  rofi -show run 
 #
 # bspwm hotkeys
 #
@@ -28,7 +46,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }q
+super + w
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
@@ -60,7 +78,7 @@ super + ctrl + {m,x,y,z}
 #
 
 # focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
+super + {_,alt + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
@@ -111,7 +129,7 @@ super + ctrl + shift + space
 
 #
 # move/resize
-#
+
 
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
