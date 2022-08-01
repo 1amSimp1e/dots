@@ -2,14 +2,17 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor eDP1 -d         
+bspc monitor HDMI1 -d         
 
 bspc config border_width         2
-bspc config window_gap          12
+bspc config window_gap           12
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+# Use alt + left mouse to move and alt + right mouse to resize
+bspc config pointer_modifier mod1
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
@@ -17,18 +20,31 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-#Wallpapers
-feh --bg-scale ~/Pictures/Wallpapers/dark.jpg
 
-#Launch picom
+# Display settings 
+
+if [[ $(xrandr -q | grep 'HDMI1 connected') ]]; then
+  xrandr --output eDP1 --primary --mode 1366x768 --rotate normal --output HDMI1 --mode 1366x768 --rotate normal --right-of eDP1
+fi
+
+# xrandr --output "HDMI1" --set audio force-dvi --mode 1366x768
+# # xrandr --output "eDP1" --auto --output "HDMI1" --right-of "eDP1"
+# xrandr --output "eDP1" --auto --output "eDP1" --left-of "HDMI1"
+
+
+# Wallpapers 
+feh --bg-scale /home/peter/Bản\ tải\ về/mntfji.jpg 
+
+# Picom (transparent) + animations
 picom &
 
-#Dual monitor:
-xrandr --output HDMI-1 --mode 1366x768 --left-of eDP-1
+# Ibus bamboo: 
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+pidof ibus-daemon > /dev/null || ibus-daemon -drx
 
-#Launch Polybar:
-~/.config/polybar/launch.sh --forest
-
-xrdb ${HOME}/.Xresources
-$HOME/.config/polybar/launch.sh &
-$HOME/.fehbg
+# polybar 
+/home/peter/.config/polybar/launch.sh
+# Wireless connections (network manager)
+nm-applet --indicator & 
