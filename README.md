@@ -9,7 +9,9 @@
 ## Contents:
 
 - [Vim (NeoVim) Config](#neovim)
-- [GNOME](#gnome)
+- [Windows Manger]():
+  - [GNOME](#gnome)
+  - [BSPWM](#bspwm)
 - [Fish](#fish)
 - [Addition Apps and Terminal Tools](#Apps)
 
@@ -35,38 +37,40 @@ sudo apt install neovim
 
 - [Tree-Sitter](https://github.com/nvim-treesitter/nvim-treesitter): Code Syntax highlight supports mutiples languages
 
-- Get healthy: 
-  - Open nvim and enter the following: 
+- Get healthy:
+  - Open nvim and enter the following:
   ```
   :checkhealth
   ```
-  - You probably notice you don't have support for copy and paste also that python and node haven't been setup 
-     - On Ubuntu: 
-     ```
-     sudo apt install xsel
-     ```
-     - On Arch: 
-     ```
-     sudo pacman -S xsel
-     ```
-  - Next we need to install python support (Node is optional)
-    - Neovim python support: 
+  - You probably notice you don't have support for copy and paste also that python and node haven't been setup
+    - On Ubuntu:
     ```
-    pip install pynvim 
-    # or 
+    sudo apt install xsel
+    ```
+    - On Arch:
+    ```
+    sudo pacman -S xsel
+    ```
+  - Next we need to install python support (Node is optional)
+    - Neovim python support:
+    ```
+    pip install pynvim
+    # or
     pip3 install pynvim
     ```
-    - Neovim Node support 
+    - Neovim Node support
     ```
     npm i -g neovim
     ```
-- Other optional package: 
+- Other optional package:
+
 ```
-# Code Format 
-npm install -g prettier 
-pip3 install autopep8 
+# Code Format
+npm install -g prettier
+pip3 install autopep8
 pip3 install black
 ```
+
 ## Fish Shell Setups <a name = "fish"></a>:
 
 - [Fish Shell](https://github.com/nvim-treesitter/nvim-treesitter): a smart and user-friendly command line
@@ -85,6 +89,9 @@ pip3 install black
 - [peco](https://github.com/peco/peco)
 
 - [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
+
+## BSPWM SETUPS<a name = "bspwm"></a>:
+
 
 ## GNOME SETUPS<a name = "gnome"></a>:
 
@@ -131,18 +138,17 @@ sudo apt install kitty
 - [FlatPak](https://www.flatpak.org/setup/): Package manager for Linux
   - [Kooha](https://flathub.org/apps/details/io.github.seadve.Kooha): Elegantly screen recorder
 - [Howdy](https://github.com/boltgolt/howdy): Windows Hello Style authentication for Linux
-- [Fusuma](https://github.com/iberianpig/fusuma): Multitouch gesture recognizer. This makes your linux able to recognize swipes or pinches 
-  - **How to make it runs when turn on your machine**: 
-     - Go to start up application
-     - Then click to add:
-       - Name section: fusuma
-       - Command section: fusuma
-
+- [Fusuma](https://github.com/iberianpig/fusuma): Multitouch gesture recognizer. This makes your linux able to recognize swipes or pinches
+  - **How to make it runs when turn on your machine**:
+    - Go to start up application
+    - Then click to add:
+      - Name section: fusuma
+      - Command section: fusuma
 
 ## Terminal Tools
+
 - [Pipe.sh](https://github.com/pipeseroni/pipes.sh): Animated pipes terminal screeen saver
 - [Cmatrix](https://github.com/abishekvashok/cmatrix) Installations:
-
 
 ```fish
 sudo apt update && sudo apt upgrade
