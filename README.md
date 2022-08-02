@@ -1,7 +1,3 @@
-![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
-
-![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice5.png)
-
 # Tue Nhan's dot files
 
 - ⚠️ Warning: Don’t blindly use my settings unless you know what you 're doing. Use at your own risk!
@@ -92,8 +88,11 @@ pip3 install black
 
 ## BSPWM SETUPS<a name = "bspwm"></a>:
 
-
 ## GNOME SETUPS<a name = "gnome"></a>:
+
+![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
+
+![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
 
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
 - [Gnome Shell Extensions](https://extensions.gnome.org/)
