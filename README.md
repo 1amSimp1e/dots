@@ -1,6 +1,7 @@
 # Tue Nhan's dot files
 
 ![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice4.png)
+
 ![Pictures 3](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
 
 - ⚠️ Warning: Don’t blindly use my settings unless you know what you 're doing. Use at your own risk!
