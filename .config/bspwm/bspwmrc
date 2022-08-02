@@ -3,7 +3,6 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor eDP1 -d         
-bspc monitor HDMI1 -d         
 
 bspc config border_width         2
 bspc config window_gap           12
@@ -27,10 +26,11 @@ if [[ $(xrandr -q | grep 'HDMI1 connected') ]]; then
   xrandr --output eDP1 --primary --mode 1366x768 --rotate normal --output HDMI1 --mode 1366x768 --rotate normal --right-of eDP1
 fi
 
+# xrandr --output eDP1 --primary --mode 1366x768 --rotate normal --output HDMI1 --mode 1366x768 --rotate normal --right-of eDP1
 # xrandr --output "HDMI1" --set audio force-dvi --mode 1366x768
-# # xrandr --output "eDP1" --auto --output "HDMI1" --right-of "eDP1"
+# # # xrandr --output "eDP1" --auto --output "HDMI1" --right-of "eDP1"
+#
 # xrandr --output "eDP1" --auto --output "eDP1" --left-of "HDMI1"
-
 
 # Wallpapers 
 feh --bg-scale /home/peter/Bản\ tải\ về/mntfji.jpg 
@@ -38,11 +38,6 @@ feh --bg-scale /home/peter/Bản\ tải\ về/mntfji.jpg
 # Picom (transparent) + animations
 picom &
 
-# Ibus bamboo: 
-export GTK_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-export QT_IM_MODULE=ibus
-pidof ibus-daemon > /dev/null || ibus-daemon -drx
 
 # polybar 
 /home/peter/.config/polybar/launch.sh
@@ -50,3 +45,9 @@ pidof ibus-daemon > /dev/null || ibus-daemon -drx
 nm-applet --indicator & 
 # Dunst notifications 
 dunst &
+
+# Ibus bamboo type use for Viet Nam: 
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+pidof ibus-daemon > /dev/null || ibus-daemon -drx
