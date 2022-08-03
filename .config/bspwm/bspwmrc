@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor eDP1 -d         
+bspc monitor eDP1 -d        
 
 bspc config border_width         2
 bspc config window_gap           12
@@ -18,7 +18,6 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-
 
 # Display settings 
 
