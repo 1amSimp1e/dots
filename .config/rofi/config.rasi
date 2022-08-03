@@ -1,2 +1,81 @@
 //@theme "/usr/share/rofi/themes/android_notification.rasi"
-@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+/* @theme "/usr/share/rofi/themes/Arc-Dark.rasi" */
+
+
+configuration {
+  display-drun: "Applications:";
+  display-window: "Windows:";
+  drun-display-format: "{name}";
+  font: "JetBrainsMono Nerd Font Medium 10";
+  modi: "window,run,drun";
+}
+
+@theme "/dev/null"
+
+* {
+  bg: #282c34;
+  bg-alt: #353b45;
+
+  fg: #FFFFFF;
+  fg-alt: #ABB2BF;
+
+  background-color: @bg;
+  
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+window {
+  width: 30%;
+}
+
+element {
+  padding: 8 0;
+  text-color: @fg-alt;
+}
+
+element selected {
+  text-color: @fg;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+  vertical-align: 0.5;
+}
+
+element-icon {
+  size: 30;
+}
+
+entry {
+  background-color: @bg-alt;
+  padding: 12;
+  text-color: @fg;
+}
+
+inputbar {
+  children: [prompt, entry];
+}
+
+listview {
+  padding: 8 12;
+  background-color: @bg;
+  columns: 1;
+  lines: 8;
+}
+
+mainbox {
+  background-color: @bg;
+  children: [inputbar, listview];
+}
+
+prompt {
+  background-color: @bg-alt;
+  enabled: true;
+  padding: 12 0 0 12;
+  text-color: @fg;
+}
+
