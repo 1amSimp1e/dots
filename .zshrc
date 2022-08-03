@@ -81,6 +81,7 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
   git
   zsh-autosuggestions
+  zsh-vi-mode
   zsh-syntax-highlighting
 )
 
@@ -115,6 +116,7 @@ alias ll="ls"
 alias lla="ls -a"
 alias vim="nvim"
 alias p="python"
+alias src="source $HOME/.zshrc"
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
