@@ -8,6 +8,7 @@ super + BackSpace
 # Toggle floating 
 super + d 
   bspc node focused -t \~floating
+
 # Sticky on current window.
 super + shift + Return
 	bspc node -g sticky
@@ -39,8 +40,14 @@ super + Escape
 
 # Rofi launcher 
 super + space 
-  rofi -show run 
-#
+  rofi -show drun -show-icons
+# rofi emoji selector 
+super + shift + e
+  rofi -show emoji -modi emoji
+
+
+
+
 # bspwm hotkeys
 #
 
