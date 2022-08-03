@@ -91,7 +91,7 @@ pip3 install black
 - [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
 
 ## BSPWM SETUPS<a name = "bspwm"></a>:
-
+- Will update soon !! 
 ## GNOME SETUPS<a name = "gnome"></a>:
 
 ![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
