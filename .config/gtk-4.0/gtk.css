@@ -1,0 +1,21 @@
+window.xfce4-panel widget > box > button > image{
+   padding: 0.2em 0.16em;  -gtk-icon-transform: scale(0.8);
+}
+
+window#whiskermenu-window treeview>* {
+  padding:0.2em 0.16em;
+}
+
+#xfce4-notification-plugin image {
+	-gtk-icon-transform: scale(0.85) translateY(3px);
+}
+#pulseaudio-button image {
+	-gtk-icon-transform: scale(0.9);
+}
+#xfce4-power-manager-plugin image {
+	-gtk-icon-transform: scale(0.75);
+}
+
+VteTerminal, vte-terminal {
+    padding: 13px;
+}
