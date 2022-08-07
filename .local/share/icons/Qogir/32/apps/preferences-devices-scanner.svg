@@ -1,0 +1,11 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0,1)">
+  <rect x="3.5" y=".5" width="25" height="29" rx="2" ry="2" fill="#ececec"/>
+  <rect x="3.5" y=".5" width="25" height="29" rx="2" ry="2" fill="none" opacity=".25" stroke="#000"/>
+  <path d="m6.5 3.5h19v23h-19z" color="#000000" fill="#393939" overflow="visible"/>
+  <path d="m9 6.001h14v17.999h-14v-18z" fill="#f9f9f9"/>
+  <path d="m10 8.465h2.476zm2.628 0h0.41zm0.576 0h0.911zm1.093 0h2.399zm2.55 0h1.837zm1.989 0h0.561zm-8.836 1.993h3.113zm3.265 0h1.2zm1.351 0h1.123zm1.275 0h0.956zm1.108 0 1.503 0.015zm1.64 0.015h2.443zm-8.639 1.992h2.886zm0 1.993h3.113zm3.265 0h1.2zm1.351 0h1.123zm1.275 0h0.956zm1.108 0 1.503 0.015zm1.64 0.015h2.443zm-8.639 1.992h3.493zm3.645 0h0.895zm1.047 0h2.11zm2.246 0h1.442zm1.61 0h0.576zm0.728 0h0.319zm0.486 0h0.895zm-9.762 2.993h3.113zm3.265 0h1.2zm1.351 0h1.123zm1.275 0h0.956zm1.108 0 1.503 0.015zm1.64 0.015h2.443zm-8.639 1.992h1.641zm1.793 0h1.35zm1.503 0h1.988zm2.155 0h1.35zm1.487 0h0.289zm0.44 0h1.716zm1.898 0h0.895z" fill="#ececec" stroke="#c8c8c8"/>
+  <path d="m6 17h20v1h-20z" fill="#ff2a2a" opacity=".8"/>
+  <path d="m6.5 3.5h19v23h-19z" fill="none" opacity=".7" stroke="#000" stroke-linejoin="round"/>
+ </g>
+</svg>

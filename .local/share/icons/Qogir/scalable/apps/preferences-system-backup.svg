@@ -1,0 +1,20 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(161,38.64)">
+  <path d="m-150-33.64v54h42v-54z" fill="#e1e3e7"/>
+  <rect x="-150.5" y="-34.14" width="43" height="55" rx=".5" ry=".5" fill="none" stroke="#000" stroke-opacity=".24"/>
+  <g fill="#8c8c8c">
+   <rect x="-149" y="-32.64" width="2" height="2" rx="1" ry="1"/>
+   <rect x="-111" y="-32.64" width="2" height="2" rx="1" ry="1"/>
+   <rect x="-111" y="17.36" width="2" height="2" rx="1" ry="1"/>
+   <rect x="-149" y="17.36" width="2" height="2" rx="1" ry="1"/>
+   <rect x="-149" y="-7.64" width="2" height="2" rx="1" ry="1"/>
+   <rect x="-111" y="-7.64" width="2" height="2" rx="1" ry="1"/>
+  </g>
+  <path d="m-122-30.14-17.934 18.17a16.5 16.5 0 0 0-5.566 12.33 16.5 16.5 0 0 0 16.5 16.5 16.5 16.5 0 0 0 16.5-16.5 16.5 16.5 0 0 0-0.03-0.852 0.492 0.492 0 0 0 0.03-0.148v-29c0-0.277-0.223-0.5-0.5-0.5z" fill="#edeff3" stroke="#cbcdd1"/>
+  <circle cx="-129" cy=".36" r="6.5" fill="#e1e3e7" stroke="#cfd1d5"/>
+  <rect x="-143.5" y="-27.14" width="20" height="12" rx="1.5" ry="1.5" fill="#4c5263" stroke="#313643"/>
+  <path d="m-142-24.64v1h3.19v-1zm3.609 0v1h3.021v-1zm3.441 0v1h2.644v-1zm3.063 0v1h1.175v-1zm-10.113 3v1h5.078v-1zm5.581 0v1h2.434v-1zm2.896 0v1h1.133v-1zm-8.477 3v1h5.623v-1zm6.043 0v1h2.943v-1zm5.957 0v1h5.078v-1z" fill="#e9eaee"/>
+ </g>
+ <path d="m48 39.122c0 8.715-7.163 15.878-16 15.878s-16-7.163-16-15.878c0-8.958 7.163-16.122 16-16.122s16 7.164 16 16.122" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-opacity=".392"/>
+ <path d="m32 27c-6.648 0-12 5.352-12 12s5.352 12 12 12 12-5.352 12-12-5.352-12-12-12m0 1.5c5.817 0 10.5 4.683 10.5 10.5s-4.683 10.5-10.5 10.5-10.5-4.683-10.5-10.5 4.683-10.5 10.5-10.5m-1.5 1.5v10.5h9v-1.5h-7.5v-9z" fill="#f6b44d"/>
+</svg>

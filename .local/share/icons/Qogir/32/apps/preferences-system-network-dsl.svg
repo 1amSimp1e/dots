@@ -1,0 +1,9 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 8.467 8.467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g stroke-width=".26459">
+  <rect x=".79378" y=".79378" width="6.8794" height="6.8794" rx=".42732" ry=".42732" color="#000000" fill="#f4f4f4" overflow="visible"/>
+  <rect transform="scale(1,-1)" x=".66148" y="-7.8055" width="7.144" height="7.144" rx=".57152" ry=".57152" color="#000000" fill="none" opacity=".35" overflow="visible" stroke="#555761" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m2.1168 5.8211v-2.9105h1.0584v-0.26459h0.26459v-0.26459h1.5876v0.26459h0.26459v0.26459h1.0584v2.9105z" color="#000000" fill="#3c3c3c" overflow="visible"/>
+  <path d="m2.249 5.6888v-2.6459h1.0584v-0.26459h0.26459v-0.26459h1.323v0.26459h0.26459v0.26459h1.0584v2.6459z" color="#000000" fill="none" opacity=".3" overflow="visible" stroke="#000"/>
+  <path d="m5.358 5.5565h0.18522v-0.52919h-0.18522zm-2.4475 0h0.18522v-0.52919h-0.18522zm0.4895 0h0.18522v-0.52919h-0.18522zm0.4895 0h0.18522v-0.52919h-0.18522zm0.4895 0h0.18522v-0.52919h-0.18522zm0.4895 0h0.18522v-0.52919h-0.18522z" color="#000000" fill="#fff4b0" overflow="visible"/>
+ </g>
+</svg>

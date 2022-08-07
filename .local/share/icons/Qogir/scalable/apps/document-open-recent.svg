@@ -1,0 +1,15 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -280.07)">
+  <path d="m3.175 282.45c-0.293 0-0.265 0.264-0.265 0.53h-1.058c-0.265 0-0.265 0-0.265 0.264v5.556c0 0.293 0.237 0.53 0.53 0.53h12.7a0.529 0.529 0 0 0 0.529-0.53v-5.556c0-0.265 0-0.265-0.265-0.265h-7.408c0-0.265 0.028-0.53-0.265-0.53z" fill="#fff" fill-opacity=".976" stroke="#000" stroke-opacity=".268" stroke-width=".529" style="paint-order:markers stroke fill"/>
+  <path d="m3.175 282.45c-0.293 0-0.265 0.264-0.265 0.53h-1.058c-0.265 0-0.265 0-0.265 0.264v5.556c0 0.293 0.237 0.53 0.53 0.53h12.7a0.529 0.529 0 0 0 0.529-0.53v-5.556c0-0.265 0-0.265-0.265-0.265h-7.408c0-0.265 0.028-0.53-0.265-0.53z" fill="#fff" fill-opacity=".976" style="paint-order:markers stroke fill"/>
+  <path d="m8.467 284.3c-0.293 0-0.382 0.276-0.53 0.53l-0.308 0.528h-6.835c-0.265 0-0.265 0.265-0.265 0.265v8.996c0 0.264 0.265 0.264 0.265 0.264h15.346c0.264 0 0.264-0.264 0.264-0.264v-10.054c0-0.265-0.264-0.265-0.264-0.265z" fill="none" stroke="#003779" stroke-opacity=".561" stroke-width=".529" style="paint-order:markers stroke fill"/>
+  <path d="m8.467 284.3c-0.293 0-0.382 0.276-0.53 0.53l-0.308 0.528h-6.835c-0.265 0-0.265 0.265-0.265 0.265v8.996c0 0.264 0.265 0.264 0.265 0.264h15.346c0.264 0 0.264-0.264 0.264-0.264v-10.054c0-0.265-0.264-0.265-0.264-0.265z" fill="#6ba4e7" style="paint-order:markers stroke fill"/>
+  <rect x="3.44" y="282.98" width="3.704" height=".529" rx=".265" ry=".265" fill-opacity=".267" style="paint-order:markers stroke fill"/>
+ </g>
+ <g fill="#fff">
+  <path d="m8.467 7.408a2.646 2.646 0 0 0-2.646 2.646 2.646 2.646 0 0 0 2.646 2.646 2.646 2.646 0 0 0 2.645-2.646 2.646 2.646 0 0 0-2.645-2.646zm0 0.265a2.381 2.381 0 0 1 2.38 2.38 2.381 2.381 0 0 1-2.38 2.382 2.381 2.381 0 0 1-2.382-2.381 2.381 2.381 0 0 1 2.382-2.381z" style="paint-order:stroke markers fill"/>
+  <rect x="8.202" y="8.466" width=".529" height="1.587" ry=".265" style="paint-order:stroke markers fill"/>
+  <rect transform="rotate(135)" x=".98972" y="-15.003" width=".265" height="1.852" ry=".132" style="paint-order:stroke markers fill"/>
+  <circle cx="8.467" cy="10.054" r=".529" style="paint-order:stroke markers fill"/>
+ </g>
+</svg>

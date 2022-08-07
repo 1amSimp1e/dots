@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733331 67.733331"
+   version="1.1"
+   id="svg4861"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="xapp-mate-status-applet.svg">
+  <defs
+     id="defs4855">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#outerBackgroundGradient-0-0"
+       id="linearGradient4257"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="rotate(90,144,156)"
+       x1="35"
+       y1="156"
+       x2="253"
+       y2="156" />
+    <linearGradient
+       id="outerBackgroundGradient-0-0">
+      <stop
+         style="stop-color:#3689e6;stop-opacity:1"
+         offset="0"
+         id="stop3864-8-6-3-9" />
+      <stop
+         style="stop-color:#90dbec;stop-opacity:1"
+         offset="1"
+         id="stop3866-9-1-7-7" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11237">
+      <path
+         id="path11239"
+         d="M 84,46.5 C 56.568735,46.5 34.5,68.568732 34.5,96 v 120 c 0,27.43127 22.068735,49.5 49.5,49.5 h 120 c 27.43127,0 49.5,-22.06873 49.5,-49.5 V 96 C 253.5,68.568732 231.43127,46.5 204,46.5 Z"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#b46464;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       inkscape:label="Inset"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Shadowy outer bevel"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5182">
+      <feMorphology
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         radius="3.6"
+         id="feMorphology5170" />
+      <feGaussianBlur
+         stdDeviation="3.6"
+         in="result1"
+         result="result0"
+         id="feGaussianBlur5172" />
+      <feDiffuseLighting
+         surfaceScale="-5"
+         id="feDiffuseLighting5176">
+        <feDistantLight
+           elevation="45"
+           azimuth="225"
+           id="feDistantLight5174" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="result0"
+         operator="in"
+         result="result91"
+         id="feComposite5178" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result91"
+         id="feComposite5180" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="503.96795"
+     inkscape:cy="111.99268"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="975"
+     inkscape:window-x="1920"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4858">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-229.26668)">
+    <g
+       style="display:inline;enable-background:new;filter:url(#filter5182)"
+       id="g4208"
+       transform="matrix(-0.26458333,0,0,-0.26458333,71.966666,304.40835)">
+      <path
+         id="path4200"
+         d="m 34.5,96 v 120 c 0,27.43127 22.068735,49.5 49.5,49.5 h 120 c 27.43127,0 49.5,-22.06873 49.5,-49.5 V 96 Z"
+         style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4257);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <g
+         clip-path="url(#clipPath11237)"
+         id="g11233"
+         style="display:inline;enable-background:new">
+        <rect
+           clip-path="none"
+           y="29"
+           x="16"
+           height="68"
+           width="256"
+           id="rect5564"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.2;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;enable-background:new" />
+        <rect
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#292929;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;enable-background:new"
+           id="rect3904-8"
+           width="256"
+           height="68"
+           x="16"
+           y="28"
+           clip-path="none" />
+      </g>
+    </g>
+    <g
+       transform="matrix(1.0583333,0,0,1.0583333,-304.69479,78.613564)"
+       id="g4458"
+       style="display:inline;opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;enable-background:new">
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;marker:none;enable-background:new"
+         id="rect4460"
+         width="8"
+         height="8"
+         x="298"
+         y="186"
+         ry="1.3333333" />
+      <rect
+         ry="1.3333333"
+         y="186"
+         x="310"
+         height="8"
+         width="8"
+         id="rect4462"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;marker:none;enable-background:new" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;marker:none;enable-background:new"
+         id="rect4464"
+         width="8"
+         height="8"
+         x="322"
+         y="186"
+         ry="1.3333333" />
+      <rect
+         ry="1.3333333"
+         y="186"
+         x="334"
+         height="8"
+         width="8"
+         id="rect4466"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.25;marker:none;enable-background:new" />
+    </g>
+    <g
+       style="display:inline;enable-background:new"
+       id="g4560"
+       transform="matrix(1.0583333,0,0,1.0583333,-304.69479,78.34898)">
+      <rect
+         ry="1.3333333"
+         y="186"
+         x="298"
+         height="8"
+         width="8"
+         id="rect4562"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:new" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:new"
+         id="rect4564"
+         width="8"
+         height="8"
+         x="310"
+         y="186"
+         ry="1.3333333" />
+      <rect
+         ry="1.3333333"
+         y="186"
+         x="322"
+         height="8"
+         width="8"
+         id="rect4566"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:new" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;enable-background:new"
+         id="rect4568"
+         width="8"
+         height="8"
+         x="334"
+         y="186"
+         ry="1.3333333" />
+    </g>
+  </g>
+</svg>

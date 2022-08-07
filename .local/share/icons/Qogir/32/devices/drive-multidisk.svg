@@ -1,0 +1,27 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="m4 2h24v28h-24z" fill-opacity=".23922" stroke-width=".54197"/>
+ <g fill="#e1e3e7" stroke-width=".5">
+  <path d="m5 3h22v26h-22z"/>
+  <path d="m5 22v3h22v-3z"/>
+  <path d="m5 18v3h22v-3z"/>
+ </g>
+ <path d="m23.5 18h3.5v3h-3.5zm-18.5 0h3.5v3h-3.5zm18.5 4h3.5v3h-3.5zm-18.5 0h3.5v3h-3.5zm18.5 4h3.5v3h-3.5zm-18.5 0h3.5v3h-3.5z" opacity=".2" stroke-width=".5"/>
+ <path d="m8 18h16v3h-16zm0 4h16v3h-16zm0 4h16v3h-16z" fill="#4c5263" stroke-width=".9285"/>
+ <path d="m10 19h7v1h-7zm8 0h4v1h-4zm-8 4h7v1h-7zm8 0h4v1h-4zm-8 4h7v1h-7zm8 0h4v1h-4z" fill="#e9eaee" stroke-width=".9285"/>
+ <path d="m5.5 21h21v1h-21zm0 4h21v1h-21z" fill="#4c5263" opacity=".6" stroke-width=".5"/>
+ <path d="m10 4a3 3 0 0 0-3 3v2.2705a2 2 0 0 1 1 1.7295 2 2 0 0 1-1 1.7295v2.2705l2 2h14l2-2v-2.2705a2 2 0 0 1-1-1.7295 2 2 0 0 1 1-1.7295v-2.2705a3 3 0 0 0-3-3z" fill="#edeff3" stroke="#cbcdd1" stroke-width=".5"/>
+ <path d="m5 21h2.0952v1h-2.0952zm20 0h2v1h-2zm0 4h2v1h-2zm-20 0h2.0952v1h-2.0952z" fill="#4c5263" stroke-width=".51175"/>
+ <rect x="5.5" y="3.5" width="1" height="1" rx=".5" ry=".5" fill="#8c8c8c" stroke-width=".5"/>
+ <rect x="4" y="18" width="1" height="12" ry="0" opacity=".15" stroke-width=".72232"/>
+ <rect x="27" y="18" width="1" height="12" ry="0" opacity=".15" stroke-width=".72232"/>
+ <rect transform="rotate(-90)" x="-30" y="5" width="1" height="22" ry="0" opacity=".15" stroke-width=".70711"/>
+ <rect x="8" y="18" width=".5" height="11" ry="0" opacity=".15" stroke-width=".5"/>
+ <rect x="23.5" y="18" width=".5" height="11" ry="0" opacity=".15" stroke-width=".5"/>
+ <g fill="#8c8c8c" stroke-width=".5">
+  <rect x="25.5" y="3.5" width="1" height="1" rx=".5" ry=".5"/>
+  <rect x="5.5" y="16.5" width="1" height="1" rx=".5" ry=".5"/>
+  <rect x="25.5" y="16.5" width="1" height="1" rx=".5" ry=".5"/>
+  <rect x="5.5" y="10" width="1" height="1" rx=".5" ry=".5"/>
+  <rect x="25.5" y="10" width="1" height="1" rx=".5" ry=".5"/>
+ </g>
+</svg>

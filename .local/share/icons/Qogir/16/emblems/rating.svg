@@ -1,0 +1,12 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Highlight {
+            color:#3daee9;
+        }
+        .ColorScheme-Text {
+            color:#232629;
+        }</style>
+ <g transform="translate(-3,3)">
+  <circle transform="scale(1,-1)" cx="11" cy="-5" r="8" fill="#3daee9"/>
+  <path class="ColorScheme-Highlight" d="M 11,-0.444 12.7,3 16.5,3.552 13.75,6.2325 14.399,10.0175 11,8.2305 7.601,10.0175 8.25,6.2325 5.5,3.552 9.3,3 Z" color="#3daee9" fill="#ffffff"/>
+ </g>
+</svg>

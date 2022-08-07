@@ -1,0 +1,22 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#5d656b" stroke-linecap="square" stroke-width="2">
+  <rect x="5" y="1" width="1" height="3" rx=".5" ry=".5"/>
+  <rect x="7" y="1" width="1" height="3" rx=".5" ry=".5"/>
+  <rect x="11" y="1" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="5" y="-4" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="7" y="-4" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="9" y="-4" width="1" height="3" rx=".5" ry=".5"/>
+  <path d="m5 3c-1.108 0-2 0.892-2 2v7c0 1.108 0.892 2 2 2h7c1.108 0 2-0.892 2-2v-7c0-1.108-0.892-2-2-2h-7zm0 1h7c0.554 0 1 0.446 1 1v7c0 0.554-0.446 1-1 1h-7c-0.554 0-1-0.446-1-1v-7c0-0.554 0.446-1 1-1z"/>
+  <rect x="9" y="1" width="1" height="3" rx=".5" ry=".5"/>
+  <rect x="5" y="13" width="1" height="3" rx=".5" ry=".5"/>
+  <rect x="7" y="13" width="1" height="3" rx=".5" ry=".5"/>
+  <rect x="11" y="13" width="1" height="3" rx=".5" ry=".5"/>
+  <rect x="9" y="13" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="11" y="-4" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="5" y="-16" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="7" y="-16" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="9" y="-16" width="1" height="3" rx=".5" ry=".5"/>
+  <rect transform="rotate(90)" x="11" y="-16" width="1" height="3" rx=".5" ry=".5"/>
+  <path d="m5.5 5c-0.277 0-0.5 0.223-0.5 0.5v6c0 0.277 0.223 0.5 0.5 0.5h6c0.277 0 0.5-0.223 0.5-0.5v-6c0-0.277-0.223-0.5-0.5-0.5h-6zm0.98828 1a0.5 0.5 0 0 1 0.011719 0 0.5 0.5 0 0 1 0.5 0.5 0.5 0.5 0 0 1-0.5 0.5 0.5 0.5 0 0 1-0.5-0.5 0.5 0.5 0 0 1 0.48828-0.5zm4 0a0.5 0.5 0 0 1 0.011719 0 0.5 0.5 0 0 1 0.5 0.5 0.5 0.5 0 0 1-0.5 0.5 0.5 0.5 0 0 1-0.5-0.5 0.5 0.5 0 0 1 0.48828-0.5zm-4 4a0.5 0.5 0 0 1 0.011719 0 0.5 0.5 0 0 1 0.5 0.5 0.5 0.5 0 0 1-0.5 0.5 0.5 0.5 0 0 1-0.5-0.5 0.5 0.5 0 0 1 0.48828-0.5zm4 0a0.5 0.5 0 0 1 0.011719 0 0.5 0.5 0 0 1 0.5 0.5 0.5 0.5 0 0 1-0.5 0.5 0.5 0.5 0 0 1-0.5-0.5 0.5 0.5 0 0 1 0.48828-0.5z"/>
+ </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -.967)">
+  <rect transform="scale(1,-1)" x="5" y="-43.967" width="38" height="38" rx="1.5" ry="1.5" color="#000000" fill="#f9f9f9" overflow="visible"/>
+  <rect x="4.5" y="5.467" width="39" height="39" rx="2" ry="2" color="#000000" fill="none" opacity=".35" overflow="visible" stroke="#555761" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="10" y="18" width="28" height="14" rx="7" ry="7" color="#000000" fill="#46a7e9" overflow="visible"/>
+  <path d="m9.085 9a1 1 0 0 1-2 0 1 1 0 1 1 2 0zm32 0a1 1 0 0 1-2 0 1 1 0 1 1 2 0zm-32 32a1 1 0 0 1-2 0 1 1 0 1 1 2 0zm32 0a1 1 0 0 1-2 0 1 1 0 1 1 2 0z" color="#000000" fill-rule="evenodd" opacity=".2" overflow="visible"/>
+  <path d="m37 26a6 6 0 0 1-12 0 6 6 0 1 1 12 0z" color="#000000" fill="#0e4774" opacity=".15" overflow="visible"/>
+  <path d="m31 18.5c3.586 0 6.5 2.914 6.5 6.5s-2.914 6.5-6.5 6.5a6.504 6.504 0 0 1-6.5-6.5c0-3.586 2.914-6.5 6.5-6.5z" color="#000000" fill="#f9f9f9" overflow="visible"/>
+  <path d="m31 18.5c3.586 0 6.5 2.914 6.5 6.5s-2.914 6.5-6.5 6.5a6.504 6.504 0 0 1-6.5-6.5c0-3.586 2.914-6.5 6.5-6.5z" color="#000000" fill="none" opacity=".5" overflow="visible" stroke="#656565" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+</svg>

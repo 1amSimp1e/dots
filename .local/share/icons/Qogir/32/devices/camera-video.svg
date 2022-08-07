@@ -1,0 +1,23 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <path d="m29 4.0133-5.9965 4.979v13.996l5.9965 5.018 1.9965-0.01952v-23.993z" fill="#414655" stroke="#001933" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".35" stroke-width=".68559"/>
+ <circle cx="17" cy="6" r="1" fill="#f00" fill-opacity=".96684"/>
+ <path d="m23 23v-14h-3v14h1e-6z" fill="#2b2f3b" stroke="#001933" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".35"/>
+ <path d="m20 5.8947c0-1.0497-0.92631-1.8947-2.0769-1.8947h-13.846c-1.1506 0-2.0769 0.84505-2.0769 1.8947v20.211c0 1.0497 0.92631 1.8947 2.0769 1.8947h13.846c1.1506 0 2.0769-0.84505 2.0769-1.8947z" fill="#4c5263" stroke="#001933" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".35"/>
+ <path d="m18.207 5.7926a1.0004 1.0004 0 0 0-1.4148 0 1.0004 1.0004 0 0 0 0 1.4148 1.0004 1.0004 0 0 0 1.4148 0 1.0004 1.0004 0 0 0 0-1.4148z" fill="#333741" stroke-width="1.0004"/>
+ <path d="m17.854 6.1465a0.50005 0.50005 0 0 0-0.70717 0 0.50005 0.50005 0 0 0 0 0.70717 0.50005 0.50005 0 0 0 0.70717 0 0.50005 0.50005 0 0 0 0-0.70717z" fill="#da4453" fill-opacity=".96684" stroke-width=".50005"/>
+ <circle transform="matrix(0,-1,-1,0,0,0)" cx="-16" cy="-11" r="8" fill="#333741" stroke-width=".64"/>
+ <circle transform="matrix(0,-1,-1,0,0,0)" cx="-16" cy="-11" r="7" fill="#8f96a9" stroke-width=".6087"/>
+ <circle transform="rotate(-90)" cx="-16" cy="11" r="6" fill="#333741" stroke-width=".63158"/>
+ <circle transform="rotate(-90)" cx="-16" cy="11" r="5" fill="#007095" stroke-width=".58824"/>
+ <circle transform="matrix(0,-1,-1,0,0,0)" cx="-16" cy="-11" r="3" fill="#333741" stroke-width=".66667"/>
+ <g stroke-width=".33333">
+  <circle cx="11.5" cy="25.5" r=".5" opacity=".5"/>
+  <circle cx="13.5" cy="25.5" r=".5" opacity=".5"/>
+  <circle cx="15.5" cy="25.5" r=".5" opacity=".5"/>
+  <circle cx="17.5" cy="25.5" r=".5" opacity=".5"/>
+  <circle cx="12.5" cy="26.5" r=".5" opacity=".5"/>
+  <circle cx="14.5" cy="26.5" r=".5" opacity=".5"/>
+  <circle cx="16.5" cy="26.5" r=".5" opacity=".5"/>
+ </g>
+ <circle transform="matrix(0,-1,-1,0,0,0)" cx="-16" cy="-11" r="2" fill="#49acdc" stroke-width=".57143"/>
+</svg>

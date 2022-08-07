@@ -1,0 +1,14 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(.26458 0 0 .26458 -.15809 -261.5)">
+  <path d="m8.991 989.37 46.01 4e-3v57.985h-46.009v-57.989z" fill="#567dd2"/>
+  <path transform="matrix(1.3428 0 0 1.3408 -.228 988.19)" d="m6.5 0.5 35 3e-3v44.003h-35z" fill="none" opacity=".75" stroke="#183878" stroke-linejoin="round" stroke-width=".745"/>
+  <rect y="988.36" width="64" height="64" rx="0" ry="0" fill="none" opacity=".75"/>
+ </g>
+ <path d="m6.879 6.176 2.9935 2.9935-1.4968 1.4136v-5.8207l1.4968 1.4136-2.9935 2.6609" fill="none" stroke="#fff" stroke-linecap="square" stroke-width=".33261"/>
+ <g transform="translate(0 -.79368)" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width=".52916">
+  <circle cx="5.2916" cy="8.4665" r=".26458" style="paint-order:stroke fill markers"/>
+  <circle cx="6.3499" cy="8.4665" r=".26458" style="paint-order:stroke fill markers"/>
+  <circle cx="10.583" cy="8.4665" r=".26458" style="paint-order:stroke fill markers"/>
+  <circle cx="11.641" cy="8.4665" r=".26458" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

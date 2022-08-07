@@ -1,0 +1,21 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <rect y="-.012027" width="64" height="64" rx="0" ry="0" fill="none" opacity=".75"/>
+ <path d="m8.9992 1.0016h46.002v59h-45.998v-59z" color="#000000" fill="#515151" overflow="visible" stroke-width="3.7796"/>
+ <path d="m8.5003 0.49889 46.999 0.00378v59.997h-46.996v-60.001z" color="#000000" fill="none" overflow="visible" stroke="#3a3a3a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0016"/>
+ <g transform="translate(2e-7 -.99863)">
+  <g fill="none">
+   <path d="m21 31.513c7.043 0 8.3464 8.9615 11.453 8.9893 3.1068 0.02484 4.5065-9.0108 11.547-9.0108" stroke="#1d99f3"/>
+   <path d="m21 30.545c7.043 0 8.4753-6.1008 11.485-6.0943 2.9904 0.0064 4.4749 7.0415 11.515 7.0415" stroke="#da4453"/>
+   <path d="m21 30.545c7.043 0 7.4697-10.014 11.47-10.014s4.4901 10.961 11.53 10.961" stroke="#d6d6d6"/>
+  </g>
+  <g fill="#d6d6d6">
+   <rect x="20" y="20" width="1" height="23" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" stroke-width="1.109"/>
+   <g>
+    <rect x="20" y="31" width="24" height="1"/>
+    <rect x="26" y="30" width="1" height="3"/>
+    <rect x="32" y="30" width="1" height="3"/>
+    <rect x="38" y="30" width="1" height="3"/>
+   </g>
+  </g>
+ </g>
+</svg>

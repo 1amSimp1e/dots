@@ -1,0 +1,6 @@
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <title>Paper Symbolic Icon Theme</title>
+ <path class="error" d="m5 5v8h6v-8z" fill="#ff7f2a" opacity=".35"/>
+ <path d="m6 1v1h4v-1zm-2.156 2c-0.281 0.047-0.844 0.25-0.844 1v10c0 1 1 1 1 1h8c1 0 1-1 1-1v-10s0-1-1-1h-8s-0.063-0.016-0.156 0zm0.156 1h8v10h-8z" fill="#5d656b"/>
+ <path class="error" d="m5 11v2h6v-2z" fill="#ff7f2a"/>
+</svg>

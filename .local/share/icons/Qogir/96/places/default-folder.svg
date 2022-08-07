@@ -1,0 +1,14 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 25.4 25.4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="c" x1="-197.1" x2="-196.91" y1="217.68" y2="219.36" gradientTransform="matrix(4.0088 -4.0088 4.0088 4.0088 -.0010702 -1588.8)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m5.16 3.175c-0.44 0-0.592 0.403-0.794 0.794h-1.72c-0.265 0-0.265 0.264-0.265 0.264v8.467c0 0.44 0.354 0.794 0.794 0.794h19.05c0.44 0 0.794-0.354 0.794-0.794v-8.467c0-0.264-0.265-0.264-0.265-0.264h-11.244c-0.233-0.373-0.354-0.794-0.793-0.794z" fill="#ffffff" stroke="#000000" stroke-opacity=".267" stroke-width=".529" paint-order="markers stroke fill"/>
+ <path d="m5.16 3.175c-0.44 0-0.592 0.403-0.794 0.794h-1.72c-0.265 0-0.265 0.264-0.265 0.264v8.467c0 0.44 0.354 0.794 0.794 0.794h19.05c0.44 0 0.794-0.354 0.794-0.794v-8.467c0-0.264-0.265-0.264-0.265-0.264h-11.244c-0.233-0.373-0.354-0.794-0.793-0.794z" fill="#ffffff" paint-order="markers stroke fill"/>
+ <path d="m12.7 6.085c-0.44 0-0.572 0.414-0.794 0.794l-0.463 0.794h-10.385a0.264 0.264 0 0 0-0.264 0.264v13.759c0 0.146 0.118 0.264 0.264 0.264h23.284a0.264 0.264 0 0 0 0.264-0.264v-15.346c0-0.265-0.264-0.265-0.264-0.265z" fill="#6ba4e7" stroke="#003579" stroke-opacity=".561" stroke-width=".52916" paint-order="markers stroke fill"/>
+ <rect x="5.556" y="3.704" width="4.762" height=".794" ry=".397" opacity=".25" paint-order="stroke markers fill"/>
+ <path d="m12.7 6.085c-0.44 0-0.572 0.414-0.794 0.794l-0.463 0.794h-10.385a0.264 0.264 0 0 0-0.264 0.264v13.759c0 0.146 0.118 0.264 0.264 0.264h23.284a0.264 0.264 0 0 0 0.264-0.264v-15.346c0-0.265-0.264-0.265-0.264-0.265z" fill="#6ba4e7" paint-order="markers stroke fill"/>
+ <path transform="scale(.26458)" d="m92.998 64.996-18.002 18.002h15.002c1.6615 0 3-1.3385 3-3v-15.002z" fill="url(#c)" opacity=".1" stroke-width="5.6693"/>
+</svg>

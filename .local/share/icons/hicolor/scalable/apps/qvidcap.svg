@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="32px"
+   id="svg3048"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="qvidcap.svg"
+   inkscape:export-filename="/home/v4l/desenho.png"
+   inkscape:export-xdpi="67.5"
+   inkscape:export-ydpi="67.5">
+  <title
+     id="title3155">qvidcap</title>
+  <defs
+     id="defs3050">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 16 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="32 : 16 : 1"
+       inkscape:persp3d-origin="16 : 10.666667 : 1"
+       id="perspective3056" />
+    <inkscape:perspective
+       id="perspective3066"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       id="linearGradient2963">
+      <stop
+         style="stop-color:#ffecbb;stop-opacity:1;"
+         offset="0"
+         id="stop2965" />
+      <stop
+         id="stop2971"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0.49803922;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2963"
+       id="linearGradient3111"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0512045,0,0,1.0513711,328.38534,-574.9849)"
+       x1="-719.14288"
+       y1="494.69958"
+       x2="-324.21902"
+       y2="968.98529" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="33"
+     inkscape:cx="16"
+     inkscape:cy="17.808842"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1599"
+     inkscape:window-height="1041"
+     inkscape:window-x="1884"
+     inkscape:window-y="11"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3053">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>qvidcap</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Mauro Carvalho Chehab</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Based on Hans Verkuil bitmap</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g3104"
+       transform="matrix(0.0576,0,0,0.0576,14.456344,14.641315)"
+       inkscape:export-xdpi="114.00639"
+       inkscape:export-ydpi="114.00639">
+      <rect
+         ry="15.848869"
+         y="-204.52148"
+         x="-221.24445"
+         height="402.52496"
+         width="498.57132"
+         id="rect2959"
+         style="fill:#ada07f;fill-opacity:1" />
+      <rect
+         ry="24.860613"
+         y="-139.91464"
+         x="-150.64096"
+         height="268.80539"
+         width="366.37466"
+         id="rect2955"
+         style="fill:#d6cfbd;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.09651029px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path2961"
+         d="m -210.75028,196.0686 c -1.7443,-0.70488 -4.61634,-3.11878 -6.38231,-5.3642 l -3.21086,-4.08259 0,-189.1429865 c 0,-136.3479435 0.46823,-190.0587035 1.67748,-192.4236435 0.92263,-1.80438 3.11889,-4.44845 4.8806,-5.87571 3.00442,-2.43405 17.98923,-2.5971 241.577598,-2.62843 l 238.374482,-0.0334 4.90427,4.38251 4.90429,4.3825 0.39257,189.4116035 c 0.43575,210.2448865 1.09242,196.3043165 -9.4544,200.7117465 -4.34407,1.81535 -40.20923,2.12038 -239.800152,2.0394 -129.080648,-0.0523 -236.119268,-0.67193 -237.863568,-1.37681 z m 413.94315,-69.49552 c 4.39946,-2.22093 7.85143,-5.43895 10.06966,-9.38725 l 3.37535,-6.00784 -0.36571,-118.1697265 c -0.36124,-116.7203435 -0.4037,-118.2205735 -3.46195,-122.3168135 -4.69144,-6.28374 -10.15101,-9.79936 -17.39001,-11.19809 -8.54594,-1.65125 -316.90145,-1.65125 -325.44741,0 -7.68,1.48394 -13.16379,5.20817 -17.88452,12.146 l -3.40519,5.00442 0.40173,119.0350235 c 0.39878,118.1528565 0.42505,119.0664465 3.54637,123.2749365 1.72955,2.33195 5.7842,5.74954 9.01033,7.59462 l 5.8657,3.35471 164.495658,0.0248 164.495662,0.0246 6.69433,-3.3794 z"
+         style="fill:url(#linearGradient3111);fill-opacity:1" />
+      <rect
+         ry="0"
+         y="194.99951"
+         x="176.71155"
+         height="39.050926"
+         width="63.072273"
+         id="rect2980"
+         style="fill:#191408;fill-opacity:1" />
+      <rect
+         ry="0"
+         y="194.99951"
+         x="-192.10423"
+         height="39.050926"
+         width="63.072273"
+         id="rect2980-1"
+         style="fill:#191408;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#5d656b;
+      }</style>
+ </defs>
+ <g transform="translate(-384.57 -515.8)">
+  <rect transform="scale(1,-1)" x="387.57" y="-544.8" width="26" height="26" rx="1.615" ry="1.615" color="#000000" fill="#f2f2f2" overflow="visible"/>
+  <rect x="387.07" y="518.3" width="27" height="27" rx="2.16" ry="2.16" color="#000000" fill="none" opacity=".35" overflow="visible" stroke="#555761" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="ColorScheme-Text" d="m394.57 524.8v2h-2v12h16v-12h-2v-2h-4v2h-4v-2h-4" fill="#76e58c" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".25"/>
+ </g>
+</svg>

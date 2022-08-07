@@ -1,0 +1,19 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 25.4 25.4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <rect x=".7935" y="3.704" width="23.812" height="18.256" ry=".3975" fill="#636a78" stroke="#262a2f" stroke-opacity=".784" stroke-width=".5295" style="paint-order:markers stroke fill"/>
+ <g stroke-width="1.0005">
+  <rect x=".7935" y="3.704" width="23.812" height="18.256" ry=".3975" fill="#636a78" style="paint-order:markers stroke fill"/>
+  <path d="m1.191 3.704a0.396 0.396 0 0 0-0.3975 0.3975v1.1895h23.812v-1.1895a0.396 0.396 0 0 0-0.396-0.3975z" fill="#4a4f59" style="paint-order:stroke markers fill"/>
+  <rect x="2.3805" y="4.2335" width="1.587" height=".5295" ry=".264" opacity=".35" style="paint-order:stroke markers fill"/>
+  <rect x="10.716" y="4.2335" width="3.969" height=".5295" ry=".264" opacity=".35" style="paint-order:stroke markers fill"/>
+  <rect x="22.754" y="4.2335" width=".5295" height=".5295" ry=".264" fill="#fff" opacity=".8" style="paint-order:stroke markers fill"/>
+  <rect x="20.902" y="4.2335" width="1.323" height=".5295" ry=".264" opacity=".35" style="paint-order:stroke markers fill"/>
+  <rect x="19.844" y="4.2335" width=".5295" height=".5295" ry=".264" opacity=".35" style="paint-order:stroke markers fill"/>
+ </g>
+ <path transform="scale(.26458)" d="m22.051 76.996c-1.6906 0-3.0508 1.3385-3.0508 3v3.0039h57.998v-3.0039c0-1.6615-1.3602-3-3.0508-3h-51.896z" fill="#fff" opacity=".15" stroke-width="3.8144" style="paint-order:stroke markers fill"/>
+ <g fill="#999ea7" stroke-width="1.0005">
+  <rect x="6.615" y="19.049" width="2.1165" height="2.1165" ry=".2115" style="paint-order:stroke markers fill"/>
+  <rect x="10.055" y="19.049" width="2.1165" height="2.1165" ry=".2115" style="paint-order:stroke markers fill"/>
+  <rect x="13.228" y="19.049" width="2.1165" height="2.1165" ry=".2115" style="paint-order:stroke markers fill"/>
+  <rect x="16.67" y="19.049" width="2.1165" height="2.1165" ry=".2115" style="paint-order:stroke markers fill"/>
+ </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m7.9062 1a7 7 0 0 0-6.9062 7 7 7 0 0 0 6 6.9277v-1.0117a6 6 0 0 1-5-5.916 6 6 0 0 1 6-6 6 6 0 0 1 5.916 5h1.0117a7 7 0 0 0-6.9277-6 7 7 0 0 0-0.09375 0z" fill="#5d656b"/>
+ <path d="M10.406 5.188a.504.504 0 0 0-.25.156L8.5 7h1.375l.969-.969c.293-.298-.025-.91-.438-.843zm-4.656.437a.474.474 0 0 0-.187.125c-.213.213-.164.624.093.781l1.375 1.375c.055-.356.28-.633.594-.781L6.344 5.844a.539.539 0 0 0-.594-.219z" enable-background="accumulate" fill="#5d656b" font-family="Sans" font-weight="400" overflow="visible" style="block-progression:tb;text-decoration-line:none;text-indent:0;text-transform:none"/>
+ <path class="warning" d="m8.875 8.001c-0.48317-0.008441-0.87845 0.38277-0.875 0.866v6.266c-0.00401 0.48363 0.39143 0.87545 0.875 0.867h6.25c0.48357 0.0085 0.87901-0.38337 0.875-0.867v-6.265c0.004577-0.48402-0.39104-0.87646-0.875-0.868h-6.25zm2.125 0.999h2v4h-2zm0 5h2v1h-2z" color="#5d656b" enable-background="new" fill="#f57900" overflow="visible"/>
+</svg>

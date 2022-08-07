@@ -1,0 +1,16 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="m11 5v54h42v-54z" fill="#e1e3e7"/>
+ <rect x="10.5" y="4.5" width="43" height="55" rx=".5" ry=".5" fill="none" stroke="#000" stroke-opacity=".24"/>
+ <g fill="#8c8c8c">
+  <rect x="12" y="6" width="2" height="2" rx="1" ry="1"/>
+  <rect x="50" y="6" width="2" height="2" rx="1" ry="1"/>
+  <rect x="50" y="56" width="2" height="2" rx="1" ry="1"/>
+  <rect x="12" y="56" width="2" height="2" rx="1" ry="1"/>
+  <rect x="12" y="31" width="2" height="2" rx="1" ry="1"/>
+  <rect x="50" y="31" width="2" height="2" rx="1" ry="1"/>
+ </g>
+ <path d="m39 8.5-17.934 18.17a16.5 16.5 0 0 0-5.566 12.33 16.5 16.5 0 0 0 16.5 16.5 16.5 16.5 0 0 0 16.5-16.5 16.5 16.5 0 0 0-0.03-0.852 0.492 0.492 0 0 0 0.03-0.148v-29c0-0.277-0.223-0.5-0.5-0.5z" fill="#edeff3" stroke="#cbcdd1"/>
+ <rect x="17.5" y="11.5" width="20" height="12" rx="1.5" ry="1.5" fill="#4c5263" stroke="#313643"/>
+ <path d="m19 14v1h3.19v-1zm3.609 0v1h3.021v-1zm3.441 0v1h2.644v-1zm3.063 0v1h1.175v-1zm-10.113 3v1h5.078v-1zm5.581 0v1h2.434v-1zm2.896 0v1h1.133v-1zm-8.477 3v1h5.623v-1zm6.043 0v1h2.943v-1zm5.957 0v1h5.078v-1z" fill="#e9eaee"/>
+ <path d="m32 47h12v2h-12zm0-22-12 24h4l12-24z" fill="#4c5263"/>
+</svg>

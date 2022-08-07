@@ -1,0 +1,6 @@
+<svg width="24" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css"/>
+ </defs>
+ <path d="M10 9v2h4V9l3 3-3 3v-2h-4v2l-3-3zm2-5a8 8 0 1 0 0 16 8 8 0 0 0 0-16z" color="#5294e2" fill="#f55"/>
+</svg>

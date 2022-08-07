@@ -1,0 +1,15 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect x="1" y="1" width="30" height="30" rx="3" ry="3" opacity=".25"/>
+ <path d="M4 2h24c1.108 0 2 .892 2 2v24c0 1.108-.892 2-2 2H4c-1.108 0-2-.892-2-2V4c0-1.108.892-2 2-2z" fill="#ececec"/>
+ <path d="m15.688 8.61-5 4-0.188 0.39v5.76l-4.813 3.85 0.625 0.78 4.688-3.75 4.688 3.75 0.624-0.78-4.812-3.85v-5.52l4.5-3.6 4.5 3.6v5.76l0.188 0.39 5 4 0.625-0.78-4.813-3.85v-5.76l-0.188-0.39-5-4z" fill="#7f8c8d"/>
+ <g stroke="#000" stroke-opacity=".25" stroke-width=".5">
+  <rect x="13" y="4" width="6" height="6" rx=".75" fill="#e27581"/>
+  <rect x="8" y="13" width="6" height="6" rx=".75" fill="#aa7ec0"/>
+  <rect x="18" y="13" width="6" height="6" rx=".75" fill="#aa7ec0"/>
+ </g>
+ <g fill="#57af71" stroke="#000" stroke-opacity=".25" stroke-width=".5">
+  <rect x="4" y="22" width="6" height="6" rx=".75"/>
+  <rect x="13" y="22" width="6" height="6" rx=".75"/>
+  <rect x="22" y="22" width="6" height="6" rx=".75"/>
+ </g>
+</svg>

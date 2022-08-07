@@ -1,0 +1,13 @@
+<svg id="SimpleNote" width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <circle cx="32" cy="32" r="27" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".29412" stroke-width="2" style="paint-order:stroke fill markers"/>
+ <circle cx="32" cy="32" r="27" fill="#fff" fill-rule="evenodd" style="paint-order:stroke fill markers"/>
+ <g transform="matrix(.63376 0 0 .63861 15.999 15.878)" fill="#333" stroke-width="15.939">
+  <g fill="#333" stroke-width="15.939">
+   <g fill="#333" stroke-width="15.939">
+    <g fill="#333" stroke-width="15.939">
+     <path transform="matrix(1.5466 0 0 1.5466 -24.588 -24.977)" d="m30.955 16.273c-8.4053 0.50367-15.057 7.5767-15.057 16.201 0 8.951 7.3836 16.197 16.334 16.197 8.6846 0 15.898-7.0673 16.312-15.473h-3.8984c-0.41186 6.4656-5.7693 11.596-12.312 11.596-6.8115-6.47e-4 -12.557-5.527-12.557-12.338 0-6.4837 5.3587-11.787 11.178-12.285zm1.9414 0v3.8965c3.2328 0.20561 5.1376 1.2338 7.0508 2.8359l2.8496-2.75c-2.6263-2.2966-6.021-3.7632-9.9004-3.9824zm11.49 5.3066-2.7559 2.7383c1.6591 1.9009 2.7517 4.3552 2.998 6.9414h3.8926c-0.26121-3.8794-1.778-7.0676-4.1348-9.6797zm-4.959 3.6211-8.2168 5.0391 0.0078 0.0078c-0.78169 0.44031-1.3164 1.2671-1.3164 2.2266 0 1.4153 1.1491 2.5645 2.5645 2.5645 0.99441 0 1.8474-0.57213 2.2734-1.3984l0.0059 0.0059z" fill="#333" stroke-width="10.306"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

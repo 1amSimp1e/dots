@@ -1,0 +1,24 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-376.57 -491.8)">
+  <g fill="#dbe1e3">
+   <path transform="translate(376.57 491.8)" d="m23 45v7h18v-7h-6v7h-6v-7z" opacity=".35" stroke="#34393c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+   <path d="m411.57 536.8v5.0908 1.4546 1.4546h6v-1.4546-1.4546-5.0908z" stroke-opacity=".55026" stroke-width="2.8"/>
+   <path d="m399.57 536.8v5.0908 1.4546 1.4546h6v-1.4546-1.4546-5.0908z" stroke-opacity=".55026" stroke-width="2.8"/>
+  </g>
+  <rect x="393.57" y="542.8" width="30" height="3.0001" rx="1" ry="1" fill="#34393c" fill-opacity=".34902" stroke-opacity=".55026" stroke-width="5.0201"/>
+  <g>
+   <g stroke-opacity=".55026">
+    <rect x="394.57" y="543.8" width="28" height="1" fill="#c6cfd2" stroke-width="2.8"/>
+    <rect x="376.57" y="502.8" width="64" height="35" rx="3" ry="3" fill="#2b2e39" stroke-width="2.8"/>
+    <rect x="377.57" y="503.8" width="62" height="33" rx="2" ry="2" fill="#414757" stroke-width="2.676"/>
+    <rect x="378.57" y="504.8" width="60" height="31" rx=".99997" ry=".99997" fill="#5294e2" stroke-width="2.5515"/>
+   </g>
+   <path d="m408.57 511.8c-4.986 0-9 4.014-9 9s4.014 9 9 9 9-4.014 9-9h-1a8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z" fill="#fff" opacity=".85" stroke-width=".1"/>
+  </g>
+  <path d="m408.57 511.8v1a8 8 0 0 1 8 8h1c0-4.986-4.014-9-9-9z" fill="#fff" opacity=".35" stroke-width=".1"/>
+  <g transform="translate(-1.1e-5 -3.0001)">
+   <rect x="405.62" y="520.8" width="5.9091" height="6" rx="2.9545" ry="3" opacity=".8" stroke-width=".1"/>
+   <path d="m410.34 523.8-2.7727-1.8v3.6z" fill="#fff" fill-rule="evenodd"/>
+  </g>
+ </g>
+</svg>

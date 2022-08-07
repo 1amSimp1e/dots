@@ -1,0 +1,16 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -280.07)">
+  <rect x="2.117" y="281.39" width="12.7" height="14.287" rx="2.117" ry="2.117" fill="#e9ebef" fill-rule="evenodd" opacity=".25" stroke="#000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width=".529" paint-order="stroke fill markers"/>
+  <rect x="2.117" y="281.39" width="12.7" height="14.287" rx="2.117" ry="2.117" fill="#ebebed" fill-rule="evenodd" paint-order="stroke fill markers"/>
+  <path d="m12.7 290.12a4.2332 4.2332 0 1 1-8.4665 0 4.2332 4.2332 0 1 1 8.4665 0z" fill="#334d5c" stroke="#20323c" stroke-width=".52916"/>
+  <path d="m12.7 290.12a4.2332 4.2332 0 1 1-8.4665 0 4.2332 4.2332 0 1 1 8.4665 0z" fill="#334d5c"/>
+  <path d="m11.642 290.12a3.175 3.1749 0 1 1-6.35 0 3.175 3.1749 0 1 1 6.35 0z" fill="#20323c"/>
+  <path d="m11.377 290.12a2.9104 2.9104 0 1 1-5.8208 0 2.9104 2.9104 0 1 1 5.8208 0z" fill="#efc84a"/>
+  <path d="m10.054 290.12a1.5875 1.5875 0 1 1-3.175 0 1.5875 1.5875 0 1 1 3.175 0z" fill="#20323c"/>
+  <path d="m9.26 290.12" fill="#f0f0f0"/>
+  <path d="m9.789 283.77a1.322 1.322 0 1 1-2.645 0 1.322 1.322 0 1 1 2.645 0z" fill="#20323c"/>
+  <path d="m9.525 283.77a1.058 1.058 0 1 1-2.117 0 1.058 1.058 0 1 1 2.117 0z" fill="#334d5c"/>
+  <path d="M8.996 283.771a.53.529 0 1 1-1.059 0 .53.529 0 1 1 1.059 0z" fill="#efc84a"/>
+  <path d="m9.7894 290.12a1.3229 1.3229 0 1 1-2.6458 0 1.3229 1.3229 0 1 1 2.6458 0z" fill="#334d5c"/>
+ </g>
+</svg>

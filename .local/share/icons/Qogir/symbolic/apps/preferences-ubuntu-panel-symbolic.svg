@@ -1,0 +1,12 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#5d656b">
+  <rect x="6" y="3" width="7" height="8" rx="0" ry="0" fill-rule="evenodd" opacity=".35" style="paint-order:fill markers stroke"/>
+  <path d="m2.002 1a0.999 0.999 0 0 0-1.002 1v10c0 0.554 0.447 1 1.002 1h11.996a0.999 0.999 0 0 0 1.002-1v-10c0-0.554-0.447-1-1.002-1zm-2e-3 1h12v10h-12z" style="paint-order:markers stroke fill"/>
+  <rect x="4" y="14" width="8" height="1" rx="0" ry="0" style="paint-order:markers stroke fill"/>
+  <g fill-rule="evenodd">
+   <rect x="3" y="9" width="2" height="2" rx="0" ry="0" style="paint-order:fill markers stroke"/>
+   <rect x="3" y="6" width="2" height="2" rx="0" ry="0" style="paint-order:fill markers stroke"/>
+   <rect x="3" y="3" width="2" height="2" rx="0" ry="0" style="paint-order:fill markers stroke"/>
+  </g>
+ </g>
+</svg>

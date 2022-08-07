@@ -1,0 +1,5 @@
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <rect x="2.5" y="2.5" width="27" height="27" rx="2.16" ry="2.16" color="#000000" fill="#8bbe43" overflow="visible"/>
+ <rect x="2.5" y="2.5" width="27" height="27" rx="2.16" ry="2.16" color="#000000" fill="none" opacity=".35" overflow="visible" stroke="#1e6600" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m16 8a8 8 0 0 0-7.75 6h2.094a5.997 5.997 0 0 1 5.656-4c1.657 0 3.134 0.695 4.219 1.781l-2.219 2.219h6v-6l-2.344 2.344a7.996 7.996 0 0 0-5.656-2.344zm-8 10v6l2.344-2.344a8 8 0 0 0 13.406-3.656h-2.094a5.997 5.997 0 0 1-5.656 4c-1.657 0-3.134-0.695-4.219-1.781l2.219-2.219z" color="#000000" fill="#fff" overflow="visible"/>
+</svg>

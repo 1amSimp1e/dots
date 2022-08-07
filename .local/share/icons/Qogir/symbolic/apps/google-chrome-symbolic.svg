@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g fill="#5d656b">
+  <path d="m8 2c-2.1438 0.0022058-4.1236 1.1481-5.1934 3.0059l1.2734 2.2051c0.37567-1.867 2.0155-3.2102 3.9199-3.2109h4.4629c-1.1361-1.2702-2.7587-1.9974-4.4629-2zm2.6387 3c0.86363 0.75804 1.3595 1.8509 1.3613 3-9.62e-4 0.70243-0.18688 1.3922-0.53906 2h0.0039l-2.2305 3.8633c2.7742-0.5832 4.7617-3.0285 4.7656-5.8633-0.00263-1.054-0.28286-2.0887-0.8125-3zm-8.3359 1.1309c-0.19921 0.6031-0.30139 1.234-0.30273 1.8691 0 3.3137 2.6863 6 6 6l1.2793-2.2109c-0.41212 0.13942-0.84423 0.21067-1.2793 0.21094-1.4272-0.001827-2.7454-0.76398-3.459-2h-0.00586z" opacity=".3"/>
+  <path d="m8 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z" style="paint-order:stroke fill markers"/>
+  <circle cx="8" cy="8" r="3" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

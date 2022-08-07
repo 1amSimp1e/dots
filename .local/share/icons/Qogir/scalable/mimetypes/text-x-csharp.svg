@@ -1,0 +1,8 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(.26458 0 0 .26458 0 -261.5)">
+  <path d="m8.991 989.37 46.01 4e-3v57.985h-46.009v-57.989z" fill="#fafafa"/>
+  <path transform="matrix(1.3428 0 0 1.3408 -.228 988.19)" d="m6.5 0.5 35 3e-3v44.003h-35z" fill="none" stroke="#4f6698" stroke-linejoin="round" stroke-opacity=".267" stroke-width=".745"/>
+  <rect y="988.36" width="64" height="64" rx="0" ry="0" fill="none" opacity=".75"/>
+ </g>
+ <path d="m5.8207 6.3499s-1.0583 0-1.0583 1.0583v2.1166c0 1.0583 1.0583 1.0583 1.0583 1.0583h1.5875v-0.52916h-1.5875s-0.52916 0-0.52916-0.52916v-2.1166c0-0.52916 0.52916-0.52916 0.52916-0.52916h1.5875v-0.52916zm3.1749 0v1.0583h-1.0583v0.52916h1.0583v1.0583h-1.0583v0.52916h1.0583v1.0583h0.52916v-1.0583h1.0583v1.0583h0.52916v-1.0583h1.0583v-0.52916h-1.0583v-1.0583h1.0583v-0.52916h-1.0583v-1.0583h-0.52916v1.0583h-1.0583v-1.0583zm0.52916 1.5875h1.0583v1.0583h-1.0583z" color="#000000" fill="#8c59d9" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+</svg>

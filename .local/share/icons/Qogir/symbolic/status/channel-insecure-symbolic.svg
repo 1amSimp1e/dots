@@ -1,0 +1,5 @@
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path class="ColorScheme-Text" d="m8 0c-2.216 0-4 1.784-4 4v2h1v-2c0-1.662 1.338-3 3-3s3 1.338 3 3v2h1v-2c0-2.216-1.784-4-4-4z" fill="#5d656b"/>
+ <path d="m4 6c-1.108 0-2 0.892-2 2v5c0 1.108 0.892 2 2 2h8v-1h-8c-0.554 0-1-0.446-1-1v-5c0-0.554 0.446-1 1-1h8v-1h-8z" fill="#5d656b"/>
+ <path class="warning" d="m13 6v4l0.25 2h1.5l0.25-2v-4zm0 7v2h2v-2z" color="#5d656b" enable-background="accumulate" fill="#f57900" overflow="visible"/>
+</svg>

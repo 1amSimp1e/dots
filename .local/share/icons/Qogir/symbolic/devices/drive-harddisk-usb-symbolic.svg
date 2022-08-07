@@ -1,0 +1,19 @@
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="a" color-interpolation-filters="sRGB">
+   <feBlend in2="BackgroundImage" mode="darken"/>
+  </filter>
+ </defs>
+ <g transform="translate(-383 117.19)" filter="url(#a)">
+  <path d="m390.5-112.57v1.7576l-2.3125 1.1875-0.1875 0.0625v0.86716h-0.5v1.5078h2v-1.5078h-0.5v-0.55466l1.5-0.78125v3.8438h-1.5l2 2 2-2h-1.5v-4.4688l1.5 0.75v1.1544h1v-1.4357l-0.1875-0.0937-2.3125-1.1875v-1.1013z" fill="#5d656b"/>
+ </g>
+ <g fill="#5d656b">
+  <path d="m3 0c-1.108 0-2 0.892-2 2v12c0 1.108 0.892 2 2 2h10c1.108 0 2-0.892 2-2v-12c0-1.108-0.892-2-2-2zm0 1h10c0.554 0 1 0.446 1 1v12c0 0.554-0.446 1-1 1h-10c-0.554 0-1-0.446-1-1v-12c0-0.554 0.446-1 1-1z" color="#5d656b"/>
+  <rect x="3" y="2" width="1" height="1" ry=".5" color="#5d656b"/>
+  <rect x="12" y="2" width="1" height="1" ry=".5" color="#5d656b"/>
+  <rect x="3" y="13" width="1" height="1" ry=".5" color="#5d656b"/>
+  <rect x="12" y="13" width="1" height="1" ry=".5" color="#5d656b"/>
+  <circle cx="8" cy="4" r="1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="10.5" cy="8.8725" r=".87246" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7449"/>
+ </g>
+</svg>

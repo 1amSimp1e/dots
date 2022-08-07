@@ -1,0 +1,22 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="c" x2="0" y1="54" y2="10" gradientTransform="translate(-97.627 -6.2373)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dedede" offset="0"/>
+   <stop stop-color="#ececec" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(0,15.999)">
+  <path d="m0-16h64v64h-64z" fill="none"/>
+  <rect transform="rotate(90)" x="-7" y="-59" width="46" height="54" ry="0" color="#bebebe" fill="#6e7c8b" overflow="visible"/>
+  <rect transform="rotate(90)" x="-7.5" y="-59.5" width="47" height="55" ry="0" color="#bebebe" fill="none" overflow="visible" stroke="#59646f"/>
+  <path transform="translate(0,-15.999)" d="m5 8.998v1.002h4v-1.002h-4zm50 0v1.002h4v-1.002h-4z" color="#bebebe" fill="#eaeaea"/>
+  <path d="m5 37.998v1.002h4v-1.002zm50 0v1.002h4v-1.002z" color="#bebebe" fill="#eaeaea"/>
+ </g>
+ <g transform="translate(97.627 6.2373)">
+  <path d="m-65.627 14.763a11 11 0 0 0-11 11 11 11 0 0 0 11 11 11 11 0 0 0 11-11 11 11 0 0 0-11-11m0.14453 0.95117a10 10 0 0 1 10 10 10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10" fill="#ececec"/>
+  <g transform="translate(-97.627 -6.2373)" fill-rule="evenodd">
+   <path d="m38 31.462-10 7.538v-14z" fill="#edeef8"/>
+  </g>
+  <path d="m-92.627 5.7627v4h4v-4zm50 0v4h4v-4zm-50 6v4h4v-4zm50 0v4h4v-4zm-50 6v4h4v-4zm50 0v4h4v-4zm-50 6v4h4v-4zm50 0v4h4v-4zm-50 6v4h4v-4zm50 0v4h4v-4zm-50 6v4h4v-4zm50 0v4h4v-4zm-50 6v4h4v-4zm50 0v4h4v-4z" fill="url(#c)"/>
+ </g>
+</svg>

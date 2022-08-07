@@ -1,0 +1,16 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.1538 5c-2.3012 0-4.1538 1.8526-4.1538 4.1538v5.1923l4.1538 3.1154-4.1538 2.0769v35.308c0 2.3012 1.8526 4.1538 4.1538 4.1538h45.692c2.3012 0 4.1538-1.8526 4.1538-4.1538v-45.692c0-2.3012-1.8526-4.1538-4.1538-4.1538z" fill="#679c4f" stroke="#507344" stroke-linecap="round" stroke-width="2"/>
+ <path d="m9.1538 5c-2.3012 0-4.1538 1.8526-4.1538 4.1538v5.1923l4.1538 3.1154-4.1538 2.0769v35.308c0 2.3012 1.8526 4.1538 4.1538 4.1538h45.692c2.3012 0 4.1538-1.8526 4.1538-4.1538v-45.692c0-2.3012-1.8526-4.1538-4.1538-4.1538z" fill="#679c4f" stroke-width="1.0385"/>
+ <path d="m48 53v1h-1v-1zm-1 1v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000" fill="#fff"/>
+ <path d="m56 52-3 3h3z" fill="#e6ea97" fill-rule="evenodd" stroke-width="1.5"/>
+ <path d="m56 30h-1v-1h1zm-1-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1z" color="#000000" fill="#fff"/>
+ <rect x="14" y="13" width="36" height="36" rx="3" ry="3" fill="#333" stroke-width="1.0588"/>
+ <rect x="15" y="14" width="34" height="34" rx="2" ry="2" fill="#4d4d4d"/>
+ <g fill="#e6e6e6">
+  <rect x="18" y="39" width="8" height="2" stroke-width="1.4142"/>
+  <rect x="18" y="43" width="4" height="2" stroke-width="1.4142"/>
+  <path d="m36 17v2h4v-2h-2zm4 2v2h-4v6h2v-4h2v4h6v-2h-2v-2h-2v-2h2v-2h-2zm4 0h2v-2h-2zm0 2v2h2v-2z" stroke-width="2"/>
+ </g>
+ <path d="m26 53v1h-1v-1zm-1 1v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000" fill="#fff"/>
+ <path d="m55 46h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h1v1zm0-1h-1v-1h1z" color="#000000" fill="#fff"/>
+</svg>

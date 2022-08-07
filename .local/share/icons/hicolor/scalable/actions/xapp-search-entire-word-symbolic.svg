@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg7384"
+   height="16"
+   width="16"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="xapp-search-entire-word-symbolic.svg">
+  <defs
+     id="defs7667" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1479"
+     inkscape:window-height="852"
+     id="namedview7665"
+     showgrid="true"
+     inkscape:zoom="22.627417"
+     inkscape:cx="11.198507"
+     inkscape:cy="11.756873"
+     inkscape:window-x="2265"
+     inkscape:window-y="90"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g4147"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4148" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <g
+     id="g4147"
+     style="fill:#bebebe;fill-opacity:1;stroke:none"
+     transform="matrix(1.3889016,0,0,1.3889016,-3.0103731,-3.5159478)">
+    <g
+       transform="scale(1.1627898,0.86000064)"
+       style="font-style:normal;font-weight:normal;font-size:23.34823418px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text4138-6">
+      <path
+         d="m 9.9135395,5.4551583 1.8575845,-2e-7 0,2.8410321 c 0,2.0390788 -0.631802,3.0193748 -1.8575845,3.0193748 l 3e-7,-0.837201 c 0.3385492,-0.03113 0.5778682,-0.2446 0.7179572,-0.5403447 0.14009,-0.2957443 0.210134,-0.8405365 0.210134,-1.6343764 l -0.0051,-0.3370195 -0.9229612,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#bebebe;fill-opacity:1;stroke:none"
+         id="path4157"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccsccssccc" />
+      <path
+         sodipodi:nodetypes="ccsccssccc"
+         inkscape:connector-curvature="0"
+         id="path4159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#bebebe;fill-opacity:1;stroke:none"
+         d="m 7.4367607,5.4551581 1.8575849,-2e-7 0,2.8410321 c 0,2.039079 -0.631802,3.019375 -1.8575849,3.019375 l 3e-7,-0.837201 c 0.3385493,-0.03113 0.5778685,-0.2446 0.7179576,-0.5403449 0.14009,-0.2957443 0.210134,-0.8405365 0.210134,-1.6343764 l -0.0051,-0.3370195 -0.9229616,0 z" />
+      <path
+         d="m 6.1983412,11.315703 -1.8575849,0 0,-2.8410321 c 0,-2.039079 0.631802,-3.019375 1.8575849,-3.019375 l -3e-7,0.837201 c -0.3385493,0.03113 -0.5778685,0.2446 -0.7179576,0.5403449 -0.14009,0.2957443 -0.210134,0.8405365 -0.210134,1.6343764 l 0.0051,0.3370195 0.9229616,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#bebebe;fill-opacity:1;stroke:none"
+         id="path4161"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccsccssccc" />
+      <path
+         sodipodi:nodetypes="ccsccssccc"
+         inkscape:connector-curvature="0"
+         id="path4163"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#bebebe;fill-opacity:1;stroke:none"
+         d="m 3.7215923,11.315565 -1.8575849,0 0,-2.8410319 c 0,-2.039079 0.631802,-3.019375 1.8575849,-3.019375 l -3e-7,0.837201 c -0.3385493,0.03113 -0.5778685,0.2446 -0.7179576,0.5403449 -0.14009,0.2957443 -0.210134,0.8405365 -0.210134,1.6343764 l 0.0051,0.3370195 0.9229616,0 z" />
+    </g>
+  </g>
+</svg>

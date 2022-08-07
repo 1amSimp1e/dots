@@ -1,0 +1,9 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(.26458 0 0 .26458 0 4.233)">
+  <path d="m0-16h64v64h-64z" fill="none"/>
+  <rect transform="rotate(90)" x="-7" y="-59" width="46" height="54" ry="0" color="#bebebe" fill="#84c835" overflow="visible"/>
+  <rect transform="rotate(90)" x="-7.5" y="-59.5" width="47" height="55" ry="0" color="#bebebe" fill="none" overflow="visible" stroke="#48781f" stroke-opacity=".78431"/>
+  <path d="m32-7h1v46h-1z" opacity=".15"/>
+ </g>
+ <path d="m10.646 7.639 0.80255-0.80255c0.12347-0.12347 0.12347-0.31485 0-0.43832s-0.31485-0.12347-0.43832 0l-0.91368 0.91368c-0.4877-0.24694-1.0433-0.38893-1.6298-0.38893-0.59266 0-1.1483 0.14199-1.6421 0.38893l-0.91985-0.91368c-0.12347-0.12347-0.31485-0.12347-0.43832 0s-0.12347 0.31485 0 0.43832l0.80873 0.80873c-0.91368 0.67291-1.5125 1.7533-1.5125 2.9818h7.4082c0-1.2285-0.59883-2.3151-1.5249-2.988zm-3.5021 1.6651h-0.52916v-0.52916h0.52916zm3.1749 0h-0.52916v-0.52916h0.52916z" enable-background="new" fill="#0c2809" opacity=".5" stroke-width=".61735"/>
+</svg>

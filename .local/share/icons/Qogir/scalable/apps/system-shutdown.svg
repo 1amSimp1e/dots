@@ -1,0 +1,7 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -1058.5)">
+  <circle cx="32" cy="1090.5" r="28" fill="#ce3427"/>
+  <circle cx="32" cy="1090.5" r="26.923" fill="#ef5350"/>
+  <path d="M33.97 1075.52a1 1 0 0 0-.818.47l-10 16.001a1 1 0 0 0 .847 1.53h5v11a1 1 0 0 0 1.849.53l10-16.001a1 1 0 0 0-.847-1.53h-5v-11a1 1 0 0 0-1.03-1z" fill="#fff" fill-rule="evenodd" font-family="sans-serif" font-weight="400" overflow="visible" style="isolation:auto;mix-blend-mode:normal;text-decoration-color:#000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+ </g>
+</svg>

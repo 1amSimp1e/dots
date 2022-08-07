@@ -1,0 +1,7 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="m16 1.5c-8 0-14.5 6.5-14.5 14.5s6.5 14.5 14.5 14.5 14.5-6.5 14.5-14.5-6.5-14.5-14.5-14.5z" color="#000000" fill="#5eb4fc" fill-opacity=".992" opacity=".99" overflow="visible"/>
+ <path d="m16 1.502c-8 0-14.498 6.498-14.498 14.498s6.498 14.498 14.498 14.498 14.498-6.498 14.498-14.498-6.498-14.498-14.498-14.498z" color="#000000" fill="none" opacity=".35" overflow="visible" solid-color="#000000" stroke="#002e99" stroke-linecap="round" stroke-linejoin="round" style="isolation:auto;mix-blend-mode:normal"/>
+ <g transform="matrix(.8 0 0 .8 -304.31 -409.09)" fill="#fffff9">
+  <path d="m402.89 517.61h3.75l-6.5037 10.736h5.4449l-7.0443 11.194 2.2695 0.94816-6.6664 4.6218 1.4728-7.9496 1.6068 1.5702 4.2569-7.776h-5.5287z" fill="#fffff9" fill-rule="evenodd"/>
+ </g>
+</svg>

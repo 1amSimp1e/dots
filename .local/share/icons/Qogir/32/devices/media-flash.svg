@@ -1,0 +1,29 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4455" x2="0" y1="526.8" y2="519.8" gradientTransform="matrix(.52632 0 0 .57143 178.64 199.77)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#eef1f2" offset="0"/>
+   <stop stop-color="#f9fafb" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-376.57 -491.8)">
+  <path d="m379.57 494.8v26h26v-26z" fill="#6b9f53" stroke="#283c20" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".35"/>
+  <rect x="379.57" y="519.82" width="26" height=".97522" fill="#dce269" stroke-width=".69829"/>
+  <rect x="381.57" y="496.8" width="10" height="4" fill="url(#linearGradient4455)" stroke="#283c20" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".35"/>
+  <rect x="382.07" y="497.3" width="4" height=".5" fill="#f55" stroke-width=".5"/>
+  <g fill="#35383b" stroke-width=".5">
+   <rect x="382.07" y="498.3" width="1.5" height=".5"/>
+   <rect x="384.07" y="498.3" width="2" height=".5"/>
+   <path d="m386.07 499.3v0.5h-0.5v0.5h5v-0.5h-0.5v-0.5h-0.5v0.5h-1v-0.5h-0.5v0.5h-0.5v-0.5h-0.5v0.5h-0.5v-0.5z"/>
+  </g>
+  <g fill="#34373a" stroke="#283c20" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".35">
+   <rect x="381.57" y="501.8" width="6" height="6"/>
+   <rect x="389.57" y="501.8" width="6" height="6"/>
+   <rect x="397.57" y="501.8" width="6" height="6"/>
+   <rect x="381.57" y="509.8" width="6" height="6"/>
+   <rect x="389.57" y="509.8" width="6" height="6"/>
+   <rect x="397.57" y="509.8" width="6" height="6"/>
+  </g>
+  <path d="m403.57 516.8v1h-1v-1zm-1 1v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000" fill="#dce269"/>
+  <path d="m403.57 499.8h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1zm-1 0h-1v-1h1zm-1 0v1h-1v-1z" color="#000000" fill="#dce269"/>
+ </g>
+</svg>

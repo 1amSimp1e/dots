@@ -1,0 +1,24 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-376.57 -491.8)">
+  <path d="m383.07 498.8c-0.5 0-0.5 0.5-0.5 0.5v17s0 0.5 0.5 0.5h3.5v-3h6v3h13.5s0.5 0 0.5-0.5v-17c0-0.5-0.5-0.5-0.5-0.5z" fill="#4c5263" stroke="#282b34" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".784"/>
+  <rect x="391.57" y="503.8" width="6" height="6" rx="1.2" ry="1.2" fill="#6b7486" stroke-width=".5"/>
+  <path d="m393.57 514.8h2v4h-2z" fill="#d6aa24" stroke="#58460e" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".55976" stroke-width=".5" paint-order="markers stroke fill"/>
+  <path d="m378.57 495.8v2h2v21h2v-23z" fill="#fff" stroke="#9da2b3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".784" paint-order="markers stroke fill"/>
+  <path d="m378.57 495.8v2h2v21h2v-23z" fill="#fff" stroke-width=".5" paint-order="markers stroke fill"/>
+  <g fill="#d6aa24" stroke="#58460e" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".55976" stroke-width=".5">
+   <path d="m396.57 514.8h2v4h-2z" paint-order="markers stroke fill"/>
+   <path d="m399.57 514.8h2v4h-2z" paint-order="markers stroke fill"/>
+   <path d="m402.57 514.8h2v4h-2z" paint-order="markers stroke fill"/>
+  </g>
+  <g fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".3" stroke-width=".6">
+   <rect x="392.57" y="502.8" width="1" height="2" rx="0" ry="0"/>
+   <rect x="395.57" y="502.8" width="1" height="2" rx="0" ry="0"/>
+   <rect x="392.57" y="508.8" width="1" height="2" rx="0" ry="0"/>
+   <rect x="395.57" y="508.8" width="1" height="2" rx="0" ry="0"/>
+   <rect transform="rotate(90)" x="504.8" y="-398.57" width="1" height="2" rx="0" ry="0"/>
+   <rect transform="rotate(90)" x="507.8" y="-398.57" width="1" height="2" rx="0" ry="0"/>
+   <rect transform="rotate(90)" x="504.8" y="-392.57" width="1" height="2" rx="0" ry="0"/>
+   <rect transform="rotate(90)" x="507.8" y="-392.57" width="1" height="2" rx="0" ry="0"/>
+  </g>
+ </g>
+</svg>

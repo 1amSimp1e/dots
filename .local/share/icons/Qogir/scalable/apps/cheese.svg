@@ -1,0 +1,11 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <rect transform="matrix(0,-1,-1,0,0,0)" x="-15.61" y="-15.61" width="14.287" height="14.287" rx="7.1437" ry="7.1437" fill="#fff" stroke="#000" stroke-linecap="round" stroke-opacity=".137" stroke-width=".529" style="paint-order:markers stroke fill"/>
+ <rect transform="matrix(0,-1,-1,0,0,0)" x="-15.61" y="-15.61" width="14.287" height="14.287" rx="7.1436" ry="7.1436" fill="#fff" style="paint-order:markers stroke fill"/>
+ <circle cx="8.4665" cy="8.4665" r="4.1008" fill="#333" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".707" stroke-width=".265"/>
+ <circle transform="scale(1,-1)" cx="8.4665" cy="-8.4665" r="3.0424" fill="#e91e63" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".471" stroke-width=".265"/>
+ <g transform="matrix(1.1846 0 0 1.1853 -1.563 -1.5673)" fill="#fff" stroke-width=".84393">
+  <path d="m9.7298 7.2033a1.7859 1.7859 0 0 0-2.5265 0l1.2633 1.2633z" opacity=".2"/>
+  <path d="m9.7298 7.2033a1.7859 1.7859 0 0 1 0 2.5265l-1.2633-1.2633zm-2.5265 2.5246a1.7859 1.7859 0 0 1 0-2.5265l1.2633 1.2652z" opacity=".4"/>
+  <path d="m7.2032 9.7279a1.7859 1.7859 0 0 0 2.5265 0l-1.2633-1.2613z" opacity=".6"/>
+ </g>
+</svg>

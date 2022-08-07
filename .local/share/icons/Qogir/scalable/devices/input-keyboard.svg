@@ -1,0 +1,13 @@
+<svg id="svg16" width="64" height="64" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="input-keyboard.svg" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+ <sodipodi:namedview id="namedview18" bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" inkscape:current-layer="svg16" inkscape:cx="32" inkscape:cy="32" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="711" inkscape:window-maximized="1" inkscape:window-width="1366" inkscape:window-x="0" inkscape:window-y="27" inkscape:zoom="3.6875" objecttolerance="10" pagecolor="#ffffff" showgrid="false"/>
+ <g id="g14" transform="translate(74 26)">
+  <g id="g10" transform="matrix(.5 0 0 .5 -74 -26.5)">
+   <rect id="rect2" x="16" y="15" width="96" height="100" rx="2.982" ry="2.982" fill="#f5f5f5" overflow="visible"/>
+   <rect id="rect4" x="15" y="14" width="98" height="102" rx="4" ry="4" fill="none" overflow="visible" stroke="#4f6698" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".267" stroke-width="2"/>
+   <g id="text8" transform="scale(.99014 1.01)" fill="#6c748c" aria-label="@">
+    <path id="path829" d="m76.785 76.532c3.9841 0 7.6061-0.93136 10.969-2.9493l-1.2418-2.7941c-2.5871 1.5005-5.8986 2.5871-9.417 2.5871-9.831 0-17.178-6.416-17.178-17.696 0-13.505 9.9345-22.301 20.231-22.301 10.504 0 16.04 6.8299 16.04 16.195 0 7.5026-4.1394 11.901-7.813 11.901-3.1563 0-4.2428-2.1214-3.1563-6.7782l2.2766-11.538h-3.1045l-0.67265 2.3801h-0.10348c-1.0348-1.9145-2.6388-2.8458-4.605-2.8458-6.7782 0-11.125 7.2956-11.125 13.401 0 5.2777 3.001 8.227 6.9334 8.227 2.5354 0 5.1742-1.7592 7.0369-3.9841h0.15523c0.36219 2.9493 2.7941 4.3981 5.9503 4.3981 5.2259 0 11.538-5.2777 11.538-15.367 0-11.383-7.3474-19.145-18.989-19.145-12.884 0-24.112 10.141-24.112 25.612 0 13.453 9.0549 20.697 20.386 20.697zm-1.0348-15.471c-2.3284 0-4.0876-1.5005-4.0876-5.2259 0-4.3463 2.7941-9.831 7.3474-9.831 1.604 0 2.6388 0.6209 3.7254 2.4319l-1.604 9.2101c-2.0179 2.3801-3.7772 3.415-5.3812 3.415z" style=""/>
+   </g>
+  </g>
+  <rect id="rect12" x="-66" y="26" width="48" height="5" rx="1.5" ry="1.5" fill-opacity=".051"/>
+ </g>
+</svg>

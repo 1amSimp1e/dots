@@ -1,0 +1,15 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
+ <rect x="1.5871" y="1.5858" width="13.758" height="13.758" rx=".82576" ry=".82576" fill="#4d4d4d" stroke="#232323" stroke-width=".52916" style="paint-order:markers stroke fill"/>
+ <rect x="1.5871" y="1.5858" width="13.758" height="13.758" rx=".82576" ry=".82576" fill="#4d4d4d" stroke-width="1.0005" style="paint-order:markers stroke fill"/>
+ <g fill="#fff">
+  <rect x="2.91" y="2.91" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="6.879" y="2.91" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="10.848" y="2.91" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="2.91" y="6.88" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="6.879" y="6.88" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="10.848" y="6.88" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="2.91" y="10.85" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="6.879" y="10.85" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+  <rect x="10.848" y="10.85" width="3.175" height="3.175" rx=".529" ry=".529" opacity=".9"/>
+ </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#d3dae3;
+      }</style>
+ </defs>
+ <g class="ColorScheme-Text" fill="currentColor" transform="matrix(.99144 .13053 -.13053 .99144 30.019 2.0988)">
+  <path class="ColorScheme-Text" fill="currentColor" transform="rotate(-7.5 -1.0014 230.05)" d="m4.9512 1.5039c-0.66918 0.049324-1.2413 0.56695-1.332 1.2559l-1.084 8.2402h1.0078l1.0684-8.1094c0.0336-0.25522 0.24674-0.42032 0.50195-0.38672l15.996 2.1055c0.25522 0.0336 0.42032 0.24869 0.38672 0.50391l-0.77539 5.8867h1.0098l0.75781-5.7559c0.10365-0.78733-0.46072-1.5213-1.248-1.625l-15.996-2.1074c-0.098416-0.012957-0.19737-0.014859-0.29297-0.0078126zm-2.8105 12.496-0.62695 4.7559c-0.10365 0.78733 0.45877 1.5213 1.2461 1.625l15.996 2.1055c0.78733 0.10365 1.5233-0.46072 1.627-1.248l0.95313-7.2383h-1.0098l-0.93555 7.1094c-0.0336 0.25522-0.24869 0.42032-0.50391 0.38672l-15.996-2.1074c-0.25522-0.0336-0.41837-0.24869-0.38477-0.50391l0.64258-4.8848h-1.0078z"/>
+ </g>
+ <rect class="ColorScheme-Text" fill="currentColor" transform="scale(-1)" x="-23" y="-13" width="2" height="1"/>
+ <rect class="ColorScheme-Text" fill="currentColor" transform="scale(-1)" x="-19" y="-13" width="3" height="1"/>
+ <rect class="ColorScheme-Text" fill="currentColor" transform="scale(-1)" x="-14" y="-13" width="3" height="1"/>
+ <rect class="ColorScheme-Text" fill="currentColor" transform="scale(-1)" x="-9" y="-13" width="3" height="1"/>
+ <rect class="ColorScheme-Text" fill="currentColor" x="1" y="12" width="3" height="1"/>
+</svg>

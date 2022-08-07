@@ -1,0 +1,23 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-384.57 -515.8)">
+  <g fill-rule="evenodd" stroke-width=".92561">
+   <path transform="translate(384.57 515.8)" d="m16 16-5.502 5.498h4.0273l1.4746-5.498z" fill="#139dcb"/>
+   <path transform="translate(384.57 515.8)" d="m16 16-1.4746 5.498h2.9492l-1.4746-5.498z" fill="#3ed4f0"/>
+   <path transform="translate(384.57 515.8)" d="m16 16 1.4746 5.498h4.0273l-5.502-5.498z" fill="#32d439"/>
+   <path transform="translate(384.57 515.8)" d="m16 16 5.502 5.498h8.498v-1.7402l-14-3.7578z" fill="#cee834"/>
+   <path transform="translate(384.57 515.8)" d="m30 12.244-14 3.7559 14 3.7578v-7.5137z" fill="#ffe600"/>
+   <path transform="translate(384.57 515.8)" d="m28.508 3.498-12.508 12.502 14-3.7559v-8.7461h-1.4922z" fill="#f7ac1b"/>
+   <path transform="translate(384.57 515.8)" d="m19.355 3.498-3.3555 12.502 12.508-12.502h-9.1523z" fill="#fa7c1a"/>
+   <path transform="translate(384.57 515.8)" d="m12.645 3.498 3.3555 12.502 3.3555-12.502h-6.7109z" fill="#ee332c"/>
+   <path transform="translate(384.57 515.8)" d="m16 16-14 3.7578v1.7402h8.498l5.502-5.498z" fill="#421ca8"/>
+   <path transform="translate(384.57 515.8)" d="m2 12.244v7.5137l14-3.7578-14-3.7559z" fill="#e861e2"/>
+   <path transform="translate(384.57 515.8)" d="m3.4922 3.498 12.508 12.502-3.3555-12.502h-9.1523z" fill="#ff5474"/>
+   <path transform="translate(384.57 515.8)" d="m2 3.498v8.7461l14 3.7559-12.508-12.502h-1.4922z" fill="#e92f61"/>
+  </g>
+  <path d="m397.81 537.8c-0.404 0-0.73 0.275-0.729 0.616v4.845l-2.277 0.154c-0.404 0-0.728 0.275-0.728 0.616v0.769h13v-0.769c0-0.34-0.325-0.616-0.729-0.616l-2.267-0.154v-4.845c0-0.341-0.325-0.616-0.729-0.616z" fill="none" stroke="#42557f" stroke-opacity=".291"/>
+  <path d="m398.03 537.71c-0.26 0-0.452 0.184-0.45 0.407v5.349l-2.545 0.184h-0.01c-0.26 0-0.45 0.184-0.45 0.407v0.269h12v-0.269c0-0.223-0.19-0.407-0.45-0.407h-0.012l-2.543-0.184v-5.349c0-0.223-0.19-0.407-0.45-0.407z" fill="#fafafa"/>
+  <path d="m387.07 518.8c-0.554 0-1 0.446-1 1v17c0 0.554 0.446 1 1 1h27c0.554 0 1-0.446 1-1v-17c0-0.554-0.446-1-1-1zm-0.5 0.5h28v18h-28z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#434855" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <path d="m387.07 518.3c-0.82235 0-1.5 0.67765-1.5 1.5v17c0 0.82235 0.67765 1.5 1.5 1.5h27c0.82235 0 1.5-0.67765 1.5-1.5v-17c0-0.82235-0.67765-1.5-1.5-1.5zm-0.5 1h28v18h-28z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#252831" fill-opacity=".784" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  <rect x="386.57" y="519.3" width="28" height="18" fill="#fff" opacity=".35"/>
+ </g>
+</svg>

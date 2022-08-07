@@ -1,0 +1,13 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-384.57 -515.8)">
+  <g>
+   <rect transform="scale(1,-1)" x="384.57" y="-546.8" width="32" height="30" rx="2" ry="2" opacity=".25" stroke-width="1.0351"/>
+   <rect transform="scale(1,-1)" x="385.57" y="-545.8" width="30" height="28" rx="1" ry="1" fill="#eee" stroke-width=".96825"/>
+   <path d="m386.57 545.8c-0.55402 0-1-0.44599-1-1v-3h30v3c0 0.55401-0.44599 1-1 1z" fill="#e4e4e4" stroke-width="1.1859"/>
+  </g>
+  <rect transform="scale(1,-1)" x="411.57" y="-544.8" width="2" height="2" rx="1" fill="#999"/>
+  <rect transform="scale(1,-1)" x="385.57" y="-541.8" width="30" height="1" ry="0" opacity=".25"/>
+  <path d="m387.57 542.8v1h1v-1zm1 1v1h1v-1z" fill="#999"/>
+  <path transform="translate(384.57 515.8)" d="m14.5 7a5.5 5.5 0 0 0-5.5 5.5 5.5 5.5 0 0 0 5.5 5.5 5.5 5.5 0 0 0 3.5195-1.2754l4.2793 4.2793 0.70508-0.70703-4.2812-4.2812a5.5 5.5 0 0 0 1.2773-3.5156 5.5 5.5 0 0 0-5.5-5.5zm0 1a4.5 4.5 0 0 1 4.5 4.5 4.5 4.5 0 0 1-4.5 4.5 4.5 4.5 0 0 1-4.5-4.5 4.5 4.5 0 0 1 4.5-4.5z" fill="#666" opacity=".75" stroke-linecap="round"/>
+ </g>
+</svg>

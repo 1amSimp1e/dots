@@ -1,0 +1,5 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect x="7.5" y=".5" width="17" height="29" rx="2" ry="2" fill="#535765"/>
+ <rect x="7.5" y=".5" width="17" height="29" rx="2" ry="2" fill="none" opacity=".65" stroke="#000" style="font-variant-east_asian:normal"/>
+ <path d="m12 0.5c0 0.831 0.28772 1.5 0.64453 1.5h6.7109c0.35681 0 0.64453-0.669 0.64453-1.5h-8z" fill-rule="evenodd" opacity=".5" style="paint-order:stroke fill markers"/>
+</svg>

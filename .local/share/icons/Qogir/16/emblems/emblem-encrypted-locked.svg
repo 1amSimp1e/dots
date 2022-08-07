@@ -1,0 +1,9 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-5,1)">
+  <rect x="6" width="14" height="14" rx="1" ry="1" fill="#3c4049" fill-opacity=".8" style="paint-order:markers stroke fill"/>
+  <g transform="translate(0,-6)" fill="#ffffff">
+   <path d="m11 9.8a3.2 3.2 0 0 0-3.2 3.2 3.2 3.2 0 0 0 3.2 3.2 3.2 3.2 0 0 0 3.2-3.2 3.2 3.2 0 0 0-3.2-3.2zm0 1.6a1.6 1.6 0 0 1 1.6 1.6 1.6 1.6 0 0 1-1.6 1.6 1.6 1.6 0 0 1-1.6-1.6 1.6 1.6 0 0 1 1.6-1.6z"/>
+   <path d="m12.6 12.2h6.4v1.6h-6.4zm3.6 1.6h1.6v1.6h-1.6z"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g stroke-linejoin="round">
+  <path d="m10 2h20v28h-20z" fill="#e9e9e9"/>
+  <g stroke-width="1.4286">
+   <path d="m10 29h20v1h-20z" fill="#000000" opacity=".15"/>
+   <path d="m12 6v1h10v-1zm0 2v1h9v-1zm0 2v1h10v-1z" fill="#4d4d4d"/>
+   <path d="m24 6v1h4v-1zm0 4v1h4v-1z" fill="#da4453"/>
+   <path d="m24 8h4v1h-4z" fill="#27ae60"/>
+  </g>
+  <path d="m10 2h1v27h-1z" fill="#000000" opacity=".15"/>
+  <path d="m29 2h1v27h-1z" fill="#000000" opacity=".15"/>
+ </g>
+ <g transform="translate(0 -15)">
+  <path d="m3 31c-.554 0-1 .446-1 1v8a1 1.5 0 0 1 1 1.5 1 1.5 0 0 1 -1 1.5v1c0 .554.446 1 1 1h20c.554 0 1-.446 1-1v-12c0-.554-.446-1-1-1z" fill="#3496ce" stroke-linejoin="round"/>
+  <path d="m2 32h22v3h-22z" fill="#144769" stroke-width="1.4286"/>
+  <g stroke-linejoin="round">
+   <rect x="4" y="36" width="4" height="3" rx=".5" fill="#b9daec"/>
+   <path d="m6 41v1h3v-1zm4 0v1h3v-1zm4 0v1h3v-1zm4 0v1h3v-1z" fill="#1f5b83"/>
+  </g>
+ </g>
+</svg>

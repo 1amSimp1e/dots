@@ -1,0 +1,14 @@
+<svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#d3dae3; } .ColorScheme-Highlight { color:#5294e2; }</style>
+ </defs>
+ <g class="ColorScheme-Text" transform="translate(-1 -1)" fill="currentColor">
+  <path transform="translate(1,1)" d="m1 5v8.5c0 0.277 0.223 0.5 0.5 0.5h13c0.277 0 0.5-0.223 0.5-0.5v-8.5h-14z" opacity=".1"/>
+  <path transform="translate(1,1)" d="m1.5 2c-0.277 0-0.5 0.223-0.5 0.5v1.5h14v-1.5c0-0.277-0.223-0.5-0.5-0.5h-13z" opacity=".25"/>
+ </g>
+ <path d="M0 0h16v16H0z" fill="none"/>
+ <g transform="matrix(1.0718 0 0 1.0829 -1.646 -1.746)" style="fill:currentColor" class="ColorScheme-Text">
+  <path d="m3 2.5352c-0.80303 0-1.4648 0.66181-1.4648 1.4648v10c0 0.80303 0.66181 1.4648 1.4648 1.4648h12c0.80303 0 1.4648-0.66181 1.4648-1.4648v-10c0-0.80303-0.66181-1.4648-1.4648-1.4648zm0 0.92969h12c0.30497 0 0.53516 0.23019 0.53516 0.53516v10c0 0.30497-0.23019 0.53516-0.53516 0.53516h-12c-0.30497 0-0.53516-0.23019-0.53516-0.53516v-10c0-0.30497 0.23019-0.53516 0.53516-0.53516z" style="fill:currentColor" class="ColorScheme-Text"/>
+ </g>
+ <path d="m1 4h14v1h-14z" style="fill:currentColor" class="ColorScheme-Text"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#5d656b" stroke-width=".70711">
+  <path d="m1 3v10h1v-10z"/>
+  <path d="m5 3v10h1v-10z"/>
+  <path d="m9 3v10h1v-10z"/>
+  <path d="m13 3v10h1v-10z"/>
+ </g>
+</svg>

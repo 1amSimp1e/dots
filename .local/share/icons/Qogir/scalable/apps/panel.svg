@@ -1,0 +1,14 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect transform="scale(1,-1)" x="4.5" y="-56.5" width="55" height="49" rx="2.5581" ry="2.5789" fill="#e6e6e6" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".196"/>
+ <path d="m5 45v-34.448c0-2.5517 2.5714-2.5517 2.5714-2.5517h48.857c2.5714 0 2.5714 2.5517 2.5714 2.5517v34.448z" fill="#f9f9f9"/>
+ <path d="m5 46h54v-1h-54z" opacity=".15"/>
+ <path d="m11 48a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3zm0 1a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z" opacity=".15" style="paint-order:fill markers stroke"/>
+ <rect x="41" y="49" width="14" height="4" rx="0" ry="0" fill="#b3b3b3" opacity=".75" style="paint-order:fill markers stroke"/>
+ <g fill-rule="evenodd">
+  <circle cx="11" cy="51" r="2" fill="#fff" style="paint-order:fill markers stroke"/>
+  <rect x="17" y="48" width="6" height="6" rx="1.5" ry="1.5" opacity=".15" style="paint-order:fill markers stroke"/>
+  <rect x="18" y="49" width="4" height="4" rx="1" ry="1" fill="#fff" style="paint-order:fill markers stroke"/>
+  <rect x="27" y="48" width="6" height="6" rx="1.5" ry="1.5" opacity=".15" style="paint-order:fill markers stroke"/>
+  <rect x="28" y="49" width="4" height="4" rx="1" ry="1" fill="#fff" style="paint-order:fill markers stroke"/>
+ </g>
+</svg>

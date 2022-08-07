@@ -1,0 +1,16 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path d="m5 2v28h22v-28z" fill="#e1e3e7"/>
+ <rect x="4.5" y="1.5" width="23" height="29" rx=".5" ry=".5" fill="none" stroke="#000" stroke-opacity=".24"/>
+ <g fill="#8c8c8c">
+  <rect x="6" y="3" width="1" height="1" rx="1" ry="1"/>
+  <rect x="25" y="3" width="1" height="1" rx="1" ry="1"/>
+  <rect x="25" y="28" width="1" height="1" rx="1" ry="1"/>
+  <rect x="6" y="28" width="1" height="1" rx="1" ry="1"/>
+  <rect x="6" y="15" width="1" height="1" rx="1" ry="1"/>
+  <rect x="25" y="15" width="1" height="1" rx="1" ry="1"/>
+ </g>
+ <path d="m19.606 4.5-9.239 8.892a8.5 8.074 0 0 0-2.867 6.034 8.5 8.074 0 0 0 8.5 8.074 8.5 8.074 0 0 0 8.5-8.074 8.5 8.074 0 0 0-0.016-0.417 0.222 0.222 0 0 0 0.016-0.073v-14.191a0.25 0.25 0 0 0-0.258-0.245z" fill="#edeff3" stroke="#cbcdd1"/>
+ <rect x="8.5" y="5.5" width="11" height="6" rx="1.5" ry="1.5" fill="#4c5263" stroke="#323642"/>
+ <path d="m10 6.667v0.667h1.594v-0.667zm1.804 0v0.667h1.51v-0.667zm1.72 0v0.667h1.322v-0.667zm1.532 0v0.667h0.588v-0.667zm-5.056 1.333v0.667h2.538v-0.667zm2.79 0v0.667h1.217v-0.667zm1.448 0v0.667h0.566v-0.667zm-4.238 2v0.667h2.811v-0.667zm3.02 0v0.667h1.473v-0.667zm2.313 0v0.667h2.667v-0.667z" fill="#e9eaee"/>
+ <path d="m16 24h6v1h-6zm0-11-6 12h2l6-12z" fill="#4c5263" stroke-width=".5"/>
+</svg>

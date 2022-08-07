@@ -1,0 +1,32 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <linearGradient id="e" x1="16" x2="16" y1="22" y2="6" gradientTransform="translate(0,5)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#73ba25" offset="0"/>
+  <stop stop-color="#81c13b" offset="1"/>
+ </linearGradient>
+ <linearGradient id="f" x1="16" x2="16" y1="22" y2="6" gradientTransform="translate(0,5)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#173f4f" offset="0"/>
+  <stop stop-color="#2f5361" offset="1"/>
+ </linearGradient>
+ <linearGradient id="g" x1="16" x2="16" y1="22" y2="6" gradientTransform="translate(0,5)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#35b9ab" offset="0"/>
+  <stop stop-color="#4ac0b4" offset="1"/>
+ </linearGradient>
+ <g transform="translate(-117.7,-413.07)">
+  <path d="m122.7 415.07v28h22v-28z" fill="#e1e3e7"/>
+  <rect x="122.2" y="414.57" width="23" height="29" rx=".5" ry=".5" fill="none" stroke="#000" stroke-opacity=".24"/>
+  <g fill="#8c8c8c">
+   <rect x="123.7" y="416.07" width="1" height="1" rx="1" ry="1"/>
+   <rect x="142.7" y="416.07" width="1" height="1" rx="1" ry="1"/>
+   <rect x="142.7" y="441.07" width="1" height="1" rx="1" ry="1"/>
+   <rect x="123.7" y="441.07" width="1" height="1" rx="1" ry="1"/>
+   <rect x="123.7" y="428.07" width="1" height="1" rx="1" ry="1"/>
+   <rect x="142.7" y="428.07" width="1" height="1" rx="1" ry="1"/>
+  </g>
+  <path d="m137.3 417.57-9.239 8.892a8.5 8.074 0 0 0-2.867 6.034 8.5 8.074 0 0 0 8.5 8.074 8.5 8.074 0 0 0 8.5-8.074 8.5 8.074 0 0 0-0.016-0.417 0.222 0.222 0 0 0 0.016-0.073v-14.191a0.25 0.25 0 0 0-0.258-0.245z" fill="#edeff3" stroke="#cbcdd1"/>
+  <rect x="126.2" y="418.57" width="11" height="6" rx="1.5" ry="1.5" fill="#4c5263" stroke="#323642"/>
+  <path d="m127.7 419.74v0.667h1.594v-0.667zm1.804 0v0.667h1.51v-0.667zm1.72 0v0.667h1.322v-0.667zm1.532 0v0.667h0.588v-0.667zm-5.056 1.333v0.667h2.538v-0.667zm2.79 0v0.667h1.217v-0.667zm1.448 0v0.667h0.566v-0.667zm-4.238 2v0.667h2.811v-0.667zm3.02 0v0.667h1.473v-0.667zm2.313 0v0.667h2.667v-0.667z" fill="#e9eaee"/>
+ </g>
+ <path d="m16 11a8 8 0 0 0-6.912 3.986l6.912 3.455 6.908-3.455a8 8 0 0 0-6.908-3.986z" fill="url(#e)"/>
+ <path d="m8.635 15.877a8 8 0 0 0-0.635 3.123 8 8 0 0 0 7.5 7.975v-7.666z" fill="url(#f)"/>
+ <path d="m23.357 15.879-6.857 3.43v7.673a8 8 0 0 0 7.5-7.982 8 8 0 0 0-0.643-3.121z" fill="url(#g)"/>
+</svg>

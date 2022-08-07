@@ -1,0 +1,15 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect x="1.165e-5" y="1" width="32" height="30" rx="2" ry="2" opacity=".25" stroke-width="1.0351"/>
+ <rect x="1" y="2" width="30" height="28" rx="1" ry="1" fill="#eee" stroke-width=".96825"/>
+ <path d="m2 2c-0.55402 0-1 0.44599-1 1v5h30v-5c0-0.55401-0.44599-1-1-1z" fill="#e4e4e4" stroke-width="1.1859"/>
+ <rect x="27" y="4" width="2" height="2" rx="1" fill="#999"/>
+ <rect x="1" y="8" width="30" height="1" ry="0" opacity=".25"/>
+ <g>
+  <path transform="matrix(.58824 0 0 .57143 -189.04 -275.03)" d="m331.57 505.8h3l3.5 10 3.5-10h3l-5 14h-3z" fill="#f84d5e"/>
+  <path transform="matrix(.58824 0 0 .57143 -189.04 -275.03)" d="m342.57 519.8 5-14h3l-5 14zm10 0 5-14h3l-5 14z" fill="#3f4144"/>
+  <path transform="matrix(.58824 0 0 .57143 -189.04 -275.03)" d="m339.57 519.8 5-14h3l-5 14zm10 0 5-14h3l-5 14z" fill="#8a9596"/>
+  <path transform="matrix(.58824 0 0 .57143 -189.04 -275.03)" d="m352.57 519.8h-3l-5-14h3zm10 0h-3l-5-14h3z" fill="#bcc1c5"/>
+  <path transform="matrix(.58824 0 0 .57143 -189.04 -275.03)" d="m347.57 505.8 5 14h3l-5-14zm10 0 5 14h3l-5-14z" fill="#585858"/>
+ </g>
+ <path d="m27 20v6.086l-2.293-2.293-0.707 0.707 3.5 3.5 3.5-3.5-0.707-0.707-2.293 2.293v-6.086z" fill="#27ae60"/>
+</svg>

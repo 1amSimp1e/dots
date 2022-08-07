@@ -1,0 +1,12 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 12.7 12.7" xmlns="http://www.w3.org/2000/svg">
+ <path d="m2.524 2.381c-0.226 0-0.304 0.33-0.407 0.53h-1.059c-0.264 0-0.264 0.264-0.264 0.264v4.09c0 0.226 0.181 0.408 0.407 0.408h10.298a0.406 0.406 0 0 0 0.407-0.407v-4.091c0-0.265-0.264-0.265-0.264-0.265h-6.086c-0.12-0.19-0.181-0.529-0.407-0.529z" fill="#6ba4e7" paint-order="markers stroke fill"/>
+ <path d="m2.524 2.381c-0.226 0-0.304 0.33-0.407 0.53h-1.059c-0.264 0-0.264 0.264-0.264 0.264v4.09c0 0.226 0.181 0.408 0.407 0.408h10.298a0.406 0.406 0 0 0 0.407-0.407v-4.091c0-0.265-0.264-0.265-0.264-0.265h-6.086c-0.12-0.19-0.181-0.529-0.407-0.529z" fill="#000000" opacity=".2" paint-order="markers stroke fill"/>
+ <rect x="1.588" y="1.85" width="9.525" height="7.408" rx=".207" ry=".265" fill="#ffffff" stroke="#000000" stroke-opacity=".267" stroke-width=".529" paint-order="markers stroke fill"/>
+ <rect x="1.588" y="1.85" width="9.525" height="7.408" rx=".207" ry=".265" fill="#ffffff" paint-order="markers stroke fill"/>
+ <path d="m6.35 4.762c-0.265 0-0.359 0.511-0.524 0.794h-5.297c-0.264 0-0.264 0.265-0.264 0.265v5.027s0 0.264 0.264 0.264h11.642s0.264 0 0.264-0.264v-5.821c0-0.265-0.264-0.265-0.264-0.265z" fill="#5294e2" stroke="#003579" stroke-opacity=".561" stroke-width=".529" paint-order="markers stroke fill"/>
+ <rect x="2.646" y="4.76" width="7.408" height=".265" rx="0" ry="0" opacity=".25" paint-order="markers stroke fill"/>
+ <path d="m6.35 4.762c-0.265 0-0.359 0.511-0.524 0.794h-5.297c-0.264 0-0.264 0.265-0.264 0.265v5.027s0 0.264 0.264 0.264h11.642s0.264 0 0.264-0.264v-5.821c0-0.265-0.264-0.265-0.264-0.265z" fill="#6ba4e7" paint-order="markers stroke fill"/>
+ <rect x="2.646" y="2.38" width="7.408" height=".265" rx="0" ry="0" opacity=".25" paint-order="markers stroke fill"/>
+ <rect x="2.646" y="3.18" width="7.408" height=".265" rx="0" ry="0" opacity=".25" paint-order="markers stroke fill"/>
+ <rect x="2.646" y="3.97" width="7.408" height=".265" rx="0" ry="0" opacity=".25" paint-order="markers stroke fill"/>
+</svg>

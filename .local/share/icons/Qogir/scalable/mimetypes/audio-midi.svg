@@ -1,0 +1,6 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <rect y="-.012027" width="64" height="64" rx="0" ry="0" fill="none" opacity=".75"/>
+ <path d="m8.9992 1.0016h46.002v59h-45.998v-59z" color="#000000" fill="#4040bf" overflow="visible" stroke-width="3.7796"/>
+ <path d="m8.5003 0.49889 46.999 0.00378v59.997h-46.996v-60.001z" color="#000000" fill="none" overflow="visible" stroke="#30308f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0016"/>
+ <path d="m20 20v22h23v-22zm1 1h3v10h1v10h-4zm6 0h3v10h1v10h-5v-10h1zm6 0h3v10h1v10h-5v-10h1zm6 0h3v20h-4v-10h1z" color="#000000" color-rendering="auto" image-rendering="auto" opacity=".6" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+</svg>

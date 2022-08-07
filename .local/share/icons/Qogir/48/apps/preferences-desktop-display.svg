@@ -1,0 +1,5 @@
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect x="3.5" y="6.5" width="41" height="35" rx="1.4302" ry="1.3816" color="#000000" fill="#4d4d4d" opacity=".9" overflow="visible"/>
+ <rect x="3.5" y="6.5" width="41" height="35" rx="1.4302" ry="1.3816" color="#000000" fill="none" opacity=".5" overflow="visible" solid-color="#000000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" style="isolation:auto;mix-blend-mode:normal"/>
+ <path d="m15.5 9-3 5h2.5v15h-4v-2.5l-5 3 5 3v-2.5h4v4h-2.5l3 5 3-5h-2.5v-4h21v2.5l5-3-5-3v2.5h-21v-15h2.5z" color="#000000" fill="#f9f9f9" overflow="visible" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
+</svg>

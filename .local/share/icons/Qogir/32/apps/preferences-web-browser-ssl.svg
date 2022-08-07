@@ -1,0 +1,22 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="m" x1="4.49" x2="47.5" y1="23" y2="23" gradientTransform="matrix(.64663 0 0 -.64663 -.478 30.873)" gradientUnits="userSpaceOnUse" xlink:href="#h"/>
+  <linearGradient id="h">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="l" x1="48.127" x2="2.873" y1="25.828" y2="24.414" gradientTransform="matrix(.45724 -.45724 -.45724 -.45724 14.748 38.235)" gradientUnits="userSpaceOnUse" xlink:href="#h"/>
+  <linearGradient id="k" x1="46.006" x2="4.287" y1="23.707" y2="27.243" gradientTransform="matrix(.45724 .45724 -.45724 .45724 14.869 -6.1764)" gradientUnits="userSpaceOnUse" xlink:href="#h"/>
+  <linearGradient id="j" x1="3.5" x2="47.5" y1="23" y2="23" gradientTransform="matrix(0 .64663 .64663 0 1.14 -.489)" gradientUnits="userSpaceOnUse" xlink:href="#h"/>
+ </defs>
+ <path d="m16 1.5c-8 0-14.5 6.5-14.5 14.5s6.5 14.5 14.5 14.5 14.5-6.5 14.5-14.5-6.5-14.5-14.5-14.5z" color="#000000" fill="#808080" overflow="visible" stroke="#05111e" stroke-opacity=".518"/>
+ <path d="m18.614 28.594a6.143 13.903 0 0 0-2.617-26.496" fill="none" opacity=".8" stroke="url(#j)" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m17.467 28.185a1.293 1.293 0 0 0 2.586 0 1.293 1.293 0 1 0-2.586 0z" color="#000000" fill="#fff" overflow="visible"/>
+ <path d="m25.842 25.83a13.903 6.143 45 0 1-20.564-17.46" fill="none" opacity=".8" stroke="url(#k)" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m6.635 8.827a1.293 1.293 0 0 1-2.586 0 1.293 1.293 0 1 1 2.586 0z" color="#000000" fill="#fff" overflow="visible"/>
+ <path d="m25.967 6.509a6.143 13.903 45 0 0-20.554 14.841" fill="none" opacity=".8" stroke="url(#l)" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m5.222 23.516a1.2935 1.2935 0 0 0 0-2.587 1.2935 1.2935 0 1 0 0 2.587z" fill="#fff"/>
+ <path d="m27.853 12.781a13.903 6.143 0 0 0-25.729 3.506" fill="none" stroke="url(#m)" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m29.389 13.03a1.2935 1.2935 0 0 0-2.587 0 1.2935 1.2935 0 1 0 2.587 0z" color="#000000" fill="#fff" overflow="visible"/>
+ <path d="M16 9c-1.662 0-3 1.338-3 3v3h-2v7h10v-7h-2v-3c0-1.662-1.338-3-3-3zm0 1c1.246 0 2 .546 2 2v3h-4v-3c0-1.454.754-2 2-2z" fill="#ffdf60"/>
+</svg>

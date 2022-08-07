@@ -1,0 +1,10 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect transform="scale(1,-1)" x="3" y="-29" width="26" height="26" rx="1.615" ry="1.615" fill="#f4f4f4" overflow="visible"/>
+ <rect x="2.5" y="2.5" width="27" height="27" rx="2.16" ry="2.16" fill="none" opacity=".25" overflow="visible" stroke="#555761" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="m11 6.9998c1.108 0 2 0.89204 2 2.0001v14c0 1.1081-0.892 2.0001-2 2.0001s-2-0.89204-2-2.0001v-14c0-1.1081 0.892-2.0001 2-2.0001z" fill="#b3b3b3" fill-rule="evenodd" opacity=".75" stroke-width=".80179" style="paint-order:stroke fill markers"/>
+ <path d="m7 10.95a4.0024 4.0922 0 0 1 8 0 4.0002 4.0898 0 0 1-8 0z" color="#000000" fill="#1987d7" overflow="visible"/>
+ <path d="m8 10.95a3.0017 3.0519 0 0 1 6 0 3 3.0502 0 0 1-6 0z" color="#000000" fill="#45a4e9" overflow="visible" stroke-width="1.8897"/>
+ <path d="m21 25c1.108 0 2-0.89204 2-2.0001v-14c0-1.1081-0.892-2.0001-2-2.0001s-2 0.89204-2 2.0001v14c0 1.1081 0.892 2.0001 2 2.0001z" fill="#b3b3b3" fill-rule="evenodd" opacity=".75" stroke-width=".80179" style="paint-order:stroke fill markers"/>
+ <path d="m17 20.95a4.0024 4.0922 0 0 1 8 0 4.0002 4.0898 0 0 1-8 0z" color="#000000" fill="#1987d7" overflow="visible"/>
+ <path d="m18 20.95a3.0017 3.0519 0 0 1 6 0 3 3.0502 0 0 1-6 0z" color="#000000" fill="#45a4e9" overflow="visible" stroke-width="1.8897"/>
+</svg>

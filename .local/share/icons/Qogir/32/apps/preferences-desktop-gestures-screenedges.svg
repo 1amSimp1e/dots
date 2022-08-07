@@ -1,0 +1,20 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect transform="scale(1,-1)" x="1.165e-5" y="-31" width="32" height="30" rx="2" ry="2" opacity=".25" stroke-width="1.0351"/>
+ <rect transform="scale(1,-1)" x="1" y="-30" width="30" height="28" rx="1" ry="1" fill="#eee" stroke-width=".96825"/>
+ <path d="m2 30c-0.55402 0-1-0.44599-1-1v-3h30v3c0 0.55401-0.44599 1-1 1z" fill="#e4e4e4" stroke-width="1.1859"/>
+ <rect transform="scale(1,-1)" x="27" y="-29" width="2" height="2" rx="1" fill="#999"/>
+ <rect transform="scale(1,-1)" x="1" y="-26" width="30" height="1" ry="0" opacity=".25"/>
+ <path d="m3 27v1h1v-1zm1 1v1h1v-1z" fill="#999"/>
+ <path d="m1 2v10c5.5228 0 10-4.4772 10-10z" opacity=".08"/>
+ <path d="m1 2v7c3.866 0 7-3.134 7-7z" opacity=".08" stroke-width=".7"/>
+ <path d="m1 2v4c2.2091 0 4-1.7909 4-4z" opacity=".08" stroke-width=".4"/>
+ <path d="m31 2v10c-5.5228 0-10-4.4772-10-10z" opacity=".08"/>
+ <path d="m31 2v7c-3.866 0-7-3.134-7-7z" opacity=".08" stroke-width=".7"/>
+ <path d="m31 2v4c-2.2091 0-4-1.7909-4-4z" opacity=".08" stroke-width=".4"/>
+ <path d="m1 30v-10c5.5228 0 10 4.4772 10 10z" opacity=".08"/>
+ <path d="m1 30v-7c3.866 0 7 3.134 7 7z" opacity=".08" stroke-width=".7"/>
+ <path d="m1 30v-4c2.2091 0 4 1.7909 4 4z" opacity=".08" stroke-width=".4"/>
+ <path d="m31 30v-10c-5.5228 0-10 4.4772-10 10z" opacity=".08"/>
+ <path d="m31 30v-7c-3.866 0-7 3.134-7 7z" opacity=".08" stroke-width=".7"/>
+ <path d="m31 30v-4c-2.2091 0-4 1.7909-4 4z" opacity=".08" stroke-width=".4"/>
+</svg>

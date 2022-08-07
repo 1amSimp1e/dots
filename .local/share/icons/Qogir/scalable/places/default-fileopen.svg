@@ -1,0 +1,19 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="c-7" x1="-197.1" x2="-196.91" y1="217.68" y2="219.37" gradientTransform="rotate(-45 -338.07 -140.03)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m3.44 2.381c-0.294 0-0.395 0.269-0.53 0.53h-1.058c-0.265 0-0.265 0.264-0.265 0.264v5.556c0 0.293 0.237 0.53 0.53 0.53h12.7a0.529 0.529 0 0 0 0.529-0.53v-5.556c0-0.265-0.265-0.265-0.265-0.265h-7.408c-0.155-0.249-0.236-0.53-0.53-0.53z" fill="#6ba4e7" paint-order="markers stroke fill"/>
+ <path d="m3.44 2.381c-0.294 0-0.395 0.269-0.53 0.53h-1.058c-0.265 0-0.265 0.264-0.265 0.264v5.556c0 0.293 0.237 0.53 0.53 0.53h12.7a0.529 0.529 0 0 0 0.529-0.53v-5.556c0-0.265-0.265-0.265-0.265-0.265h-7.408c-0.155-0.249-0.236-0.53-0.53-0.53z" opacity=".18" stroke="#000000" stroke-width=".52916" paint-order="markers stroke fill"/>
+ <rect x="2.381" y="1.323" width="12.171" height="7.408" rx=".265" ry=".265" fill="none" stroke="#000000" stroke-opacity=".267" stroke-width=".529" paint-order="markers stroke fill"/>
+ <rect x="2.381" y="1.323" width="12.171" height="7.408" rx=".265" ry=".265" fill="#ffffff" paint-order="markers stroke fill"/>
+ <rect x="4.233" y="5.556" width="8.467" height=".529" ry=".265" fill="#bbbbbb" paint-order="stroke markers fill"/>
+ <rect x="4.233" y="4.498" width="8.467" height=".529" ry=".265" fill="#bbbbbb" paint-order="stroke markers fill"/>
+ <path d="m8.467 5.027c-0.293 0-0.382 0.276-0.53 0.529l-0.463 0.794h-6.68c-0.265 0-0.265 0.264-0.265 0.264v7.938s0 0.264 0.265 0.264h15.346s0.264 0 0.264-0.264v-9.261c0-0.264-0.264-0.264-0.264-0.264z" fill="none" stroke="#003579" stroke-opacity=".561" stroke-width=".529" paint-order="markers stroke fill"/>
+ <rect x="4.233" y="2.381" width="8.467" height=".529" ry=".265" fill="#bbbbbb" paint-order="stroke markers fill"/>
+ <rect x="4.233" y="3.439" width="8.467" height=".529" ry=".265" fill="#bbbbbb" paint-order="stroke markers fill"/>
+ <path d="m8.467 5.027c-0.293 0-0.382 0.276-0.53 0.529l-0.463 0.794h-6.68c-0.265 0-0.265 0.264-0.265 0.264v7.938s0 0.264 0.265 0.264h15.346s0.264 0 0.264-0.264v-9.261c0-0.264-0.264-0.264-0.264-0.264z" fill="#6ba4e7" paint-order="markers stroke fill"/>
+ <path d="m16.404 11.641-3.1744 3.1749h2.6458c0.29307 0 0.52864-0.23557 0.52864-0.52864z" fill="url(#c-7)" opacity=".1" stroke-width=".26458"/>
+</svg>
