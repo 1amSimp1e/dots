@@ -8,11 +8,13 @@
 
 ## Contents:
 
-- [Vim (NeoVim) Config](#neovim)
+- [Neovim Setups](https://github.com/iamverysimp1e/Public-Dot-Files/tree/main/.config/nvim)
 - [Windows Manger]():
   - [GNOME](#gnome)
   - [BSPWM](#bspwm)
+  - [i3](#i3)
 - [Fish](#fish)
+- [zsh](#zsh)
 - [Addition Apps and Terminal Tools](#Apps)
 
 ## Vim Setups <a name = "neovim"></a>:
@@ -91,7 +93,82 @@ pip3 install black
 - [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
 
 ## BSPWM SETUPS<a name = "bspwm"></a>:
-- Will update soon !! 
+
+- Was inspired by this [video](https://www.youtube.com/watch?v=HxbhkkfaVuo)
+- Dependencies:
+
+  - Bspwm (Core WM ):
+
+    - Arch:
+      ```
+      sudo pacman -S bspwm
+      ```
+    - Ubuntu:
+      ```
+      sudo apt install bspwm
+      ```
+
+  - sxhkd (Keybindings ):
+
+    - Arch:
+      ```
+      sudo pacman -S sxhkd
+      ```
+    - Ubuntu:
+      ```
+      sudo apt install sxhkd
+      ```
+
+  - Polybar (Bar ):
+
+    - Arch:
+      ```
+      sudo pacman -S polybar
+      ```
+    - Ubuntu:
+      ```
+      sudo apt install polybar
+      ```
+
+  - qt5ct (Change qt application themes):
+
+    - Arch:
+      ```
+      sudo pacman -S qt5ct
+      ```
+    - Ubuntu:
+      ```
+      sudo apt install qt5ct
+      ```
+
+  - lxapperance (Applications to change theme and icons):
+
+    - Arch:
+      ```
+      sudo pacman -S lxapperance
+      ```
+    - Ubuntu:
+      ```
+      sudo apt install lxapperance
+      ```
+
+  > You have to make a folder (~/.icons and ~/.themes ) in your home directory and copy all icons and themes you had downloaded to that directory
+
+  - Feh :
+    - Arch
+      ```
+      sudo pacman -S feh
+      ```
+    - Ubuntu:
+      ` sudo apt install feh `
+      > Remember to change the [bspwm config](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/.config/bspwm/bspwmrc) wallpaper directory
+
+## i3<a name = "i3"></a>:
+
+- Inspired by [endavouros i3vm setups](https://github.com/endeavouros-team/endeavouros-i3wm-setup)
+
+> **NOTE**: my i3 configs just change a bit about the color to match my one dark color scheme
+
 ## GNOME SETUPS<a name = "gnome"></a>:
 
 ![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
