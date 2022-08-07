@@ -31,55 +31,71 @@ This neovim configs was inspired by [Lunar Vim](https://github.com/LunarVim/Neov
 
 ## Dependencies:
 
-- Rip grep:
+- open `nvim` then enter the following commands:
 
-  - On Arch:
+```
+:checkhealth
+```
+
+- You probably notice you don't have support for copy and paste also that python and node haven't been setup
+
+  - Rip grep:
+
+    - On Arch:
+
+      ```
+      paru -S ripgrep
+      ```
+
+    - On Ubuntu:
+      ```
+      sudo apt install ripgrep
+      ```
+
+  - Xsel:
+    - On Arch:
+    ```
+    sudo pacman -S xsel
+    ```
+    - On Ubuntu:
+    ```
+    sudo apt instal xsel
+    ```
+  - Then you have to install [Python](https://www.python.org/downloads/):
+
+    - Arch:
 
     ```
-    paru -S ripgrep
+    sudo pacman -S python
+    # or
+    paru -S python
     ```
 
-  - On Ubuntu:
+    - Neovim python support :
+
     ```
-    sudo apt install ripgrep
+    pip install pynvim
     ```
 
-- Xsel:
-  - On Arch:
-  ```
-  sudo pacman -S xsel
-  ```
-  - On Ubuntu:
-  ```
-  sudo apt instal xsel
-  ```
-- [Python](https://www.python.org/downloads/):
+  - And same as [Node](https://nodejs.org/en/download/) too
+    - **Install npm (for linux users only !!)**:
+    ```
+    sudo pacman -S npm
+    # or
+    paru -S npm
+    ```
+    - Neovim node support
+    ```
+    npm i -g neovim
+    ```
 
-  - Arch:
+- Additional code formats packages :
 
-  ```
-  sudo pacman -S python
-  # or
-  paru -S python
-  ```
-
-  - Neovim python support :
-
-  ```
-  pip install pynvim
-  ```
-
-- [Node](https://nodejs.org/en/download/)
-  - **Install npm (for linux users only !!)**:
-  ```
-  sudo pacman -S npm
-  # or
-  paru -S npm
-  ```
-  - Neovim node support
-  ```
-  npm i -g neovim
-  ```
+```
+npm install -g prettier
+pip3 install autopep8
+pip3 install black
+```
 
 ## Font:
 
