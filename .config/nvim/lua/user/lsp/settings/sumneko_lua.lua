@@ -29,11 +29,8 @@ return {
         globals = { "vim" },
       },
       workspace = {
-        library = {
-          [vim.fn.expand "$VIMRUNTIME/lua"] = true,
-          [vim.fn.stdpath "config" .. "/lua"] = true,
-          -- [vim.fn.datapath "config" .. "/lua"] = true,
-        },
+        library = vim.api.nvim_get_runtime_file('', true),
+        checkThirdParty = false, -- THIS IS THE IMPORTANT LINE TO ADD
       },
       telemetry = {
         enable = false,

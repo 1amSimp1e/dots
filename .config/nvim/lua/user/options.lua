@@ -59,5 +59,12 @@ end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
-vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
+-- vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
+vim.cmd [[autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o]] -- TODO: this doesn't seem to work
 vim.g.use_nerd_icons = false
+
+-- vim transparent 
+vim.opt.termguicolors = true
+vim.opt.winblend = 15
+vim.opt.wildoptions = 'pum'
+vim.opt.pumblend = 20
