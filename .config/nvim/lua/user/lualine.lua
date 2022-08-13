@@ -179,7 +179,7 @@ local diagnostics = {
 local diff = {
   "diff",
   colored = false,
-  symbols = { added = " ", modified = " ", removed = " "}, -- changes diff symbols
+  symbols = { added = "", modified = "", removed = ""}, -- changes diff symbols
   cond = hide_in_width_60,
   separator = "%#SLSeparator#" .. "│ " .. "%*",
 }
@@ -207,7 +207,7 @@ local filetype = {
     end
 
     if str == "TelescopePrompt" then
-      return return_val(" ")
+      return return_val(" ")
     end
 
     local function get_term_num()
@@ -406,9 +406,9 @@ local lanuage_server = {
     if client_names_str_len ~= 0 then
       language_servers = hl_str("", "SLSep") .. hl_str(client_names_str, "SLSeparator") .. hl_str("", "SLSep")
     end
-    if copilot_active then
-      language_servers = language_servers .. "%#SLCopilot#" .. " " .. " " .. "%*"
-    end
+    -- if copilot_active then
+    --   language_servers = language_servers .. "%#SLCopilot#" .. " " .. " " .. "%*"
+    -- end
 
     if client_names_str_len == 0 and not copilot_active then
       return ""

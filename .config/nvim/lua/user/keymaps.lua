@@ -22,16 +22,21 @@ keymap("n", "<C-i>", "<C-i>", opts)
 --   command_mode = "c",
 
 -- Normal --
+
+-- Vsplit and split 
+keymap("n", "<leader>vs", ":vsplit<cr>", opts)
+keymap("n", "<leader>vt", ":split<cr>", opts)
+
 -- Better window navigation
-keymap("n", "<m-h>", "<C-w>h", opts)
-keymap("n", "<m-j>", "<C-w>j", opts)
-keymap("n", "<m-k>", "<C-w>k", opts)
-keymap("n", "<m-l>", "<C-w>l", opts)
+keymap("n", "<A-h>", "<C-w>h", opts)
+keymap("n", "<A-j>", "<C-w>j", opts)
+keymap("n", "<A-k>", "<C-w>k", opts)
+keymap("n", "<A-l>", "<C-w>l", opts)
 
 -- Tabs --
-keymap("n", "<m-t>", ":tabnew %<cr>", opts)
-keymap("n", "<m-y>", ":tabclose<cr>", opts)
-keymap("n", "<m-\\>", ":tabonly<cr>", opts)
+keymap("n", "<leader>tn", ":tabnew %<cr>", opts)
+keymap("n", "<leader>tc", ":tabclose<cr>", opts)
+keymap("n", "<C-\\>", ":tabonly<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
@@ -52,9 +57,11 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 -- keymap("n", "n", "nzzzv", opts)
 -- keymap("n", "N", "Nzzzv", opts)
 
--- Naviagate buffers
+-- Naviagate buffers & close buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<S-q>", ":bdelete<CR>", opts)
+
 
 -- keymap("n", "<RightMouse>", ":Alpha<CR>", opts)
 
@@ -92,7 +99,7 @@ keymap("v", "p", '"_dP', opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Custom
-keymap("n", "<c-h>", "<cmd>nohlsearch<cr>", opts)
+-- keymap("n", "<c-h>", "<cmd>nohlsearch<cr>", opts)
 -- NOTE: the fact that tab and ctrl-i are the same is stupid
 -- keymap("n", "<TAB>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
 keymap("n", "Q", "<cmd>Bdelete!<CR>", opts)
