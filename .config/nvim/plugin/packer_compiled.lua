@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\ngtue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\color-picker.nvim",
     url = "https://github.com/ziontee113/color-picker.nvim"
   },
+  ["colorbuddy.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\ngtue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.nvim",
+    url = "https://github.com/tjdevries/colorbuddy.nvim"
+  },
   ["copilot-cmp"] = {
     loaded = true,
     path = "C:\\Users\\ngtue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\copilot-cmp",
@@ -288,6 +293,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\ngtue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neoscroll.nvim",
     url = "https://github.com/karb94/neoscroll.nvim"
+  },
+  ["neosolarized.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\ngtue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosolarized.nvim",
+    url = "https://github.com/svrana/neosolarized.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
