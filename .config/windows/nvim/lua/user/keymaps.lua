@@ -28,10 +28,10 @@ keymap("n", "<leader>vs", ":vsplit<cr>", opts)
 keymap("n", "<leader>vt", ":split<cr>", opts)
 
 -- Better window navigation
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
+keymap("n", "<A-h>", "<C-w>h", opts)
+keymap("n", "<A-j>", "<C-w>j", opts)
+keymap("n", "<A-k>", "<C-w>k", opts)
+keymap("n", "<A-l>", "<C-w>l", opts)
 
 -- Tabs --
 keymap("n", "<leader>tn", ":tabnew %<cr>", opts)
@@ -99,7 +99,7 @@ keymap("v", "p", '"_dP', opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Custom
-keymap("n", "<c-h>", "<cmd>nohlsearch<cr>", opts)
+-- keymap("n", "<c-h>", "<cmd>nohlsearch<cr>", opts)
 -- NOTE: the fact that tab and ctrl-i are the same is stupid
 -- keymap("n", "<TAB>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
 keymap("n", "Q", "<cmd>Bdelete!<CR>", opts)
