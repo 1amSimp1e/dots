@@ -97,9 +97,9 @@ nvim_tree.setup {
     enable = true,
     icons = {
       hint = "",
-      info = " ",
-      warning = " ",
-      error = " ",
+      info = " ",
+      warning = " ",
+      error = " ",
     },
   },
   update_focused_file = {
