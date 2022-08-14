@@ -13,6 +13,7 @@
   - [GNOME](#gnome)
   - [BSPWM](#bspwm)
   - [i3](#i3)
+  - [Microsoft Windows](#windows)
 - [Fish](#fish)
 - [zsh](#zsh)
 - [Addition Apps and Terminal Tools](#Apps)
@@ -160,7 +161,7 @@ pip3 install black
       sudo pacman -S feh
       ```
     - Ubuntu:
-      ` sudo apt install feh `
+      `sudo apt install feh`
       > Remember to change the [bspwm config](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/.config/bspwm/bspwmrc) wallpaper directory
 
 ## i3<a name = "i3"></a>:
