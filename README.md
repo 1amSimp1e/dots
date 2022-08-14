@@ -173,6 +173,11 @@ pip3 install black
 ## Windows SETUPS<a name = "Windows"></a>:
 ![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice.png)
 
+- Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
+- [Scoop](https://scoop.sh/) : A package manager for windows 
+- Prompt: [Oh my posh](https://ohmyposh.dev/docs/) 
+- [Terminal icons](https://github.com/devblackops/Terminal-Icons): is a powershell module that adds file and folder icons when displaying items in the terminal 
+
 
 ## GNOME SETUPS<a name = "gnome"></a>:
 
