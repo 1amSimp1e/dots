@@ -170,6 +170,10 @@ pip3 install black
 
 > **NOTE**: my i3 configs just change a bit about the color to match my one dark color scheme
 
+## Windows SETUPS<a name = "Windows"></a>:
+![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice.png)
+
+
 ## GNOME SETUPS<a name = "gnome"></a>:
 
 ![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
