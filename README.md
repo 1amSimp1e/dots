@@ -20,6 +20,12 @@
 
 ## Vim Setups <a name = "neovim"></a>:
 
+![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim1.png)
+
+![Pictures 6](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim2.png)
+
+![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim3.png)
+
 Requires Neovim (>=0.5)
 
 - **Installations**:
