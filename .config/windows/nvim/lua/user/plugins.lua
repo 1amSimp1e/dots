@@ -42,25 +42,25 @@ packer.init({
 return packer.startup(function(use)
 	-- My plugins here
 
-	use({ "wbthomason/packer.nvim", commit = "00ec5adef58c5ff9a07f11f45903b9dbbaa1b422" }) -- Have packer manage itself
-	use({ "nvim-lua/plenary.nvim", commit = "968a4b9afec0c633bc369662e78f8c5db0eba249" }) -- Useful lua functions used by lots of plugins
-	use({ "windwp/nvim-autopairs", commit = "fa6876f832ea1b71801c4e481d8feca9a36215ec" }) -- Autopairs, integrates with both cmp and treesitter
-	use({ "numToStr/Comment.nvim", commit = "2c26a00f32b190390b664e56e32fd5347613b9e2" })
-	use({ "JoosepAlviste/nvim-ts-context-commentstring", commit = "88343753dbe81c227a1c1fd2c8d764afb8d36269" })
-	use({ "kyazdani42/nvim-web-devicons", commit = "8d2c5337f0a2d0a17de8e751876eeb192b32310e" })
-	use({ "kyazdani42/nvim-tree.lua", commit = "bdb6d4a25410da35bbf7ce0dbdaa8d60432bc243" })
-	use({ "akinsho/bufferline.nvim", commit = "c78b3ecf9539a719828bca82fc7ddb9b3ba0c353" })
-	use({ "moll/vim-bbye", commit = "25ef93ac5a87526111f43e5110675032dbcacf56" })
-	use({ "nvim-lualine/lualine.nvim", commit = "3362b28f917acc37538b1047f187ff1b5645ecdd" })
-	use({ "akinsho/toggleterm.nvim", commit = "aaeed9e02167c5e8f00f25156895a6fd95403af8" })
-	use({ "ahmedkhalf/project.nvim", commit = "541115e762764bc44d7d3bf501b6e367842d3d4f" })
-	use({ "lewis6991/impatient.nvim", commit = "969f2c5c90457612c09cf2a13fee1adaa986d350" })
-	use({ "lukas-reineke/indent-blankline.nvim", commit = "6177a59552e35dfb69e1493fd68194e673dc3ee2" })
-	use({ "goolord/alpha-nvim", commit = "ef27a59e5b4d7b1c2fe1950da3fe5b1c5f3b4c94" })
+	use({ "wbthomason/packer.nvim",}) -- Have packer manage itself
+	use({ "nvim-lua/plenary.nvim",}) -- Useful lua functions used by lots of plugins
+	use({ "windwp/nvim-autopairs",}) -- Autopairs, integrates with both cmp and treesitter
+	use({ "numToStr/Comment.nvim",})
+	use({ "JoosepAlviste/nvim-ts-context-commentstring",})
+	use({ "kyazdani42/nvim-web-devicons",})
+	use({ "kyazdani42/nvim-tree.lua",})
+	use({ "akinsho/bufferline.nvim",})
+	use({ "moll/vim-bbye",})
+	use({ "nvim-lualine/lualine.nvim",})
+	use({ "akinsho/toggleterm.nvim",})
+	use({ "ahmedkhalf/project.nvim",})
+	use({ "lewis6991/impatient.nvim",})
+	use({ "lukas-reineke/indent-blankline.nvim",})
+	use({ "goolord/alpha-nvim",})
 	use("folke/which-key.nvim")
 
 	-- Colorschemes
-	use({ "folke/tokyonight.nvim", commit = "8223c970677e4d88c9b6b6d81bda23daf11062bb" })
+	use({ "folke/tokyonight.nvim",})
 	use("lunarvim/darkplus.nvim")
   use("lunarvim/onedarker.nvim")
 
@@ -89,6 +89,8 @@ return packer.startup(function(use)
 		"nvim-treesitter/nvim-treesitter",
 	})
 
+  --Colorizer
+  use("norcalli/nvim-colorizer.lua")
 	-- Git
 	use({ "lewis6991/gitsigns.nvim",})
 
