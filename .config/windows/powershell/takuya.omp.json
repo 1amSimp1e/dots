@@ -23,7 +23,7 @@
           "type": "root"
         },
         {
-          "background": "#444444",
+          "background": "#2e3945",
           "foreground": "#E4E4E4",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -73,7 +73,7 @@
           "type": "node"
         },
         {
-          "background": "#40c4ff",
+          "background": "#1e344d",
           "foreground": "#ffffff",
           "invert_powerline": true,
           "leading_diamond": " \ue0b6",
