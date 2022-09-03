@@ -136,9 +136,12 @@ sudo apt install neovim
 
 ![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
 
+<details><summary> Gnome configs </summary><blockquote>
+
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
-<details><summary> Gnome Shell Extensions</summary><blockquote>
-  
+
+- [Gnome Shell Extensions](https://extensions.gnome.org/):
+
   - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
   - [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Load shell themes from user directories
   - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
