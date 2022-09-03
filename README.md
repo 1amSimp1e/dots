@@ -141,7 +141,6 @@ sudo apt install neovim
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
 
 - [Gnome Shell Extensions](https://extensions.gnome.org/):
-
   - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
   - [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Load shell themes from user directories
   - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
@@ -179,6 +178,8 @@ sudo apt install neovim
 ![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice4.png)
 
 ![Pictures 3](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
+
+<details><summary>Bspwm configs</summary><blockquote>
 
 - Was inspired by this [video](https://www.youtube.com/watch?v=HxbhkkfaVuo)
 - Dependencies:
@@ -248,6 +249,9 @@ sudo apt install neovim
     - Ubuntu:
       `sudo apt install feh`
       > Remember to change the [bspwm config](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/.config/bspwm/bspwmrc) wallpaper directory
+  </blockquote></details>
+</blockquote></details>
+
 
 ## Fish Shell Setups <a name = "fish"></a>:
 
