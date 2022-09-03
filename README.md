@@ -1,7 +1,5 @@
 # Tue Nhan's dot files
 
-![Pictures 6 ](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/combine_images.jpg)
-
 - ⚠️ Warning: Don’t blindly use my settings unless you know what you 're doing. Use at your own risk!
 
 ## Contents:
