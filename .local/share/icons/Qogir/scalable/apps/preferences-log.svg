@@ -1,9 +1,0 @@
-<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <rect x="6.002" y="5.9982" width="52" height="52" rx="3.001" ry="3.001" fill="none" opacity=".75" stroke="#2454d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9994" style="paint-order:markers stroke fill"/>
- <g stroke-width="3.7796">
-  <rect x="6.002" y="5.9982" width="52" height="52" rx="3.001" ry="3.001" fill="#90a9ff" style="paint-order:markers stroke fill"/>
-  <path d="m8.9992 5.9982a2.9934 2.9934 0 0 0-2.9972 3.001v0.99781h52v-0.99781a2.9934 2.9934 0 0 0-3.001-3.001z" opacity=".35" style="paint-order:markers stroke fill"/>
-  <rect x="26.911" y="6.9998" width="10.001" height="1.9994" ry="1.0016" opacity=".35" style="paint-order:stroke markers fill"/>
- </g>
- <path d="m10 15h14v2h-14zm0 34h6v2h-6zm8 0h24v2h-24zm-8-4h6v2h-6zm8 0h28v2h-28zm-8-4h6v2h-6zm8 0h24v2h-24zm-8-4h6v2h-6zm8 0h28v2h-28zm-8-4h6v2h-6zm8 0h20v2h-20zm-8-4h6v2h-6zm8 0h32v2h-32zm-8-4h6v2h-6zm8 0h36v2h-36zm-8-4h6v2h-6zm8 0h24v2h-24z" fill="#fff" opacity=".5"/>
-</svg>

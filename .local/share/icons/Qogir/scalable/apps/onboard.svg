@@ -1,5 +1,0 @@
-<svg width="64" height="64" version="1.0" xmlns="http://www.w3.org/2000/svg">
- <rect x="3.5" y="9.5" width="57" height="45" rx="1.932" ry="1.915" fill="#5d6c82" overflow="visible"/>
- <rect x="3.5" y="9.5" width="57" height="45" rx="1.932" ry="1.915" fill="none" opacity=".5" overflow="visible" stroke="#0a161e" stroke-linecap="round" stroke-linejoin="round" style="isolation:auto;mix-blend-mode:normal"/>
- <path d="m13.016 21v4h6v-4zm8 0v4h6v-4zm8 0v4h6v-4zm8 0v4h6v-4zm8 0v4h5.968v-4zm-32 6v4h6v-4zm8 0v4h6v-4zm8 0v4h6v-4zm8 0v4h6v-4zm8 0v4h5.968v-4zm-32 6v4h6v-4zm8 0v4h6v-4zm8 0v4h6v-4zm8 0v4h6v-4zm8 0v4h5.968v-4zm-24 6v4h22v-4z" fill="#fff" overflow="visible"/>
-</svg>

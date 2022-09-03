@@ -1,7 +1,0 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <path d="m3.2113 1.3228c-0.46002 0-0.83013 0.34062-0.83013 0.76536v12.757c0 0.4237 0.37011 0.76536 0.83013 0.76536h10.512c0.46002 0 0.82909-0.34166 0.82909-0.76536v-12.757c0-0.42474-0.37011-0.76536-0.82909-0.76536z" fill="#a42d2d" stroke="#972d2d" stroke-width=".529" style="paint-order:markers stroke fill"/>
- <path d="m3.2113 1.3229c-0.46002 0-0.83012 0.34062-0.83012 0.76535v12.757c0 0.42369 0.3701 0.76535 0.83012 0.76535h10.511c0.46002 0 0.82908-0.34166 0.82908-0.76535v-12.757c0-0.42473-0.3701-0.76535-0.82908-0.76535z" fill="#c83737" style="paint-order:markers stroke fill"/>
- <path d="m10.054 1.3239v6.35l1.059-1.059 1.058 1.058v-6.35z" fill="#fff"/>
- <path d="m3.2547 1.3229c-0.48403 0-0.87346 0.34059-0.87346 0.76426v12.758c0 0.42366 0.38943 0.76529 0.87346 0.76529h2.0373v-14.287z" opacity=".18"/>
- <text x="8.7924356" y="13.866532" fill="#e49b9b" font-family="sans-serif" font-size="3.976px" font-weight="400" letter-spacing="0" stroke-opacity=".255" stroke-width=".265" word-spacing="0" style="line-height:1.25"><tspan x="8.7924356" y="13.866532">Aa</tspan></text>
-</svg>

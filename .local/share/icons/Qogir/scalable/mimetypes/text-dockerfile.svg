@@ -1,8 +1,0 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <rect y="-.012027" width="64" height="64" rx="0" ry="0" fill="none" opacity=".75"/>
- <path d="m8.9992 1.0016h46.002v59h-45.998v-59z" color="#000000" fill="#47cffb" overflow="visible" stroke-width="3.7796"/>
- <path d="m8.5003 0.49889 46.999 0.00378v59.997h-46.996v-60.001z" color="#000000" fill="none" overflow="visible" stroke="#359bbc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0016"/>
- <g transform="matrix(7.5591 0 0 7.5591 15.176 13.513)" opacity=".4" stroke-width=".13229">
-  <path transform="scale(.26458)" d="m6.0098 3.9883v1.5586h1.5586v-1.5586zm2 0v1.5586h1.5586v-1.5586zm4.2598 1.2832c-0.52394 0.35908-0.76491 1.0092-0.60156 1.623 0.16516 0.61336 0.69874 1.0562 1.332 1.1055 0.21163 0.59859 0.77721 0.99911 1.4121 1 0.6349-8.906e-4 1.2005-0.40141 1.4121-1-0.21163-0.59859-0.77721-0.99911-1.4121-1-0.30289 9.283e-4 -0.5984 0.093532-0.84766 0.26562 0.10129-0.28586 0.11354-0.59571 0.03516-0.88867-0.16492-0.61272-0.69753-1.0554-1.3301-1.1055zm0.73047 2.7285h-12c-4.2e-7 3.3137 2.6863 5 6 5 3.3137 0 6-1.6863 6-5zm-9.5586-2.0039v1.5586h1.5586v-1.5586zm2 0v1.5586h1.5586v-1.5586zm2 0v1.5586h1.5586v-1.5586zm2 0v1.5586h1.5586v-1.5586zm-5.9414 3.0039a0.5 0.5 0 0 1 0.5 0.5 0.5 0.5 0 0 1-0.5 0.5 0.5 0.5 0 0 1-0.5-0.5 0.5 0.5 0 0 1 0.5-0.5z" color="#000000" color-rendering="auto" image-rendering="auto" opacity="1" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
- </g>
-</svg>

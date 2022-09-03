@@ -1,7 +1,0 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <rect x="1.5871" y="1.5868" width="13.758" height="13.758" rx=".79352" ry=".79352" fill="#68d177" stroke="#41944d" stroke-width=".52916" style="paint-order:markers stroke fill"/>
- <rect x="1.5871" y="1.5868" width="13.758" height="13.758" rx=".79352" ry=".79352" fill="#68d177" stroke-width="1.0005" style="paint-order:markers stroke fill"/>
- <g fill="#fff" aria-label="P">
-  <path d="m7.3167 5.4667v2.899h1.3126q0.72862 0 1.1265-0.37723 0.3979-0.37723 0.3979-1.0748 0-0.69245-0.3979-1.0697-0.3979-0.37723-1.1265-0.37723zm-1.0438-0.85781h2.3564q1.2971 0 1.9585 0.5891 0.66661 0.58393 0.66661 1.7156 0 1.142-0.66661 1.726-0.66145 0.58393-1.9585 0.58393h-1.3126v3.1005h-1.0438z" fill="#fff" stroke-width=".26458"/>
- </g>
-</svg>

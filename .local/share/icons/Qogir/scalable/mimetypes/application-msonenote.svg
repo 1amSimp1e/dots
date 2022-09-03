@@ -1,6 +1,0 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <rect y="-.012027" width="64" height="64" rx="0" ry="0" fill="none" opacity=".75"/>
- <path d="m8.9992 1.0016h46.002v59h-45.998v-59z" color="#000000" fill="#913d88" overflow="visible" stroke-width="3.7796"/>
- <path d="m8.5003 0.49889 46.999 0.00378v59.997h-46.996v-60.001z" color="#000000" fill="none" overflow="visible" stroke="#6d2e66" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0016"/>
- <path d="m22 19.501c-0.554 0-1 0.446-1 1v20c0 0.554 0.446 1 1 1h18c0.554 0 1-0.446 1-1v-1h1c0.554 0 1-0.446 1-1v-4c0-0.186-0.064-0.351-0.152-0.5 0.088-0.149 0.152-0.314 0.152-0.5v-4c0-0.186-0.064-0.351-0.152-0.5 0.088-0.149 0.152-0.314 0.152-0.5v-4c0-0.554-0.446-1-1-1h-1v-3c0-0.554-0.446-1-1-1zm0 1h18v20h-18zm1 2v1h7v-1zm9 0v1h7v-1zm9 2h1v4h-1zm-18 1v1h7v-1zm9 0v1h7v-1zm-9 3v1h7v-1zm9 0v1h7v-1zm9 1h1v4h-1zm-18 2v1h7v-1zm9 0v1h7v-1zm-9 3v1h7v-1zm9 0v1h7v-1zm9 0h1v4h-1zm-18 3v1h7v-1zm9 0v1h7v-1z" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" opacity=".75" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal"/>
-</svg>

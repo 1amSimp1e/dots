@@ -1,7 +1,0 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg">
- <rect x="1.5871" y="1.5868" width="13.758" height="13.758" rx=".79352" ry=".79352" fill="#d35f5f" stroke="#bd4343" stroke-width=".52916" style="paint-order:markers stroke fill"/>
- <rect x="1.5871" y="1.5868" width="13.758" height="13.758" rx=".79352" ry=".79352" fill="#d35f5f" stroke-width="1.0005" style="paint-order:markers stroke fill"/>
- <g fill="#fff" aria-label="T">
-  <path d="m5.2032 4.6089h6.5266v0.87848h-2.7388v6.8367h-1.049v-6.8367h-2.7388z" fill="#fff" stroke-width=".26458"/>
- </g>
-</svg>

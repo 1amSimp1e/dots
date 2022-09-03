@@ -1,8 +1,0 @@
-<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(.65374 .036829)">
-  <path d="m3.4295 1.9632h23.834c0.59984 0 1.083 0.49801 1.083 1.1184v25.765c0 0.61827-0.48315 1.1163-1.085 1.1163h-23.83c-0.60019 0.0023-1.0873-0.49978-1.085-1.1184v-25.765c0-0.61827 0.4852-1.1163 1.085-1.1163z" opacity=".25" stroke-width="2.0397" style="paint-order:fill markers stroke"/>
-  <path d="m4.3462 2.9632h22c0.5537 0 0.9997 0.46244 0.9997 1.0385v23.925c0 0.5741-0.44598 1.0366-1.0015 1.0366h-21.997c-0.55402 0.002162-1.0037-0.46408-1.0015-1.0385v-23.925c0-0.57411 0.44787-1.0366 1.0015-1.0366z" fill="#ececec" stroke-width="1.8884" style="paint-order:fill markers stroke"/>
-  <path d="m5.3465 4.9633v5h5v-5zm0.99805 1h1v1h1v-1h1v1h-1v1h1v1h-1v-1h-1v1h-1zm6-1.0005v1h13v-1zm0 3v1h13v-1zm-6.998 3v1h8v-1zm10 0v10h10v-10zm0.999 1h8v8h-8zm-10.999 2v1h8v-1zm0 3v1h8v-1zm0 3v1h8v-1zm0 3.0005v1h20v-1zm0 3v1h20v-1z" fill="#b3b3b3" fill-rule="evenodd" stroke-width=".5"/>
-  <path d="m17.344 12.962h6.002v6.002h-6.002z" fill="#7cd1cc" fill-rule="evenodd" stroke-width=".5"/>
- </g>
-</svg>

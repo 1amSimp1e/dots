@@ -1,7 +1,0 @@
-<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <circle cx="32" cy="32" r="27" fill="#4f4f4f" stroke="#2e2e2e" stroke-linecap="round" stroke-width="2" style="paint-order:stroke fill markers"/>
- <circle cx="32" cy="32" r="27" fill="#4f4f4f"/>
- <path d="m16.739 21.435v21.13h30.521v-21.13zm7.0434 1.1739h2.3478v2.3478h-2.3478zm4.6956 0h2.3478v2.3478h-2.3478zm4.6956 0h2.3478v2.3478h-2.3478zm4.6956 0h2.3478v2.3478h-2.3478zm-14.087 16.435h2.3478v2.3478h-2.3478zm4.6956 0h2.3478v2.3478h-2.3478zm4.6956 0h2.3478v2.3478h-2.3478zm4.6956 0h2.3478v2.3478h-2.3478z" fill="#5397e9" stroke-linejoin="round" stroke-opacity=".54328" stroke-width="1.917"/>
- <path d="m16.739 26.13v11.739h8.2173v-11.739zm10.565 0v11.739h9.3912v-11.739zm11.739 0v11.739h8.2173v-11.739z" fill="#ffffff" stroke-linejoin="round" stroke-opacity=".54328" stroke-width="2.2385"/>
- <path d="m21.435 17.913v28.174h4.6956v-2.3478h-2.3478v-23.478h2.3478v-2.3478zm16.435 0v2.3478h2.3478v23.478h-2.3478v2.3478h4.6956v-28.174z" fill="#f9e37d" stroke-linejoin="round" stroke-opacity=".54328" stroke-width="2.3478"/>
-</svg>
