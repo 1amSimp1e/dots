@@ -18,7 +18,7 @@
 - [zsh](#zsh)
 - [Addition Apps and Terminal Tools](#Apps)
 
-## Vim Setups <a name = "neovim"></a>:
+## Neovim Setups <a name = "neovim"></a>:
 
 ![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new1.png)
 
