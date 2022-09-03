@@ -36,7 +36,7 @@
 			"colorScheme": "ayu",
 			"font": {
 				"face": "FiraCode NF",
-				"size": 13
+				"size": 14
 			},
 			"opacity": 64,
 			"useAcrylic": true
@@ -344,7 +344,7 @@
 			"yellow": "#808000"
 		},
 		{
-			"background": "#090d13",
+			"background": "#0f1317",
 			"black": "#000000",
 			"blue": "#36A3D9",
 			"brightBlack": "#323232",
