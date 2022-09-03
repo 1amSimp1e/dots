@@ -23,6 +23,9 @@
 ![Pictures 8](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new2.gif)
 Requires Neovim (>=0.5), I currently using [Neovide](https://github.com/neovide/neovide).
 
+<details><summary>Optional Package and apps</summary><blockquote>
+  </blockquote>
+
 - **Installations**:
 
 ```fish
@@ -83,6 +86,9 @@ sudo apt install neovim
   ```bash
   sccop install fd
   ```
+
+</details>
+</blockquote></details>
 
 ## i3<a name = "i3"></a>:
 
