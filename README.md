@@ -20,13 +20,9 @@
 
 ## Vim Setups <a name = "neovim"></a>:
 
-![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim1.png)
+![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new1.png)
 
-![Pictures 6](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim2.png)
-
-![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim3.png)
-
-Requires Neovim (>=0.5)
+Requires Neovim (>=0.5), I currently using [Neovide](https://github.com/neovide/neovide).
 
 - **Installations**:
 
@@ -39,7 +35,6 @@ sudo apt install neovim
 - [Vim-Plug](https://github.com/junegunn/vim-plug): Vim's Plugins Manager
 - [Lsp](https://github.com/neovim/nvim-lspconfig): A collection of common configurations for Neovim's built-in language server client.
 - [Cmp](https://github.com/hrsh7th/nvim-cmp): Code Completions write in Lua
-- [Coc-Nvim](https://github.com/neoclide/coc.nvim):Make your Vim/Neovim as smart as VSCode.
 
 - [Lsp-Installer](https://github.com/williamboman/nvim-lsp-installer):
   Neovim plugin that allows you to seamlessly install LSP servers locally
@@ -177,13 +172,13 @@ pip3 install black
 > **NOTE**: my i3 configs just change a bit about the color to match my one dark color scheme
 
 ## Windows SETUPS<a name = "Windows"></a>:
+
 ![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice.png)
 
 - Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
-- [Scoop](https://scoop.sh/) : A package manager for windows 
-- Prompt: [Oh my posh](https://ohmyposh.dev/docs/) 
-- [Terminal icons](https://github.com/devblackops/Terminal-Icons): is a powershell module that adds file and folder icons when displaying items in the terminal 
-
+- [Scoop](https://scoop.sh/) : A package manager for windows
+- Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
+- [Terminal icons](https://github.com/devblackops/Terminal-Icons): is a powershell module that adds file and folder icons when displaying items in the terminal
 
 ## GNOME SETUPS<a name = "gnome"></a>:
 
