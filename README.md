@@ -1,9 +1,5 @@
 # Tue Nhan's dot files
 
-![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice4.png)
-
-![Pictures 3](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
-
 - ⚠️ Warning: Don’t blindly use my settings unless you know what you 're doing. Use at your own risk!
 
 ## Contents:
@@ -67,13 +63,22 @@ sudo apt install neovim
     npm i -g neovim
     ```
 - Other optional package for formatting:
+
   - Prettier
+
   ```bash
   npm install -g prettier
   ```
+
   - Black (Python formatter)
+
   ```bash
   pip install black
+  ```
+
+- On windows you have to install [Fd](https://github.com/sharkdp/fd):
+  ```bash
+  sccop install fd
   ```
 
 ## Fish Shell Setups <a name = "fish"></a>:
@@ -96,6 +101,10 @@ sudo apt install neovim
 - [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
 
 ## BSPWM SETUPS<a name = "bspwm"></a>:
+
+![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice4.png)
+
+![Pictures 3](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
 
 - Was inspired by this [video](https://www.youtube.com/watch?v=HxbhkkfaVuo)
 - Dependencies:
