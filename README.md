@@ -241,17 +241,11 @@ sudo apt install neovim
 
   > You have to make a folder (~/.icons and ~/.themes ) in your home directory and copy all icons and themes you had downloaded to that directory
 
-  - Feh :
-    - Arch
-      ```
-      sudo pacman -S feh
-      ```
-    - Ubuntu:
-      `sudo apt install feh`
-      > Remember to change the [bspwm config](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/.config/bspwm/bspwmrc) wallpaper directory
+  - Feh : - Arch
+  ` sudo pacman -S feh ` - Ubuntu:
+  `sudo apt install feh` > Remember to change the [bspwm config](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/.config/bspwm/bspwmrc) wallpaper directory
+    </blockquote></details>
   </blockquote></details>
-</blockquote></details>
-
 
 ## Fish Shell Setups <a name = "fish"></a>:
 
