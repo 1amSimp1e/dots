@@ -66,14 +66,15 @@ sudo apt install neovim
     ```
     npm i -g neovim
     ```
-- Other optional package:
-
-```
-# Code Format
-npm install -g prettier
-pip3 install autopep8
-pip3 install black
-```
+- Other optional package for formatting:
+  - Prettier
+  ```bash
+  npm install -g prettier
+  ```
+  - Black (Python formatter)
+  ```bash
+  pip install black
+  ```
 
 ## Fish Shell Setups <a name = "fish"></a>:
 
