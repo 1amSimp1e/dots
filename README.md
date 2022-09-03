@@ -137,8 +137,8 @@ sudo apt install neovim
 ![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
 
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
-
-- [Gnome Shell Extensions](https://extensions.gnome.org/)
+<details><summary> Gnome Shell Extensions</summary><blockquote>
+  
   - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
   - [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Load shell themes from user directories
   - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
@@ -163,10 +163,13 @@ sudo apt install neovim
   - [ddterm](https://extensions.gnome.org/extension/3780/ddterm/): Drop down terminal extension for gnome shell
 - Gnome tweaks (for apply themes and icons ) installation:
 
-```fish
-sudo apt update && sudo apt upgrade
-sudo apt install gnome-tweaks
-```
+  ```fish
+  sudo apt update && sudo apt upgrade
+  sudo apt install gnome-tweaks
+  ```
+
+    </blockquote></details>
+  </blockquote></details>
 
 ## BSPWM SETUPS<a name = "bspwm"></a>:
 
