@@ -20,6 +20,10 @@
 
 ![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new1.png)
 
+![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new3.gif)
+
+![Pictures8](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new2.gif)
+
 Requires Neovim (>=0.5), I currently using [Neovide](https://github.com/neovide/neovide).
 
 - **Installations**:
