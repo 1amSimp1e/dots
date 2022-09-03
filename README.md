@@ -84,25 +84,6 @@ sudo apt install neovim
   sccop install fd
   ```
 
-## Fish Shell Setups <a name = "fish"></a>:
-
-- [Fish Shell](https://github.com/nvim-treesitter/nvim-treesitter): a smart and user-friendly command line
-  shell for Linux, macOS, and the rest of the family.
-
-- [fisher](https://github.com/jorgebucaran/fisher): Plugins manager for fish shell
-
-- [Tide](https://github.com/IlanCosman/tide): Prompt Themes for Fish like PowerLevel10k
-
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts): I use Hack Nerd Font and Fira Code Nerd Font
-
-- [Z](https://github.com/jethrokuan/z): Directory Jumper
-
-- [exa](https://the.exa.website/)
-
-- [peco](https://github.com/peco/peco)
-
-- [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
-
 ## i3<a name = "i3"></a>:
 
 - Inspired by [endavouros i3vm setups](https://github.com/endeavouros-team/endeavouros-i3wm-setup)
@@ -229,6 +210,25 @@ sudo apt install gnome-tweaks
     - Ubuntu:
       `sudo apt install feh`
       > Remember to change the [bspwm config](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/.config/bspwm/bspwmrc) wallpaper directory
+
+## Fish Shell Setups <a name = "fish"></a>:
+
+- [Fish Shell](https://github.com/nvim-treesitter/nvim-treesitter): a smart and user-friendly command line
+  shell for Linux, macOS, and the rest of the family.
+
+- [fisher](https://github.com/jorgebucaran/fisher): Plugins manager for fish shell
+
+- [Tide](https://github.com/IlanCosman/tide): Prompt Themes for Fish like PowerLevel10k
+
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts): I use Hack Nerd Font and Fira Code Nerd Font
+
+- [Z](https://github.com/jethrokuan/z): Directory Jumper
+
+- [exa](https://the.exa.website/)
+
+- [peco](https://github.com/peco/peco)
+
+- [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
 
 ## Adition apps and terminal tools<a name = "Apps"></a>:
 
