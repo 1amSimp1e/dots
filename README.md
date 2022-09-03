@@ -20,6 +20,7 @@
 
 ![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new1.png)
 ![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new3.gif)
+**Code Format with Null-Ls**
 ![Pictures 8](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new2.gif)
 Requires Neovim (>=0.5), I currently using [Neovide](https://github.com/neovide/neovide).
 
@@ -34,8 +35,11 @@ sudo apt update && sudo apt upgrade
 sudo apt install neovim
 ```
 
+### Main plugins
+
 - [Vim-Plug](https://github.com/junegunn/vim-plug): Vim's Plugins Manager
 - [Lsp](https://github.com/neovim/nvim-lspconfig): A collection of common configurations for Neovim's built-in language server client.
+
 - [Cmp](https://github.com/hrsh7th/nvim-cmp): Code Completions write in Lua
 
 - [Lsp-Installer](https://github.com/williamboman/nvim-lsp-installer):
@@ -103,7 +107,28 @@ sudo apt install neovim
 - Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
 - [Scoop](https://scoop.sh/) : A package manager for windows
 - Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
-- [Terminal icons](https://github.com/devblackops/Terminal-Icons): is a powershell module that adds file and folder icons when displaying items in the terminal
+
+- Optional Package:
+  - [Terminal icons](https://github.com/devblackops/Terminal-Icons) - Icons for terminal :
+  ```powershell
+  Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+  ```
+  - [Z](https://www.powershellgallery.com/packages/z/1.1.13) - Directory jump:
+  ```powershell
+  Install-Module -Name z -Force
+  ```
+  - [PsFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder:
+  ```powershell
+  Install-Module -Name PSFzf -Force
+  ```
+  - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.2) - Use for completions:
+  ```powershell
+  Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+  ```
+- ⚠️ In case you don't have PowerShell profile yet:
+  ```powershell
+  New-Item -Path $PROFILE -type File -force
+  ```
 
 ## GNOME SETUPS<a name = "gnome"></a>:
 
@@ -112,6 +137,7 @@ sudo apt install neovim
 ![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
 
 - [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
+
 - [Gnome Shell Extensions](https://extensions.gnome.org/)
   - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
   - [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Load shell themes from user directories
