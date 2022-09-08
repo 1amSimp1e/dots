@@ -107,7 +107,7 @@ sudo apt install neovim
 - Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
 - [Scoop](https://scoop.sh/) : A package manager for windows
 - Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
-
+- Tutorial is inspired by [this video](https://www.youtube.com/watch?v=5-aK2_WwrmM) 
 - Optional Package:
   - [Terminal icons](https://github.com/devblackops/Terminal-Icons) - Icons for terminal :
   ```powershell
