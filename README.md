@@ -6,7 +6,7 @@
 
 ## Contents:
 
-- [Neovim Setups](https://github.com/iamverysimp1e/Public-Dot-Files/tree/main/.config/nvim)
+- [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [GNOME](#gnome)
   - [BSPWM](#bspwm)
