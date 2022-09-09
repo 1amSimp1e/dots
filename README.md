@@ -3,6 +3,7 @@
 ![Pictures 6](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/combine_images_new.jpg)
 
 ## Contents:
+**Don't blindly use my dots, use at your own risk**
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [GNOME](#gnome)
