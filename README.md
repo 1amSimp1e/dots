@@ -4,6 +4,8 @@
 
 ## Contents:
 
+**Don't blindly use my dots use at your own risk**
+
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [GNOME](#gnome)
