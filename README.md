@@ -3,6 +3,9 @@
 ![Pictures 6](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/combine_images_new.jpg)
 
 ## Contents:
+
+**Use at your own risk**
+
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [GNOME](#gnome)
@@ -104,7 +107,7 @@ sudo apt install neovim
 - Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
 - [Scoop](https://scoop.sh/) : A package manager for windows
 - Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
-- Tutorial is inspired by [this video](https://www.youtube.com/watch?v=5-aK2_WwrmM) 
+- Tutorial is inspired by [this video](https://www.youtube.com/watch?v=5-aK2_WwrmM)
 - Optional Package:
   - [Terminal icons](https://github.com/devblackops/Terminal-Icons) - Icons for terminal :
   ```powershell
@@ -239,7 +242,7 @@ sudo apt install neovim
   > You have to make a folder (~/.icons and ~/.themes ) in your home directory and copy all icons and themes you had downloaded to that directory
 
   - Feh : - Arch
-  ` sudo pacman -S feh ` - Ubuntu:
+  `sudo pacman -S feh` - Ubuntu:
   `sudo apt install feh` > Remember to change the [bspwm config](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/.config/bspwm/bspwmrc) wallpaper directory
     </blockquote></details>
   </blockquote></details>
