@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1.1">
+ <rect style="opacity:0.2" width="20" height="20" x="2" y="2.5" rx="2" ry="2"/>
+ <rect style="fill:#0072c0" width="20" height="20" x="2" y="2" rx="2" ry="2"/>
+ <path style="fill:#00ade5" d="M 4,2 C 2.892,2 2,2.892 2,4 v 16 c 0,0.554 0.2224844,1.054516 0.5839844,1.416016 L 21.416016,2.5839844 C 21.054516,2.2224844 20.554,2 20,2 Z"/>
+ <path style="opacity:0.2" d="m 7.7,8.5 c 0,0 4,-3 7,-3 4,0 4,5 2,8 l 2,1 -5,3 -1,-6 2,1 c 1,-2 1,-4 0,-5 -3,-1 -7,1 -7,1 z"/>
+ <path style="fill:#ffffff" d="m 7.7,8 c 0,0 4,-3 7,-3 4,0 4,5 2,8 l 2,1 -5,3 -1,-6 2,1 c 1,-2 1,-4 0,-5 -3,-1 -7,1 -7,1 z"/>
+ <path style="opacity:0.2" d="m 4,18.5 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z"/>
+ <path style="fill:#ffffff" d="m 4,18 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z m 3,0 v 2 h 2 v -2 z"/>
+ <path style="opacity:0.2" d="m 4,6.5 v 2 h 2 v -2 z m 0,3 v 2 h 2 v -2 z m 0,3 v 2 h 2 v -2 z m 0,3 v 2 h 2 v -2 z"/>
+ <path style="opacity:0.2;fill:#ffffff" d="M 4,2 C 2.892,2 2,2.892 2,4 v 16 c 0,0.554 0.222484,1.054516 0.583984,1.416016 L 21.416016,2.5839844 C 21.054516,2.2224844 20.554,2 20,2 Z"/>
+ <path style="fill:#4f4f4f" d="M 4,6 V 8 H 6 V 6 Z m 0,3 v 2 H 6 V 9 Z m 0,3 v 2 h 2 v -2 z m 0,3 v 2 h 2 v -2 z m 0,3 v 2 l 2,-2 z"/>
+ <path style="opacity:0.2;fill:#ffffff" d="M 4,2 C 2.892,2 2,2.892 2,4 v 0.5 c 0,-1.108 0.892,-2 2,-2 h 16 c 1.108,0 2,0.892 2,2 V 4 C 22,2.892 21.108,2 20,2 Z"/>
+</svg>

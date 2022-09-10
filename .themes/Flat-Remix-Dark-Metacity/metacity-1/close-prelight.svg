@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 20.000944 20.000944"
+   id="svg191"
+   sodipodi:docname="Assets-Dark.svg"
+   width="20.000944"
+   height="20.000944"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview193"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1" />
+  <defs
+     id="defs20">
+    <linearGradient
+       id="linearGradient1387">
+      <stop
+         stop-color="#383d4b"
+         offset="0"
+         id="stop2" />
+      <stop
+         stop-color="#383d4b"
+         offset=".6"
+         id="stop4" />
+      <stop
+         stop-color="#13151a"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <clipPath
+       id="b">
+      <rect
+         x="109.41"
+         y="196.63"
+         width="16"
+         height="16"
+         opacity="0.3"
+         id="rect9" />
+    </clipPath>
+    <clipPath
+       id="a">
+      <rect
+         x="9.5"
+         y="178.85001"
+         width="6"
+         height="28"
+         fill="#ffffff"
+         opacity="0.539"
+         id="rect12" />
+    </clipPath>
+    <radialGradient
+       id="radialGradient1090-4-5"
+       cx="19"
+       cy="571.70001"
+       r="7.5026002"
+       gradientTransform="matrix(1.4225,-5.3748e-7,5.371e-7,1.4225,57.973,-174.87)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient1387" />
+    <radialGradient
+       id="radialGradient1090-4-5-6"
+       cx="19"
+       cy="571.70001"
+       r="7.5026002"
+       gradientTransform="matrix(1.4225,-5.3748e-7,5.371e-7,1.4225,57.973,-207.87)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient1387" />
+    <clipPath
+       id="clipPath6191">
+      <path
+         d="m 9.5,194.85 v -16 h 16 v 5 h -11 v 11 z"
+         style="stroke-width:30.2;stroke-linecap:round;stroke-linejoin:round"
+         id="path17" />
+    </clipPath>
+  </defs>
+  <g
+     id="close-prelight"
+     transform="matrix(1.0573,0,0,1.0573,-44.945821,-594.0969)">
+    <rect
+       x="42.509998"
+       y="561.90002"
+       width="18.917"
+       height="18.917"
+       fill="#23252e"
+       stroke-width="0.67561"
+       id="rect75" />
+    <path
+       d="m 51.968,563.79 c -4.176,0 -7.5664,3.3907 -7.5664,7.5664 0,4.1758 3.3904,7.5664 7.5664,7.5664 4.176,0 7.5664,-3.3907 7.5664,-7.5664 0,-4.1758 -3.3904,-7.5664 -7.5664,-7.5664 z"
+       color="#000000"
+       color-rendering="auto"
+       dominant-baseline="auto"
+       fill="#2777ff"
+       image-rendering="auto"
+       shape-rendering="auto"
+       solid-color="#000000"
+       stop-color="#000000"
+       style="fill:#d31919"
+       id="path77" />
+    <path
+       d="m 48.217,567.55 h 0.9455 c 0.01008,-1.3e-4 0.01966,-4.5e-4 0.02951,0 0.24106,0.0101 0.48208,0.12156 0.65003,0.29555 l 2.1568,2.1577 2.1865,-2.1577 c 0.25114,-0.21801 0.42232,-0.28894 0.65002,-0.29555 h 0.9455 v 0.94581 c 0,0.27095 -0.0324,0.52081 -0.23637,0.70937 l -2.1568,2.1577 2.1273,2.1281 c 0.17793,0.17798 0.26591,0.42888 0.26591,0.67982 v 0.94583 h -0.9455 c -0.25083,-10e-6 -0.50165,-0.088 -0.67957,-0.26603 l -2.1568,-2.1576 -2.1568,2.1576 c -0.17791,0.17801 -0.42875,0.26603 -0.67959,0.26603 h -0.9455 v -0.94583 c 0,-0.25092 0.08799,-0.50184 0.26593,-0.67982 l 2.1568,-2.1281 -2.1568,-2.1577 c -0.19924,-0.18409 -0.28663,-0.44383 -0.26593,-0.70937 V 567.55 Z"
+       color="#bebebe"
+       enable-background="new"
+       fill="#fff"
+       stroke-width="1.2609"
+       style="fill:#ffffff"
+       id="path79" />
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Flat-Remix-GTK-Green-Darkest
+Comment=Flat-Remix-GTK-Green-Darkest theme"
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Flat-Remix-GTK-Green-Darkest
+MetacityTheme=Flat-Remix-Darkest-Metacity
+IconTheme=Flat-Remix-Green-Darkest
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close
