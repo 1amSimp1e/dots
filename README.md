@@ -14,6 +14,7 @@
   - [Microsoft Windows](#windows)
 - [Fish](#fish)
 - [zsh](#zsh)
+- [Tmux](#tmux)
 - [Addition Apps and Terminal Tools](#Apps)
 
 ## Neovim Setups <a name = "neovim"></a>:
@@ -247,6 +248,15 @@ sudo apt install neovim
     </blockquote></details>
   </blockquote></details>
 
+## Tmux setups <a name = "tmux"></a>:
+
+- I use [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm#installation) with custom [one dark theme](https://github.com/odedlaz/tmux-onedark-theme) after you install tmux plugin manager launch tmux and press `prefix` + I (capital I):
+  - Change this in your ~/.tmux/plugins/tmux-one-dark-terminal:
+  ```
+  onedark_black="#0F1317"
+  onedark_visual_grey="#1f2830"
+  ```
+
 ## Fish Shell Setups <a name = "fish"></a>:
 
 - [Fish Shell](https://github.com/nvim-treesitter/nvim-treesitter): a smart and user-friendly command line
@@ -265,6 +275,12 @@ sudo apt install neovim
 - [peco](https://github.com/peco/peco)
 
 - [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
+
+## Zsh
+
+- I use [oh-my-zsh](https://ohmyz.sh/#install) as zsh framework, extensions that i use:
+  - [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+  - [zsh-syntax-highlight](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
 ## Adition apps and terminal tools<a name = "Apps"></a>:
 
