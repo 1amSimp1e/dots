@@ -87,6 +87,14 @@ sudo apt install neovim
   pip install black
   ```
 
+- On Fedora you have to install c++ and lstdc++ :
+
+```bash
+sudo dnf install g++
+#and
+sudo yum install glibc-static libstdc++-static -y;
+```
+
 - On windows you have to install [Fd](https://github.com/sharkdp/fd):
   ```bash
   sccop install fd
