@@ -1,6 +1,6 @@
 vim.cmd [[
 try
-  colorscheme onedarker
+  colorscheme github_dark_default
 
 catch /^Vim\%((\a\+)\)\=:E185/
   colorscheme default
