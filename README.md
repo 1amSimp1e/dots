@@ -95,10 +95,15 @@ sudo dnf install g++
 sudo yum install glibc-static libstdc++-static -y;
 ```
 
-- On windows you have to install [Fd](https://github.com/sharkdp/fd):
-  ```bash
-  sccop install fd
-  ```
+- On windows you have to install
+  - [Fd](https://github.com/sharkdp/fd):
+    ```bash
+    sccop install fd
+    ```
+  - [Zig]()
+    ```bash
+    scoop install zig
+    ```
 
 </details>
 </blockquote></details>
