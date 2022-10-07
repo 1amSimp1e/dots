@@ -46,3 +46,8 @@ vim.cmd [[set iskeyword+=-]]
 
 --[[ Stop comment when enter new line  ]]
 vim.cmd [[autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o]] -- this seem to work 
+
+-- For Neovide users 
+vim.cmd [[
+set guifont=FiraCode\ NF:h13
+]]

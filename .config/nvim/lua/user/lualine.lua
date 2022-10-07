@@ -6,12 +6,15 @@ end
 local hide_in_width = function()
 	return vim.fn.winwidth(0) > 80
 end
+local cursorline_hl = vim.api.nvim_get_hl_by_name("CursorLine", true)
+
+vim.api.nvim_set_hl(0, "SLSeparator", { fg = cursorline_hl.background})
 
 local diagnostics = {
 	"diagnostics",
 	sources = { "nvim_diagnostic" },
 	sections = { "error", "warn" },
-	symbols = { error = " ", warn = " " },
+	symbols = {error = " ", warn = " ", info = " ", hint = " " },
 	colored = false,
 	update_in_insert = false,
 	always_visible = true,
@@ -26,14 +29,15 @@ local diff = {
 
 local mode = {
 	"mode",
-	fmt = function(str)
-		return "-- " .. str .. " --"
+	fmt = function()
+		return ""
 	end,
 }
 
+
 local filetype = {
 	"filetype",
-	icons_enabled = false,
+	icons_enabled = true,
 	icon = nil,
 }
 
@@ -59,7 +63,7 @@ local progress = function()
 end
 
 local spaces = function()
-	return "spaces: " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
+	return " " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
 end
 
 lualine.setup({
@@ -72,11 +76,11 @@ lualine.setup({
 		always_divide_middle = true,
 	},
 	sections = {
-		lualine_a = { branch, diagnostics },
-		lualine_b = { mode },
+		lualine_a = { mode },
+		lualine_b = { branch, diagnostics },
 		lualine_c = {},
 		-- lualine_x = { "encoding", "fileformat", "filetype" },
-		lualine_x = { diff, spaces, "encoding", filetype },
+		lualine_x = { diff, spaces, filetype },
 		lualine_y = { location },
 		lualine_z = { progress },
 	},
