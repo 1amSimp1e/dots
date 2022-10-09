@@ -96,9 +96,9 @@ sudo yum install glibc-static libstdc++-static -y;
 ```
 
 - On windows you have to install
-  - [Fd](https://github.com/sharkdp/fd):
+  - [gcc]():
     ```bash
-    sccop install fd
+    sccop install gcc
     ```
   - [Zig]()
     ```bash
