@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>✨Tue Nhan's dot files</h1>
+    <h1>✨Tue Nhan's dot files✨</h1>
     <h3></h3>
 </div>
 
@@ -15,7 +15,7 @@
 
 ## Contents:
 
-**Don't blindly use my setup. Use at your own risk!!!**
+### ** 👻 Don't blindly use my setup. Use at your own risk!!!**
 
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
