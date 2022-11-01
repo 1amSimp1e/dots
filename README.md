@@ -1,4 +1,6 @@
-# Tue Nhan's dot files
+<div style="text-align:center;">
+    <h1>✨Tue Nhan's dot files</h1>
+</div>
 
 <div align="center">
 
