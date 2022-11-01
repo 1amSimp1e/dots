@@ -1,5 +1,11 @@
 # Tue Nhan's dot files
 
+<div align="center">
+
+![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?color=302D41&logo=&logoColor=302D41&style=for-the-badge)
+[![](https://img.shields.io/badge/Neovim-0.8+-blueviolet.svg?style=for-the-badge&logo=Neovim&color=302D41&logoColor=green)](https://github.com/neovim/neovim)
+
+</div>
 ![Pictures 6](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/combine_images_new.jpg)
 
 ## Contents:
