@@ -155,6 +155,8 @@ sudo yum install glibc-static libstdc++-static -y;
 
 ![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice.png)
 
+<details><summary> Windows configs </summary><blockquote>
+
 - Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
 - [Scoop](https://scoop.sh/) : A package manager for windows
 - Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
@@ -181,6 +183,9 @@ sudo yum install glibc-static libstdc++-static -y;
   New-Item -Path $PROFILE -type File -force
   ```
 
+</details>
+</blockquote></details>
+
 ## Tmux setups <a name = "tmux"></a>:
 
 - I use [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm#installation) with custom [one dark theme](https://github.com/odedlaz/tmux-onedark-theme) after you install tmux plugin manager launch tmux and press `prefix` + I (capital I):
@@ -190,40 +195,15 @@ sudo yum install glibc-static libstdc++-static -y;
   onedark_visual_grey="#1f2830"
   ```
 
-## Fish Shell Setups <a name = "fish"></a>:
-
-- [Fish Shell](https://github.com/nvim-treesitter/nvim-treesitter): a smart and user-friendly command line
-  shell for Linux, macOS, and the rest of the family.
-
-- [fisher](https://github.com/jorgebucaran/fisher): Plugins manager for fish shell
-
-- [Tide](https://github.com/IlanCosman/tide): Prompt Themes for Fish like PowerLevel10k
-
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts): I use Hack Nerd Font and Fira Code Nerd Font
-
-- [Z](https://github.com/jethrokuan/z): Directory Jumper
-
-- [exa](https://the.exa.website/)
-
-- [peco](https://github.com/peco/peco)
-
-- [Oh my Fish](https://github.com/oh-my-fish/oh-my-fish)
-
 ## Zsh
 
 - I use [oh-my-zsh](https://ohmyz.sh/#install) as zsh framework, extensions that i use:
   - [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
   - [zsh-syntax-highlight](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
-## Adition apps and terminal tools<a name = "Apps"></a>:
+## Apps & Other Terminal Tools <a name = "Apps"></a>:
 
-- [Kitty](https://sw.kovidgoyal.net/kitty/): The fast,Features rich,GPU based Terminal emulator
-
-```fish
-sudo apt update && sudo apt upgrade
-sudo apt install kitty
-```
-
+- [Alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#debianubuntu): Fast, Open GL Terminal Emulator
 - [FlatPak](https://www.flatpak.org/setup/): Package manager for Linux
   - [Kooha](https://flathub.org/apps/details/io.github.seadve.Kooha): Elegantly screen recorder
 - [Howdy](https://github.com/boltgolt/howdy): Windows Hello Style authentication for Linux

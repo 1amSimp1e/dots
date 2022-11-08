@@ -1,1 +1,0 @@
-# Disable default vi prompt
