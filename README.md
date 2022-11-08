@@ -21,7 +21,7 @@
 - [Windows Manger]():
   - [GNOME](#gnome)
   - [Microsoft Windows](#windows)
-- [Fish](#fish)
+- [Oh My Posh](#ohmyposh)
 - [zsh](#zsh)
 - [Tmux](#tmux)
 - [Addition Apps and Terminal Tools](#Apps)
@@ -194,7 +194,12 @@ sudo yum install glibc-static libstdc++-static -y;
   onedark_visual_grey="#1f2830"
   ```
 
-## Zsh
+## Oh my Posh <a name = "ohmyposh"></a>:
+
+- I use [Oh my Posh ](https://ohmyposh.dev/docs) for my prompt themes
+  ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/awsome-prompt-themes.jpg)
+
+## Zsh <a name = "zsh"></a>:
 
 - I use [oh-my-zsh](https://ohmyz.sh/#install) as zsh framework, extensions that i use:
   - [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
