@@ -78,7 +78,6 @@
 ![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new3.gif)
 **Code Format with Null-Ls**
 ![Pictures 8](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new2.gif)
-Requires Neovim (>=0.5), I currently using [Neovide](https://github.com/neovide/neovide).
 
 <details><summary>Optional Package and apps</summary><blockquote>
   </blockquote>
