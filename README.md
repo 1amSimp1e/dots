@@ -11,7 +11,7 @@
 
 </div>
 
-![Pictures 6](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/combine_images_new.jpg)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/combine_Image.jpg)
 
 ## Contents:
 
@@ -158,9 +158,9 @@ sudo yum install glibc-static libstdc++-static -y;
 
 ## GNOME SETUPS<a name = "gnome"></a>:
 
-![Pictures 1](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
-
-![Pictures 2](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
 
 <details><summary> Gnome configs </summary><blockquote>
 
