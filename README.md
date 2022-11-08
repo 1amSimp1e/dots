@@ -49,10 +49,12 @@
   - [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/):Shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider.
   - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows for the minimalist in windows
   - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
+  - [gtk title bar](https://extensions.gnome.org/extension/1732/gtk-title-bar/):remove title bar for non-gtk apps with minimal inference
+  - [Rounded Window Corners](https://extensions.gnome.org/extension/5237/rounded-window-corners/): Rounded corners for all windows
 
 - Bar (based on [smooth by Aylur Themes ](https://github.com/Aylur/dotfiles/tree/main/Smooth/gnome-shell)):
 
-  **DISCLAIMER ⚠️: This bar color mod is still in progress and some color may not appear correctly if you want to contribute really grateful about that !**
+  **DISCLAIMER ⚠️: This bar color mod is still in progress and some color sections may not appear correctly if you want to contribute really grateful about that !**
 
   - Install all of the Extensions above then copy .themes to ~/.themes
   - Open Gnome tweaks -> Appearance -> Shell -> Choose Smooth
