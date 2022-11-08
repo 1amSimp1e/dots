@@ -57,10 +57,10 @@
 
   - Bar (based on [smooth by Aylur Themes ](https://github.com/Aylur/dotfiles/tree/main/Smooth/gnome-shell)):
 
-  **DISCLAIMER ⚠️: This bar color mod is still in progress and some color sections may not appear correctly if you want to contribute really grateful about that !**
+    **DISCLAIMER ⚠️: This bar color mod is still in progress and some color sections may not appear correctly if you want to contribute really grateful about that !**
 
-  - Install all of the Extensions above then copy .themes to ~/.themes
-  - Open Gnome tweaks -> Appearance -> Shell -> Choose Smooth
+    - Install all of the Extensions above then copy .themes to ~/.themes
+    - Open Gnome tweaks -> Appearance -> Shell -> Choose Smooth
 
 - Gnome tweaks (for apply themes and icons ) installation:
 
