@@ -51,6 +51,7 @@
   - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
 
 - Bar (based on [smooth by Aylur Themes ](https://github.com/Aylur/dotfiles/tree/main/Smooth/gnome-shell)):
+
   **DISCLAIMER ⚠️: This bar color mod is still in progress and some color may not appear correctly if you want to contribute really grateful about that !**
 
   - Install all of the Extensions above then copy .themes to ~/.themes
