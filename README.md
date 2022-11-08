@@ -11,7 +11,7 @@
 
 </div>
 
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/combine_Image.jpg)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Combined_Image.jpg)
 
 ## Contents:
 
@@ -20,9 +20,9 @@
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [GNOME](#gnome)
+  - [Microsoft Windows](#windows)
   - [BSPWM](#bspwm)
   - [i3](#i3)
-  - [Microsoft Windows](#windows)
 - [Fish](#fish)
 - [zsh](#zsh)
 - [Tmux](#tmux)
@@ -120,42 +120,6 @@ sudo yum install glibc-static libstdc++-static -y;
 </details>
 </blockquote></details>
 
-## i3<a name = "i3"></a>:
-
-- Inspired by [endavouros i3vm setups](https://github.com/endeavouros-team/endeavouros-i3wm-setup)
-
-> **NOTE**: my i3 configs just change a bit about the color to match my one dark color scheme
-
-## Windows SETUPS<a name = "Windows"></a>:
-
-![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice.png)
-
-- Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
-- [Scoop](https://scoop.sh/) : A package manager for windows
-- Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
-- Tutorial is inspired by [this video](https://www.youtube.com/watch?v=5-aK2_WwrmM)
-- Optional Package:
-  - [Terminal icons](https://github.com/devblackops/Terminal-Icons) - Icons for terminal :
-  ```powershell
-  Install-Module -Name Terminal-Icons -Repository PSGallery -Force
-  ```
-  - [Z](https://www.powershellgallery.com/packages/z/1.1.13) - Directory jump:
-  ```powershell
-  Install-Module -Name z -Force
-  ```
-  - [PsFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder:
-  ```powershell
-  Install-Module -Name PSFzf -Force
-  ```
-  - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.2) - Use for completions:
-  ```powershell
-  Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
-  ```
-- ⚠️ In case you don't have PowerShell profile yet:
-  ```powershell
-  New-Item -Path $PROFILE -type File -force
-  ```
-
 ## GNOME SETUPS<a name = "gnome"></a>:
 
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
@@ -198,6 +162,42 @@ sudo yum install glibc-static libstdc++-static -y;
 
     </blockquote></details>
   </blockquote></details>
+
+## Windows SETUPS<a name = "Windows"></a>:
+
+![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice.png)
+
+- Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
+- [Scoop](https://scoop.sh/) : A package manager for windows
+- Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
+- Tutorial is inspired by [this video](https://www.youtube.com/watch?v=5-aK2_WwrmM)
+- Optional Package:
+  - [Terminal icons](https://github.com/devblackops/Terminal-Icons) - Icons for terminal :
+  ```powershell
+  Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+  ```
+  - [Z](https://www.powershellgallery.com/packages/z/1.1.13) - Directory jump:
+  ```powershell
+  Install-Module -Name z -Force
+  ```
+  - [PsFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder:
+  ```powershell
+  Install-Module -Name PSFzf -Force
+  ```
+  - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.2) - Use for completions:
+  ```powershell
+  Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+  ```
+- ⚠️ In case you don't have PowerShell profile yet:
+  ```powershell
+  New-Item -Path $PROFILE -type File -force
+  ```
+
+## i3<a name = "i3"></a>:
+
+- Inspired by [endavouros i3vm setups](https://github.com/endeavouros-team/endeavouros-i3wm-setup)
+
+> **NOTE**: my i3 configs just change a bit about the color to match my one dark color scheme
 
 ## BSPWM SETUPS<a name = "bspwm"></a>:
 
