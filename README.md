@@ -34,31 +34,28 @@
 
 <details><summary> Gnome configs </summary><blockquote>
 
-- [Mutter Rounded](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
+- [Mutter Rounded (Optional)](https://github.com/yilozt/mutter-rounded): Windows manager for GNOME (for rounded corners and blur windows effect)
 
 - [Gnome Shell Extensions](https://extensions.gnome.org/):
+
+  - [Aylur's Widget](https://extensions.gnome.org/extension/5338/aylurs-widgets/): Beautiful Plugins with customizable bar
   - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/): Blur the gnome shell
   - [User Themes](https://extensions.gnome.org/extension/19/user-themes/): Load shell themes from user directories
-  - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/): Disable the screensaver and auto suspend
   - [Color Picker](https://extensions.gnome.org/extension/3396/color-picker/): The simple color picker for gnome shell
   - [Compiz alike magic lamp effect](https://extensions.gnome.org/extension/3740/compiz-alike-magic-lamp-effect/): Magic lamp effect alike the macOS minimize effect
-  - [Compiz window effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/): Compiz wobbly windows effect like a kelly windows btw
-  - [Dash to Dock Lite ](https://extensions.gnome.org/extension/4994/dash2dock-lite/): A Minimal dock alike macOS dock
-  - [Dash to dock for COSMIC](https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/): A dosh to dock fork for the COSMIC/GNOME shell
   - [Extension List](https://extensions.gnome.org/extension/3088/extension-list/): A Simple Gnome shell extension manager in the top panel
-  - [Hide top bar](https://extensions.gnome.org/extension/545/hide-top-bar/): Hide the top bar to maximize the screen space
   - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/): SImple tweak tools to customize the gnome shell and disable some UI Features
   - [Open Weather](https://extensions.gnome.org/extension/750/openweather/): A simple weather app for gnome shell
-  - [Panel OSD](https://extensions.gnome.org/extension/708/panel-osd/):Reduce the top bar space (**Incompatible for newest Ubuntu release**)
-  - [Remove app menu](https://extensions.gnome.org/extension/3906/remove-app-menu/): Remove the applicatin menu from the top bar
-  - [Refresh Wi-Fi Connections](https://extensions.gnome.org/extension/905/refresh-wifi-connections/): Adds a refresh butoon to the Wi-fi Connection selection dialog to manually refresh the network scan
-  - [Screenshot Tools](https://extensions.gnome.org/extension/1112/screenshot-tool/): Extension for taking screenshots quickly and easily
   - [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/):Shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider.
-  - [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/): Reduce the horizontal space between icons in the top right status area
   - [Unite](https://extensions.gnome.org/extension/1287/unite/): Remove the title bars of the windows for the minimalist in windows
   - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): A simple system monitor on the top bar
-  - [Workspace bar](https://extensions.gnome.org/extension/3851/workspaces-bar/): Replace the Activites button by all current workspaces buttons
-  - [ddterm](https://extensions.gnome.org/extension/3780/ddterm/): Drop down terminal extension for gnome shell
+
+- Bar (based on [smooth by Aylur Themes ](https://github.com/Aylur/dotfiles/tree/main/Smooth/gnome-shell)):
+  **DISCLAIMER ⚠️: This bar color mod is still in progress and some color may not appear correctly if you want to contribute really grateful about that !**
+
+  - Install all of the Extensions above then copy .themes to ~/.themes
+  - Open Gnome tweaks -> Appearance -> Shell -> Choose Smooth
+
 - Gnome tweaks (for apply themes and icons ) installation:
 
   ```fish
