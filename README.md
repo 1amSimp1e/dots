@@ -197,7 +197,7 @@ sudo yum install glibc-static libstdc++-static -y;
 ## Oh my Posh <a name = "ohmyposh"></a>:
 
 - I use [Oh my Posh ](https://ohmyposh.dev/docs) for my prompt themes
-  ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/awsome-prompt-themes.jpg)
+  ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/awsome-prompt-themes.png)
 
 ## Zsh <a name = "zsh"></a>:
 
