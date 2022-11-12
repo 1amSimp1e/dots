@@ -15,11 +15,12 @@ window:
   padding:
     x: 24
     y: 24
-  decorations: none
+  decorations: none 
   dimensions:
     columns: 80
     lines: 35
-  opacity: 0.80
+  opacity: 0.8
+
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -67,7 +68,7 @@ font:
     style: Italic
 
   # Point size
-  size: 13
+  size: 13 
 
   offset:
     y: 0
@@ -101,33 +102,35 @@ font:
 #     magenta: '0xbb9af7'
 #     cyan:    '0x0db9d7'
 #     white:   '0xacb0d0'
+
 colors:
-  name: Brewer (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#0c0d0e"
-    foreground: "#b7b8b9"
-  cursor:
-    text: "#0c0d0e"
-    cursor: "#b7b8b9"
+    # background: '0x0B0F10'
+    background: '#0c0e0f'
+    foreground: '#edeff0'
+
+  # Normal colors
   normal:
-    black: "#0c0d0e"
-    red: "#e31a1c"
-    green: "#31a354"
-    yellow: "#dca060"
-    blue: "#3182bd"
-    magenta: "#756bb1"
-    cyan: "#80b1d3"
-    white: "#b7b8b9"
+    black:   '0x131718'
+    red:     '0xdf5b61'
+    green:   '0x87c7a1'
+    yellow:  '0xde8f78'
+    blue:    '0x6791c9'
+    magenta: '0xbc83e3'
+    cyan:    '0x70b9cc'
+    white:   '0xc4c4c4'
+
+  # Bright colors
   bright:
-    black: "#737475"
-    red: "#e31a1c"
-    green: "#31a354"
-    yellow: "#dca060"
-    blue: "#3182bd"
-    magenta: "#756bb1"
-    cyan: "#80b1d3"
-    white: "#fcfdfe"
+    black:   '0x151a1c'
+    red:     '0xee6a70'
+    green:   '0x96d6b0'
+    yellow:  '0xffb29b'
+    blue:    '0x7ba5dd'
+    magenta: '0xcb92f2'
+    cyan:    '0x7fc8db'
+    white:   '0xcccccc'
 
 cursor:
   # Cursor style
@@ -139,4 +142,3 @@ cursor:
   style: 'Underline'
 
   vi_mode_style: 'Underline'
-theme: Brewer.dark
