@@ -1,0 +1,244 @@
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: 'Roboto Mono Medium', 'FiraCode Nerd Font';
+  font-size: 17px;
+}
+
+window#waybar {
+  /* background-color: rgba(26, 27, 38, 0.5);  */
+  /* background-color: rgba(26, 27, 38, 1); */
+  background-color: #0f171c;
+  /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background-color: transparent;
+  /* Use box-shadow instead of border so the text isn't offset */
+  box-shadow: inset 0 -3px transparent;
+  /* Avoid rounded borders under each workspace name */
+  border: none;
+  border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+  /* cursor: pointer; */
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  /* box-shadow: inset 0 -3px #ffffff; */
+}
+
+#workspaces button.focused {
+  /* background-color: #64727d; */
+  color: #bf616a;
+  /* box-shadow: inset 0 -3px #ffffff; */
+}
+
+#workspaces button.active {
+  /* color: #ff9e64; */
+  color: #6a92d7;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+/* #mode { */
+/*   background-color: #64727d; */
+/*   border-bottom: 3px solid #ffffff; */
+/* } */
+
+#window {
+  /* border-radius: 20px; */
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  color: #64727d;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd,
+#custom-power-menu{
+  padding: 0 10px;
+  color: #ffffff;
+  /* color: #bf616a; */
+	border-radius: 10px;
+  background-color: #1f2a30;
+}
+
+#window,
+#workspaces {
+  margin: 0 4px;
+	border-radius: 10px;
+  background-color: #162026;
+}
+
+#custom-power-menu {
+  /* color: #6a92d7; */
+  color: #bf616a;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#clock {
+  /* color: #c0caf5; */
+  /* color: #6a92d7; */
+  color: #ffffff
+  /* color: #bf616a; */
+}
+
+#battery {
+  color: #ffffff;
+  /* background-color: #90b1b1; */
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #26a65b;
+  /* background-color: #26a65b; */
+}
+
+@keyframes blink {
+  to {
+    background-color: rgba(30, 34, 42, 0.5);
+    color: #abb2bf;
+  }
+}
+
+#battery.critical:not(.charging) {
+  color: #f53c3c;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+
+#disk {
+  background-color: #964b00;
+}
+
+#network.disconnected {
+  color: #f53c3c;
+}
+
+
+#custom-media {
+  background-color: #66cc99;
+  color: #2a5c45;
+  min-width: 100px;
+}
+
+#custom-media.custom-spotify {
+  background-color: #66cc99;
+}
+
+#custom-media.custom-vlc {
+  background-color: #ffa000;
+}
+
+#temperature {
+  background-color: #f0932b;
+}
+
+#temperature.critical {
+  background-color: #eb4d4b;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
+}
+
+#idle_inhibitor {
+  background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+  background-color: #ecf0f1;
+  color: #2d3436;
+}
+
+#mpd {
+  color: #2a5c45;
+}
+
+#mpd.disconnected {
+  color: #f53c3c;
+}
+
+#mpd.stopped {
+  color: #90b1b1;
+}
+
+#mpd.paused {
+  color: #51a37a;
+}
+
+#language {
+  background: #00b093;
+  color: #740864;
+  padding: 0 5px;
+  margin: 0 5px;
+  min-width: 16px;
+}
+
+#keyboard-state {
+  background: #97e1ad;
+  color: #000000;
+  padding: 0 0px;
+  margin: 0 5px;
+  min-width: 16px;
+}
+
+#keyboard-state > label {
+  padding: 0 5px;
+}
+
+#custom-spotify {
+  padding: 0 10px;
+  margin: 0 4px;
+  /* background-color: #1db954; */
+  color: #abb2bf;
+}
+
+#keyboard-state > label.locked {
+  background: rgba(0, 0, 0, 0.2);
+}
+
