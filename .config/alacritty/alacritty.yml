@@ -19,7 +19,7 @@ window:
   dimensions:
     columns: 80
     lines: 35
-  opacity: 0.80
+  opacity: 0.73
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -75,59 +75,33 @@ font:
   glyph_offset:
     y: 0
 
-# colors:
-#   primary:
-#     background: '0x1a1b26'
-#     foreground: '0xa9b1d6'
-#
-#   # Normal colors
-#   normal:
-#     black:   '0x32344a'
-#     red:     '0xf7768e'
-#     green:   '0x9ece6a'
-#     yellow:  '0xe0af68'
-#     blue:    '0x7aa2f7'
-#     magenta: '0xad8ee6'
-#     cyan:    '0x449dab'
-#     white:   '0x787c99'
-#
-#   # Bright colors
-#   bright:
-#     black:   '0x444b6a'
-#     red:     '0xff7a93'
-#     green:   '0xb9f27c'
-#     yellow:  '0xff9e64'
-#     blue:    '0x7da6ff'
-#     magenta: '0xbb9af7'
-#     cyan:    '0x0db9d7'
-#     white:   '0xacb0d0'
 colors:
-  name: Brewer (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#0c0d0e"
-    foreground: "#b7b8b9"
-  cursor:
-    text: "#0c0d0e"
-    cursor: "#b7b8b9"
+    background: '#101421'
+    foreground: '#fffbf6'
+
+  # Normal colors
   normal:
-    black: "#0c0d0e"
-    red: "#e31a1c"
-    green: "#31a354"
-    yellow: "#dca060"
-    blue: "#3182bd"
-    magenta: "#756bb1"
-    cyan: "#80b1d3"
-    white: "#b7b8b9"
+    black: '#2e2e2e'
+    red: '#eb4129'
+    green: '#abe047'
+    yellow: '#f6c744'
+    blue: '#435c89'
+    magenta: '#7b5cb0'
+    cyan: '#64dbed'
+    white: '#e5e9f0'
+
+  # Bright colors
   bright:
-    black: "#737475"
-    red: "#e31a1c"
-    green: "#31a354"
-    yellow: "#dca060"
-    blue: "#3182bd"
-    magenta: "#756bb1"
-    cyan: "#80b1d3"
-    white: "#fcfdfe"
+    black: '#565656'
+    red: '#ec5357'
+    green: '#c0e17d'
+    yellow: '#f9da6a'
+    blue: '#49a4f8'
+    magenta: '#a47de9'
+    cyan: '#99faf2'
+    white: '#ffffff'
 
 cursor:
   # Cursor style
@@ -139,4 +113,4 @@ cursor:
   style: 'Underline'
 
   vi_mode_style: 'Underline'
-theme: Brewer.dark
+theme: iTerm-Default
