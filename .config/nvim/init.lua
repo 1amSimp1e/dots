@@ -5,11 +5,10 @@ require "user.colorscheme"
 require "user.cmp"
 require "user.lsp"
 require "user.telescope"
-require "user.treesitter"
 require "user.autopairs"
 require "user.comment"
 require "user.gitsigns"
-require'user.whichkey'
+require 'user.whichkey'
 require "user.nvim-tree"
 require "user.bufferline"
 require "user.lualine"
@@ -19,6 +18,6 @@ require "user.impatient"
 require "user.indentline"
 require "user.alpha"
 require "user.autocommands"
-require"user.colorizer"
-require'user.syntax'
+require "user.colorizer"
+require "user.treesitter"
 -- require'user.nvim-transparent'

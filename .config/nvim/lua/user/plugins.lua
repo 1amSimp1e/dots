@@ -63,8 +63,18 @@ return packer.startup(function(use)
 	use({ "folke/tokyonight.nvim",})
 	use("lunarvim/darkplus.nvim")
   use("lunarvim/onedarker.nvim")
-  use ({ 'projekt0n/github-nvim-theme' })
 
+  use { 
+    'olivercederborg/poimandres.nvim',
+    config = function()
+      require('poimandres').setup {
+        -- leave this setup function empty for default config
+        -- or refer to the configuration section
+        -- for configuration options
+      }
+    end
+  }
+  -- use ({ 'projekt0n/github-nvim-theme' })
 
 	-- cmp plugins
 	use({ "hrsh7th/nvim-cmp"}) -- The completion plugin
