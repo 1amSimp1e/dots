@@ -53,7 +53,8 @@
     "cpu": {
       "interval": 10,
       "format": " {}%",
-      "max-length": 10
+      "max-length": 10,
+      "on-click": "",
     },
     "memory": {
         "interval": 30,
@@ -64,7 +65,8 @@
     "backlight": {
         "device": "DP-1",
         "format": "{icon} {percent}%",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-click": "",
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
@@ -108,7 +110,7 @@
         // "exec": "$HOME/.config/waybar/scripts/spotify.sh",
         // "return-type": "json",
         // "max-length": 40,
-        // "format": " <span color='#bf616a'> </span>",
+        // "format": " <span color='#6a92d7'>  </span>",
         "format": " <span color='#6a92d7'> </span> ",
         // "format": " <span color='#bf616a'> 異</span>",
         // "format": " <span color='#bf616a'> </span>",
