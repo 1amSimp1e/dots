@@ -115,7 +115,7 @@ sudo apt install neovim
     ```
     npm i -g neovim
     ```
-- Other optional package for formatting:
+- Other optional package for formatting & finding text:):
 
   - Prettier
 
@@ -127,6 +127,11 @@ sudo apt install neovim
 
   ```bash
   pip install black
+  ```
+
+  - Ripgrep 
+  ```
+  paru -S ripgrep
   ```
 
 - On Fedora you have to install c++ and lstdc++ :
