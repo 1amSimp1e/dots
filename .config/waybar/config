@@ -120,31 +120,32 @@
         "format": "<span color='#6a92d7'></span> ",
         "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
     }, 
-    "custom/spotify": {
-        "exec": "$HOME/.config/waybar/scripts/spotify.sh",
-        // "return-type": "json",
-        "max-length": 40,
-        "format": " {}",
-        "on-click": "playerctl play-pause",
-        "on-double-click": "playerctl next",
-        "on-right-click": "on-click-right"
+   
+   "custom/spotify": {
+    "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
+    "format": "{}  ",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-double-click": "playerctl next",
+    "on-scroll-down": "playerctl previous",
     },
+
     "battery": {
-        "bat": "BAT0",
-        "adapter": "ADP0",
-        "interval": 60,
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "max-length": 20,
-        "format": "{icon} {capacity}%",
-        "format-warning": "{icon} {capacity}%",
-        "format-critical": "{icon} {capacity}%",
-        "format-charging": "  {capacity}%",
-        "format-plugged": "  {capacity}%",
-        "format-alt": "{icon} {time}",
-        "format-full": "  {capacity}%",
+      "bat": "BAT0",
+      "adapter": "ADP0",
+      "interval": 60,
+      "states": {
+          "warning": 30,
+          "critical": 15
+      },
+      "max-length": 20,
+      "format": "{icon} {capacity}%",
+      "format-warning": "{icon} {capacity}%",
+      "format-critical": "{icon} {capacity}%",
+      "format-charging": "  {capacity}%",
+      "format-plugged": "  {capacity}%",
+      "format-alt": "{icon} {time}",
+      "format-full": "  {capacity}%",
       "format-icons": [" ", " ", " ", " ", " "],
     },
     "custom/weather": {
@@ -153,31 +154,4 @@
       "return-type": "json",
       "on-click": "xdg-open https://weather.com/en-IN/weather/today/l/a319796a4173829988d68c4e3a5f90c1b6832667ea7aaa201757a1c887ec667a"
     },   
-    "mpd": {
-        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ",
-        "format-disconnected": "Disconnected ",
-        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
-        "interval": 10,
-        "consume-icons": {
-            "on": " " // Icon shows only when "consume" is on
-        },
-        "random-icons": {
-            "off": "<span color=\"#f53c3c\"></span> ", // Icon grayed out when "random" is off
-            "on": " "
-        },
-        "repeat-icons": {
-            "on": " "
-        },
-        "single-icons": {
-            "on": "1 "
-        },
-        "state-icons": {
-            "paused": "",
-            "playing": ""
-        },
-        "tooltip-format": "MPD (connected)",
-        "tooltip-format-disconnected": "MPD (disconnected)"
-    },
-
 }
-
