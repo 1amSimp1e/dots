@@ -82,6 +82,49 @@
 <details><summary>Optional Package and apps</summary><blockquote>
   </blockquote>
 
+- Setups: 
+```
+ .
+├──  init.lua
+├──  lua
+│  └──  user
+│     ├──  alpha.lua
+│     ├──  autocommands.lua
+│     ├──  autopairs.lua
+│     ├──  bufferline.lua
+│     ├──  cmp.lua
+│     ├──  colorizer.lua
+│     ├──  colorscheme.lua
+│     ├──  comment.lua
+│     ├──  gitsigns.lua
+│     ├──  impatient.lua
+│     ├──  indentline.lua
+│     ├──  keymaps.lua
+│     ├──  lsp
+│     │  ├──  configs.lua
+│     │  ├──  handlers.lua
+│     │  ├──  init.lua
+│     │  ├──  null-ls.lua
+│     │  └──  settings
+│     │     ├──  jsonls.lua
+│     │     ├──  pyright.lua
+│     │     └──  sumneko_lua.lua
+│     ├──  lualine.lua
+│     ├──  nvim-transparent.lua
+│     ├──  nvim-tree.lua
+│     ├──  options.lua
+│     ├──  plugins.lua
+│     ├──  project.lua
+│     ├──  syntax.lua
+│     ├──  telescope.lua
+│     ├──  toggleterm.lua
+│     ├──  treesitter.lua
+│     └──  whichkey.lua
+└──  plugin
+   └──  packer_compiled.lua
+
+```
+
 - **Installations**:
 
 ```fish
