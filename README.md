@@ -7,7 +7,7 @@
 
 ![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?color=212121&logo=&logoColor=131821&style=for-the-badge)
 ![](https://img.shields.io/github/stars/iamverysimp1e/dots?color=212121&logo=&logoColor=131821&style=for-the-badge)
-[![](https://img.shields.io/badge/Neovim-0.8+-blueviolet.svg?style=for-the-badge&logo=Neovim&color=212121&logoColor=green)](https://github.com/neovim/neovim)
+[![](https://img.shields.io/badge/Neovim-0.9+-blueviolet.svg?style=for-the-badge&logo=Neovim&color=212121&logoColor=green)](https://github.com/neovim/neovim)
 
 </div>
 
@@ -20,6 +20,7 @@
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [GNOME](#gnome)
+  - [HyprLand](#hypr)
   - [Microsoft Windows](#windows)
 - [Oh My Posh](#ohmyposh)
 - [zsh](#zsh)
