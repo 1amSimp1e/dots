@@ -29,9 +29,9 @@
 
 ## GNOME SETUPS<a name = "gnome"></a>:
 
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice1.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice2.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Rice3.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Gnome_Rice/Rice1.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Gnome_Rice/Rice2.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Gnome_Rice/Rice3.png)
 
 <details><summary> Gnome configs </summary><blockquote>
 
@@ -75,15 +75,16 @@
 
 ## Neovim Setups <a name = "neovim"></a>:
 
-![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new3.png)
-![Pictures 9](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new4.png)
-![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new3.gif)
-![Pictures 8](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/neovim_new2.gif)
+![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new3.png)
+![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new3.gif)
+![Pictures 9](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new4.png)
+![Pictures 8](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new2.gif)
 
 <details><summary>Optional Package and apps</summary><blockquote>
   </blockquote>
 
-- Setups: 
+- Setups:
+
 ```
 ├── init.lua
 ├── lua
@@ -171,7 +172,8 @@ sudo apt install neovim
   pip install black
   ```
 
-  - Ripgrep 
+  - Ripgrep
+
   ```
   paru -S ripgrep
   ```
@@ -199,7 +201,7 @@ sudo yum install glibc-static libstdc++-static -y;
 
 ## Windows SETUPS<a name = "Windows"></a>:
 
-![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice.png)
+![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice/Windows_Rice.png)
 
 <details><summary> Windows configs </summary><blockquote>
 
@@ -244,7 +246,7 @@ sudo yum install glibc-static libstdc++-static -y;
 ## Oh my Posh <a name = "ohmyposh"></a>:
 
 - I use [Oh my Posh ](https://ohmyposh.dev/docs) for my prompt themes
-  ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/awsome-prompt-themes.png)
+  ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Other/awsome-prompt-themes.png)
   Check my [Awsome Prompt themes](https://github.com/iamverysimp1e/awsome-oh-my-posh-prompt) for more details !!
 
 ## Zsh <a name = "zsh"></a>:
