@@ -1,0 +1,77 @@
+#!/usr/bin/env sh
+
+# Description: Open a Drag and drop window, to drop files onto other programs.
+#              Also provides drag and drop window for files.
+#
+# Dependencies: dragon - https://github.com/mwh/dragon
+#
+# Notes:
+#   1. Files that are dropped will be added to nnn's selection
+#      Some web-based files will be downloaded to current dir
+#      with curl and it may overwrite some existing files
+#   2. The user has to mm to clear nnn's selection first
+#
+# Shell: POSIX compliant
+# Author: 0xACE
+
+selection=${NNN_SEL:-${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.selection}
+resp=f
+all=
+if type dragon-drag-and-drop >/dev/null 2>&1; then
+    dnd="dragon-drag-and-drop"
+elif type dragon-drop >/dev/null 2>&1; then
+    dnd="dragon-drop"
+else
+    dnd="dragon"
+fi
+
+add_file ()
+{
+    printf '%s\0' "$@" >> "$selection"
+}
+
+use_all ()
+{
+    printf "mark --all (a) [default=none]: "
+    read -r resp
+    if [ "$resp" = "a" ]; then
+        all="--all"
+    else
+        all=""
+    fi
+}
+
+if [ -s "$selection" ]; then
+    printf "Drop file (r). Drag selection (s), Drag current directory (d) or drag current file (f) [default=f]: "
+    read -r resp
+else
+    printf "Drop file (r). Drag current directory (d) or drag current file (f) [default=f]: "
+    read -r resp
+    if [ "$resp" = "s" ]; then
+        resp=f
+    fi
+fi
+
+if [ "$resp" = "s" ]; then
+    use_all
+    sed -z 's|'"$PWD/"'||g' < "$selection" | xargs -0 "$dnd" "$all" &
+elif [ "$resp" = "d" ]; then
+    use_all
+    "$dnd" "$all" "$PWD/"* &
+elif [ "$resp" = "r" ]; then
+    true > "$selection"
+    "$dnd" --print-path --target | while read -r f
+    do
+            if printf "%s" "$f" | grep '^\(https\?\|ftps\?\|s\?ftp\):\/\/' ; then
+                    curl -LJO "$f"
+                    add_file "$PWD/$(basename "$f")"
+            elif [ -e "$f" ]; then
+                    add_file "$f"
+            fi
+    done &
+else
+    if [ -n "$1" ] && [ -e "$1" ]; then
+        "$dnd" "$1" &
+    fi
+fi
+

@@ -1,0 +1,51 @@
+#!/usr/bin/env sh
+
+# Description: Copy selection to system clipboard as newline-separated entries
+# Dependencies:
+# - tr
+# - xclip/xsel (Linux)
+# - pbcopy (macOS)
+# - termux-clipboard-set (Termux)
+# - clip.exe (WSL)
+# - clip (Cygwin)
+# - wl-copy (Wayland)
+# - clipboard (Haiku)
+#
+# Limitation: breaks if a filename has newline in it
+#
+# Note: For a space-separated list:
+#       xargs -0 < "$SELECTION"
+#
+# Shell: POSIX compliant
+# Author: Arun Prakash Jana
+
+IFS="$(printf '%b_' '\n')"; IFS="${IFS%_}" # protect trailing \n
+
+selection=${NNN_SEL:-${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.selection}
+[ -s "$selection" ] || { echo "plugin .cbcp error: empty selection" >&2 ; exit 1; }
+
+if type xsel >/dev/null 2>&1; then
+    # Linux
+    tr '\0' '\n' < "$selection" | xsel -bi
+elif type xclip >/dev/null 2>&1; then
+    # Linux
+    tr '\0' '\n' < "$selection" | xclip -sel clip
+elif type pbcopy >/dev/null 2>&1; then
+    # macOS
+    tr '\0' '\n' < "$selection" | pbcopy
+elif type termux-clipboard-set >/dev/null 2>&1; then
+    # Termux
+    tr '\0' '\n' < "$selection" | termux-clipboard-set
+elif type clip.exe >/dev/null 2>&1; then
+    # WSL
+    tr '\0' '\n' < "$selection" | clip.exe
+elif type clip >/dev/null 2>&1; then
+    # Cygwin
+    tr '\0' '\n' < "$selection" | clip
+elif type wl-copy >/dev/null 2>&1; then
+    # Wayland
+    tr '\0' '\n' < "$selection" | wl-copy
+elif type clipboard >/dev/null 2>&1; then
+    # Haiku
+    tr '\0' '\n' < "$selection" | clipboard --stdin
+fi

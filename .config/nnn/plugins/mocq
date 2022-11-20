@@ -1,0 +1,89 @@
+#!/usr/bin/env sh
+
+# Description: Appends and optionally plays music in MOC
+#
+# Notes:
+#   - if selection is available, plays it, else plays the current file or directory
+#   - appends tracks and exits is MOC is running, else clears playlist and adds tracks
+#   - to let mocp shuffle tracks, set SHUFFLE=1
+#
+# Shell: POSIX compliant
+# Authors: Arun Prakash Jana, ath3
+
+IFS="$(printf '\n\r')"
+selection=${NNN_SEL:-${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.selection}
+cmd=$(pgrep -x mocp 2>/dev/null)
+ret=$cmd
+
+SHUFFLE="${SHUFFLE:-0}"
+
+mocp_add ()
+{
+    if [ "$SHUFFLE" = 1 ]; then
+        if [ "$resp" = "y" ]; then
+            arr=$(tr '\0' '\n' < "$selection")
+        elif [ -n "$1" ]; then
+            arr="$1"
+        fi
+
+        for entry in $arr
+        do
+            if [ -d "$entry" ]; then
+                arr2=$arr2$(find "$entry" -type f \( ! -iname "*.m3u" ! -iname "*.pls" \))
+            elif echo "$entry" | grep -qv '\.m3u$\|\.pls$' ; then
+                arr2=$(printf "%s\n%s" "$entry" "$arr2")
+            fi
+        done
+
+        mocp -o shuffle
+        echo "$arr2" | xargs -d "\n" mocp -a
+    else
+        if [ "$resp" = "y" ]; then
+            xargs < "$selection" -0 mocp -a
+        else
+            mocp -a "$1"
+        fi
+    fi
+}
+
+if [ ! -s "$selection" ] && [ -z "$1" ]; then
+   exit
+fi
+
+if [ "$2" = "opener" ]; then
+    :
+elif [ -s "$selection" ]; then
+    printf "Work with selection? Enter 'y' to confirm: "
+    read -r resp
+fi
+
+if [ -z "$ret" ]; then
+    # mocp not running
+    mocp -S
+else
+    # mocp running, check if it's playing
+    state=$(mocp -i | grep "State:" | cut -d' ' -f2)
+
+    if [ "$state" = 'PLAY' ]; then
+        # add to playlist and exit
+        mocp_add "$1"
+
+        # uncomment the line below to show mocp interface after appending
+        # mocp
+
+        exit
+    fi
+fi
+
+# clear selection and play
+mocp -c
+mocp_add "$1" "$resp"
+mocp -p
+
+# uncomment the line below to show mocp interface after appending
+# mocp
+
+# Clear selection
+if [ "$resp" = "y" ] && [ -p "$NNN_PIPE" ]; then
+    printf "-" > "$NNN_PIPE"
+fi

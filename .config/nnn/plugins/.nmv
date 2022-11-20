@@ -1,0 +1,180 @@
+#!/usr/bin/env bash
+
+# Description: An almost fully POSIX compliant batch file renamer
+#
+# Note: nnn auto-detects and invokes this plugin if available
+#       Whitespace is used as delimiter for read.
+#       The plugin doesn't support filenames with leading or trailing whitespace
+#       To use NNN_LIST your shell must support readlink(1)
+#
+# Capabilities:
+#    1. Basic file rename
+#    2. Detects order change
+#    3. Can move files
+#    4. Can remove files
+#    5. Switch number pairs to swap filenames
+#
+# Shell: bash
+# Author: KlzXS
+
+EDITOR="${EDITOR:-vi}"
+TMPDIR="${TMPDIR:-/tmp}"
+NNN_INCLUDE_HIDDEN="${NNN_INCLUDE_HIDDEN:-0}"
+VERBOSE="${VERBOSE:-0}"
+RECURSIVE="${RECURSIVE:-0}"
+
+case "$NNN_TRASH" in
+	1)
+		RM_UTIL="trash-put" ;;
+	2)
+		RM_UTIL="gio trash" ;;
+	*)
+		RM_UTIL="rm -ri" ;;
+esac
+
+selection=${NNN_SEL:-${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.selection}
+exit_status=0
+
+dst_file=$(mktemp "$TMPDIR/.nnnXXXXXX")
+
+if [ -s "$selection" ]; then
+	printf "Rename 'c'urrent / 's'election? "
+	read -r resp
+
+    if ! [ "$resp" = "c" ] && ! [ "$resp" = "s" ]; then
+        exit 1
+    fi
+fi
+
+if [ "$resp" = "s" ]; then
+	arr=$(tr '\0' '\n' < "$selection")
+else
+	findcmd="find . ! -name ."
+
+	if [ "$RECURSIVE" -eq 0 ]; then
+		findcmd="$findcmd -prune"
+	fi
+
+	if [ "$NNN_INCLUDE_HIDDEN" -eq 0 ]; then
+		findcmd="$findcmd ! -name \".*\""
+	fi
+
+	if [ -z "$NNN_LIST" ]; then
+		findcmd="$findcmd -print"
+	else
+		findcmd="$findcmd -printf "'"'"$NNN_LIST/%P\n"'"'
+	fi
+
+	arr=$(eval "$findcmd" | sort)
+fi
+
+lines=$(printf "%s\n" "$arr" | wc -l)
+width=${#lines}
+
+printf "%s" "$arr" | awk '{printf("%'"${width}"'d %s\n", NR, $0)}' > "$dst_file"
+
+items=("~")
+while IFS='' read -r line; do
+	if [ -n "$NNN_LIST" ]; then
+		line=$(readlink "$line" || printf "%s" "$line")
+	fi
+
+	items+=("$line");
+done < <(printf "%s\n" "$arr")
+
+$EDITOR "$dst_file"
+
+while read -r num name; do
+	if [ -z "$name" ]; then
+		if [ -z "$num" ]; then
+			continue
+		fi
+
+		printf "%s: unable to parse line, aborting\n" "$0"
+		exit 1
+	fi
+
+	# check if $num is an integer
+	if [ ! "$num" -eq "$num" ] 2> /dev/null; then
+		printf "%s: unable to parse line, aborting\n" "$0"
+		exit 1
+	fi
+
+	src=${items[$num]}
+
+	if [ -z "$src" ]; then
+		printf "%s: unknown item number %s\n" "$0" "$num" > /dev/stderr
+		continue
+	elif [ "$name" != "$src" ]; then
+		if [ -z "$name" ]; then
+			continue
+		fi
+
+		if [ ! -e "$src" ] && [ ! -L "$src" ]; then
+			printf "%s: %s does not exit\n" "$0" "$src" > /dev/stderr
+
+			unset "items[$num]"
+			continue
+		fi
+
+		# handle swaps
+		if [ -e "$name" ] || [ -L "$name" ]; then
+			tmp="$name~"
+			c=0
+
+			while [ -e "$tmp" ] || [ -L "$tmp" ]; do
+				c=$((c+1))
+				tmp="$tmp~$c"
+			done
+
+			if mv "$name" "$tmp"; then
+				if [ "$VERBOSE" -ne 0 ]; then
+					printf "'%s' -> '%s'\n" "$name" "$tmp"
+				fi
+			else
+				printf "%s: failed to rename %s to %s: %s\n" "$0" "$name" "$tmp" "$!" > /dev/stderr
+				exit_status=1
+			fi
+
+			for key in "${!items[@]}"; do
+				if [ "${items[$key]}" = "$name" ]; then
+					items[$key]="$tmp"
+				fi
+			done
+		fi
+
+		dir=$(dirname "$name")
+		if [ ! -d "$dir" ] && ! mkdir -p "$dir"; then
+			printf "%s: failed to create directory tree %s\n" "$0" "$dir" > /dev/stderr
+			exit_status=1
+		elif ! mv -i "$src" "$name"; then
+			printf "%s: failed to rename %s to %s: %s\n" "$0" "$name" "$tmp" "$!" > /dev/stderr
+			exit_status=1
+		else
+			if [ -d "$name" ]; then
+				for key in "${!items[@]}"; do
+					items[$key]=$(printf "%s" "${items[$key]}" | sed "s|^$src\(\$\|\/\)|$name\1|")
+				done
+
+				if [ "$VERBOSE" -ne 0 ]; then
+					printf "'%s' => '%s'\n" "$src" "$name"
+				fi
+			else
+				true
+				if [ "$VERBOSE" -ne 0 ]; then
+					printf "'%s' -> '%s'\n" "$src" "$name"
+				fi
+			fi
+		fi
+	fi
+
+	unset "items[$num]"
+done <"$dst_file"
+
+unset "items[0]"
+for item in "${items[@]}"; do
+	$RM_UTIL "$item"
+done
+
+rm "$dst_file"
+exit $exit_status

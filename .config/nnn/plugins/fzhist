@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+
+# Description: Fuzzy find a command from history,
+#              edit in $EDITOR and run as a command
+#
+# Note: Supports only bash and fish history
+#
+# Shell: POSIX compliant
+# Author: Arun Prakash Jana
+
+if type fzf >/dev/null 2>&1; then
+    fuzzy=fzf
+else
+    exit 1
+fi
+
+shellname="$(basename "$SHELL")"
+
+if [ "$shellname" = "bash" ]; then
+    hist_file="$HOME/.bash_history"
+    entry="$("$fuzzy" < "$hist_file")"
+elif [ "$shellname" = "fish" ]; then
+    hist_file="$HOME/.local/share/fish/fish_history"
+    entry="$(grep "\- cmd: " "$hist_file" | cut -c 8- | "$fuzzy")"
+fi
+
+if [ -n "$entry" ]; then
+    tmpfile=$(mktemp)
+    echo "$entry" >> "$tmpfile"
+    $EDITOR "$tmpfile"
+
+    if [ -s "$tmpfile" ]; then
+        $SHELL -c "$(cat "$tmpfile")"
+    fi
+
+    rm "$tmpfile"
+
+    printf "Press any key to exit"
+    read -r _
+fi

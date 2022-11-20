@@ -1,0 +1,49 @@
+#!/usr/bin/env sh
+
+# Description: Browse Project Gutenberg catalogue by popularity, then download
+#              and read a book of your choice.
+#
+# Details: Set the variable EBOOK_ID to download in html format and read in w3m.
+#          Clear EBOOK_ID to browse available ebooks by popularity and set it to
+#          the ID once you find an interesting one.
+#          To download and read in epub format set READER to an epub reader like
+#          epr: https://github.com/wustho/epr
+#
+#          More on EBOOK_ID:
+#          Wuthering Heights by Emily Brontë is at https://www.gutenberg.org/ebooks/768
+#          So EBOOK_ID would be 768
+#
+#          Downloaded ebooks are at ${XDG_CACHE_HOME:-$HOME/.cache}/nnn/gutenbooks/
+#
+# Shell: POSIX compliant
+# Author: Arun Prakash Jana
+
+EBOOK_ID="${EBOOK_ID:-""}"
+DIR="${XDG_CACHE_HOME:-$HOME/.cache}/nnn/gutenbooks/$EBOOK_ID"
+BROWSE_LINK="https://www.gutenberg.org/ebooks/search/?sort_order=downloads"
+BROWSER="${BROWSER:-w3m}"
+READER="${READER:-""}"
+
+if [ -n "$EBOOK_ID" ]; then
+    if [ ! -e "$DIR" ]; then
+        mkdir -p "$DIR"
+        cd "$DIR" || exit 1
+
+        if [ -z "$READER" ]; then
+            curl -L -O "https://www.gutenberg.org/files/$EBOOK_ID/$EBOOK_ID-h.zip"
+            unzip "$EBOOK_ID"-h.zip
+        else
+            curl -L -o "$EBOOK_ID".epub "https://www.gutenberg.org/ebooks/$EBOOK_ID.epub.noimages"
+        fi
+    fi
+
+    if [ -d "$DIR" ]; then
+        if [ -z "$READER" ]; then
+            "$BROWSER" "$DIR/$EBOOK_ID-h/$EBOOK_ID-h.htm"
+        else
+            "$READER" "$DIR/$EBOOK_ID.epub"
+        fi
+    fi
+else
+    "$BROWSER" "$BROWSE_LINK"
+fi

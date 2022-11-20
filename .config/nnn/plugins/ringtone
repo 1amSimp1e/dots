@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+
+# Description: Create an mp3 ringtone out of an audio file in any format
+#              Needs user to provide start and end where to cut the file
+#              Input file audio.ext results in audio_ringtone.mp3
+#
+#              Tip: To convert a complete media file, set start as 0 and
+#              the runtime of the file as end.
+#
+# Dependencies: date, ffmpeg
+#
+# Shell: POSIX compliant
+# Author: Arun Prakash Jana
+
+if [ -n "$1" ]; then
+    printf "start (hh:mm:ss): "
+    read -r start
+    st=$(date -d "$start" +%s) || exit 1
+
+    printf "end (hh:mm:ss): "
+    read -r end
+    et=$(date -d "$end" +%s) || exit 1
+
+    if [ "$st" -ge "$et" ]; then
+        printf "error: start >= end "
+        read -r _
+        exit 1
+    fi
+
+    interval=$(( et - st ))
+
+    outfile=$(basename "$1")
+    outfile="${outfile%.*}"_ringtone.mp3
+
+    ffmpeg -i "$1" -ss "$start" -t "$interval" -vn -sn -acodec libmp3lame -q:a 2 "$outfile"
+fi
