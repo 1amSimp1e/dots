@@ -37,7 +37,7 @@
 
 > To install my dots just [R.T.F.M](https://en.wikipedia.org/wiki/RTFM)
 
-<details><summary>1. Install Required dependencies:</summary><blockquote>
+<details><summary> 1. Install Required dependencies: </summary><blockquote>
 
 ⚠️ This setup instructions only provided for Arch Linux (and other Arch-based distributions)
 
