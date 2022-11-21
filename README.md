@@ -19,8 +19,8 @@
 
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
-  - [HyprLand](#hypr)
-  - [GNOME](#gnome)
+  - [HyprLand 🍙](#hypr)
+  - [GNOME 🍙](#gnome)
   - [Microsoft Windows](#windows)
 - [Oh My Posh](#ohmyposh)
 - [zsh](#zsh)
