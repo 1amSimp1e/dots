@@ -19,15 +19,82 @@
 
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
-  - [GNOME](#gnome)
   - [HyprLand](#hypr)
+  - [GNOME](#gnome)
   - [Microsoft Windows](#windows)
 - [Oh My Posh](#ohmyposh)
 - [zsh](#zsh)
 - [Tmux](#tmux)
 - [Addition Apps and Terminal Tools](#Apps)
 
-## GNOME SETUPS<a name = "gnome"></a>:
+## Hyprland<a name = "hypr"></a>:
+
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Hyprland/hyprland_Rice1.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Hyprland/hyprland_Rice2.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Hyprland/hyprland_Rice3.png)
+
+### Setup 🔧:
+
+> To install my dots just [R.T.F.M](https://en.wikipedia.org/wiki/RTFM)
+
+<details><summary> 1. Install Required dependencies: </summary><blockquote>
+
+⚠️ This setup instructions only provided for Arch Linux (and other Arch-based distributions)
+
+- First of all, Install the newest [Hyprland](https://hyprland.org/) using this [guide](https://wiki.hyprland.org/Getting-Started/Installation/) depend on your Distro:
+
+  ```zsh
+  yay -S hyprland-git
+  ```
+
+- Install Rofi, Dunst, Waybar and Alacritty(optional):
+
+  ```
+  yay -S rofi dunst waybar-hyprland-git alacritty
+  ```
+
+</blockquote></details>
+
+<details><summary>2. Install my dots:</summary><blockquote>
+
+> Clone the repos
+
+```zsh
+git clone https://github.com/iamverysimp1e/dots
+cd dots/.config
+```
+
+> Copy configs file + Wallpaper
+
+```zsh
+cp -r waybar alacritty hypr rofi dunst ~/.config
+# Wallpaper
+cp -r Wallpaper ~/Pictures
+```
+
+> Install a few font
+
+Necessary Font:
+
+- [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip)
+- [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip)
+
+Optional Font:
+
+- [NotoColorEmoji](https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf)
+- [Codicon](https://github.com/microsoft/vscode-codicons/raw/main/dist/codicon.ttf)
+
+Once you download them and unpack them, place them into ~/.fonts or ~/.local/share/fonts.
+
+Then run this command for your system to detect the newly installed fonts.
+
+```
+fc-cache -fv
+```
+
+</blockquote></details>
+
+## GNOME Setups<a name = "gnome"></a>:
 
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Gnome_Rice/Rice1.png)
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Gnome_Rice/Rice2.png)
@@ -35,7 +102,7 @@
 
 <details><summary> Gnome configs </summary><blockquote>
 
-- GTK Themes: Based on [AestheticStuff by rxyhn](https://github.com/rxyhn/AestheticStuff)
+- GTK Themes: Based on [AestheticStuff by Rxyhn](https://github.com/rxyhn/AestheticStuff)
 
 - GTK Icons:[Papirus icons ](https://www.gnome-look.org/p/1166289)
 
