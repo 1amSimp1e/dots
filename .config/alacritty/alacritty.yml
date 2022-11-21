@@ -19,7 +19,7 @@ window:
   dimensions:
     columns: 80
     lines: 35
-  opacity: 0.8
+  opacity: 0.7
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -39,7 +39,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: 'FiraCode Nerd Font'
+    family: 'JetBrains Mono Nerd Font'
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -50,7 +50,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: 'FiraCode Nerd Font'
+    family: 'JetBrains Mono Nerd Font'
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -61,7 +61,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: 'FiraCode Nerd Font'
+    family: 'JetBrains Mono Nerd Font'
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -74,34 +74,6 @@ font:
 
   glyph_offset:
     y: 0
-
-# colors:
-#   # Default colors
-#   primary:
-#     background: '#1a1e2b'
-#     foreground: '#fffbf6'
-#
-#   # Normal colors
-#   normal:
-#     black: '#2e2e2e'
-#     red: '#eb4129'
-#     green: '#abe047'
-#     yellow: '#f6c744'
-#     blue: '#435c89'
-#     magenta: '#7b5cb0'
-#     cyan: '#64dbed'
-#     white: '#e5e9f0'
-#
-#   # Bright colors
-#   bright:
-#     black: '#565656'
-#     red: '#ec5357'
-#     green: '#c0e17d'
-#     yellow: '#f9da6a'
-#     blue: '#49a4f8'
-#     magenta: '#a47de9'
-#     cyan: '#99faf2'
-#     white: '#ffffff'
 
 # Colors (Poimandres)
 colors:
