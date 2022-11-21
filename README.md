@@ -29,9 +29,9 @@
 
 ## Hyprland<a name = "hypr"></a>:
 
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Hyprland/hyprland_Rice1.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Hyprland/hyprland_Rice2.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Hyprland/hyprland_Rice3.png)
+![](https://github.com/iamverysimp1e/dots/tree/main/ScreenShots/Hyprland/hyprland_Rice1.png)
+![](https://github.com/iamverysimp1e/dots/tree/main/ScreenShots/Hyprland/hyprland_Rice2.png)
+![](https://github.com/iamverysimp1e/dots/tree/main/ScreenShots/Hyprland/hyprland_Rice3.png)
 
 ### Setup 🔧:
 
