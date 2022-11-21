@@ -1,13 +1,8 @@
 ## ░█▀▀░▀█▀░█▀█░█▀▄░█▀▀░█░█░▀█▀░█▀█
 ## ░▀▀█░░█░░█▀█░█▀▄░▀▀█░█▀█░░█░░█▀▀
 ## ░▀▀▀░░▀░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░░
-## CROSS-SHELL PROMPT
-##
-## rxyhn's starship configuration
-## The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 format = "$directory$all"
-# right_format = """$git_branch$git_status$cmd_duration$directory"""
 right_format = """$git_branch$git_status$cmd_duration"""
 
 # Disable the blank line at the start of the prompt

@@ -24,7 +24,6 @@
   - [Microsoft Windows](#windows)
 - [Oh My Posh](#ohmyposh)
 - [zsh](#zsh)
-- [Tmux](#tmux)
 - [Addition Apps and Terminal Tools](#Apps)
 
 ## Hyprland 🍙<a name = "hypr"></a>:
@@ -308,15 +307,6 @@ sudo yum install glibc-static libstdc++-static -y;
 </details>
 </blockquote></details>
 
-## Tmux setups <a name = "tmux"></a>:
-
-- I use [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm#installation) with custom [one dark theme](https://github.com/odedlaz/tmux-onedark-theme) after you install tmux plugin manager launch tmux and press `prefix` + I (capital I):
-  - Change this in your ~/.tmux/plugins/tmux-one-dark-terminal:
-  ```
-  onedark_black="#0F1317"
-  onedark_visual_grey="#1f2830"
-  ```
-
 ## Oh my Posh <a name = "ohmyposh"></a>:
 
 - I use [Oh my Posh ](https://ohmyposh.dev/docs) for my prompt themes
@@ -325,7 +315,7 @@ sudo yum install glibc-static libstdc++-static -y;
 
 ## Zsh <a name = "zsh"></a>:
 
-- I use [oh-my-zsh](https://ohmyz.sh/#install) as zsh framework, extensions that i use:
+- I use [oh-my-zsh](https://ohmyz.sh/#install) as zsh framework and [zap](https://github.com/zap-zsh/zap) as my plugin manager, extensions that i use:
   - [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
   - [zsh-syntax-highlight](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
