@@ -11,7 +11,7 @@
 
 </div>
 
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Combined_Image.jpg)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/combineImages.png)
 
 ## Contents:
 
@@ -27,7 +27,7 @@
 - [Tmux](#tmux)
 - [Addition Apps and Terminal Tools](#Apps)
 
-## Hyprland<a name = "hypr"></a>:
+## Hyprland 🍙<a name = "hypr"></a>:
 
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/hyprland_Rice1.png)
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/hyprland_Rice2.png)
@@ -91,10 +91,17 @@ Then run this command for your system to detect the newly installed fonts.
 ```
 fc-cache -fv
 ```
+Congratulations! You had installed this beautiful rice on your machine🍚
+Log out your current desktop session and login to Hyprland:) 
+
+## Credits 
+Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland Development Discord servier](https://discord.com/invite/hQ9XvMUjjr)
+
+
 
 </blockquote></details>
 
-## GNOME Setups<a name = "gnome"></a>:
+## GNOME 🍙<a name = "gnome"></a>:
 
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Gnome_Rice/Rice1.png)
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Gnome_Rice/Rice2.png)
