@@ -20,4 +20,5 @@ require "user.alpha"
 require "user.autocommands"
 require "user.colorizer"
 require "user.treesitter"
+require "user.truezen"
 -- require'user.nvim-transparent'

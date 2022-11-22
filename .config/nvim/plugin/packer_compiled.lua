@@ -245,6 +245,11 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["true-zen.nvim"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/true-zen.nvim",
+    url = "https://github.com/Pocco81/true-zen.nvim"
+  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/vim-bbye",

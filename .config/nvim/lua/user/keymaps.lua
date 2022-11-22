@@ -67,6 +67,13 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- Buffer -- 
 keymap("n", "W", ":Bdelete<CR>", opts)
 
+-- For True Zen plugins
+keymap("n", "<leader>zn", ":TZNarrow<CR>", {})
+keymap("v", "<leader>zn", ":'<,'>TZNarrow<CR>", {})
+keymap("n", "<leader>zf", ":TZFocus<CR>", {})
+keymap("n", "<leader>zm", ":TZMinimalist<CR>", {})
+keymap("n", "<leader>za", ":TZAtaraxis<CR>", {})
+
 -- Terminal --
 -- Better terminal navigation
 -- keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
