@@ -90,13 +90,13 @@ Then run this command for your system to detect the newly installed fonts.
 ```
 fc-cache -fv
 ```
+
 Congratulations! You had installed this beautiful rice on your machine🍚
-Log out your current desktop session and login to Hyprland:) 
+Log out your current desktop session and login to Hyprland:)
 
-## Credits 
+## Credits
+
 Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland Development Discord servier](https://discord.com/invite/hQ9XvMUjjr)
-
-
 
 </blockquote></details>
 
