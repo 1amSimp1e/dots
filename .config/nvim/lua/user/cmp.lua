@@ -122,11 +122,13 @@ cmp.setup {
   window = {
     documentation = {
       border = "rounded",
-      --winhighlight = "NormalFloat:Pmenu,NormalFloat:Pmenu,CursorLine:PmenuSel,Search:None",
+      -- winhighlight = "NormalFloat:Pmenu,NormalFloat:Pmenu,CursorLine:PmenuSel,Search:None",
+      winhighlight = 'Normal:TelescopeNormal,FloatBorder:white',
     },
     completion = {
       border = "rounded",
       -- winhighlight = "NormalFloat:Pmenu,NormalFloat:Pmenu,CursorLine:PmenuSel,Search:None",
+      winhighlight = 'Normal:TelescopeNormal,FloatBorder:white',
     },
   },
   experimental = {

@@ -67,12 +67,14 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- Buffer -- 
 keymap("n", "W", ":Bdelete<CR>", opts)
 
--- For True Zen plugins
+-- For True Zen plugins && Line Break Options 
 keymap("n", "<leader>zn", ":TZNarrow<CR>", {})
 keymap("v", "<leader>zn", ":'<,'>TZNarrow<CR>", {})
 keymap("n", "<leader>zf", ":TZFocus<CR>", {})
 keymap("n", "<leader>zm", ":TZMinimalist<CR>", {})
 keymap("n", "<leader>za", ":TZAtaraxis<CR>", {})
+keymap("n", "<leader>lb", ":set linebreak<CR>", {})
+
 
 -- Terminal --
 -- Better terminal navigation
