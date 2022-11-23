@@ -1,24 +1,75 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.colorscheme"
-require "user.cmp"
-require "user.lsp"
-require "user.telescope"
-require "user.autopairs"
-require "user.comment"
-require "user.gitsigns"
-require 'user.whichkey'
-require "user.nvim-tree"
-require "user.bufferline"
-require "user.lualine"
-require "user.toggleterm"
-require "user.project"
-require "user.impatient"
-require "user.indentline"
-require "user.alpha"
-require "user.autocommands"
-require "user.colorizer"
-require "user.treesitter"
-require "user.truezen"
--- require'user.nvim-transparent'
+---------------------------------------------------------------------------
+--  _   _                 _              ____             __ _
+-- | \ | | ___  _____   _(_)_ __ ___    / ___|___  _ __  / _(_) __ _ ___
+-- |  \| |/ _ \/ _ \ \ / / | '_ ` _ \  | |   / _ \| '_ \| |_| |/ _` / __|
+-- | |\  |  __/ (_) \ V /| | | | | | | | |__| (_) | | | |  _| | (_| \__ \
+-- |_| \_|\___|\___/ \_/ |_|_| |_| |_|  \____\___/|_| |_|_| |_|\__, |___/
+--                                                             |___/
+---------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------
+-- ____                            _                    
+--| __ )  __ _ ___  ___   ___  ___| |_ _   _ _ __  ___ 
+--|  _ \ / _` / __|/ _ \ / __|/ _ \ __| | | | '_ \/ __|
+--| |_) | (_| \__ \  __/ \__ \  __/ |_| |_| | |_) \__ \ 
+--|____/ \__,_|___/\___| |___/\___|\__|\__,_| .__/|___/
+--                                          |_|         
+-----------------------------------------------------------
+require("user.options")
+require("user.keymaps")
+require("user.plugins")
+require("user.colorscheme")
+require("user.autocommands")
+
+-----------------------------------------
+--  _   _ ___   _____           _
+-- | | | |_ _| |_   _|__   ___ | |___
+-- | | | || |    | |/ _ \ / _ \| / __|
+-- | |_| || |    | | (_) | (_) | \__ \
+--  \___/|___|   |_|\___/ \___/|_|___/
+----------------------------------------
+require("user.lualine")
+require("user.whichkey")
+require("user.nvim-transparent")
+require("user.gitsigns")
+require("user.colorizer")
+require("user.project")
+require("user.treesitter")
+require("user.telescope")
+require("user.bufferline")
+require("user.alpha")
+
+-----------------------------------------------------------------
+--  _     ____  ____                    _
+-- | |   / ___||  _ \    __ _ _ __   __| |
+-- | |   \___ \| |_) |  / _` | '_ \ / _` |
+-- | |___ ___) |  __/  | (_| | | | | (_| |
+-- |_____|____/|_|      \__,_|_| |_|\__,_|
+--
+--   ____                      _      _   _
+--  / ___|___  _ __ ___  _ __ | | ___| |_(_) ___  _ __  ___
+-- | |   / _ \| '_ ` _ \| '_ \| |/ _ \ __| |/ _ \| '_ \/ __|
+-- | |__| (_) | | | | | | |_) | |  __/ |_| | (_) | | | \__ \
+--  \____\___/|_| |_| |_| .__/|_|\___|\__|_|\___/|_| |_|___/
+--                      |_|
+----------------------------------------------------------------
+require("user.cmp")
+require("user.lsp")
+
+
+--------------------------------------------
+ -- _   _ _   _ _ _ _   _
+-- | | | | |_(_) (_) |_(_) ___  ___
+-- | | | | __| | | | __| |/ _ \/ __|
+-- | |_| | |_| | | | |_| |  __/\__ \
+--  \___/ \__|_|_|_|\__|_|\___||___/
+-------------------------------------------
+require("user.truezen")
+require("user.autopairs")
+require("user.comment")
+require("user.nvim-tree")
+require("user.toggleterm")
+require("user.impatient")
+require("user.indentline")
