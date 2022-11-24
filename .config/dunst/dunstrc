@@ -184,7 +184,7 @@
 
 [urgency_low]
 	timeout = 6
-	background = "#131C26"
+	background = "#0d0f16"
 	foreground = "#9fa0a0"
 	frame_color = "#191d24"
 	highlight = "#7ba5dd"
@@ -192,7 +192,7 @@
 [urgency_normal]
 	# script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
-	background = "#131C26"
+	background = "#0d0f16"
 	foreground = "#c5c8c9"
 	frame_color = "#191d24"
 	highlight = "#7ba5dd"
@@ -200,7 +200,7 @@
 [urgency_critical]
 	script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
-	background = "#131C26"
+	background = "#0d0f16"
 	foreground = "#c5c8c9"
 	frame_color = "#192022"
 	highlight = "#ee6a70"
