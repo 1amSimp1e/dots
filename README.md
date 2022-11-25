@@ -13,10 +13,7 @@
 
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/combineImages.png)
 
-## Contents:
-
-### **👻 Don't blindly use my setup. Use at your own risk!!!**
-
+## Contents: ### **👻 Don't blindly use my setup. Use at your own risk!!!**
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [HyprLand 🍙](#hypr)
@@ -271,73 +268,3 @@ sudo yum install glibc-static libstdc++-static -y;
 
 </details>
 </blockquote></details>
-
-## Windows SETUPS<a name = "Windows"></a>:
-
-![Pictures 4](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Windows_Rice/Windows_Rice.png)
-
-<details><summary> Windows configs </summary><blockquote>
-
-- Terminal : [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=US)
-- [Scoop](https://scoop.sh/) : A package manager for windows
-- Prompt: [Oh my posh](https://ohmyposh.dev/docs/)
-- Tutorial is inspired by [this video](https://www.youtube.com/watch?v=5-aK2_WwrmM)
-- Optional Package:
-  - [Terminal icons](https://github.com/devblackops/Terminal-Icons) - Icons for terminal :
-  ```powershell
-  Install-Module -Name Terminal-Icons -Repository PSGallery -Force
-  ```
-  - [Z](https://www.powershellgallery.com/packages/z/1.1.13) - Directory jump:
-  ```powershell
-  Install-Module -Name z -Force
-  ```
-  - [PsFzf](https://github.com/kelleyma49/PSFzf) - Fuzzy finder:
-  ```powershell
-  Install-Module -Name PSFzf -Force
-  ```
-  - [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.2) - Use for completions:
-  ```powershell
-  Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
-  ```
-- ⚠️ In case you don't have PowerShell profile yet:
-  ```powershell
-  New-Item -Path $PROFILE -type File -force
-  ```
-
-</details>
-</blockquote></details>
-
-## Oh my Posh <a name = "ohmyposh"></a>:
-
-- I use [Oh my Posh ](https://ohmyposh.dev/docs) for my prompt themes
-  ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Other/awsome-prompt-themes.png)
-  Check my [Awsome Prompt themes](https://github.com/iamverysimp1e/awsome-oh-my-posh-prompt) for more details !!
-
-## Zsh <a name = "zsh"></a>:
-
-- I use [oh-my-zsh](https://ohmyz.sh/#install) as zsh framework and [zap](https://github.com/zap-zsh/zap) as my plugin manager, extensions that i use:
-  - [zsh-autosuggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
-  - [zsh-syntax-highlight](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-
-## Apps & Other Terminal Tools <a name = "Apps"></a>:
-
-- [Alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#debianubuntu): Fast, Open GL Terminal Emulator
-- [FlatPak](https://www.flatpak.org/setup/): Package manager for Linux
-  - [Kooha](https://flathub.org/apps/details/io.github.seadve.Kooha): Elegantly screen recorder
-- [Howdy](https://github.com/boltgolt/howdy): Windows Hello Style authentication for Linux
-- [Fusuma](https://github.com/iberianpig/fusuma): Multitouch gesture recognizer. This makes your linux able to recognize swipes or pinches
-  - **How to make it runs when turn on your machine**:
-    - Go to start up application
-    - Then click to add:
-      - Name section: fusuma
-      - Command section: fusuma
-
-## Terminal Tools
-
-- [Pipe.sh](https://github.com/pipeseroni/pipes.sh): Animated pipes terminal screeen saver
-- [Cmatrix](https://github.com/abishekvashok/cmatrix) Installations:
-
-```fish
-sudo apt update && sudo apt upgrade
-sudo apt install cmatrix
-```
