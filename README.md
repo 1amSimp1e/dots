@@ -13,7 +13,9 @@
 
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/combineImages.png)
 
-## Contents: ### **👻 Don't blindly use my setup. Use at your own risk!!!**
+## Contents: 
+
+### **👻 Don't blindly use my setup. Use at your own risk!!!**
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [HyprLand 🍙](#hypr)
