@@ -63,7 +63,6 @@ return packer.startup(function(use)
 	use({ "folke/tokyonight.nvim" })
 	use("lunarvim/darkplus.nvim")
 	use("lunarvim/onedarker.nvim")
-
 	use({
 		"olivercederborg/poimandres.nvim",
 		config = function()
@@ -74,8 +73,7 @@ return packer.startup(function(use)
 			})
 		end,
 	})
-	-- use ({ 'projekt0n/github-nvim-theme' })
-
+  use {'decaycs/decay.nvim', as = 'decay'}
 	-- cmp plugins
 	use({ "hrsh7th/nvim-cmp" }) -- The completion plugin
 	use({ "hrsh7th/cmp-buffer" }) -- buffer completions
