@@ -1,97 +1,135 @@
-local status_ok, lualine = pcall(require, "lualine")
-if not status_ok then
+local present, lualine = pcall(require, "lualine")
+if not present then
 	return
 end
 
-local hide_in_width = function()
-	return vim.fn.winwidth(0) > 80
-end
-local cursorline_hl = vim.api.nvim_get_hl_by_name("CursorLine", true)
-
-vim.api.nvim_set_hl(0, "SLSeparator", { fg = cursorline_hl.background})
-
-local diagnostics = {
-	"diagnostics",
-	sources = { "nvim_diagnostic" },
-	sections = { "error", "warn" },
-	symbols = {error = " ", warn = " ", info = " ", hint = " " },
-	colored = false,
-	update_in_insert = false,
-	always_visible = true,
+local layout = {
+	lualine_a = {
+		{
+			function()
+				return ""
+			end,
+			separator = { left = "", right = "" },
+		},
+	},
+	lualine_b = {
+		{
+			"filetype",
+			icon_only = true,
+			colored = true,
+			color = { bg = "#121319", fg = "#ffffff" },
+		},
+		{
+			"filename",
+			color = { bg = "#121319", fg = "#ffffff" },
+			separator = { left = "", right = "" },
+		},
+		{
+			"branch",
+			icon = "",
+      color = { bg = "#212430", fg = "#c296eb" },
+			separator = { left = "", right = "" },
+		},
+		{
+			"diff",
+			colored = true,
+			symbols = {
+				added = " ",
+				modified = " ",
+				removed = " ",
+			},
+      color = { bg = "#212430"},
+			separator = { left = "", right = "" },
+		},
+	},
+	lualine_c = {
+		{
+			function ()
+				return ''
+			end,
+			color = { bg = '#8FCDA9', fg = '#121319'},
+			separator = { left = '', right = '' },
+		},
+		{
+			"diagnostics",
+			sources = { "nvim_lsp" },
+			sections = {
+				"info",
+				"error",
+				"warn",
+				"hint",
+			},
+			diagnostic_color = {
+				error = { fg = '#820e2d', bg = '#0f111a' },
+				warn = { fg = 'DiagnosticWarn', bg = '#0f111a' },
+				info = { fg = 'DiaganosticInfo', bg = '#0f111a' },
+				hint = { fg = '#92CDE7', bg = '#0f111a' },
+			},
+			colored = true,
+			update_in_insert = true,
+			always_visible = false,
+			symbols = {
+				error = " ",
+				warn = " ",
+				hint = "",
+				info = " ",
+			},
+			separator = { left = "", right = "" },
+		},
+  },
+	lualine_x = {},
+	lualine_y = {},
+	lualine_z = {
+		{
+			"filesize",
+			color = "StatusLine",
+		},
+		{
+			function()
+				return ""
+			end,
+			separator = { left = "", right = "" },
+		},
+		{
+			"progress",
+			color = "StatusLine",
+		},
+		{
+			function()
+				return ""
+			end,
+			separator = { left = "", right = "" },
+		},
+		{
+			"location",
+			color = "StatusLine",
+		},
+		{
+			function()
+				return ""
+			end,
+			separator = { left = "", right = "" },
+		},
+	},
 }
 
-local diff = {
-	"diff",
-	colored = false,
-	symbols = { added = " ", modified = " ", removed = " " }, -- changes diff symbols
-  cond = hide_in_width
+local no_layout = {
+	lualine_a = {},
+	lualine_b = {},
+	lualine_c = {},
+	lualine_x = {},
+	lualine_y = {},
+	lualine_z = {},
 }
-
-local mode = {
-	"mode",
-	fmt = function()
-		return ""
-	end,
-}
-
-
-local filetype = {
-	"filetype",
-	icons_enabled = true,
-	icon = nil,
-}
-
-local branch = {
-	"branch",
-	icons_enabled = true,
-	icon = "",
-}
-
-local location = {
-	"location",
-	padding = 0,
-}
-
--- cool function for progress
-local progress = function()
-	local current_line = vim.fn.line(".")
-	local total_lines = vim.fn.line("$")
-	local chars = { "__", "▁▁", "▂▂", "▃▃", "▄▄", "▅▅", "▆▆", "▇▇", "██" }
-	local line_ratio = current_line / total_lines
-	local index = math.ceil(line_ratio * #chars)
-	return chars[index]
-end
-
-local spaces = function()
-	return " " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
-end
 
 lualine.setup({
+	sections = layout,
+	inactive_sections = no_layout,
 	options = {
 		icons_enabled = true,
-		theme = "poimandres",
-		component_separators = { left = "", right = "" },
-		section_separators = { left = "", right = "" },
+		globalstatus = false,
 		disabled_filetypes = { "alpha", "dashboard", "NvimTree", "Outline" },
 		always_divide_middle = true,
+		theme = "poimandres",
 	},
-	sections = {
-		lualine_a = { mode },
-		lualine_b = { branch, diagnostics },
-		lualine_c = {},
-		-- lualine_x = { "encoding", "fileformat", "filetype" },
-		lualine_x = { diff, spaces, filetype },
-		lualine_y = { location },
-		lualine_z = { progress },
-	},
-	inactive_sections = {
-		lualine_a = {},
-		lualine_b = {},
-		lualine_c = { "filename" },
-		lualine_x = { "location" },
-		lualine_y = {},
-		lualine_z = {},
-	},
-	tabline = {},
-	extensions = {},
 })
