@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
     url = "https://github.com/lunarvim/darkplus.nvim"
   },
+  decay = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/decay",
+    url = "https://github.com/decaycs/decay.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/friendly-snippets",
