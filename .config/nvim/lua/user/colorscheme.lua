@@ -5,7 +5,9 @@ require('poimandres').setup {
   disable_float_background = false, -- disable background for floats
   disable_italics = false, -- disable italics
 }
+
 local colorscheme = "poimandres"
+
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then

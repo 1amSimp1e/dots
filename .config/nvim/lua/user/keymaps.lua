@@ -60,10 +60,6 @@ keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
--- Nvim Tree -- 
--- Toggle Open & Close -- 
--- keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
-
 -- Buffer -- 
 keymap("n", "W", ":Bdelete<CR>", opts)
 
@@ -74,7 +70,6 @@ keymap("n", "<leader>zf", ":TZFocus<CR>", {})
 keymap("n", "<leader>zm", ":TZMinimalist<CR>", {})
 keymap("n", "<leader>za", ":TZAtaraxis<CR>", {})
 keymap("n", "<leader>lb", ":set linebreak<CR>", {})
-
 
 -- Terminal --
 -- Better terminal navigation
