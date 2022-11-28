@@ -3,8 +3,6 @@
     <h3></h3>
 </div>
 
-< align="center">
-
 ![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&style=for-the-badge)
 ![](https://img.shields.io/github/stars/iamverysimp1e/dots?color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&style=for-the-badge)
 [![](https://img.shields.io/badge/Neovim-0.9+-blueviolet.svg?style=for-the-badge&logo=Neovim&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&)](https://github.com/neovim/neovim)
