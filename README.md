@@ -3,15 +3,12 @@
     <h3></h3>
 </div>
 
-<div align="center">
+< align="center">
 
 ![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&style=for-the-badge)
 ![](https://img.shields.io/github/stars/iamverysimp1e/dots?color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&style=for-the-badge)
 [![](https://img.shields.io/badge/Neovim-0.9+-blueviolet.svg?style=for-the-badge&logo=Neovim&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&)](https://github.com/neovim/neovim)
-
-<a href="https://github.com/iamverysimp1e/dots">
-		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/iamverysimp1e/dots?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41"/></a>
-</div>
+[![](https://img.shields.io/github/repo-size/iamverysimp1e/dots?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41)](https://github.com/iamverysimp1e/dots)
 
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/combineImages.png)
 
