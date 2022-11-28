@@ -145,12 +145,14 @@ Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland
 
 ## Neovim Setups <a name = "neovim"></a>:
 
-![Pictures 5](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new3.png)
-![Pictures 7](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new3.gif)
-![Pictures 9](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new4.png)
-![Pictures 8](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_new2.gif)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice1.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice2.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice3.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice4.png)
+![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice5.png)
 
-<details><summary>Optional Package and apps</summary><blockquote>
+
+<details><summary>How to setups</summary><blockquote>
   </blockquote>
 
 - Setups:
