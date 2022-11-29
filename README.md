@@ -235,7 +235,7 @@ sudo apt install neovim
 
 <details><summary>2. Install required dependencies </summary><blockquote>
 - You probably notice you don't have support for copy and paste also that python and node haven't been setup
-  - If you on **X11** install xsel and xclip
+  - If you on X11 install xsel and xclip
 
     - On Ubuntu:
     ```
