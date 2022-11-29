@@ -18,10 +18,11 @@
 
 ### **👻 Don't blindly use my setup. Use at your own risk!!!**
 
-- [Neovim Setups](#neovim)
 - [Windows Manger]():
   - [HyprLand 🍚](#hypr)
   - [GNOME 🍙](#gnome)
+- [Neovim Setups](#neovim)
+  ![]
 
 ## Hyprland 🍚<a name = "hypr"></a>:
 
