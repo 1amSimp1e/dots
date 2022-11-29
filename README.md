@@ -275,23 +275,23 @@ sudo apt install neovim
   ```
 - Other dependencies for formatting & finding text:):
 
-- Prettier
+  - Prettier
 
-```bash
-npm install -g prettier
-```
+  ```bash
+  npm install -g prettier
+  ```
 
-- Black (Python formatter)
+  - Black (Python formatter)
 
-```bash
-pip install black
-```
+  ```bash
+  pip install black
+  ```
 
-- Ripgrep
+  - Ripgrep
 
-```
-paru -S ripgrep
-```
+  ```
+  paru -S ripgrep
+  ```
 
 - On Fedora you have to install c++ and lstdc++ :
 
