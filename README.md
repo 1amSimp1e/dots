@@ -50,7 +50,7 @@
   ```
 
 - Also, if you want gtk applications to fits with my colorscheme on my dots, I recommend the [decay themes](https://github.com/decaycs/decay-gtk).
-  To change the gtk themes I recommend using nwg-look.
+  To change the gtk themes I use nwg-look.
   > First, Install nwg-look
   ```
   yay -S nwg-look
