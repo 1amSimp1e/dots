@@ -43,10 +43,10 @@
   yay -S hyprland-git
   ```
 
-- Install Rofi, Dunst, Waybar and Alacritty(optional):
+- Install Rofi, Dunst, Waybar, kitty terminal, grimblast:
 
   ```
-  yay -S rofi dunst waybar-hyprland-git alacritty
+  yay -S rofi dunst waybar-hyprland-git kitty grimblast
   ```
 
 - Also, if you want gtk applications to fits with my colorscheme on my dots, I recommend the [decay themes](https://github.com/decaycs/decay-gtk).
