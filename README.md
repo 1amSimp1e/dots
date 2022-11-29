@@ -210,60 +210,87 @@ Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland
    └── packer_compiled.lua
 ```
 
-- **Installations**:
+<details><summary>1. Install NeoVim</summary><blockquote>
+> I recommend the NeoVim Nightly Version, my NeoVim configs also work with the Release version but there're some error while installations.
+
+- On Arch:
+
+  > Assume that your package manager is yay
+
+  ```
+  yay -S nvim-nightly
+  # or
+  yay -S neovim-git
+  ```
 
 - On Ubuntu
 
-```fish
+```
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt update && sudo apt upgrade
 sudo apt install neovim
 ```
 
-- Get healthy:
-  - Open nvim and enter the following:
-  ```
-  :checkhealth
-  ```
-  - You probably notice you don't have support for copy and paste also that python and node haven't been setup
+</blockquote></details>
+
+<details><summary>2. Install required dependencies </summary><blockquote>
+- You probably notice you don't have support for copy and paste also that python and node haven't been setup
+  - If you on **X11** install xsel and xclip
+
     - On Ubuntu:
     ```
-    sudo apt install xsel
+    sudo apt install xsel xclip
     ```
+
     - On Arch:
     ```
-    sudo pacman -S xsel
+    sudo pacman -S xsel xclip
     ```
-  - Next we need to install python support (Node is optional)
-    - Neovim python support:
-    ```
-    pip install pynvim
-    # or
-    pip3 install pynvim
-    ```
-    - Neovim Node support
-    ```
-    npm i -g neovim
-    ```
-- Other optional package for formatting & finding text:):
 
-  - Prettier
+- But if you on Wayland like me, install wlcopy & wl-clipboard
 
-  ```bash
-  npm install -g prettier
-  ```
-
-  - Black (Python formatter)
-
-  ```bash
-  pip install black
-  ```
-
-  - Ripgrep
+  - On Arch:
 
   ```
-  paru -S ripgrep
+  sudo pacman -S wlcopy wl-clipboard
   ```
+
+  - On Ubuntu:
+
+  ```
+  sudo apt install wlcopy wl-clipboard
+  ```
+
+- Next we need to install python support (Node is optional)
+  - Neovim python support:
+  ```
+  pip install pynvim
+  # or
+  pip3 install pynvim
+  ```
+  - Neovim Node support
+  ```
+  npm i -g neovim
+  ```
+- Other dependencies for formatting & finding text:):
+
+- Prettier
+
+```bash
+npm install -g prettier
+```
+
+- Black (Python formatter)
+
+```bash
+pip install black
+```
+
+- Ripgrep
+
+```
+paru -S ripgrep
+```
 
 - On Fedora you have to install c++ and lstdc++ :
 
