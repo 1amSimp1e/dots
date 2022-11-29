@@ -12,7 +12,7 @@
 
 </div>
 
-![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/combine_images.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/combined_images.png)
 
 ## Contents:
 
