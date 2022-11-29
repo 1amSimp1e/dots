@@ -25,9 +25,9 @@
 
 ## Hyprland 🍙<a name = "hypr"></a>:
 
-![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/hyprland_Rice1.png)
-![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/hyprland_Rice2.png)
-![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/hyprland_Rice3.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice1.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice2.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice3.png)
 
 ### Setup 🔧:
 
@@ -150,7 +150,6 @@ Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice3.png)
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice4.png)
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice5.png)
-
 
 <details><summary>How to setups</summary><blockquote>
   </blockquote>
