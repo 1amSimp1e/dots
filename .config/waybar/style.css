@@ -96,14 +96,14 @@ window#waybar.hidden {
   /* color: #bf616a; */
 	border-radius: 9.5px;
   /* background-color: #1E2A30; */
-  background-color: #242933;
+  background-color: #1b242b;
 }
 
 #window,
 #workspaces {
   margin: 0 4px;
 	border-radius: 9.5px;
-  background-color: #242933;
+  background-color: #1b242b;
 }
 
 #cpu { 
@@ -151,7 +151,7 @@ window#waybar.hidden {
 
 #custom-launcher { 
 	border-radius: 9.5px;
-  background-color: #1E2A30;
+  background-color: #1b242b;
 }
 
 /* If workspaces is the leftmost module, omit left margin */

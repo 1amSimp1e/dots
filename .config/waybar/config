@@ -1,11 +1,10 @@
 {
   // NOTE: Icons: https://github.com/Alexays/Waybar/issues/350
     "height": 30, // Waybar height (to be removed for auto height)
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 6, // Gaps between modules (4px)
     /* "modules-left": ["custom/launcher", "wlr/workspaces", "hyprland/window"],  */
     "modules-left": ["custom/launcher", "cpu", "memory", "wlr/workspaces", "custom/weather"],
     /* "modules-center": ["custom/spotify"], */
-    /* "modules-center": ["wlr/workspaces"], */
     "modules-right": ["tray", "backlight", "pulseaudio", "network", "battery", "clock", "custom/power-menu"],
     "wlr/workspaces": {
       "format": "{icon}",
@@ -106,6 +105,7 @@
         },
         "on-click": "pavucontrol"
     },
+
     "custom/launcher": {
         // "exec": "$HOME/.config/waybar/scripts/spotify.sh",
         // "return-type": "json",
