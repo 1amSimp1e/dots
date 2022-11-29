@@ -23,7 +23,7 @@
   - [HyprLand 🍚](#hypr)
   - [GNOME 🍙](#gnome)
 
-## Hyprland 🍙<a name = "hypr"></a>:
+## Hyprland 🍚<a name = "hypr"></a>:
 
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice1.png)
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice2.png)
