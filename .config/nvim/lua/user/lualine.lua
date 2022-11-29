@@ -71,7 +71,7 @@ local layout = {
 			symbols = {
 				error = " ",
 				warn = " ",
-				hint = "",
+				hint = " ",
 				info = " ",
 			},
 			separator = { left = "", right = "" },
