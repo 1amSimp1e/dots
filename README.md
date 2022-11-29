@@ -20,7 +20,7 @@
 
 - [Neovim Setups](#neovim)
 - [Windows Manger]():
-  - [HyprLand 🍙](#hypr)
+  - [HyprLand 🍚](#hypr)
   - [GNOME 🍙](#gnome)
 
 ## Hyprland 🍙<a name = "hypr"></a>:
