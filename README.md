@@ -49,7 +49,22 @@
   yay -S rofi dunst waybar-hyprland-git alacritty
   ```
 
-</blockquote></details>
+- Also, if you want gtk applications to fits with my colorscheme on my dots, I recommend the [decay themes](https://github.com/decaycs/decay-gtk).
+  To change the gtk themes I recommend using nwg-look.
+  > First, Install nwg-look
+  ```
+  yay -S nwg-look
+  ```
+  > Then, Install decay themes using the [this](https://github.com/decaycs/decay-gtk/#Installation) instruction.
+  ```
+  git clone --depth=1 https://github.com/decaycs/decay-gtk
+  cd decay-gtk
+  mkdir -p ~/.themes
+  # Put any theme you want from the Themes folder into the created .themes folder
+  cp -r ./Themes/<theme> ~/.themes
+  ```
+  > After that, launch nwg-look then choose the decay themes
+  </blockquote></details>
 
 <details><summary>2. Install my dots:</summary><blockquote>
 
@@ -93,7 +108,7 @@ Log out your current desktop session and login to Hyprland:)
 
 ## Credits
 
-Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland Development Discord servier](https://discord.com/invite/hQ9XvMUjjr)
+Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland Development Discord server](https://discord.com/invite/hQ9XvMUjjr)
 
 </blockquote></details>
 
@@ -152,7 +167,6 @@ Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland
 ![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice5.png)
 
 <details><summary>How to setups</summary><blockquote>
-  </blockquote>
 
 - Setups:
 
@@ -197,6 +211,8 @@ Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland
 ```
 
 - **Installations**:
+
+- On Ubuntu
 
 ```fish
 sudo add-apt-repository ppa:neovim-ppa/unstable
