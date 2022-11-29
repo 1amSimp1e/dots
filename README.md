@@ -22,6 +22,7 @@
   - [HyprLand 🍚](#hypr)
   - [GNOME 🍙](#gnome)
 - [Neovim Setups](#neovim)
+  <img src="https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/Other/vim_logo.png" alt="drawing" width="10" length="10"/>
 
 ## Hyprland 🍚<a name = "hypr"></a>:
 
