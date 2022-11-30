@@ -1,2 +1,1 @@
-grim -g "$(slurp)" - | wl-copy
-dunstify "Screenshot Captured, Copied to clipboard "
+grimblast --notify copysave area ~/Pictures/Screenshots/$(date +'%s_screenshot.png') 
