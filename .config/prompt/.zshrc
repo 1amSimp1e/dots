@@ -1,6 +1,9 @@
+# Zap 
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
+
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 ZSH_THEME="robbyrussell"
 
@@ -21,7 +24,8 @@ alias lta="exa -lTa --icons"
 alias nv="nvim"
 alias g="git"
 alias lg="lazygit"
-
+alias pvt="pipe-viewer -n --no-video-info --player=mpvt"
+alias neofetch='neofetch --source ~/.config/neofetch/logo'
 
 # Zap 
 # Example install plugins
