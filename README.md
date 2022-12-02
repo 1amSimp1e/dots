@@ -87,8 +87,8 @@ cp -r Wallpaper ~/Pictures
 
 Necessary Font:
 
-- [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip)
 - [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip)
+- [Mononoki Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Mononoki.zip)
 
 Optional Font:
 
