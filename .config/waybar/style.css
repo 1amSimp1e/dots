@@ -1,6 +1,6 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: FiraCode Nerd Font;
+  font-family: JetBrainsMono Nerd Font;
   font-size: 17px;
 }
 
@@ -130,7 +130,7 @@ window#waybar.hidden {
 }
 
 #custom-weather.clearNight {
-    color: #2b2b2a;
+    color: #CAD3F5;
 }
 
 #custom-weather.cloudyFoggyDay, #custom-weather.cloudyFoggyNight {
