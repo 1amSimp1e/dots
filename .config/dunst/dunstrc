@@ -1,5 +1,5 @@
 [global]
-	font = "DM Sans 10"
+  font = "Mononoki Nerd Font"
 
 	# Allow a small subset of html markup:
 	# <b>bold</b>
