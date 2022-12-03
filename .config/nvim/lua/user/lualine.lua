@@ -17,11 +17,11 @@ local layout = {
 			"filetype",
 			icon_only = true,
 			colored = true,
-			color = { bg = "#212430", fg = "#ffffff" },
+			color = { bg = "#13141c", fg = "#ffffff" },
 		},
 		{
 			"filename",
-			color = { bg = "#212430", fg = "#ffffff" },
+			color = { bg = "#13141c", fg = "#ffffff" },
 			separator = { left = "", right = "" },
 		},
 		{
