@@ -17,11 +17,11 @@ local layout = {
 			"filetype",
 			icon_only = true,
 			colored = true,
-			color = { bg = "#121319", fg = "#ffffff" },
+			color = { bg = "#212430", fg = "#ffffff" },
 		},
 		{
 			"filename",
-			color = { bg = "#121319", fg = "#ffffff" },
+			color = { bg = "#212430", fg = "#ffffff" },
 			separator = { left = "", right = "" },
 		},
 		{
@@ -45,7 +45,7 @@ local layout = {
 	lualine_c = {
 		{
 			function ()
-				return ''
+				return ''
 			end,
 			color = { bg = '#8FCDA9', fg = '#121319'},
 			separator = { left = '', right = '' },
