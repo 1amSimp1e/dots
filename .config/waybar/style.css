@@ -81,6 +81,7 @@ window#waybar.hidden {
 #mode,
 #idle_inhibitor,
 #mpd,
+#bluetooth,
 #custom-hyprPicker,
 #custom-power-menu,
 #custom-spotify,
@@ -216,6 +217,14 @@ label:focus {
 
 #disk {
   background-color: #964b00;
+}
+
+#bluetooth { 
+  color: #707D9D;
+}
+
+#bluetooth.disconnected {
+  color: #f53c3c;
 }
 
 #network {

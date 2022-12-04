@@ -5,7 +5,7 @@
     /* "modules-left": ["custom/launcher", "wlr/workspaces", "hyprland/window"],  */
     "modules-left": ["custom/launcher", "cpu", "memory", "wlr/workspaces", "custom/weather"],
     /* "modules-center": ["custom/spotify"], */
-    "modules-right": ["tray", "backlight", "pulseaudio", "network", "battery", "clock", "custom/power-menu"],
+    "modules-right": ["tray", "backlight", "pulseaudio", "network", "bluetooth", "battery", "clock", "custom/power-menu"],
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -89,8 +89,8 @@
         // "scroll-step": 1, // %, can be a float
         // "format": "{volume}% {icon} {format_source}",
         "format": "{icon} {volume}%",
-        "format-bluetooth": "{icon} {volume}% {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-bluetooth": "  {volume}%",
+        "format-bluetooth-muted": " ",
         "format-muted": "婢",
         // "format-source": "{volume}% ",
         // "format-source-muted": "",
@@ -118,10 +118,13 @@
         "on-click": "rofi -show drun",
     },
     "custom/power-menu": {
-        "format": "<span color='#6a92d7'></span> ",
+        "format": " <span color='#6a92d7'></span> ",
         "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
     }, 
-   
+    "bluetooth": {
+        "on-click": "~/.config/waybar/scripts/rofi-bluetooth &",
+        "format": " {status}",
+    },
    "custom/spotify": {
     "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
     "format": "{}  ",
