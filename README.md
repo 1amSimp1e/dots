@@ -43,10 +43,10 @@
   yay -S hyprland-git
   ```
 
-- Install Rofi, Dunst, Waybar, kitty terminal, grimblast, swaybg:
+- Install Rofi, Dunst, Waybar, kitty terminal, grimblast, swaybg, swaylock-effects, swayidle:
 
   ```
-  yay -S rofi dunst waybar-hyprland-git kitty grimblast swaybg
+  yay -S rofi dunst waybar-hyprland-git kitty grimblast swaybg swaylock-effects swayidle
   ```
 
 - Also, if you want gtk applications to fits with my colorscheme on my dots, I recommend the [decay themes](https://github.com/decaycs/decay-gtk).
@@ -78,7 +78,7 @@ cd dots/.config
 > Copy configs file + Wallpaper
 
 ```zsh
-cp -r waybar alacritty hypr rofi dunst ~/.config
+cp -r waybar alacritty hypr rofi dunst swaylock kitty ~/.config
 # Wallpaper
 cp -r Wallpaper ~/Pictures
 ```
