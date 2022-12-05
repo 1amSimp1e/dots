@@ -1,3 +1,19 @@
+//
+/* You may copy+paste this file and use it as it is.
+ *
+ * If you make changes to your about:config while the program is running, the
+ * changes will be overwritten by the user.js when the application restarts.
+ *
+ * To make lasting changes to preferences, you will have to edit the user.js.
+ */
+
+/****************************************************************************
+ * Betterfox                                                                *
+ * "Ad meliora"                                                             *
+ * version: 107                                                             *
+ * url: https://github.com/yokoffing/Betterfox                              *
+****************************************************************************/
+
 /****************************************************************************
  * SECTION: SECUREFOX                                                       *
 ****************************************************************************/
@@ -233,6 +249,18 @@ user_pref("browser.startup.preXulSkeletonUI", false);
 user_pref("layout.css.grid-template-masonry-value.enabled", true);
 user_pref("dom.enable_web_task_scheduling", true);
 user_pref("layout.css.animation-composition.enabled", true);
+user_pref("nglayout.initialpaint.delay", 0); 
+user_pref("nglayout.initialpaint.delay_in_oopif", 0); 
+// PREF: faster SSL
+user_pref("network.ssl_tokens_cache_capacity", 32768); // more TLS token caching (fast reconnects)
+
+// PREF: increase DNS cache
+user_pref("network.dnsCacheEntries", 20000);	
+user_pref("network.dnsCacheExpiration", 3600);	
+user_pref("network.dnsCacheExpirationGracePeriod", 240);
+
+user_pref("network.buffer.cache.size", 262144); 
+user_pref("network.buffer.cache.count", 128); 
 
 /** GFX ***/
 user_pref("gfx.webrender.all", true);
