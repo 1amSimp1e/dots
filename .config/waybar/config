@@ -81,7 +81,7 @@
         // "format-ethernet": "{ipaddr}/{cidr} ",
         // "tooltip-format": "{ifname} via {gwaddr} ",
         // "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
+        "format-disconnected": "Disconnected  ",
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
 
