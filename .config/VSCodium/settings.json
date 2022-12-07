@@ -1,7 +1,7 @@
 {
     "editor.cursorBlinking": "phase",
     "editor.fontFamily": "'JetBrainsMono Nerd Font'",
-    "editor.fontSize": 15,
+    "editor.fontSize": 15.5,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "none",
     "window.menuBarVisibility": "toggle",
@@ -46,6 +46,9 @@
       "<C-a>": false,
       "<C-f>": false    
     },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "editor.linkedEditing": true,
     "grammarly.files.include": ["**/README.md", "**/readme.md", "**/*.txt"],
     "indentOneSpace.workOnSingleLine": true,// Even if 1 character on 1 line is selected - the command will work.
     "indentOneSpace.cramReversed": true,// Outdent lines even if one of them has reached column 0 (gutter).
@@ -497,5 +500,4 @@
         "welcomePage.tileBackground": "#12141b",
         "welcomePage.tileHoverBackground": "#303340"
       },
-      "liveServer.settings.donotShowInfoMsg": true,
 }
