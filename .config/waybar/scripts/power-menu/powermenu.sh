@@ -91,6 +91,8 @@ case ${chosen} in
 			betterlockscreen -l
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
+		elif [[ -x '/usr/bin/Hyprland' ]]; then
+      swaylock
 		fi
         ;;
     $suspend)
