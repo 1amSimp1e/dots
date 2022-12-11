@@ -37,4 +37,4 @@ vim.cmd([[
   augroup end
 ]])
 
--- Autoformat
+vim.g.auto_save_silent = 1
