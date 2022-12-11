@@ -58,13 +58,13 @@ return packer.startup(function(use)
 	use({ "lukas-reineke/indent-blankline.nvim" })
 	use({ "goolord/alpha-nvim" })
 	use("folke/which-key.nvim")
-  use({
-    "aurum77/live-server.nvim",
-      run = function()
-        require"live_server.util".install()
-      end,
-      cmd = { "LiveServer", "LiveServerStart", "LiveServerStop" },
-    })
+	use({
+		"aurum77/live-server.nvim",
+		run = function()
+			require("live_server.util").install()
+		end,
+		cmd = { "LiveServer", "LiveServerStart", "LiveServerStop" },
+	})
 	-- Colorschemes
 	use({ "folke/tokyonight.nvim" })
 	use("lunarvim/darkplus.nvim")
@@ -79,7 +79,7 @@ return packer.startup(function(use)
 			})
 		end,
 	})
-  use {'decaycs/decay.nvim', as = 'decay'}
+	use({ "decaycs/decay.nvim", as = "decay" })
 	-- cmp plugins
 	use({ "hrsh7th/nvim-cmp" }) -- The completion plugin
 	use({ "hrsh7th/cmp-buffer" }) -- buffer completions
@@ -94,7 +94,8 @@ return packer.startup(function(use)
 
 	-- LSP
 	use({ "neovim/nvim-lspconfig" }) -- enable LSP
-	use({ "williamboman/nvim-lsp-installer" }) -- simple to use language server installer
+	use({ "williamboman/mason.nvim" }) -- Mason to install lsp servers
+	use({ "williamboman/mason-lspconfig.nvim" })
 	use({ "jose-elias-alvarez/null-ls.nvim" }) -- for formatters and linters
 
 	-- Telescope
@@ -113,10 +114,17 @@ return packer.startup(function(use)
 	use({ "xiyaowong/nvim-transparent" })
 	-- Focus Mode & Other things
 	use({ "Pocco81/true-zen.nvim" })
-  -- Markdown preview
-  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
-  -- Autosave for markdown files
-  use({ "907th/vim-auto-save" })
+	-- Markdown preview
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = "cd app && npm install",
+		setup = function()
+			vim.g.mkdp_filetypes = { "markdown" }
+		end,
+		ft = { "markdown" },
+	})
+	-- Autosave for markdown files
+	use({ "907th/vim-auto-save" })
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
