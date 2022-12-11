@@ -17,17 +17,17 @@ local layout = {
 			"filetype",
 			icon_only = true,
 			colored = true,
-			color = { bg = "#13141c", fg = "#ffffff" },
+			color = { bg = "bg", fg = "#DDE8F3" },
 		},
 		{
 			"filename",
-			color = { bg = "#13141c", fg = "#ffffff" },
+			color = { bg = "bg", fg = "#DDE8F3" },
 			separator = { left = "", right = "" },
 		},
 		{
 			"branch",
 			icon = "",
-      color = { bg = "#212430", fg = "#c296eb" },
+			color = { bg = "#242735", fg = "#c296eb" },
 			separator = { left = "", right = "" },
 		},
 		{
@@ -38,17 +38,17 @@ local layout = {
 				modified = " ",
 				removed = " ",
 			},
-      color = { bg = "#212430"},
+			color = { bg = "#242735" },
 			separator = { left = "", right = "" },
 		},
 	},
 	lualine_c = {
 		{
-			function ()
-				return ''
+			function()
+				return ""
 			end,
-			color = { bg = '#8FCDA9', fg = '#121319'},
-			separator = { left = '', right = '' },
+			color = { bg = "#8FCDA9", fg = "#121319" },
+			separator = { left = "", right = "" },
 		},
 		{
 			"diagnostics",
@@ -60,10 +60,10 @@ local layout = {
 				"hint",
 			},
 			diagnostic_color = {
-				error = { fg = '#820e2d', bg = '#0f111a' },
-				warn = { fg = 'DiagnosticWarn', bg = '#0f111a' },
-				info = { fg = 'DiaganosticInfo', bg = '#0f111a' },
-				hint = { fg = '#92CDE7', bg = '#0f111a' },
+				error = { fg = "#820e2d", bg = "#0f111a" },
+				warn = { fg = "DiagnosticWarn", bg = "#0f111a" },
+				info = { fg = "DiaganosticInfo", bg = "#0f111a" },
+				hint = { fg = "#92CDE7", bg = "#0f111a" },
 			},
 			colored = true,
 			update_in_insert = true,
@@ -76,7 +76,7 @@ local layout = {
 			},
 			separator = { left = "", right = "" },
 		},
-  },
+	},
 	lualine_x = {},
 	lualine_y = {},
 	lualine_z = {
