@@ -78,7 +78,7 @@ cd dots/.config
 > Copy configs file + Wallpaper
 
 ```zsh
-cp -r waybar alacritty hypr rofi dunst swaylock kitty ~/.config
+cp -r waybar kitty hypr rofi dunst swaylock ~/.config
 # Wallpaper
 cp -r Wallpaper ~/Pictures
 ```
