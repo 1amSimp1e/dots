@@ -6,6 +6,9 @@
     "editor.renderWhitespace": "none",
     "window.menuBarVisibility": "toggle",
     "editor.tabCompletion": "on",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
