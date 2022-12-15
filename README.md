@@ -160,11 +160,11 @@ Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland
 
 ## Neovim Setups <a name = "neovim"></a>:
 
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice1.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice2.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice3.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice4.png)
-![](https://github.com/iamverysimp1e/Public-Dot-Files/blob/main/ScreenShots/Neovim/neovim_rice5.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/Neovim/neovim_rice1.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/Neovim/neovim_rice2.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/Neovim/neovim_rice3.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/Neovim/neovim_rice4.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/Neovim/neovim_rice5.png)
 
 <details><summary>How to setups</summary><blockquote>
 
@@ -173,45 +173,49 @@ Thanks to [R/unixporn community](https://www.reddit.com/r/unixporn/) & [Hyprland
 ```
 ├── init.lua
 ├── lua
-│  └── user
-│     ├── alpha.lua
-│     ├── autocommands.lua
-│     ├── autopairs.lua
-│     ├── bufferline.lua
-│     ├── cmp.lua
-│     ├── colorizer.lua
-│     ├── colorscheme.lua
-│     ├── comment.lua
-│     ├── gitsigns.lua
-│     ├── impatient.lua
-│     ├── indentline.lua
-│     ├── keymaps.lua
-│     ├── lsp
-│     │  ├── configs.lua
-│     │  ├── handlers.lua
-│     │  ├── init.lua
-│     │  ├── null-ls.lua
-│     │  └── settings
-│     │     ├── jsonls.lua
-│     │     ├── pyright.lua
-│     │     └── sumneko_lua.lua
-│     ├── lualine.lua
-│     ├── nvim-transparent.lua
-│     ├── nvim-tree.lua
-│     ├── options.lua
-│     ├── plugins.lua
-│     ├── project.lua
-│     ├── syntax.lua
-│     ├── telescope.lua
-│     ├── toggleterm.lua
-│     ├── treesitter.lua
-│     └── whichkey.lua
+│   └── user
+│       ├── alpha.lua
+│       ├── autocommands.lua
+│       ├── autopairs.lua
+│       ├── bufferline.lua
+│       ├── cmp.lua
+│       ├── colorizer.lua
+│       ├── colorscheme.lua
+│       ├── comment.lua
+│       ├── gitsigns.lua
+│       ├── impatient.lua
+│       ├── indentline.lua
+│       ├── keymaps.lua
+│       ├── lsp
+│       │   ├── configs.lua
+│       │   ├── handlers.lua
+│       │   ├── init.lua
+│       │   ├── lspsaga.lua
+│       │   ├── null-ls.lua
+│       │   └── settings
+│       │       ├── jsonls.lua
+│       │       ├── pyright.lua
+│       │       ├── sumneko_lua.lua
+│       │       └── tsserver.lua
+│       ├── lualine.lua
+│       ├── nvim-transparent.lua
+│       ├── nvim-tree.lua
+│       ├── options.lua
+│       ├── plugins.lua
+│       ├── project.lua
+│       ├── syntax.lua
+│       ├── telescope.lua
+│       ├── toggleterm.lua
+│       ├── treesitter.lua
+│       ├── truezen.lua
+│       ├── whichkey.lua
+│       └── winbar.lua
 └── plugin
-   └── packer_compiled.lua
+    └── packer_compiled.lua
 ```
 
 <details><summary>1. Install NeoVim</summary><blockquote>
-> I recommend the NeoVim Nightly Version, my NeoVim configs also work with the Release version but there're some error while installations.
+I recommend the NeoVim Nightly Version, my NeoVim configs also work with the Release version but there're some error while installations.
 
 - On Arch:
 
