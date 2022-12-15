@@ -43,10 +43,10 @@
   yay -S hyprland-git
   ```
 
-- Install Rofi, Dunst, Waybar, kitty terminal, grimblast, swaybg, swaylock-effects, swayidle:
+- Install Rofi, Dunst, Waybar, kitty terminal, grimblast, swaybg, swaylock-effects, swayidle, paximer, light, pactl:
 
   ```
-  yay -S rofi dunst waybar-hyprland-git kitty grimblast swaybg swaylock-effects swayidle
+  yay -S rofi dunst waybar-hyprland-git kitty grimblast swaybg swaylock-effects swayidle paximer light pactl
   ```
 
 - Also, if you want gtk applications to fits with my colorscheme on my dots, I recommend the [decay themes](https://github.com/decaycs/decay-gtk).
