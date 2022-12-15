@@ -1,7 +1,11 @@
 {
   // NOTE: Icons: https://github.com/Alexays/Waybar/issues/350
     "height": 30, // Waybar height (to be removed for auto height)
-    "spacing": 6, // Gaps between modules (4px)
+    "margin-top": 6,
+    "margin-left": 10,
+    "margin-bottom": 0,
+    "margin-right": 10,
+    "spacing": 5, // Gaps between modules (4px)
     /* "modules-left": ["custom/launcher", "wlr/workspaces", "hyprland/window"],  */
     "modules-left": ["custom/launcher", "cpu", "memory", "wlr/workspaces", "custom/weather"],
     /* "modules-center": ["custom/spotify"], */
@@ -40,14 +44,11 @@
         "spacing": 10
     },
     "clock": {
-        "format": "<span color='#bf616a'></span> {:%a %b %d}",
-        "format-alt": "<span color='#bf616a'></span> {:%I:%M %p}"
+        "format": "<span color='#bf616a'> </span>{:%a %b %d}",
+        "format-alt": "<span color='#bf616a'> </span>{:%I:%M %p}"
+        // "format": "{:%a %b %d}",
+        // "format-alt": "{:%I:%M %p}"
     },
-    // "clock": {
-    //     // "timezone": "America/New_York",
-    //     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    //     "format-alt": "{:%Y-%m-%d}"
-    // },
 
     "cpu": {
       "interval": 10,
@@ -112,13 +113,13 @@
         // "max-length": 40,
         // "format": " <span color='#6a92d7'>  </span>",
         // "format": " <span color='#6a92d7'> </span> ",
-        "format": " <span color='#6a92d7'>  </span> ",
+        "format": " <span color='#6a92d7'> </span>",
         // "format": " <span color='#bf616a'> 異</span>",
         // "format": " <span color='#bf616a'> </span>",
         "on-click": "rofi -show drun",
     },
     "custom/power-menu": {
-        "format": " <span color='#6a92d7'></span> ",
+        "format": " <span color='#6a92d7'>⏻ </span>",
         "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
     }, 
     "bluetooth": {

@@ -5,16 +5,16 @@
 }
 
 window#waybar {
-  background-color: rgba(26, 27, 38, 0.5); 
+  background-color: rgba(26, 27, 38, 0.5);
   /* background-color: rgba(26, 27, 38, 1); */
-  /* background-color: #0f171c; */
+  /* background-color: #0D0F18; */
   /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
   border-top: 8px transparent;
   border-radius: 8px;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
   margin: 16px 16px;
 }
 
@@ -85,74 +85,89 @@ window#waybar.hidden {
 #custom-hyprPicker,
 #custom-power-menu,
 #custom-spotify,
-#custom-weather.severe, 
+#custom-weather.severe,
 #custom-weather.sunnyDay,
-#custom-weather.clearNight, 
-#custom-weather.cloudyFoggyDay, #custom-weather.cloudyFoggyNight,
-#custom-weather.rainyDay, #custom-weather.rainyNight,
-#custom-weather.showyIcyDay, #custom-weather.snowyIcyNight, 
-#custom-weather.default{
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.default {
   padding: 0 10px;
   color: #e5e5e5;
   /* color: #bf616a; */
-	border-radius: 9.5px;
+  border-radius: 9.5px;
   /* background-color: #1E2A30; */
-  background-color: #1b242b;
+  background-color: #1f2530;
 }
 
 #window,
 #workspaces {
   margin: 0 4px;
-	border-radius: 9.5px;
-  background-color: #1b242b;
+  border-radius: 7.8px;
+  background-color: #1f2530;
 }
 
-#cpu { 
-  color: #FB958B;
+#cpu {
+  color: #fb958b;
+  background-color: #1f2530;
 }
 
-#memory{ 
+#memory {
   /* color: #8FBCBB; */
-  color: #EBCB8B;
+  color: #ebcb8b;
+  background-color: #1f2530;
 }
 
 #custom-power-menu {
-  color: #6a92d7;
+  /* background-color: #6a92d7; */
+  /* color: #6a92d7; */
+  color: #a96266;
+  border-radius: 7.5px;
+  padding: 0 5px;
   /* color: #bf616a; */
   /* margin: 0 3px; */
 }
 
 #custom-weather.severe {
-    color: #eb937d;
+  color: #eb937d;
 }
 
 #custom-weather.sunnyDay {
-    color: #c2ca76;
+  color: #c2ca76;
 }
 
 #custom-weather.clearNight {
-    color: #CAD3F5;
+  color: #cad3f5;
 }
 
-#custom-weather.cloudyFoggyDay, #custom-weather.cloudyFoggyNight {
-    color: #c2ddda;
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight {
+  color: #c2ddda;
 }
 
-#custom-weather.rainyDay, #custom-weather.rainyNight {
-    color: #5aaca5;
+#custom-weather.rainyDay,
+#custom-weather.rainyNight {
+  color: #5aaca5;
 }
 
-#custom-weather.showyIcyDay, #custom-weather.snowyIcyNight {
-    color: #d6e7e5;
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight {
+  color: #d6e7e5;
 }
 
 #custom-weather.default {
-    color: #dbd9d8;
+  color: #dbd9d8;
 }
 
-#custom-launcher { 
-	border-radius: 9.5px;
+#custom-launcher {
+  border-radius: 9.5px;
+  /* background-color: #6a92d7; */
   background-color: #1b242b;
+  border-radius: 7.5px;
+  padding: 0 5px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -165,21 +180,18 @@ window#waybar.hidden {
   margin-right: 0;
 }
 
-#pulseaudio { 
-  color: #7D9BBA; 
+#pulseaudio {
+  color: #7d9bba;
 }
 
-#backlight { 
+#backlight {
   /* color: #EBCB8B; */
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 #clock {
-  /* color: #c0caf5; */
-  /* color: #6a92d7; */
-  color: #e5e5e5;
-  /* color: #8A909E; */
-  /* color: #bf616a; */
+  color: #c8d2e0;
+  /* background-color: #14141e; */
 }
 
 #battery {
@@ -214,13 +226,12 @@ label:focus {
   background-color: #000000;
 }
 
-
 #disk {
   background-color: #964b00;
 }
 
-#bluetooth { 
-  color: #707D9D;
+#bluetooth {
+  color: #707d9d;
 }
 
 #bluetooth.disconnected {
@@ -228,14 +239,12 @@ label:focus {
 }
 
 #network {
-  /* color: #5E81AC; */
-  color: #B48EAD;
+  color: #b48ead;
 }
 
 #network.disconnected {
   color: #f53c3c;
 }
-
 
 #custom-media {
   background-color: #66cc99;
@@ -323,4 +332,3 @@ label:focus {
 #keyboard-state > label.locked {
   background: rgba(0, 0, 0, 0.2);
 }
-
