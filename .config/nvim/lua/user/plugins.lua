@@ -50,6 +50,7 @@ return packer.startup(function(use)
 	use({ "kyazdani42/nvim-web-devicons" })
 	use({ "kyazdani42/nvim-tree.lua" })
 	use({ "akinsho/bufferline.nvim" })
+	use({ "fgheng/winbar.nvim" })
 	use({ "moll/vim-bbye" })
 	use({ "nvim-lualine/lualine.nvim" })
 	use({ "akinsho/toggleterm.nvim" })
@@ -66,20 +67,8 @@ return packer.startup(function(use)
 		cmd = { "LiveServer", "LiveServerStart", "LiveServerStop" },
 	})
 	-- Colorschemes
-	use({ "folke/tokyonight.nvim" })
-	use("lunarvim/darkplus.nvim")
-	use("lunarvim/onedarker.nvim")
-	use({
-		"olivercederborg/poimandres.nvim",
-		config = function()
-			require("poimandres").setup({
-				-- leave this setup function empty for default config
-				-- or refer to the configuration section
-				-- for configuration options
-			})
-		end,
-	})
-	use({ "decaycs/decay.nvim", as = "decay" })
+	use({ "olivercederborg/poimandres.nvim" })
+
 	-- cmp plugins
 	use({ "hrsh7th/nvim-cmp" }) -- The completion plugin
 	use({ "hrsh7th/cmp-buffer" }) -- buffer completions
@@ -87,6 +76,7 @@ return packer.startup(function(use)
 	use({ "saadparwaiz1/cmp_luasnip" }) -- snippet completions
 	use({ "hrsh7th/cmp-nvim-lsp" })
 	use({ "hrsh7th/cmp-nvim-lua" })
+	use({ "hrsh7th/cmp-emoji" })
 
 	-- snippets
 	use({ "L3MON4D3/LuaSnip" }) --snippet engine
@@ -97,6 +87,7 @@ return packer.startup(function(use)
 	use({ "williamboman/mason.nvim" }) -- Mason to install lsp servers
 	use({ "williamboman/mason-lspconfig.nvim" })
 	use({ "jose-elias-alvarez/null-ls.nvim" }) -- for formatters and linters
+	use({ "glepnir/lspsaga.nvim" })
 
 	-- Telescope
 	use({ "nvim-telescope/telescope.nvim" })
