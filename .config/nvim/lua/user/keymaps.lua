@@ -9,6 +9,7 @@ local keymap = vim.api.nvim_set_keymap
 -- keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- Modes
 --   normal_mode = "n",
@@ -40,7 +41,7 @@ keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Insert --
--- Press jk fast to exit insert mode 
+-- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
 
 -- Visual --
@@ -60,10 +61,10 @@ keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
--- Buffer -- 
+-- Buffer --
 keymap("n", "W", ":Bdelete<CR>", opts)
 
--- For True Zen plugins && Line Break Options 
+-- For True Zen plugins && Line Break Options
 keymap("n", "<leader>zn", ":TZNarrow<CR>", {})
 keymap("v", "<leader>zn", ":'<,'>TZNarrow<CR>", {})
 keymap("n", "<leader>zf", ":TZFocus<CR>", {})
@@ -77,4 +78,3 @@ keymap("n", "<leader>lb", ":set linebreak<CR>", {})
 -- keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
