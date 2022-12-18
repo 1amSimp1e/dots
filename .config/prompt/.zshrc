@@ -4,6 +4,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export EDITOR=nvim
 
 ZSH_THEME="robbyrussell"
 
@@ -25,7 +26,7 @@ alias g="git"
 alias lg="lazygit"
 alias pvt="pipe-viewer -n --no-video-info --player=mpvt"
 alias neofetch='neofetch --source ~/.config/neofetch/logo'
-alias c='vscodium'
+alias vs='vscodium'
 
 # Zap 
 plug "zap-zsh/supercharge"
@@ -33,7 +34,6 @@ plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "agkozak/zsh-z"
 plug "esc/conda-zsh-completion"
-
 
 # Starship prompt
 eval "$(starship init zsh)"
