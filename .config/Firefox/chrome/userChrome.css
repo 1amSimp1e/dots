@@ -26,10 +26,7 @@
 
 *==============================================================================================*/
 
-
-
 @import 'includes/cascade-config.css';
-/* @import 'includes/cascade-colours.css'; */
 @import 'includes/cascade-macchiato.css';
 
 @import 'includes/cascade-layout.css';
@@ -38,4 +35,7 @@
 
 @import 'includes/cascade-tcr.css';
 @import 'includes/cascade-nav-bar.css';
-/* @import 'includes/cascade-tabs.css'; */
+
+#webrtcIndicator {
+  display: none !important;
+}
