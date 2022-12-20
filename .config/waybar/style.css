@@ -121,13 +121,18 @@ window#waybar.hidden {
 }
 
 #custom-power-menu {
-  /* background-color: #6a92d7; */
-  /* color: #6a92d7; */
-  color: #a96266;
+  border-radius: 9.5px;
+  background-color: #1b242b;
   border-radius: 7.5px;
   padding: 0 5px;
-  /* color: #bf616a; */
-  /* margin: 0 3px; */
+}
+
+#custom-launcher {
+  border-radius: 9.5px;
+  /* background-color: #6a92d7; */
+  background-color: #1b242b;
+  border-radius: 7.5px;
+  padding: 0 5px;
 }
 
 #custom-weather.severe {
@@ -159,14 +164,6 @@ window#waybar.hidden {
 
 #custom-weather.default {
   color: #dbd9d8;
-}
-
-#custom-launcher {
-  border-radius: 9.5px;
-  /* background-color: #6a92d7; */
-  background-color: #1b242b;
-  border-radius: 7.5px;
-  padding: 0 5px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
