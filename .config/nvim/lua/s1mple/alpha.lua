@@ -44,7 +44,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "Welcome to NeoZen"
+	return "peter@engineer"
 end
 
 dashboard.section.footer.val = footer()
