@@ -7,7 +7,7 @@ end
 
 local lspconfig = require("lspconfig")
 
-local servers = { "jsonls", "sumneko_lua", "pyright", "html", "cssls", "cssmodules_ls", "tsserver", "grammarly" }
+local servers = { "jsonls", "sumneko_lua", "pyright", "html", "cssls", "cssmodules_ls", "tsserver" }
 
 mason.setup()
 masonLsp.setup({
