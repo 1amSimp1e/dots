@@ -95,9 +95,7 @@ return packer.startup(function(use)
 	use({ "Pocco81/true-zen.nvim" })
 	-- Markdown preview plugins
 	use({ "toppair/peek.nvim", run = "deno task --quiet build:fast" })
-	-- Autosave for markdown files
-	use({ "907th/vim-auto-save" })
-	-- Packer
+	-- Noice
 	use({
 		"folke/noice.nvim",
 		config = function()
