@@ -44,10 +44,10 @@
   yay -S hyprland-git
   ```
 
-- Install Rofi, Dunst, Waybar, kitty terminal, swaybg, swaylock-effects, swayidle, paximer, light, pactl:
+- Install Rofi, Dunst, Waybar, kitty terminal, swaybg, swaylock-effects, swayidle, pamixer, light, pactl:
 
   ```
-  yay -S rofi dunst waybar-hyprland-git kitty swaybg swaylock-effects swayidle paximer light pactl
+  yay -S rofi dunst waybar-hyprland-git kitty swaybg swaylock-effects swayidle pamixer light pactl
   ```
 
 - For screenshots tools to be work you have to install grim, swappy, slurp:
