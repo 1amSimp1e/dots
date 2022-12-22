@@ -288,11 +288,6 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/true-zen.nvim",
     url = "https://github.com/Pocco81/true-zen.nvim"
   },
-  ["vim-auto-save"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/vim-auto-save",
-    url = "https://github.com/907th/vim-auto-save"
-  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/vim-bbye",
