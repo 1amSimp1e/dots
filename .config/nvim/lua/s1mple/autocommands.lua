@@ -18,7 +18,6 @@ vim.cmd([[
     autocmd FileType markdown setlocal wrap
     autocmd FileType markdown setlocal spell
     autocmd FileType markdown set linebreak
-    autocmd FileType markdown let b:auto_save = 1
   augroup end
 
   augroup _auto_resize
