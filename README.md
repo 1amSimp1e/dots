@@ -5,9 +5,9 @@
 
 <div align="center">
 
-![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&style=for-the-badge)
-![](https://img.shields.io/github/stars/iamverysimp1e/dots?color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&style=for-the-badge)
-[![](https://img.shields.io/badge/Neovim-0.9+-blueviolet.svg?style=for-the-badge&logo=Neovim&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&)](https://github.com/neovim/neovim)
+![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?&style=for-the-badge&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41)
+![](https://img.shields.io/github/stars/iamverysimp1e/dots?style=for-the-badge&logo=starship&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41)
+[![](https://img.shields.io/badge/Neovim-0.9+-blueviolet.svg?style=for-the-badge&logo=Neovim&color=ee999f&logoColor=D9E0EE&labelColor=302D41)](https://github.com/neovim/neovim)
 [![](https://img.shields.io/github/repo-size/iamverysimp1e/dots?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41)](https://github.com/iamverysimp1e/dots)
 
 </div>
@@ -28,6 +28,7 @@
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice1.png)
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice2.png)
 ![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice3.png)
+![](https://github.com/iamverysimp1e/dots/blob/main/ScreenShots/HyprLand/Rice4.png)
 
 ### Setup 🔧:
 
