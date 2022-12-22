@@ -115,7 +115,6 @@ window#waybar.hidden {
 }
 
 #memory {
-  /* color: #8FBCBB; */
   color: #ebcb8b;
   background-color: #1f2530;
 }
@@ -129,7 +128,6 @@ window#waybar.hidden {
 
 #custom-launcher {
   border-radius: 9.5px;
-  /* background-color: #6a92d7; */
   background-color: #1b242b;
   border-radius: 7.5px;
   padding: 0 5px;
