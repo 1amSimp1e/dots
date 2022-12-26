@@ -1,5 +1,5 @@
 ignore-empty-password
-font=JetBrains Mono Nerd Font
+font=Work Sans
 
 clock
 timestr=%R
@@ -19,11 +19,11 @@ key-hl-color=880033ff
 
 separator-color=00000000
 
-inside-color=#13141C
+inside-color=#1F2530
 inside-clear-color=ffd20433
 inside-caps-lock-color=009ddc33
-inside-ver-color=#15161F
-inside-wrong-color=ee2e2433
+inside-ver-color=303446
+inside-wrong-color=e78284
 
 ring-color=#1B242B
 ring-clear-color=231f20D9
@@ -31,15 +31,15 @@ ring-caps-lock-color=231f20D9
 ring-ver-color=231f20D9
 ring-wrong-color=231f20D9
 
-line-color=00000000
-line-clear-color=#000000
+line-color=303446
+line-clear-color=303446
 line-caps-lock-color=009ddcFF
-line-ver-color=d9d8d8FF
+line-ver-color=eebebe
 line-wrong-color=ee2e24FF
 
 text-color=dededeff
 text-clear-color=ffd204ff
-text-ver-color=000000ff
+text-ver-color=c6d0f5
 text-wrong-color=ee2e24ff
 
 bs-hl-color=ffd204ff
