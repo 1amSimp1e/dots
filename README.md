@@ -56,9 +56,9 @@
       yay -S grim swappy slurp
       ```
     - Also, emoji icons selector 
-     ```
-     yay -S rofi-emoji
-     ```
+      ```
+      yay -S rofi-emoji
+      ```
 
 - Also, if you want gtk applications to fits with my colorscheme on my dots, I recommend the [decay themes](https://github.com/decaycs/decay-gtk).
   To change the gtk themes I use nwg-look.
