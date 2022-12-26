@@ -104,6 +104,7 @@ Necessary Font:
 
 Optional Font:
 
+- [Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Iosevka.zip)
 - [NotoColorEmoji](https://github.com/googlefonts/noto-emoji/raw/main/fonts/NotoColorEmoji.ttf)
 - [Codicon](https://github.com/microsoft/vscode-codicons/raw/main/dist/codicon.ttf)
 
