@@ -6,9 +6,6 @@
 
 window#waybar {
   background-color: rgba(26, 27, 38, 0.5);
-  /* background-color: rgba(26, 27, 38, 1); */
-  /* background-color: #0D0F18; */
-  /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -24,6 +21,7 @@ window#waybar.hidden {
 
 #workspaces button {
   padding: 0 5px;
+  color: #7984A4;
   background-color: transparent;
   /* Use box-shadow instead of border so the text isn't offset */
   box-shadow: inset 0 -3px transparent;
@@ -32,22 +30,17 @@ window#waybar.hidden {
   border-radius: 0;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button:hover {
   /* cursor: pointer; */
   background: rgba(0, 0, 0, 0.2);
-  color: #ffffff;
-  /* box-shadow: inset 0 -3px #ffffff; */
+  box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.focused {
-  /* background-color: #64727d; */
   color: #bf616a;
-  /* box-shadow: inset 0 -3px #ffffff; */
 }
 
 #workspaces button.active {
-  /* color: #ff9e64; */
   color: #6a92d7;
 }
 
@@ -85,6 +78,7 @@ window#waybar.hidden {
 #custom-hyprPicker,
 #custom-power-menu,
 #custom-spotify,
+#custom-weather,
 #custom-weather.severe,
 #custom-weather.sunnyDay,
 #custom-weather.clearNight,
@@ -127,7 +121,6 @@ window#waybar.hidden {
 }
 
 #custom-launcher {
-  border-radius: 9.5px;
   background-color: #1b242b;
   border-radius: 7.5px;
   padding: 0 5px;
