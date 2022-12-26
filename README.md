@@ -44,17 +44,21 @@
   yay -S hyprland-git
   ```
 
-- Install Rofi, Dunst, Waybar, kitty terminal, swaybg, swaylock-effects, swayidle, pamixer, light, pactl:
+- Install Rofi, Dunst, Waybar, kitty terminal, swaybg, swaylock-effects, swayidle, pamixer, light:
 
   ```
-  yay -S rofi dunst waybar-hyprland-git kitty swaybg swaylock-effects swayidle pamixer light pactl
+  yay -S rofi dunst waybar-hyprland-git kitty swaybg swaylock-effects swayidle pamixer light
   ```
-
-- For screenshots tools to be work you have to install grim, swappy, slurp:
-
-  ```
-  yay -S grim swappy slurp
-  ```
+- Other Ultilities:
+    - For screenshots tools to be work you have to install grim, swappy, slurp:
+     
+      ```
+      yay -S grim swappy slurp
+      ```
+    - Also, emoji icons selector 
+     ```
+     yay -S rofi-emoji
+     ```
 
 - Also, if you want gtk applications to fits with my colorscheme on my dots, I recommend the [decay themes](https://github.com/decaycs/decay-gtk).
   To change the gtk themes I use nwg-look.
