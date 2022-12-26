@@ -13,8 +13,8 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "shared/colors.rasi"
-@import                          "shared/fonts.rasi"
+@import                          "~/.config/waybar/scripts/power-menu/shared/colors.rasi"
+@import                          "~/.config/waybar/scripts/power-menu/shared/fonts.rasi"
 
 /*****----- Main Window -----*****/
 window {

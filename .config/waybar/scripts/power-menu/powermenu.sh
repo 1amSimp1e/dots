@@ -11,7 +11,7 @@
 
 # Current Theme
 dir="~/.config/waybar/scripts/power-menu/"
-theme='style-1'
+theme='style'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -19,10 +19,10 @@ host=`hostname`
 
 # Options
 shutdown=' Shutdown'
-reboot=' Reboot'
+reboot='  Reboot'
 lock=' Lock'
 suspend=' Suspend'
-logout=' Logout'
+logout='  Logout'
 yes=' Yes'
 no=' No'
 

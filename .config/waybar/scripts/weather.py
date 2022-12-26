@@ -6,16 +6,16 @@ import json
 
 # weather icons
 weather_icons = {
-    "sunnyDay": "盛",
-    "clearNight": "望",
-    "cloudyFoggyDay": "",
-    "cloudyFoggyNight": "",
-    "rainyDay": "",
-    "rainyNight": "",
-    "snowyIcyDay": "",
-    "snowyIcyNight": "",
-    "severe": "",
-    "default": "摒",
+    "sunnyDay": "☀️ ",
+    "clearNight": "🌛",
+    "cloudyFoggyDay": "🌫️",
+    "cloudyFoggyNight": "🌫️",
+    "rainyDay": "🌧️",
+    "rainyNight": "🌧️",
+    "snowyIcyDay": "❄️ ",
+    "snowyIcyNight": "❄️ ",
+    "severe": "👻",
+    "default": "☁️ ",
 }
 
 # get location_id
@@ -118,9 +118,10 @@ tooltip_text = str.format(
 
 # print waybar module data
 out_data = {
-    "text": f"{icon}  {status} |  {temp}C",
+    "text": f"{icon} {status} |  {temp}C",
     "alt": status,
     "tooltip": tooltip_text,
     "class": status_code,
 }
 print(json.dumps(out_data))
+
