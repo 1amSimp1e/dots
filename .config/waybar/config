@@ -37,8 +37,7 @@
 
     "cpu": {
       "interval": 10,
-      // "format": " {}%",
-      "format": "<span font-family='Font Awesome 6 Free'> </span>{}%",
+      "format": " {}%",
       "max-length": 10,
       "on-click": "",
     },
