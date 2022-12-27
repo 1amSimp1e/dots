@@ -6,10 +6,10 @@ import json
 
 # weather icons
 weather_icons = {
-    "sunnyDay": "☀️ ",
+    "sunnyDay": "☀️",
     "clearNight": "🌛",
-    "cloudyFoggyDay": "🌫️",
-    "cloudyFoggyNight": "🌫️",
+    "cloudyFoggyDay": "🌫",
+    "cloudyFoggyNight": "🌫",
     "rainyDay": "🌧️",
     "rainyNight": "🌧️",
     "snowyIcyDay": "❄️ ",

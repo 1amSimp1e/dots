@@ -122,6 +122,7 @@ window#waybar.hidden {
 
 #custom-launcher {
   background-color: #1b242b;
+  color: #6a92d7;
   border-radius: 7.5px;
   padding: 0 5px;
 }

@@ -37,7 +37,8 @@
 
     "cpu": {
       "interval": 10,
-      "format": " {}%",
+      // "format": " {}%",
+      "format": "<span font-family='Font Awesome 6 Free'> </span>{}%",
       "max-length": 10,
       "on-click": "",
     },
@@ -95,7 +96,7 @@
       "format": "{icon} {capacity}%",
       "format-warning": "{icon} {capacity}%",
       "format-critical": "{icon} {capacity}%",
-      "format-charging": " {capacity}%",
+      "format-charging": "<span font-family='Font Awesome 6 Free'></span> {capacity}%",
       "format-plugged": "  {capacity}%",
       "format-alt": "{icon} {time}",
       "format-full": "  {capacity}%",
