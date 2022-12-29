@@ -172,7 +172,7 @@ lualine.setup({
 			diff,
 			{
 				function()
-					return ""
+					return ""
 				end,
 				color = { bg = "#8FCDA9", fg = "#121319" },
 				separator = { left = "", right = "" },
@@ -180,11 +180,10 @@ lualine.setup({
 			diagnostics,
 		},
 		lualine_x = {
-			-- "encoding",
 			lsp_progess,
 			{
 				function()
-					return ""
+					return ""
 				end,
 				separator = { left = "", right = "" },
 				color = { bg = "#C296EB", fg = "#000000" },
