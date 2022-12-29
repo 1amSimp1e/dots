@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["DAPInstall.nvim"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/DAPInstall.nvim",
+    url = "https://github.com/ravenxrz/DAPInstall.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -124,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["darkplus.nvim"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
+    url = "https://github.com/lunarvim/darkplus.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -144,19 +154,6 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["live-server.nvim"] = {
-    commands = { "LiveServer", "LiveServerStart", "LiveServerStop" },
-    loaded = false,
-    needs_bufread = false,
-    only_cond = false,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/opt/live-server.nvim",
-    url = "https://github.com/aurum77/live-server.nvim"
-  },
-  ["lspsaga.nvim"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "https://github.com/glepnir/lspsaga.nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -171,17 +168,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["noice.nvim"] = {
-    config = { "\27LJ\2\n7\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\nnoice\frequire\0" },
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/noice.nvim",
-    url = "https://github.com/folke/noice.nvim"
-  },
-  ["nui.nvim"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nui.nvim",
-    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -198,25 +184,20 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-colorizer.lua"] = {
+  ["nvim-dap"] = {
     loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
-    url = "https://github.com/norcalli/nvim-colorizer.lua"
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-notify"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-notify",
-    url = "https://github.com/rcarriga/nvim-notify"
-  },
-  ["nvim-transparent"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-transparent",
-    url = "https://github.com/xiyaowong/nvim-transparent"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -228,10 +209,20 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
+  },
   ["nvim-ts-context-commentstring"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
     url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
+  },
+  ["nvim-ts-rainbow"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
+    url = "https://github.com/p00f/nvim-ts-rainbow"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -243,20 +234,10 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  ["peek.nvim"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/peek.nvim",
-    url = "https://github.com/toppair/peek.nvim"
-  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["poimandres.nvim"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/poimandres.nvim",
-    url = "https://github.com/olivercederborg/poimandres.nvim"
   },
   ["project.nvim"] = {
     loaded = true,
@@ -268,11 +249,6 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
-  ["telescope-ui-select.nvim"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
-    url = "https://github.com/nvim-telescope/telescope-ui-select.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -283,59 +259,24 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["true-zen.nvim"] = {
+  ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/true-zen.nvim",
-    url = "https://github.com/Pocco81/true-zen.nvim"
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
   },
-  ["which-key.nvim"] = {
+  ["vim-illuminate"] = {
     loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/which-key.nvim",
-    url = "https://github.com/folke/which-key.nvim"
-  },
-  ["winbar.nvim"] = {
-    loaded = true,
-    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/winbar.nvim",
-    url = "https://github.com/fgheng/winbar.nvim"
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: noice.nvim
-time([[Config for noice.nvim]], true)
-try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\nnoice\frequire\0", "config", "noice.nvim")
-time([[Config for noice.nvim]], false)
-
--- Command lazy-loads
-time([[Defining lazy-load commands]], true)
-pcall(vim.api.nvim_create_user_command, 'LiveServer', function(cmdargs)
-          require('packer.load')({'live-server.nvim'}, { cmd = 'LiveServer', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
-        end,
-        {nargs = '*', range = true, bang = true, complete = function()
-          require('packer.load')({'live-server.nvim'}, { cmd = 'LiveServer' }, _G.packer_plugins)
-          return vim.fn.getcompletion('LiveServer ', 'cmdline')
-      end})
-pcall(vim.api.nvim_create_user_command, 'LiveServerStart', function(cmdargs)
-          require('packer.load')({'live-server.nvim'}, { cmd = 'LiveServerStart', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
-        end,
-        {nargs = '*', range = true, bang = true, complete = function()
-          require('packer.load')({'live-server.nvim'}, { cmd = 'LiveServerStart' }, _G.packer_plugins)
-          return vim.fn.getcompletion('LiveServerStart ', 'cmdline')
-      end})
-pcall(vim.api.nvim_create_user_command, 'LiveServerStop', function(cmdargs)
-          require('packer.load')({'live-server.nvim'}, { cmd = 'LiveServerStop', l1 = cmdargs.line1, l2 = cmdargs.line2, bang = cmdargs.bang, args = cmdargs.args, mods = cmdargs.mods }, _G.packer_plugins)
-        end,
-        {nargs = '*', range = true, bang = true, complete = function()
-          require('packer.load')({'live-server.nvim'}, { cmd = 'LiveServerStop' }, _G.packer_plugins)
-          return vim.fn.getcompletion('LiveServerStop ', 'cmdline')
-      end})
-time([[Defining lazy-load commands]], false)
-
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
