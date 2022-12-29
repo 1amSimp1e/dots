@@ -1,6 +1,6 @@
 <div align="center">
     <h1>✨Tue Nhan's dot files✨</h1>
-    <h3></h3>
+    <h3>Yet another Linux Rice 🍙</h3>
 </div>
 
 <div align="center">
