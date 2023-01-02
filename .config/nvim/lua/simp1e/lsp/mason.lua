@@ -34,6 +34,8 @@ if not lspconfig_status_ok then
 end
 
 local opts = {}
+local navic = require('nvim-navic')
+
 
 for _, server in pairs(servers) do
 	opts = {
