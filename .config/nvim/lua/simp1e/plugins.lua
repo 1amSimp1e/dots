@@ -59,13 +59,14 @@ return packer.startup(function(use)
 	use({ "lewis6991/impatient.nvim" })
 	use({ "lukas-reineke/indent-blankline.nvim" })
 	use({ "goolord/alpha-nvim" })
+
 	-- Colorschemes
 	use({ "folke/tokyonight.nvim" })
-	use({ "lunarvim/darkplus.nvim" })
 	use({
 		"rose-pine/neovim",
 		as = "rose-pine",
 	})
+
 	-- cmp plugins
 	use({ "hrsh7th/nvim-cmp" }) -- The completion plugin
 	use({ "hrsh7th/cmp-buffer" }) -- buffer completions
@@ -74,6 +75,7 @@ return packer.startup(function(use)
 	use({ "hrsh7th/cmp-nvim-lsp" })
 	use({ "hrsh7th/cmp-nvim-lua" })
 	use({ "hrsh7th/cmp-emoji" })
+	use({ "lukas-reineke/cmp-under-comparator" })
 
 	-- snippets
 	use({ "L3MON4D3/LuaSnip" }) --snippet engine
@@ -85,6 +87,7 @@ return packer.startup(function(use)
 	use({ "williamboman/mason-lspconfig.nvim" })
 	use({ "jose-elias-alvarez/null-ls.nvim" }) -- for formatters and linters
 	use({ "RRethy/vim-illuminate" })
+	use({ "SmiteshP/nvim-navic" })
 
 	-- Telescope
 	use({ "nvim-telescope/telescope.nvim" })
@@ -101,6 +104,11 @@ return packer.startup(function(use)
 	use({ "mfussenegger/nvim-dap" })
 	use({ "rcarriga/nvim-dap-ui" })
 	use({ "ravenxrz/DAPInstall.nvim" })
+
+	-- Other Stuff
+	use({ "fgheng/winbar.nvim" })
+	use({ "NvChad/nvim-colorizer.lua" })
+
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
