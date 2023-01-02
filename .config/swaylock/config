@@ -4,7 +4,7 @@ font=Work Sans
 clock
 timestr=%R
 
-image=~/Pictures/Wallpaper/night.jpg
+image=~/.config/hypr/wallpapers/tree.jpg
 
 fade-in=0.2
 
