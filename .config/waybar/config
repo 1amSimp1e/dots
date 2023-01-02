@@ -1,5 +1,4 @@
 {
-  // NOTE: Icons: https://github.com/Alexays/Waybar/issues/350
     "height": 30, // Waybar height (to be removed for auto height)
     "margin-top": 6,
     "margin-left": 10,
@@ -114,7 +113,7 @@
     "return-type": "json",
     "on-click": "playerctl play-pause",
     "on-double-click-right": "playerctl next",
-    "on-triple-click-right": "playerctl previous",
+    "on-scroll-down": "playerctl previous",
     },
     "custom/power-menu": {
         "format": " <span color='#6a92d7'>⏻ </span>",
