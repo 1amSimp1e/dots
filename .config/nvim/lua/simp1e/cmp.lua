@@ -100,7 +100,7 @@ cmp.setup({
 				nvim_lsp = "LSP",
 				nvim_lua = "",
 				luasnip = "Snippet",
-				buffer = "buf",
+				buffer = "Buffer",
 				path = "Path",
 				emoji = "Emoji",
 			})[entry.source.name]
