@@ -2,7 +2,6 @@ local status_ok, comment = pcall(require, "Comment")
 if not status_ok then
 	return
 end
-
 comment.setup({
 	pre_hook = function(ctx)
 		-- Only calculate commentstring for tsx filetypes
@@ -26,4 +25,9 @@ comment.setup({
 			})
 		end
 	end,
+})
+require("todo-comments").setup({
+	-- your configuration comes here
+	-- or leave it empty to use the default settings
+	-- refer to the configuration section below
 })
