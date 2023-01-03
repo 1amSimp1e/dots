@@ -108,6 +108,10 @@ return packer.startup(function(use)
 	-- Other Stuff
 	use({ "fgheng/winbar.nvim" })
 	use({ "NvChad/nvim-colorizer.lua" })
+	use({ "folke/todo-comments.nvim" })
+
+	-- Note that you have to install deno first
+	use({ "toppair/peek.nvim", run = "deno task --quiet build:fast" })
 
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
