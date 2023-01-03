@@ -7,6 +7,7 @@ local servers = {
 	"bashls",
 	"jsonls",
 	"yamlls",
+	"marksman",
 }
 
 local settings = {
@@ -34,8 +35,7 @@ if not lspconfig_status_ok then
 end
 
 local opts = {}
-local navic = require('nvim-navic')
-
+local navic = require("nvim-navic")
 
 for _, server in pairs(servers) do
 	opts = {
