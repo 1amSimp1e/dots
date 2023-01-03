@@ -244,6 +244,11 @@ _G.packer_plugins = {
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["peek.nvim"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/peek.nvim",
+    url = "https://github.com/toppair/peek.nvim"
+  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
@@ -263,6 +268,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/nhan/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "/home/nhan/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
