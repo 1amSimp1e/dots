@@ -36,6 +36,7 @@ tooltip {
   background: $bg;
   border: 1px solid $border;
   border-radius: 8px;
+
   label {
     font-size: 1rem;
   }
@@ -124,38 +125,4 @@ scale trough {
 
 .seperator {
   color: grey;
-  font-weight: bold;
-}
-
-.weather {
-  margin-left: 8px;
-  margin-right: 10px;
-  font-family: ProductSans;
-}
-
-.workspaces {
-  button {
-    border-style: none;
-    box-shadow: inherit;
-    text-shadow: inherit;
-
-    background: $surface0;
-
-    margin: 1px 8px;
-    padding: 0px;
-    min-width: 8px;
-    min-height: 8px;
-    border-radius: 10px;
-
-    &.occupied {
-      background: $red;
-      padding-left: 10px;
-      border-radius: 11px;
-    }
-    &.active {
-      padding-left: 25px;
-      background: $blue;
-      border-radius: 11px;
-    }
-  }
 }

@@ -1,54 +1,86 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-ACTIVEWS=$(hyprctl -j monitors | jq ".[0].activeWorkspace.id")
-export a"$ACTIVEWS"="active"
+colors=("#89b4fa")
+dimmed=("#b4befe")
+empty="#313244"
 
-function handle_event {
-        case ${1%>>*} in
-                workspace)
-                        unset a"$ACTIVEWS"
-                        ACTIVEWS=${1#*>>}
-                        export a"$ACTIVEWS"="active"
-                        create_taglist
-                        ;;
-                focusedmon)
-                        ACTIVEWS=${1#*,}
-                        ;;
-                createworkspace)
-                        local WORKSPACE=${1#*>>}
-                        export o"$WORKSPACE"="occupied"
-                        create_taglist
-                        ;;
-                destroyworkspace)
-                        local WORKSPACE=${1#*>>}
-                        unset o"$WORKSPACE"
-                        create_taglist
-        esac
+# get initial focused workspace
+focusedws=$(hyprctl -j monitors | jaq -r '.[] | select(.focused == true) | .activeWorkspace.id')
+
+declare -A o=([1]=0 [2]=0 [3]=0 [4]=0 [5]=0 [6]=0 [7]=0 [8]=0 [9]=0 [10]=0)
+declare -A monitormap
+declare -A workspaces
+
+# set color for each workspace
+status() {
+  if [ "${o[$1]}" -eq 1 ]; then
+    mon=${monitormap[${workspaces[$1]}]}
+
+    if [ $focusedws -eq "$1" ]; then
+      echo -n "${colors[$mon]}"
+    else
+      echo -n "${dimmed[$mon]}"
+    fi
+  else
+    echo -n "$empty"
+  fi
 }
 
-function create_taglist {
-        echo "
-                (box :orientation \"h\" :class \"workspaces\" :space-evenly \"false\" \
-                        (button :class \"$o1 $a1\") \
-                        (button :class \"$o2 $a2\") \
-                        (button :class \"$o3 $a3\") \
-                        (button :class \"$o4 $a4\") \
-                        (button :class \"$o5 $a5\") \
-                        (button :class \"$o6 $a6\") \
-                        (button :class \"$o7 $a7\") \
-                        (button :class \"$o8 $a8\"))"
+# handle workspace create/destroy
+workspace_event() {
+  o[$1]=$2
+  while read -r k v; do workspaces[$k]="$v"; done < <(hyprctl -j workspaces | gojq -r '.[]|"\(.id) \(.monitor)"')
+}
+# handle monitor (dis)connects
+monitor_event() {
+  while read -r k v; do monitormap["$k"]=$v; done < <(hyprctl -j monitors | gojq -r '.[]|"\(.name) \(.id) "')
 }
 
-for NUM in {0..8}; do
-        WORKSPACE=$(hyprctl -j workspaces | jq ".[$NUM].id")
-        if [[ $WORKSPACE != "null" ]]; then
-        export o"$WORKSPACE"="occupied"
-        fi
+# generate the json for eww
+generate() {
+  echo -n '['
+
+  for i in {1..10}; do
+    echo -n ''$([ $i -eq 1 ] || echo ,) '{ "number": "'"$i"'", "color": "'$(status "$i")'" }'
+  done
+
+  echo ']'
+}
+
+# setup
+
+# add monitors
+monitor_event
+
+# add workspaces
+while read -r k v; do workspaces[$k]="$v"; done < <(hyprctl -j workspaces | gojq -r '.[]|"\(.id) \(.monitor)"')
+
+# check occupied workspaces
+for num in "${!workspaces[@]}"; do
+  o[$num]=1
 done
+# generate initial widget
+generate
 
-create_taglist
-
-socat -u UNIX-CONNECT:/tmp/hypr/"$HYPRLAND_INSTANCE_SIGNATURE"/.socket2.sock - | while read -r event; do
-handle_event "$event"
+# main loop
+socat -u UNIX-CONNECT:/tmp/hypr/"$HYPRLAND_INSTANCE_SIGNATURE"/.socket2.sock - | while read -r line; do
+  case ${line%>>*} in
+    "workspace")
+      focusedws=${line#*>>}
+      ;;
+    "focusedmon")
+      focusedws=${line#*,}
+      ;;
+    "createworkspace")
+      workspace_event "${line#*>>}" 1
+      ;;
+    "destroyworkspace")
+      workspace_event "${line#*>>}" 0
+      ;;
+    "monitor"*)
+      monitor_event
+      ;;
+  esac
+  generate
 done
 
