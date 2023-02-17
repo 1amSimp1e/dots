@@ -1,0 +1,126 @@
+.system-menu-box {
+  @include window;
+  background-color: $bg;
+  border: 1px solid $border;
+  color: $text;
+}
+
+.separator {
+  font-size: 1rem;
+}
+
+.top-row {
+  margin: 1rem 1.5rem 0;
+
+  .time { font-size: 2rem; }
+
+  .date-box {
+    margin: 0 1rem;
+
+    label { font-size: 1.1rem; }
+
+    .date {
+      background: unset;
+      margin: 0 .5rem 0 0;
+      padding: 0;
+    }
+  }
+}
+
+.system-row {
+  margin: .5rem .7rem;
+
+  .airplane-box button {
+    padding: 1rem 3rem;
+  }
+
+  label {
+    font-size: 1rem;
+    margin: 0 .1rem;
+  }
+}
+
+.element {
+  @include rounding;
+  background-color: $surface0;
+  margin: .3rem;
+
+  button {
+    @include rounding;
+    padding: 1rem;
+
+    label {
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      background-color: $overlay0;
+    }
+  }
+}
+
+.sliders {
+  @include rounding;
+  background-color: $surface0;
+  margin: .5rem 1rem;
+  padding: .6rem 1rem;
+
+  scale {
+    margin-right: -1rem;
+    min-width: 21.5rem;
+  }
+
+  box { margin: .2rem 0; }
+
+  label { font-size: 1.2rem; }
+}
+
+.volume-slider-box, .brightness-slider-box {
+  trough { background-color: $base; }
+}
+.volume-bar highlight {
+  @include rounding;
+  background-image: linear-gradient(to right, $white, $sky);
+}
+
+.brightness-slider-box scale highlight {
+  @include rounding;
+  background-image: linear-gradient(to right, $lavender, $peach);
+}
+
+.bottom-row {
+  margin: .5rem 1rem;
+
+  .battery-icon { 
+    font-size: 2rem;
+  }
+  .battery-wattage { color: $mauve; }
+
+  .battery-status {
+    color: $subtext0;
+    margin: 0 .5rem;
+  }
+
+  button {
+    background-color: $surface0;
+    border-radius: 33%;
+    margin-bottom: .1rem;
+    padding: 0 .5rem;
+
+    label { font-size: 1.5rem; }
+    &:hover { background-color: $overlay0; }
+  }
+}
+
+.bt-connected {
+  background-color: #89b4fa;
+  color: #11111b;
+  button:hover { background-color: #7ba2e1; }
+}
+
+.wifi-connected {
+  background-color: #cba6f7;  
+  color: #11111b;
+
+  button:hover { background-color: #b695de; }
+}

@@ -1,0 +1,29 @@
+(defvar date_rev false)
+
+(defwidget clock_module []
+  (eventbox
+    :onhover "${EWW_CMD} update date_rev=true"
+    :style "font-family: ProductSans;"
+    :onhoverlost "${EWW_CMD} update date_rev=false"
+    (overlay
+      :class "module"
+      (box
+        :space-evenly false
+        :style "font-family: ProductSans;"
+        (label
+          :text {time.hour}
+          :style "font-family: ProductSans;"
+          :class "hour")
+        (label
+          :text ":")
+        (label
+          :text {time.minute}
+          :class "minute"))
+      (revealer
+        :reveal date_rev
+        :style "font-family: ProductSans;"
+        (button
+          :class "date"
+          :onclick "${EWW_CMD} open --toggle calendar"
+          :style "font-family: ProductSans;"
+          {time.date})))))

@@ -1,0 +1,75 @@
+.membar {
+  color: $peach;
+}
+
+.cpubar {
+  color: $blue;
+}
+
+.batbar {
+  color: $green;
+}
+
+.membar,
+.cpubar,
+.batbar {
+  background-color: $bg1;
+}
+
+.iconmem {
+  color: $peach;
+}
+
+.iconcpu {
+  color: $blue;
+}
+
+.icon-text {
+  font-size: 3rem;
+  padding: .7rem;
+}
+
+.sys-text-sub {
+  color: $text;
+}
+
+.sys-text-mem,
+.sys-text-cpu {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.sys-icon-mem,
+.sys-icon-cpu {
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+
+.system-info-box {
+  @include rounding;
+  background-color: $surface0;
+  margin: .5rem 1rem;
+  padding: .5rem;
+}
+
+.sys-mem,
+.sys-cpu {
+  background-color: $bg;
+}
+
+.sys-icon-mem,
+.sys-text-mem,
+.sys-mem {
+  color: $peach;
+}
+
+.sys-icon-cpu,
+.sys-text-cpu,
+.sys-cpu {
+  color: $blue;
+}
+
+.sys-box {
+  margin: .3em;
+  box { margin-left: 1rem; }
+}

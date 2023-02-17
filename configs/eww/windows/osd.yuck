@@ -1,0 +1,39 @@
+(defwidget osd [icon value]
+  (box
+    :class "osd"
+    :orientation "v"
+    :space-evenly false
+    (scale
+      :flipped true
+      :orientation "v"
+      :value value)
+    (label
+      :text icon)))
+
+(defwindow osd_vol
+  :stacking "fg"
+  :focusable false
+  :monitor 0
+  :geometry (geometry
+    :x "1%"
+    :y "0%"
+    :width "0%"
+    :height "0%"
+    :anchor "center left")
+  (osd
+    :icon {volume.icon}
+    :value {volume.percent}))
+
+(defwindow osd_brightness
+  :stacking "fg"
+  :focusable false
+  :monitor 0
+  :geometry (geometry
+    :x "1%"
+    :y "0%"
+    :width "0%"
+    :height "0%"
+    :anchor "center left")
+  (osd
+    :icon {brightness.icon}
+    :value {brightness.level}))

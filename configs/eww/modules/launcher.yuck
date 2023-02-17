@@ -1,0 +1,10 @@
+(defwidget launcher []
+  (box
+    :class "launcher_module"
+    :orientation "h"
+    (button
+      (image
+        :class "launcher-icon"
+        :path "assets/ghost.png"
+      :image-width 28))
+))

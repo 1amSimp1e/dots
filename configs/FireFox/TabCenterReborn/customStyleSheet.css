@@ -1,0 +1,118 @@
+:root {
+  /* These colours are (mainly) used by the
+     Container Tabs Plugin */
+  --uc-identity-colour-blue: #7ed6df;
+  --uc-identity-colour-turquoise: #55e6c1;
+  --uc-identity-colour-green: #b8e994;
+  --uc-identity-colour-yellow: #f7d794;
+  --uc-identity-colour-orange: #f19066;
+  --uc-identity-colour-red: #fc5c65;
+  --uc-identity-colour-pink: #f78fb3;
+  --uc-identity-colour-purple: #786fa6;
+
+  --uc-base-colour: #11111b;
+  --uc-base-fg: #bac2de;
+  --uc-highlight-colour: #191926;
+  --uc-inverted-colour: #10131c;
+  --uc-muted-colour: #10131c;
+  --uc-accent-colour: #10131c;
+}
+
+#topmenu {
+  display: none !important;
+}
+
+#tablist-wrapper,
+#pinnedtablist {
+  background: var(--uc-base-colour);
+}
+
+.tab:hover,
+.tab.active {
+  background: var(--uc-highlight-colour);
+  border-radius: 10px;
+}
+
+#tablist-wrapper .tab-title-wrapper {
+  opacity: 0;
+  transform: translateX(-10px);
+
+  transition: all 200ms ease;
+  transition-delay: 0ms;
+}
+
+body:hover #tablist-wrapper .tab-title-wrapper {
+  opacity: 1;
+  transform: translateX(0);
+
+  transition-delay: 50ms;
+}
+
+.tab,
+.tab.active {
+  border-bottom: none !important;
+  border-radius: 10px;
+}
+
+#pinnedtablist:not(.compact) .tab {
+  padding: 6px;
+}
+#tablist .tab {
+  padding: 0 0 0 6px;
+}
+
+.tab {
+  overflow: visible;
+  border-radius: 10px;
+}
+
+#pinnedtablist:not(.compact) .tab[data-identity-color] .tab-context::before,
+#tablist .tab[data-identity-color] .tab-context::before {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  width: 2px;
+  background: var(--identity-color);
+  border-radius: 10px;
+  content: '';
+}
+
+#tablist .tab[data-identity-color] .tab-context::before {
+  left: -3px;
+}
+
+#pinnedtablist:not(.compact) .tab .tab-pin,
+.tab-close,
+.tab-loading-burst {
+  display: none;
+}
+
+#pinnedtablist:not(.compact) .tab[data-identity-color] .tab-context {
+  box-shadow: none !important;
+}
+
+[data-identity-color='blue'] {
+  --identity-color: var(--uc-identity-colour-blue);
+}
+[data-identity-color='turquoise'] {
+  --identity-color: var(--uc-identity-colour-turquoise);
+}
+[data-identity-color='green'] {
+  --identity-color: var(--uc-identity-colour-green);
+}
+[data-identity-color='yellow'] {
+  --identity-color: var(--uc-identity-colour-yellow);
+}
+[data-identity-color='orange'] {
+  --identity-color: var(--uc-identity-colour-orange);
+}
+[data-identity-color='red'] {
+  --identity-color: var(--uc-identity-colour-red);
+}
+[data-identity-color='pink'] {
+  --identity-color: var(--uc-identity-colour-pink);
+}
+[data-identity-color='purple'] {
+  --identity-color: var(--uc-identity-colour-purple);
+}
+

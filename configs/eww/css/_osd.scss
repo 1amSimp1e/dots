@@ -1,0 +1,30 @@
+.osd {
+  @include window;
+  background: $base;
+
+  label {
+    color: $text;
+    font-size: 2rem;
+  }
+}
+
+.osd trough {
+  background-color: $bg1;
+  margin: 1rem 0 .5rem;
+  min-height: 10rem;
+  min-width: 3px;
+  @include rounding;
+
+  highlight {
+    min-width: 0;
+    @include rounding;
+  }
+}
+
+.osd_vol highlight {
+  background-image: linear-gradient(to top, $teal, $sky);
+}
+
+.osd_brightness highlight {
+  background-image: linear-gradient(to top, $yellow, $peach);
+}

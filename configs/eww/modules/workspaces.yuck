@@ -1,0 +1,9 @@
+(deflisten workspaces_var `$HOME/.config/eww/scripts/workspaces`)
+
+(defwidget workspaces []
+        (box
+                :orientation "horizontal"
+                :valign "center"
+                (literal :content workspaces_var)
+        )
+)

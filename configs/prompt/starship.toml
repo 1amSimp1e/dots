@@ -1,0 +1,65 @@
+## ░█▀▀░▀█▀░█▀█░█▀▄░█▀▀░█░█░▀█▀░█▀█
+## ░▀▀█░░█░░█▀█░█▀▄░▀▀█░█▀█░░█░░█▀▀
+## ░▀▀▀░░▀░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░░
+
+# Setups
+format="$directory$git_branch$character"
+right_format = """$git_status$cmd_duration"""
+add_newline = false 
+
+# Other languages configurations:
+c.disabled = true
+cmake.disabled = true
+haskell.disabled = true
+python.disabled = true
+ruby.disabled = true
+rust.disabled = true
+perl.disabled = true
+package.disabled = true
+lua.disabled = true
+nodejs.disabled = true
+java.disabled = true
+golang.disabled = true
+
+[conda]
+format = ' [$symbol$environment](dimmed green) '
+
+# Prompt symbols 
+[character]
+success_symbol = "[](#a6e3a1 bold)"
+error_symbol = "[](#f38ba8)"
+vicmd_symbol = "[](#f9e2af)"
+
+[directory]
+format = "[]($style)[ ](bg:#24263a fg:#ECD3A0)[$path](bg:#24263a fg:#BBC3DF bold)[ ]($style)"
+style = "bg:none fg:#24263a"
+truncation_length = 3
+truncate_to_repo=false
+
+[git_branch]
+format = "[]($style)[[ ](bg:#24263a fg:#A2DD9D bold)$branch](bg:#24263a fg:#86AAEC)[ ]($style)"
+style = "bg:none fg:#24263a"
+
+[git_status]
+# $all status$ahead_behind
+format = "[]($style)[$all_status$ahead_behind](bg:#24263a fg:#b4befe)[ ]($style)"
+style = "bg:none fg:#24263a"
+conflicted = "="
+ahead =	"⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+up_to_date = ""
+untracked = "?${count}"
+stashed = ""
+modified = "!${count}"
+staged = "+${count}"
+renamed = "»${count}"
+deleted = "${count}"
+
+[cmd_duration]
+min_time = 1
+# duration & style 
+format = "[]($style)[[神](bg:#24263a fg:#eba0ac bold)$duration](bg:#24263a fg:#BBC3DF)[ ]($style)"
+disabled = false
+style = "bg:none fg:#24263a"
+

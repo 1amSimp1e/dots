@@ -1,0 +1,19 @@
+(defwidget bright []
+  (eventbox
+    :class "module icon"
+    :onhover "${EWW_CMD} update bright_reveal=true"
+    :onhoverlost "${EWW_CMD} update bright_reveal=false"
+    (box
+      (button
+        :onscroll "echo {} | sed -e 's/up/-U 1/g' -e 's/down/-A 1/g' | xargs light"
+        :class "bright-icon"
+        :tooltip "brightness ${round(brightness.level, 0)}%"
+        {brightness.icon})
+     (revealer
+      :transition "slideright"
+      :reveal bright_reveal 
+      :duration "350ms"
+        (label
+          :text "${round(brightness.level, 0)}%"
+          :style "font-family: ProductSans;"
+          :tooltip "brightness ${round(brightness.level, 0)}%")))))

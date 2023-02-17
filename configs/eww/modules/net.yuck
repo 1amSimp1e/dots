@@ -1,0 +1,7 @@
+(defwidget net []
+  (button
+    :class "module icon"
+    :onclick "~/.config/eww/scripts/network_manager/rofi-network-manager.sh &"
+    :tooltip {net.essid}
+    :style "color: ${net.color};"
+    "${net.icon}"))

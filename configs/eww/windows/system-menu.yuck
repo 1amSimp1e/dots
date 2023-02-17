@@ -1,0 +1,235 @@
+(defwidget system-menu []
+  (box
+    :class "system-menu-box"
+    :space-evenly false
+    :orientation "v"
+    (box
+      :class "top-row"
+      :space-evenly false
+      (label
+        :class "time"
+        :style "font-family:ProductSans;"
+        :text "${time.hour}:${time.minute}")
+      (box
+        :class "date-box"
+        :space-evenly false
+        (label
+          :class "date"
+          :style "font-family:ProductSans;"
+          :text {time.date})
+        (label
+          :class "day"
+          :style "font-family:ProductSans;"
+          :text {time.day})))
+
+    (centerbox
+      :class "system-row"
+      (box
+        :class "wifi-box"
+        :space-evenly false
+        :orientation "v"
+        (box
+          :class "element icon ${net.class}"
+          :space-evenly false
+          (button
+            :class "wifi-button"
+            :onclick "scripts/net toggle"
+
+            {net.icon})
+          (label
+            :class "separator"
+            :text "│")
+          (button
+            :class "wifi-arrow-btn"
+            :onclick "eww close system-menu && nm-connection-editor &"
+            ""))
+        (label
+          :text {net.essid}
+          :style "font-family:ProductSans;"
+          :xalign 0.5
+          :limit-width 15))
+
+      (box
+        :class "bluetooth-box"
+        :space-evenly false
+        :orientation "v"
+        (box
+          :class "element icon ${bluetooth.class}"
+          :space-evenly false
+          (button
+            :class "bluetooth-button"
+            :onclick "scripts/bluetooth toggle"
+            {bluetooth.icon})
+          (label
+            :class "separator"
+            :text "│")
+          (button
+            :class "bluetooth-arrow-btn"
+            :onclick "eww close system-menu && blueberry"
+            ""))
+        (label
+          :text {bluetooth.text}
+          :style "font-family:ProductSans;"
+          :xalign 0.5
+          :tooltip "${bluetooth.text} ${bluetooth.battery}"
+          :limit-width 15))
+
+      (box
+        :class "airplane-box"
+        :space-evenly false
+        :orientation "v"
+        (box
+          :class "element"
+          (button
+            :class "airplane-button"
+            :style "font-family:Material Symbols Outlined;"
+            :onclick "scripts/airplane toggle"
+            airplane))
+        (label
+          :text "Airplane Mode"
+          :style "font-family:ProductSans;"
+          :xalign 0.5
+          :limit-width 16)))
+
+    (box
+      :class "sliders"
+      :orientation "v"
+      (box
+        :class "volume-slider-box"
+        :space-evenly false
+        (button
+          :style "font-family:ProductSans;"
+          :class "volume-icon icon"
+          :onclick "scripts/volume mute SINK"
+          {volume.icon})
+        (scale
+          :class "volume-bar"
+          :value {volume.percent}
+          :tooltip "volume on ${volume.percent}%"
+          :onchange "scripts/volume setvol SINK {}"))
+      (box
+        :class "volume-slider-box"
+        :space-evenly false
+        (button
+          :class "volume-icon icon"
+          :onclick "scripts/volume mute SOURCE"
+          :style "font-family:ProductSans;"
+          "")
+        (scale
+          :class "volume-bar"
+          :value {volume.microphone}
+          :tooltip "mic on ${volume.microphone}%"
+          :onchange "scripts/volume setvol SOURCE {}"))
+      (box
+        :class "brightness-slider-box"
+        :space-evenly false
+        (button
+          :class "brightness-slider-icon icon"
+          :style "font-family:ProductSans;"
+          {brightness.icon})
+        (scale
+          :class "brightness-slider" 
+          :value {brightness.level} 
+          :marks true 
+          :onchange "light -S {}")))
+
+    (box
+      :class "system-info-box"
+
+      ; cpu
+      (box
+        :class "sys-box"
+        :space-evenly false
+        :halign "start"
+        (circular-progress
+          :value "${EWW_CPU.avg}"
+          :class "sys-cpu"
+          :thickness 3
+          (label
+            :text ""
+            :class "sys-icon-cpu icon"))
+        (box
+          :orientation "v"
+          :vexpand false
+          (label
+            :text "cpu"
+            :halign "start"
+            :class "sys-text-cpu")
+          (label
+            :text "${round(EWW_CPU.avg,2)}%"
+            :halign "start"
+            :class "sys-text-sub")
+          (label
+            :text "${EWW_CPU.cores[0].freq} MHz"
+            :halign "start"
+            :class "sys-text-sub")))
+
+      ; memory
+      (box
+        :class "sys-box"
+        :space-evenly false
+        :halign "end"
+        (circular-progress
+          :value {memory.percentage}
+          :style "font-family:ProductSans;"
+          :class "sys-mem"
+          :thickness 3
+          (label
+            :text ""
+            :class "sys-icon-mem icon"))
+        (box
+          :orientation "v"
+          (label
+            :text "memory"
+            :style "font-family:ProductSans;"
+            :halign "start"
+            :class "sys-text-mem")
+          (label
+            :text "${memory.used} | ${memory.total}"
+            :style "font-family:ProductSans;"
+            :halign "start"
+            :class "sys-text-sub"))))
+
+    (centerbox
+      :class "bottom-row"
+      (box
+        :class "battery-box"
+        :space-evenly false
+        :halign "start"
+        (label
+          :class "battery-icon icon"
+          :style "color: ${battery.color}; font-family:ProductSans;"
+          :text {battery.icon})
+        (label
+          :class "battery-percentage"
+          :style "font-family:ProductSans;"
+          :text {EWW_BATTERY["BAT0"].capacity})
+        (label
+          :class "battery-status"
+          :style "font-family:ProductSans;"
+          :text {battery.status})
+        (label
+          :class "battery-wattage"
+          :style "font-family:ProductSans;"
+          :text {battery.wattage}))
+      (label)
+      (box
+        :space-evenly false
+        :halign "end"
+        (button
+          :halign "end"
+          :class "power-button icon"
+          :onclick "wlogout -p layer-shell &"
+          "")))))
+
+;; windows
+(defwindow system-menu
+  :stacking "fg" 
+  :monitor 0
+  :geometry (geometry
+    :x "0"
+    :y "0"
+    :width "0%"
+    :height "0%"
+    :anchor "right top")
+  (system-menu))

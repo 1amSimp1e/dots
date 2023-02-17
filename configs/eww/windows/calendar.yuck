@@ -1,0 +1,16 @@
+(defwidget calendar-win []
+  (box
+    :class "calendar-win"
+    :style "font-family: ProductSans;"
+    (calendar)))
+
+(defwindow calendar
+  :monitor 0
+  :geometry (geometry
+    :x "0%"
+    :y "0%"
+  	:anchor "top right"
+    :width "0px"
+    :style "font-family: ProductSans;"
+    :height "0px")
+  (calendar-win))

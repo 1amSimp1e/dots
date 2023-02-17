@@ -1,0 +1,33 @@
+(defwidget sys []
+  (box
+    :class "module"
+    :space-evenly false
+    :spacing 5
+    :style "font-family: ProductSans;"
+    (circular-progress
+      :value "${EWW_CPU.avg}"
+      :class "cpubar"
+      :thickness 3
+      (button
+        :tooltip "using ${round(EWW_CPU.avg,0)}% cpu"
+        :onclick "${EWW_CMD} open --toggle system-menu"
+        (label :class "icon-text" :text "")))
+
+    (circular-progress
+      :value {memory.percentage}
+      :class "membar"
+      :thickness 3
+      (button
+        :tooltip "using ${round(memory.percentage,0)}% ram"
+        :onclick "${EWW_CMD} open --toggle system-menu"
+        (label :class "icon-text" :text "")))
+
+    (circular-progress
+      :value "${EWW_BATTERY["BAT0"].capacity}"
+      :class "batbar"
+      :style "color: ${battery.color};"
+      :thickness 3
+      (button
+        :tooltip "battery on ${EWW_BATTERY["BAT0"].capacity}%"
+        :onclick "${EWW_CMD} open --toggle system-menu"
+        (label :class "icon-text" :text "")))))
