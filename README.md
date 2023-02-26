@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>✨Late Night🌃 </h1>
+    <h1>Late Night 🌃</h1>
 </div>
 
 <div align="center">
