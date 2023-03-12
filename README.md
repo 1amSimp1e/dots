@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![](https://raw.githubusercontent.com/iamverysimp1e/dots/late-night-%F0%9F%8C%83/ScreenShots/HyprLand/archive/preview.png)
+![](https://raw.githubusercontent.com/iamverysimp1e/dots/late-night-%F0%9F%8C%83/ScreenShots/preview.png)
 
 </div>
 
