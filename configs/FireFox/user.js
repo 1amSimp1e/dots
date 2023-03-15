@@ -63,6 +63,7 @@ user_pref("urlclassifier.trackingSkipURLs", "*.reddit.com, *.twitter.com, *.twim
 user_pref("urlclassifier.features.socialtracking.skipURLs", "*.instagram.com, *.twitter.com, *.twimg.com");
 user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _hsenc _openstat dclid fbclid gbraid gclid hsCtaTracking igshid mc_eid ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id rb_clickid s_cid twclid vero_conv vero_id wbraid wickedid yclid");
 user_pref("browser.uitour.enabled", false);
+user_pref("privacy.resistFingerprinting", true);
 
 /** OCSP & CERTS / HPKP ***/
 user_pref("security.OCSP.enabled", 0);
@@ -95,7 +96,7 @@ user_pref("network.predictor.enable-prefetch", false);
 /** SEARCH / URL BAR ***/
 user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
 user_pref("browser.urlbar.update2.engineAliasRefresh", true);
-user_pref("browser.search.suggest.enabled", false);
+user_pref("browser.search.suggest.enabled", true);
 user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
 user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
 user_pref("security.insecure_connection_text.enabled", true);
@@ -139,6 +140,7 @@ user_pref("privacy.userContext.ui.enabled", true);
 /** WEBRTC ***/
 user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
 user_pref("media.peerconnection.ice.default_address_only", true);
+user_pref("media.peerconnection.enabled",false);
 
 /** SAFE BROWSING ***/
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
@@ -152,6 +154,7 @@ user_pref("permissions.default.geo", 2);
 user_pref("geo.provider.network.url", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
 user_pref("geo.provider.ms-windows-location", false); // WINDOWS
 user_pref("geo.provider.use_corelocation", false); // MAC
+user_pref("geo.enabled", false);
 user_pref("geo.provider.use_gpsd", false); // LINUX
 user_pref("geo.provider.use_geoclue", false); // LINUX
 user_pref("permissions.manager.defaultsUrl", "");
@@ -252,20 +255,28 @@ user_pref("layout.css.has-selector.enabled", true);
 /****************************************************************************************
  * OPTION 1: INSTANT SCROLLING (SIMPLE ADJUSTMENT)                                      *
 ****************************************************************************************/
-user_pref("general.smoothScroll", true); // DEFAULT
-user_pref("mousewheel.default.delta_multiplier_y", 250);
-user_pref("general.smoothScroll.msdPhysics.enabled", true);
-user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 250);
-user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant", 400);
-user_pref("general.smoothScroll.msdPhysics.regularSpringConstant", 400);
-user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS", 120);
-user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio", 0.4);
-user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant", 5000);
+user_pref("general.smoothScroll",                                       true); // DEFAULT
+user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);
+user_pref("general.smoothScroll.msdPhysics.enabled",                    true);
+user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant",  600);
+user_pref("general.smoothScroll.msdPhysics.regularSpringConstant",      650);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS",         25);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio",      2.0);
+user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant",     250);
+user_pref("general.smoothScroll.currentVelocityWeighting",              1.0);
+user_pref("general.smoothScroll.stopDecelerationWeighting",             1.0);
+user_pref("mousewheel.default.delta_multiplier_y",                      300); // 250-400
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
 // Enter your personal prefs below this line:
-
+user_pref("network.dns.disableIPv6", true);
+user_pref("network.dns.disablePrefetch", true);
+user_pref("network.proxy.socks_remote_dns", true);
+user_pref("network.trr.custom_uri", "https://doh.mullvad.net/dns-query");
+user_pref("network.trr.mode", 3); // Used to enable Mullvad DNS over HTTPS… set to `5` to disable Mullvad DNS over HTTPS
+user_pref("network.trr.uri", "https://doh.mullvad.net/dns-query");
+user_pref("geo.provider.use_corelocation", false);
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/

@@ -138,7 +138,6 @@ tab:not([selected]):hover .tab-background {
 }
 
 #urlbar {
-  /*border-radius: calc(1px + var(--button-corner-rounding)) !important;*/
   height: 30px;
   margin-left: 5px;
 }
@@ -194,11 +193,6 @@ tab:not([selected]):hover .tab-background {
   fill: var(--toolbar-color) !important;
 }
 
-#library-button[animate] {
-  margin-bottom: 0px !important;
-  margin-top: 50px !important;
-}
-
 .urlbar-scheme {
   padding-bottom: 11px !important;
 }
@@ -249,6 +243,7 @@ tab:not([selected]):hover .tab-background {
 #urlbar:not([focused]) {
   border-radius: 4px !important;
 }
+
 #identity-box:hover,
 .urlbar-icon:hover,
 .urlbar-icon-wrapper:hover,
@@ -388,151 +383,6 @@ tab:not([selected]):hover .tab-background {
   overflow-x: scroll;
 }
 
-/*tooltip*/
-#tabbrowser-tab-tooltip {
-  -moz-appearance: none !important;
-  font-size: 1.4rem !important;
-  width: 170px !important;
-  height: auto;
-  font-weight: normal !important;
-  color: var(--lwt-tab-text) !important;
-  background-color: var(--toolbar-bgcolor) !important;
-  padding: 6px;
-  border-radius: 10px;
-  box-shadow: none !important;
+.webrtcIndicator {
+  display: none !important;
 }
-#bookmarksPanel {
-  --lwt-toolbar-field-focus: white !important;
-  --lwt-tab-text: black !important;
-}
-
-window#places[title='Library'] {
-  --lwt-toolbar-field-focus: white !important;
-  --lwt-tab-text: black !important;
-}
-menupopup {
-  -moz-appearance: none !important;
-  padding: 8px !important;
-  border-radius: 15px !important;
-  background: red !important;
-  background: var(--toolbar-field-focus-background-color) !important;
-  border: none !important;
-  min-width: 280px !important;
-}
-.menuitem-with-favicon {
-  color: var(--lwt-toolbar-field-focus-color) !important;
-}
-.openintabs-menuitem {
-  color: var(--lwt-toolbar-field-focus-color) !important;
-}
-.bookmark-item:hover {
-  color: var(--lwt-toolbar-field-focus-color) !important;
-}
-menuseparator {
-  -moz-appearance: none !important;
-  border: none !important;
-  background-color: none !important;
-}
-menuitem,
-menu {
-  -moz-appearance: none !important;
-  padding: 7.5px 6px !important;
-}
-menuitem[disabled='true'],
-menuitem[disabled='true'] > .menu-text {
-  color: gray !important;
-}
-menuitem:hover,
-menu:hover,
-menu[open='true'],
-menuitem[_moz-menuactive='true'] {
-  -moz-appearance: none !important;
-  background-color: var(--toolbarbutton-hover-background) !important;
-  /* filter: brightness(200%); */
-  border-radius: 5px;
-}
-menugroup {
-  padding: 0px !important;
-  background-color: transparent !important;
-}
-menuitem[type='checkbox'] {
-  padding-left: 8px !important;
-  padding-top: 6.5px !important;
-  padding-bottom: 6.5px !important;
-}
-menuitem[type='radio'] {
-  padding-left: 8px !important;
-  padding-top: 6.5px !important;
-  padding-bottom: 6.5px !important;
-}
-menuitem[type='checkbox'] > .menu-iconic-text,
-menuitem[type='radio'] > .menu-iconic-text {
-  padding-left: 5px !important;
-}
-menuitem[checked='true'][type='checkbox'] > .menu-iconic-left {
-  padding: 7px 0px 0px 0px !important;
-  border: solid white;
-  border-width: 0 0 2px 2px;
-  transform: rotate(-45deg) scale(0.75);
-  margin-bottom: 4px !important;
-}
-menuitem[checked='true'][type='radio'] > .menu-iconic-left {
-  padding: 1px !important;
-  border: solid white;
-  height: 17px !important;
-  border-radius: 100%;
-  background: white;
-  transform: scale(0.5);
-}
-menucaption {
-  background-color: transparent !important;
-  color: white !important;
-}
-#ContentSelectDropdown > menupopup {
-  background-image: none !important;
-}
-#ContentSelectDropdown {
-  padding: 0px !important;
-}
-menulist {
-  -moz-appearance: none !important;
-  padding: 4px 4px 4px 4px !important;
-  border: 2px solid #666666 !important;
-  background-color: transparent !important;
-}
-menulist:hover {
-  padding: 4px 4px 4px 4px !important;
-  border: 2px solid #999999 !important;
-  background-color: transparent !important;
-}
-menulist[open='true'] {
-  border: 2px solid #666666 !important;
-  background-color: #333333 !important;
-}
-#context-back > .menu-iconic-left,
-#context-forward > .menu-iconic-left,
-#context-reload > .menu-iconic-left,
-#context-stop > .menu-iconic-left,
-#context-bookmarkpage > .menu-iconic-left {
-  transform: scale(1.8);
-}
-.menu-iconic-left {
-  -moz-appearance: none !important;
-  padding: 0px 5px 0px 9px !important;
-}
-.menu-right {
-  -moz-appearance: none !important;
-  padding: 7.5px !important;
-  margin-right: 6px !important;
-  color: white !important;
-  border: solid white;
-  border-width: 0 2px 2px 0px;
-  transform: rotate(-45deg) scale(0.55);
-}
-
-menu[_moz-menuactive='true'],
-menuitem[_moz-menuactive='true'] {
-  -moz-font-smoothing-background-color: -moz-mac-active-menuitem;
-  color: inherit !important;
-}
-
