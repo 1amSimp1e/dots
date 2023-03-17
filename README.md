@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>balcony🚊</h1>
+    <h1>Balcony🚊</h1>
 </div>
 
 # Gallery 📷
