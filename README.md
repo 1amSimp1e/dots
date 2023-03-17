@@ -44,7 +44,7 @@
 
 ![](https://raw.githubusercontent.com/iamverysimp1e/dots/late-night-%F0%9F%8C%83/ScreenShots/HyprLand/preview.png)
 
-### [Balcony🚊]()
+### [Balcony🚊](https://github.com/1amSimp1e/dots/tree/balcony%F0%9F%9A%8A)
 ![](https://raw.githubusercontent.com/1amSimp1e/dots/balcony%F0%9F%9A%8A/ScreenShots/HyprLand/Rice.png)
 
 ## Credits
