@@ -17,7 +17,7 @@
 
 </div>
 
-## Contents 📚:
+# Contents 📚:
 
 ### **👻 Don't blindly use my setup. Use at your own risk!!!**
 
@@ -38,7 +38,7 @@
   - [💫 NeoVim](#neovim)
   - [🔱 VsCodium](#VsCodium) 
 
-## Hyprland 🍚<a name = "hypr"></a>:
+# Hyprland 🍚<a name = "hypr"></a>:
 
 ### [Late Night🌃](https://github.com/1amSimp1e/dots/tree/late-night-%F0%9F%8C%83)
 
@@ -56,7 +56,7 @@ Thanks to:
 
 </blockquote></details>
 
-## GNOME 🍙<a name = "gnome"></a>:
+# GNOME 🍙<a name = "gnome"></a>:
 
 ![](https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Gnome_Rice/Rice1.png)
 ![](https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Gnome_Rice/Rice2.png)
@@ -102,7 +102,7 @@ Thanks to:
     </blockquote></details>
   </blockquote></details>
 
-## 🌌 Shell & 🤖 Prompt setups <a name = "shell"></a>
+# 🌌 Shell Setups <a name = "shell"></a>
 
 ![](https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Other/prompt.png)
 
