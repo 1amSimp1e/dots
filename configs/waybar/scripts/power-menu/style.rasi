@@ -13,8 +13,12 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "~/.config/waybar/scripts/power-menu/shared/colors.rasi"
-@import                          "~/.config/waybar/scripts/power-menu/shared/fonts.rasi"
+@import                          "./shared/colors.rasi"
+@import                          "./shared/fonts.rasi"
+
+/*
+USE_BUTTONS=YES
+*/
 
 /*****----- Main Window -----*****/
 window {
@@ -23,7 +27,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       400px;
+    width:                       800px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -32,7 +36,7 @@ window {
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               12px;
+    border-radius:               10px;
     border-color:                @selected;
     cursor:                      "default";
     background-color:            @background;
@@ -41,42 +45,46 @@ window {
 /*****----- Main Box -----*****/
 mainbox {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     5px;
     margin:                      0px;
-    padding:                     20px;
+    padding:                     30px;
     border:                      0px solid;
-    border-radius:               0px;
+    border-radius:               10px;
     border-color:                @selected;
     background-color:            transparent;
-    children:                    [ "inputbar", "message", "listview" ];
+    children:                    [ "inputbar", "listview" ];
 }
 
 /*****----- Inputbar -----*****/
 inputbar {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     15px;
     margin:                      0px;
     padding:                     0px;
     border:                      0px;
-    border-radius:               0px;
+    border-radius:               10px;
     border-color:                @selected;
     background-color:            transparent;
     text-color:                  @foreground;
     children:                    [ "textbox-prompt-colon", "prompt"];
 }
 
+dummy {
+    background-color:            transparent;
+}
+
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
     str:                         "";
-    padding:                     10px 14px;
+    padding:                     12px 16px;
     border-radius:               10px;
     background-color:            @urgent;
     text-color:                  @background;
 }
 prompt {
     enabled:                     true;
-    padding:                     10px;
+    padding:                     12px;
     border-radius:               10px;
     background-color:            @active;
     text-color:                  @background;
@@ -86,7 +94,7 @@ prompt {
 message {
     enabled:                     true;
     margin:                      0px;
-    padding:                     10px;
+    padding:                     12px;
     border:                      0px solid;
     border-radius:               10px;
     border-color:                @selected;
@@ -97,15 +105,15 @@ textbox {
     background-color:            inherit;
     text-color:                  inherit;
     vertical-align:              0.5;
-    horizontal-align:            0.0;
+    horizontal-align:            0.5;
     placeholder-color:           @foreground;
     blink:                       true;
     markup:                      true;
 }
 error-message {
-    padding:                     10px;
+    padding:                     12px;
     border:                      0px solid;
-    border-radius:               0px;
+    border-radius:               10px;
     border-color:                @selected;
     background-color:            @background;
     text-color:                  @foreground;
@@ -114,8 +122,8 @@ error-message {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     1;
-    lines:                       5;
+    columns:                     5;
+    lines:                       1;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;
@@ -124,11 +132,11 @@ listview {
     fixed-height:                true;
     fixed-columns:               true;
     
-    spacing:                     5px;
+    spacing:                     15px;
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               0px;
+    border-radius:               10px;
     border-color:                @selected;
     background-color:            transparent;
     text-color:                  @foreground;
@@ -140,22 +148,24 @@ element {
     enabled:                     true;
     spacing:                     0px;
     margin:                      0px;
-    padding:                     10px;
+    padding:                     40px 10px;
     border:                      0px solid;
     border-radius:               10px;
     border-color:                @selected;
-    background-color:            transparent;
+    background-color:            @background-alt;
     text-color:                  @foreground;
     cursor:                      pointer;
 }
 element-text {
+    font:                        "feather bold 32";
     background-color:            transparent;
     text-color:                  inherit;
     cursor:                      inherit;
     vertical-align:              0.5;
-    horizontal-align:            0.0;
+    horizontal-align:            0.5;
 }
 element selected.normal {
     background-color:            var(selected);
     text-color:                  var(background);
 }
+

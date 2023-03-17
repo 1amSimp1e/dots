@@ -66,7 +66,7 @@ window {
     padding:                     0px;
     border:                      0px solid;
     border-radius:               10px;
-    border-color:                @border-colour;
+    border-color:                #89B4FA;
     cursor:                      "default";
     /* Backgroud Colors */
     background-color:            @background-colour;
@@ -87,9 +87,10 @@ mainbox {
     margin:                      0px;
     padding:                     30px;
     border:                      0px solid;
-    border-radius:               0px 0px 0px 0px;
-    border-color:                @border-colour;
+    border-radius:               15px;
+    border-color:                #6f91c9;
     background-color:            transparent;
+    transparency :               "real";
     children:                    [ "inputbar", "message", "listview" ];
 }
 

@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd ~/Repos/PersonalProjects/startpage/
+cd ~/Developer/Bento/
 python -m http.server 10002
