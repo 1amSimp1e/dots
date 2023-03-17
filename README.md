@@ -35,9 +35,6 @@ yay -S waybar-hyprland rofi dunst kitty swaybg swaylock-fancy-git swayidle pamix
 - [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip)
 
 - [Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Iosevka.zip)
-- [Material Design Icons](https://github.com/google/material-design-icons/tree/master/variablefont)
-
-  > Note that install the [MaterialSymbolsOutlined](https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.ttf) and [this](https://github.com/google/material-design-icons/raw/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.woff2) , **just to make sure**
 
 - [Font Awesome](https://archlinux.org/packages/community/any/ttf-font-awesome/)
   ```
@@ -62,7 +59,7 @@ fc-cache -fv
 ## Copy Files 💾
 
 ```
-git clone -b late-night https://github.com/iamverysimp1e/dots
+git clone -b late-night-🌃 https://github.com/iamverysimp1e/dots
 cd dots
 cp -r ./configs/* ~/.config/
 ```
