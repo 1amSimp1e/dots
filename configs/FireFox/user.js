@@ -256,16 +256,16 @@ user_pref("layout.css.has-selector.enabled", true);
  * OPTION 1: INSTANT SCROLLING (SIMPLE ADJUSTMENT)                                      *
 ****************************************************************************************/
 user_pref("general.smoothScroll",                                       true); // DEFAULT
-user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);
+user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 15);
 user_pref("general.smoothScroll.msdPhysics.enabled",                    true);
-user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant",  600);
+user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant",  180);
 user_pref("general.smoothScroll.msdPhysics.regularSpringConstant",      650);
-user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS",         25);
-user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio",      2.0);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS",         30);
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio",      2.3);
 user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant",     250);
 user_pref("general.smoothScroll.currentVelocityWeighting",              1.0);
 user_pref("general.smoothScroll.stopDecelerationWeighting",             1.0);
-user_pref("mousewheel.default.delta_multiplier_y",                      300); // 250-400
+user_pref("mousewheel.default.delta_multiplier_y",                      320); // 250-400
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
 ****************************************************************************/
