@@ -1,7 +1,12 @@
 <div align="center">
+![](https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Other/profiles.png)
+</div>
+
+<div align="center">
     <h1> 1amSimp1e's Dot Files 📁</h1>
     <h3> Place where I store all of my own customization </h3>
 </div>
+
 
 <div align="center">
 
