@@ -25,7 +25,7 @@
 
 ### Overview 🎑
 
-- [🌿 Windows Manger]():
+- [🌿 Windows Manager]():
   - [🍚 HyprLand](#hypr)
   - [🍙 GNOME](#gnome)
 - [👽 Terminal]():
