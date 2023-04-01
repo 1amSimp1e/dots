@@ -1,5 +1,5 @@
 <div align="center">
-![](https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Other/profiles.png)
+<img alt="Profiles Pictures" src="https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Other/profiles.png" />
 </div>
 
 <div align="center">
