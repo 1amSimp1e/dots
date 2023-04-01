@@ -1,14 +1,11 @@
 <div align="center">
-<img alt="Profiles Pictures" src="https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Other/profiles.png" />
+<img alt="Profiles Pictures" src="https://raw.githubusercontent.com/iamverysimp1e/dots/main/ScreenShots/Other/profiles.png" width="200" height="200"/>
 </div>
 
 <div align="center">
     <h1> 1amSimp1e's Dot Files 📁</h1>
-    <h3> Place where I store all of my own customization </h3>
+    <img src="https://readme-typing-svg.demolab.com?font=Iosevka+Nerd+Font&weight=900&pause=1000&color=6791C9&background=0C0E0F00&center=true&vCenter=true&width=435&lines=A+place++I+store+my+Aesthetic+Customizations"
 </div>
-
-
-<div align="center">
 
 ![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?&style=for-the-badge&color=8D748C&logoColor=D9E0EE&labelColor=252733)
 ![](https://img.shields.io/github/stars/iamverysimp1e/dots?style=for-the-badge&logo=starship&color=AB6C6A&logoColor=D9E0EE&labelColor=252733)
