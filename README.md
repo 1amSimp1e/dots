@@ -3,7 +3,7 @@
 </div>
 
 # Gallery 📷
-![](./ScreenShots/HyprLand/summer.png)
+![](./ScreenShots/summer.png)
 
 # Installations 📦
 
