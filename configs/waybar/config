@@ -1,8 +1,9 @@
 {
-    "height": 40, // Waybar height (to be removed for auto height)
+    "height": 30, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
-    "modules-left": ["custom/launcher", "cpu", "memory", "wlr/workspaces", "custom/weather"],
-    "modules-right": ["tray", "network", "pulseaudio",  "backlight", "battery", "custom/lock", "clock", "custom/power-menu"],
+    "modules-left": ["custom/launcher", "cpu", "memory", "custom/weather"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-right": [ "network", "pulseaudio", "battery", "custom/lock", "clock", "custom/power-menu"],
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -32,7 +33,7 @@
     "memory": {
         "interval": 30,
         "format": " {}%",
-        "format-alt":" {used:0.1f}GB",
+        "tooltip-format":"{used:0.1f}GB",
         "max-length": 10,
     },
     "backlight": {

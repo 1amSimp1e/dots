@@ -1,9 +1,9 @@
 <div align="center">
-    <h1>Balcony🚊</h1>
+    <h1>Summer ☀️ </h1>
 </div>
 
 # Gallery 📷
-![](./ScreenShots/HyprLand/Rice.png)
+![](./ScreenShots/HyprLand/summer.png)
 
 # Installations 📦
 
@@ -45,11 +45,11 @@ fc-cache -fv
 ## Copy Files 💾
 
 ```
-git clone -b balcony🚊 https://github.com/iamverysimp1e/dots
+git clone -b summer☀️  https://github.com/iamverysimp1e/dots
 cd dots
 cp -r ./configs/* ~/.config/
 ```
 
 > Finally, now you can login with Late Night Hyprland Rice
 
-Congratulations, at this point you successfully have installed Hyprland Balcony Rice 🚊
+Congratulations, at this point you successfully have installed Hyprland Summer Rice Edition ☀️
