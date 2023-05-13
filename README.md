@@ -49,7 +49,7 @@
 ## [Balcony🚊](https://github.com/1amSimp1e/dots/tree/balcony%F0%9F%9A%8A)
 ![](https://raw.githubusercontent.com/1amSimp1e/dots/balcony%F0%9F%9A%8A/ScreenShots/HyprLand/Rice.png)
 
-## [Summer☀️]](https://github.com/1amSimp1e/dots/tree/summer%E2%98%80%EF%B8%8F)
+## [Summer☀️ ](https://github.com/1amSimp1e/dots/tree/summer%E2%98%80%EF%B8%8F)
 ![](https://raw.githubusercontent.com/1amSimp1e/dots/summer%E2%98%80%EF%B8%8F/ScreenShots/summer.png)
 
 ## Credits
