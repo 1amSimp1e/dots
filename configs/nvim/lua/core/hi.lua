@@ -1,3 +1,7 @@
+-- General 
+vim.cmd("hi NormalFloat guibg=#151519")
+vim.cmd("hi FloatBorder guibg=#151519 guifg=#151519")
+
 -- cmp completions menu
 vim.cmd("hi CmpItemAbbrDeprecated guifg=#3E4450")
 vim.cmd("hi CmpItemAbbr guifg=#BABABE")
@@ -103,7 +107,6 @@ vim.cmd("hi NeoTreeNormal guibg=#161719")
 vim.cmd("hi monarkVisual guifg=#6791C9")
 vim.cmd("hi monarkInsert guifg=#78B892")
 vim.cmd("hi monarkNormal guifg=#E89982")
-
 
 -- Rnvimr Highlighting
 vim.cmd("hi RnvimrNormal guibg=#101011 guifg=#BDCBD6")
