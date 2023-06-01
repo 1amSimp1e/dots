@@ -6,13 +6,34 @@ end
 local hide_in_width = function()
 	return vim.fn.winwidth(0) > 80
 end
+
 local spaces = {
 	function()
 		return " "
 	end,
-	padding = -1,
+	padding = -10,
 }
 
+local current_dir = vim.fn.fnamemodify(vim.fn.getcwd(), ":t")
+
+local folder = {
+	function()
+		return current_dir
+	end,
+
+	-- separator = { left = "█", right = "█" },
+	separator = { right = "" },
+	color = { bg = "#1D1D20", fg = "#E8E3E3" },
+}
+
+local filetype = {
+	"filetype",
+	colored = true, -- Displays filetype icon in color if set to true
+	icon = { align = "left" }, -- Display filetype icon on the right hand side
+	icon_only = true,
+}
+
+local size = { "filesize", separator = { left = "", right = "" }, margin = 0.5 }
 local diagnostics = {
 	"diagnostics",
 	sources = { "nvim_diagnostic" },
@@ -22,20 +43,21 @@ local diagnostics = {
 		"hint",
 	},
 	symbols = {
-		error = " ",
-		warn = " ",
 		hint = " ",
-		info = " ",
+		error = " ",
+		warn = " ",
+		info = " ",
 	},
 	colored = true,
-	always_visible = false,
+	always_visible = true,
+	color = { bg = "#1D1D20", fg = "#BDCBD6" },
+	separator = { right = "" },
 }
 
 local branch = {
 	"branch",
 	icon = "",
-	separator = { left = "", right = "" },
-  padding = 0.1
+	separator = { right = "" },
 }
 
 local diff = {
@@ -49,26 +71,34 @@ local diff = {
 	separator = { left = "", right = "" },
 }
 
-local filetype = {
-	"filetype",
-	icons_enabled = true,
-}
-
-local location = {
-	"location",
-}
-
-local custom_icons = {
+local icons = {
 	function()
-		return ""
+		return "󰀘 "
 	end,
-	separator = { left = "", right = "" },
+	padding = 0.3,
+	-- separator = { left = "", right = "" },
+
+	separator = { left = "", right = "" },
+	color = { bg = "#6791C9", fg = "#000000" },
 }
 
 local modes = {
 	"mode",
-	separator = { left = "", right = "" },
-	padding = 0.8,
+	separator = { right = "" },
+	padding = 1,
+	color = { fg = "#BDCBD6" },
+}
+
+local filename = {
+	"filename",
+	file_status = false, -- displays file status (readonly status, modified status)
+	path = 0, -- 0 = just filename, 1 = relative path, 2 = absolute path},
+	color = { fg = "#BDCBD6" },
+	separator = { right = "" },
+	symbols = {
+		modified = "", -- Text to show when the file is modified.
+		readonly = "", -- Text to show when the file is non-modifiable or readonly.
+	},
 }
 
 local indent = function()
@@ -76,12 +106,12 @@ local indent = function()
 end
 
 local lsp_progess = function()
-	msg = msg or "LS Inactive"
+	msg = msg or "  LSP Inactive"
 	local buf_clients = vim.lsp.buf_get_clients()
 	if next(buf_clients) == nil then
 		-- TODO: clean up this if statement
 		if type(msg) == "boolean" or #msg == 0 then
-			return "LS Inactive"
+			return "  LSP Inactive"
 		end
 		return msg
 	end
@@ -118,6 +148,7 @@ local lsp_progess = function()
 		end
 		return registered
 	end
+
 	function list_registered(filetype)
 		local registered_providers = list_registered_providers_names(filetype)
 		local providers_for_methods = vim.tbl_flatten(vim.tbl_map(function(m)
@@ -130,6 +161,7 @@ local lsp_progess = function()
 		local registered_providers = list_registered_providers_names(filetype)
 		return registered_providers[null_ls.methods.FORMATTING] or {}
 	end
+
 	-- formatters
 	-- local supported_formatters = formatters_list_registered(buf_ft)
 	-- vim.list_extend(buf_client_names, supported_formatters)
@@ -139,10 +171,10 @@ local lsp_progess = function()
 	vim.list_extend(buf_client_names, supported_linters)
 	local unique_client_names = vim.fn.uniq(buf_client_names)
 
-	local language_servers = " " .. table.concat(unique_client_names, ", ") .. ""
+	local language_servers = "󱅶  " .. table.concat(unique_client_names, ", ") .. ""
 
 	if copilot_active then
-		language_servers = language_servers .. "%#SLCopilot#" .. ""
+		language_servers = "   " .. "| " .. language_servers
 	end
 
 	return language_servers
@@ -159,66 +191,62 @@ lualine.setup({
 		always_divide_middle = true,
 	},
 	sections = {
-		lualine_a = {
-			custom_icons,
-			modes,
-		},
+		lualine_a = {},
 		lualine_b = {
+			icons,
+            filetype,
+			filename,
 		},
 		lualine_c = {
-      spaces,
-			{
-				"filetype",
-				icon_only = true,
-				colored = true,
-				padding = 1,
-				color = { bg = "#2a2c3f" },
-				separator = { left = "", right = " " },
-			},
-			{
-				"filename",
-        file_status = false,
-				padding = 0.3,
-				separator = { left = "", right = " " },
-				color = { bg = "#2a2c3f" },
-			},
 			branch,
 			diff,
 		},
 		lualine_x = {
-			diagnostics,
-			{
-				lsp_progess,
-			},
 			{
 				function()
-					return "﬌"
+					return "󰞔 "
 				end,
-				separator = { left = "", right = "" },
-				color = { bg = "#8FBCBB", fg = "#000000" },
+				separator = { left = "", right = "█" },
+				color = { bg = "#ecd28b", fg = "#000000" },
 				padding = 0.3,
 			},
 			{
 				indent,
+				separator = { right = "" },
+				color = { bg = "#1D1D20", fg = "#E8E3E3" },
+				-- separator = { left = "█", right = "█" },
 			},
+
+			spaces,
 			{
 				function()
-					return ""
+					return "󰉋 "
 				end,
-				separator = { left = "", right = "" },
-				color = { bg = "#ECD3A0", fg = "#000000" },
-				padding = 0.3,
+
+				-- separator = { left = "█", right = "█" },
+				separator = { left = "", right = "█" },
+				color = { bg = "#E89982", fg = "#000000" },
+				padding = 0.01,
 			},
-			"progress",
+			folder,
+			spaces,
 			{
 				function()
-					return ""
+					return " "
 				end,
-				separator = { left = "", right = "" },
-				color = { bg = "#86AAEC", fg = "#000000" },
-				padding = 0.1,
+				-- separator = { left = "█", right = "█" },
+				separator = { left = "", right = "█" },
+				color = { bg = "#78B892", fg = "#000000" },
+				padding = -10000,
 			},
-			location,
+
+			{
+				"location",
+				-- separator = { left = "█", right = "█" },
+				separator = { right = "" },
+				color = { bg = "#1D1D20", fg = "#E8E3E3" },
+			},
+			spaces,
 		},
 		lualine_y = {},
 		lualine_z = {},

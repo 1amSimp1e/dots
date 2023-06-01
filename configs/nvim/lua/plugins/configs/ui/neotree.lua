@@ -8,9 +8,9 @@ ntree.setup({
 	popup_border_style = "rounded",
 	enable_git_status = true,
 	icon = {
-		folder_closed = "",
-		folder_open = "",
-		folder_empty = "ﰊ",
+		folder_closed = "",
+		folder_open = "",
+		folder_empty = "",
 		default = "*",
 		highlight = "NeoTreeFileIcon",
 	},

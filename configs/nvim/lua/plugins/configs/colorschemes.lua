@@ -1,4 +1,5 @@
 local colors = require("catppuccin.palettes").get_palette()
+
 require("catppuccin").setup({
 	flavour = "mocha",
 	color_overrides = {
@@ -43,16 +44,23 @@ require("catppuccin").setup({
 	},
 })
 
-local colorscheme = "catppuccin"
 
+require("onedarkpro").setup({
+	colors = {
+		red = "#e08282",
+		blue = "#6791c9",
+        green = "#81c19b",
+        purple = "#a9a1e1",
+        cyan = "#7DC4CC",
+		dark = {
+			bg = "#101012",
+		},
+	},
 
-local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
-if not status_ok then
-	return
-end
+})
 
--- Transparent
-
+-- -- Transparent
+--
 -- vim.api.nvim_create_autocmd("ColorScheme", {
 -- 	pattern = "*",
 -- 	callback = function()
@@ -61,9 +69,12 @@ end
 -- 			"SignColumn",
 -- 			"NormalNC",
 -- 			"TelescopeBorder",
--- 			"NvimTreeNormal",
+-- 			"NeoTreeNormal",
 -- 			"EndOfBuffer",
 -- 			"MsgArea",
+--             "LuaLine",
+--             "LineNr",
+--             "Bufferline",
 -- 		}
 -- 		for _, name in ipairs(hl_groups) do
 -- 			vim.cmd(string.format("highlight %s ctermbg=none guibg=none", name))
@@ -71,6 +82,11 @@ end
 -- 	end,
 -- })
 --
--- vim.opt.fillchars = "eob: "
+vim.opt.fillchars = "eob: "
+--
+local colorscheme = "onedark"
 
--- setup must be called before loading
+local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
+if not status_ok then
+	return
+end

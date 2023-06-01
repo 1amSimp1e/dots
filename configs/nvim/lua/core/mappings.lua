@@ -53,17 +53,27 @@ keymap("v", ">", ">gv", opts)
 -- Plugins --
 
 -- Telescope
+-- find
 keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
 keymap("n", "<leader>ft", ":Telescope live_grep<CR>", opts)
 keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
 keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
+keymap("n", "<leader>fo", ":Telescope oldfiles<CR>", opts)
+-- git
+keymap("n", "<leader>cm", ":Telescope git_commits<CR>", opts)
+keymap("n", "<leader>gt", ":Telescope git_status<CR>", opts)
+-- Hiden term
+keymap("n", "<leader>pt", ":Telescope terms<CR>", opts)
+
+-- others
+keymap("n", "<leader>ro", "<CMD>SearchReplaceSingleBufferOpen<CR>", opts)
+keymap("n", "<leader>rw", "<CMD>SearchReplaceSingleBufferCWord<CR>", opts)
 
 -- DAP
 keymap("n", "<leader>db", "<cmd>lua require'dap'.toggle_breakpoint()<cr>", opts)
 keymap("n", "<leader>dc", "<cmd>lua require'dap'.continue()<cr>", opts)
 keymap("n", "<leader>di", "<cmd>lua require'dap'.step_into()<cr>", opts)
-keymap("n", "<leader>do", "<cmd>lua require'dap'.step_over()<cr>", opts)
-keymap("n", "<leader>dO", "<cmd>lua require'dap'.step_out()<cr>", opts)
+keymap("n", "<leader>do", "<cmd>lua require'dap'.step_over()<cr>", opts) keymap("n", "<leader>dO", "<cmd>lua require'dap'.step_out()<cr>", opts)
 keymap("n", "<leader>dr", "<cmd>lua require'dap'.repl.toggle()<cr>", opts)
 keymap("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<cr>", opts)
 keymap("n", "<leader>du", "<cmd>lua require'dapui'.toggle()<cr>", opts)
@@ -84,3 +94,15 @@ keymap("n", "<leader>gg", "<cmd>LazyGit<cr>", opts)
 
 -- Control all select
 keymap("n", "<C-a>", "ggVG", opts)
+
+-- Tmux Navigator 
+keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>", opts)
+keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<cr>", opts)
+keymap("n", "<C-l>", "<cmd>TmuxNavigateRight<cr>", opts)
+keymap("n", "<C-h>", "<cmd>TmuxNavigateLeft<cr>", opts)
+
+-- MarkDown Text Open 
+keymap("n", "<leader>mp", "<cmd>PeekOpen<CR>", opts)
+
+-- Open Ranger
+keymap("n", "<leader>t", "<cmd>RnvimrToggle<CR>", opts)

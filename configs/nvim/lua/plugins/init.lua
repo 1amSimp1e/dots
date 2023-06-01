@@ -1,23 +1,12 @@
-local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
-if not vim.loop.fs_stat(lazypath) then
-	vim.fn.system({
-		"git",
-		"clone",
-		"--filter=blob:none",
-		"--single-branch",
-		"https://github.com/folke/lazy.nvim.git",
-		lazypath,
-	})
-end
-
-vim.opt.runtimepath:prepend(lazypath)
-
 local ok, lazy = pcall(require, "lazy")
 if not ok then
 	return
 end
 
 lazy.setup({
+	install = {
+		colorscheme = { "catppuccin" },
+	},
 	root = vim.fn.stdpath("data") .. "/lazy",
 	{
 		"neovim/nvim-lspconfig",
@@ -27,11 +16,14 @@ lazy.setup({
 			"williamboman/mason-lspconfig.nvim",
 			"jose-elias-alvarez/null-ls.nvim",
 			"glepnir/lspsaga.nvim",
+			"RRethy/vim-illuminate",
 
 			-- Completions
 			"hrsh7th/nvim-cmp",
 			"hrsh7th/cmp-buffer",
 			"hrsh7th/cmp-path",
+			"dcampos/nvim-snippy",
+			"doxnit/cmp-luasnip-choice",
 			"saadparwaiz1/cmp_luasnip",
 			"hrsh7th/cmp-nvim-lsp",
 			"hrsh7th/cmp-nvim-lua",
@@ -40,7 +32,7 @@ lazy.setup({
 			"hrsh7th/cmp-vsnip",
 			"rafamadriz/friendly-snippets",
 			"hrsh7th/cmp-nvim-lsp-signature-help",
-			"onsails/lspkind.nvim",
+			"hrsh7th/cmp-copilot",
 		},
 		config = function()
 			-- Lsp Configs
@@ -50,12 +42,23 @@ lazy.setup({
 		end,
 	},
 	{
+		"rose-pine/neovim",
+		name = "rose-pine",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("plugins.configs.colorschemes")
+		end,
+	},
+	{ "catppuccin/nvim", name = "catppuccin" },
+	{ "olimorris/onedarkpro.nvim" },
+	{
 		"akinsho/bufferline.nvim",
 		dependencies = {
 			"kyazdani42/nvim-web-devicons",
 		},
 		config = function()
-			require("plugins.configs.bufferline")
+			require("plugins.configs.ui.bufferline")
 		end,
 	},
 	{
@@ -68,13 +71,23 @@ lazy.setup({
 		end,
 	},
 	{
+		"mfussenegger/nvim-dap",
+		dependencies = {
+			"rcarriga/nvim-dap-ui",
+			"ravenxrz/DAPInstall.nvim",
+		},
+		config = function()
+			require("plugins.configs.ui.dap")
+		end,
+	},
+	{
 		"utilyre/barbecue.nvim",
 		name = "barbecue",
 		version = "*",
 		dependencies = {
 			"SmiteshP/nvim-navic",
 		},
-		opts = require("plugins.configs.bbq"),
+		opts = require("plugins.configs.lsp.bbq"),
 	},
 	{
 		"nvim-neo-tree/neo-tree.nvim",
@@ -90,9 +103,13 @@ lazy.setup({
 		end,
 	},
 
-	{ "lukas-reineke/indent-blankline.nvim", event = "BufEnter" },
-	{ "nvim-treesitter/nvim-treesitter" },
-	{ "windwp/nvim-ts-autotag" },
+	{
+		"lukas-reineke/indent-blankline.nvim",
+		event = "BufEnter",
+		config = function()
+			require("plugins.configs.ui.indent_blankline")
+		end,
+	},
 	{
 		"alvan/vim-closetag",
 		config = function()
@@ -100,29 +117,22 @@ lazy.setup({
 			vim.g.closetag_xhtml_filenames = "*.xhtml,*.jsx"
 		end,
 	},
-	{
-		"rose-pine/neovim",
-		name = "rose-pine",
-		lazy = false,
-		priority = 1000,
-		config = function()
-			require("plugins.configs.colorschemes")
-		end,
-	},
-	{ "catppuccin/nvim", name = "catppuccin" },
 	{ "windwp/nvim-autopairs", config = true, event = "InsertEnter" },
 	{
 		"nvim-telescope/telescope.nvim",
 		dependencies = {
 			"nvim-lua/plenary.nvim",
+			"nvim-telescope/telescope-ui-select.nvim",
 		},
 		config = function()
 			require("plugins.configs.telescope")
 		end,
 	},
-
-	{ "nvim-telescope/telescope-ui-select.nvim" },
-
+	{
+		"nvim-telescope/telescope-file-browser.nvim",
+		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
+	},
+	{ "ahmedkhalf/project.nvim" },
 	{ "numToStr/Comment.nvim", config = true, event = "BufEnter" },
 	{ "lewis6991/gitsigns.nvim", config = true, event = "BufEnter" },
 	{
@@ -131,7 +141,6 @@ lazy.setup({
 			{ "<leader>gg", "<cmd>LazyGit<cr>", desc = "NeoTree" },
 		},
 	},
-	{ "iamcco/markdown-preview.nvim", ft = "markdown" },
 
 	{
 		"karb94/neoscroll.nvim",
@@ -140,7 +149,6 @@ lazy.setup({
 			require("neoscroll").setup({})
 		end,
 	},
-	{ "goolord/alpha-nvim" },
 	{
 		"akinsho/toggleterm.nvim",
 		config = function()
@@ -154,16 +162,91 @@ lazy.setup({
 		end,
 	},
 	{
-		"aurum77/live-server.nvim",
-		cmd = { "LiveServer", "LiveServerStart", "LiveServerStop" },
-		config = function()
-			require("live_server.util").install()
-		end,
-	},
-	{
 		"petertriho/nvim-scrollbar",
 		config = function()
 			require("plugins.configs.ui.scrollbar")
 		end,
+	},
+	{
+		"goolord/alpha-nvim",
+		config = function()
+			require("plugins.configs.ui.alpha")
+		end,
+	},
+	{
+		"lewis6991/impatient.nvim",
+	},
+	{
+		"nvim-treesitter/nvim-treesitter",
+		config = function()
+			require("plugins.configs.treesitter")
+		end,
+	},
+	{ "windwp/nvim-ts-autotag" },
+	{
+		"iamcco/markdown-preview.nvim",
+		init = function()
+			vim.g.mkdp_filetypes = { "markdown" }
+		end,
+		ft = { "markdown" },
+	},
+	{
+		"toppair/peek.nvim",
+		build = "deno task --quiet build:fast",
+		config = function()
+			vim.api.nvim_create_user_command("PeekOpen", require("peek").open, {})
+			vim.api.nvim_create_user_command("PeekClose", require("peek").close, {})
+		end,
+	},
+	{ "github/copilot.vim" },
+	{
+		"christoomey/vim-tmux-navigator",
+	},
+	{
+		"max397574/better-escape.nvim",
+		opts = {
+			mapping = { "jk", "jj" },
+			timeout = vim.o.timeoutlen,
+			clear_empty_lines = false,
+			keys = "<Esc>",
+		},
+		event = { "CmdlineEnter", "InsertEnter", "CursorHold", "CursorMoved" },
+	},
+	{
+		"doums/monark.nvim",
+		opts = {
+			clear_on_normal = true,
+			sticky = true,
+			offset = 2,
+			timeout = 300,
+			i_idle_to = 1000,
+			modes = {
+				normal = { " ", "MonarkNormal" },
+				visual = { " ", "MonarkVisual" },
+				visual_l = { " ", "MonarkVisualLine" },
+				visual_b = { " ", "MonarkVisualBlock" },
+				select = { " ", "MonarkSelect" },
+				insert = { " ", "MonarkInsert" },
+				replace = { " ", "MonarkReplace" },
+				terminal = { " ", "MonarkTerminal" },
+			},
+			hl_mode = "combine",
+			ignore = { "c" },
+		},
+		event = "InsertEnter",
+	},
+	{
+		"folke/twilight.nvim",
+		config = function()
+			require("plugins.configs.ui.twilight")
+			-- vim.cmd("Twilight")
+		end,
+	},
+	{
+		"kevinhwang91/rnvimr",
+		init = function()
+			require("plugins.configs.ranger")
+		end,
+		lazy = false,
 	},
 })

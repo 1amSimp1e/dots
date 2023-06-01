@@ -15,33 +15,40 @@ local check_backspace = function()
 	return col == 0 or vim.fn.getline("."):sub(col, col):match("%s")
 end
 
-local kind_icons = {
-	Text = "",
-	Method = "",
-	Function = "",
-	Constructor = "",
-	Field = "",
-	Variable = "",
-	Class = "",
-	Interface = "",
-	Module = "",
-	Property = "",
-	Unit = "",
-	Value = "",
-	Enum = "",
-	Keyword = "",
-	Snippet = "",
-	Color = "",
-	File = "",
-	Reference = "",
-	Folder = "",
-	EnumMember = "",
-	Constant = "",
-	Struct = "",
-	Event = "",
-	Operator = "",
-	TypeParameter = "",
+local icons = {
+	kind = require("plugins.configs.icons").get("kind"),
+	type = require("plugins.configs.icons").get("type"),
+	cmp = require("plugins.configs.icons").get("cmp"),
 }
+
+local function cmp_format(opts)
+	opts = opts or {}
+
+	return function(entry, vim_item)
+		if opts.before then
+			vim_item = opts.before(entry, vim_item)
+		end
+
+		local kind_symbol = opts.symbol_map[vim_item.kind] or icons.kind.Undefined
+		local source_symbol = opts.symbol_map[entry.source.name] or icons.cmp.undefined
+
+		vim_item.menu = "" 
+		vim_item.kind = string.format("%s %s" , kind_symbol, vim_item.kind)
+
+		if opts.maxwidth ~= nil then
+			if opts.ellipsis_char == nil then
+				vim_item.abbr = string.sub(vim_item.abbr, 1, opts.maxwidth)
+			else
+				local label = vim_item.abbr
+				local truncated_label = vim.fn.strcharpart(label, 0, opts.maxwidth)
+				if truncated_label ~= label then
+					vim_item.abbr = truncated_label .. opts.ellipsis_char
+				end
+			end
+		end
+		return vim_item
+	end
+end
 
 cmp.setup({
 	snippet = {
@@ -49,14 +56,13 @@ cmp.setup({
 			luasnip.lsp_expand(args.body) -- For `luasnip` users.
 		end,
 	},
-
 	mapping = cmp.mapping.preset.insert({
 		["<C-k>"] = cmp.mapping.select_prev_item(),
 		["<C-j>"] = cmp.mapping.select_next_item(),
 		["<C-b>"] = cmp.mapping(cmp.mapping.scroll_docs(-1), { "i", "c" }),
 		["<C-f>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
 		["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
-		["<C-e>"] = cmp.mapping({
+		["<C-c>"] = cmp.mapping({
 			i = cmp.mapping.abort(),
 			c = cmp.mapping.close(),
 		}),
@@ -92,17 +98,24 @@ cmp.setup({
 			"s",
 		}),
 	}),
-  
-	formatting = {
-		format = function(_, vim_item)
-			vim_item.kind = string.format("%s %s", kind_icons[vim_item.kind], vim_item.kind)
-			return vim_item
-		end,
-	},
+    formatting = {
+	fields = { "menu", "abbr", "kind" },
+	format = function(entry, vim_item)
+		local kind_map = vim.tbl_deep_extend("force", icons.kind, icons.type, icons.cmp)
+		local kind = cmp_format({
+			maxwidth = 25,
+			symbol_map = kind_map,
+		})(entry, vim_item)
+		return kind
+	end,
+    },
 	sources = {
 		{ name = "nvim_lsp" },
+		{ name = "copilot" },
+		{ name = "luasnip_choice" },
+		{ name = "snippy" },
 		{ name = "nvim_lua" },
-    { name = "vsnip" },
+		{ name = "vsnip" },
 		{ name = "luasnip" },
 		{ name = "buffer" },
 		{ name = "path" },
@@ -112,7 +125,7 @@ cmp.setup({
 		select = false,
 	},
 	window = {
-		completion = cmp.config.window.bordered(),
+        border = "solid",
 	},
 	sorting = {
 		comparators = {
@@ -127,6 +140,6 @@ cmp.setup({
 		},
 	},
 	experimental = {
-		ghost_text = true,
+		ghost_text = false,
 	},
 })

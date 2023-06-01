@@ -7,13 +7,15 @@ saga.setup({
 	ui = {
 		winblend = 10,
 		border = "rounded",
-		colors = require("catppuccin.groups.integrations.lsp_saga").custom_colors(),
-		kind = require("catppuccin.groups.integrations.lsp_saga").custom_kind(),
 	},
   -- Migrate to BBQ 
   symbol_in_winbar = {
     enable = false,
   },
+  diagnostic = {
+      on_insert = false,
+      on_insert_follow = false,
+  }
 })
 
 local keymap = vim.keymap.set
@@ -41,8 +43,8 @@ keymap("n", "<leader>sc", "<cmd>Lspsaga show_cursor_diagnostics<CR>")
 keymap("n", "<leader>sb", "<cmd>Lspsaga show_buf_diagnostics<CR>")
 
 -- Diagnostic jump can use `<c-o>` to jump back
-keymap("n", "<C-j>", "<cmd>Lspsaga diagnostic_jump_prev<CR>")
-keymap("n", "<C-k>", "<cmd>Lspsaga diagnostic_jump_next<CR>")
+keymap("n", "<C-m>", "<cmd>Lspsaga diagnostic_jump_prev<CR>")
+keymap("n", "<C-n>", "<cmd>Lspsaga diagnostic_jump_next<CR>")
 
 keymap("i", "<C-l>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
 keymap("n", "gp", "<Cmd>Lspsaga peek_definition<CR>")
