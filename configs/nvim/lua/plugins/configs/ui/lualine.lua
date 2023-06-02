@@ -7,6 +7,15 @@ local hide_in_width = function()
 	return vim.fn.winwidth(0) > 80
 end
 
+local spaces2 = {
+	function()
+		return " "
+	end,
+	padding = -10,
+	color = { bg = "#2C2E2F", fg = "#E8E3E3" },
+	separator = {  right = "" },
+}
+
 local spaces = {
 	function()
 		return " "
@@ -76,29 +85,31 @@ local icons = {
 		return "󰀘 "
 	end,
 	padding = 0.3,
-	-- separator = { left = "", right = "" },
-
-	separator = { left = "", right = "" },
-	color = { bg = "#6791C9", fg = "#000000" },
+	separator = { left = "█", right = "█" },
 }
 
 local modes = {
 	"mode",
-	separator = { right = "" },
-	padding = 1,
-	color = { fg = "#BDCBD6" },
+	separator = { left = "", right = "" },
+	padding = 0.4,
 }
 
 local filename = {
 	"filename",
 	file_status = false, -- displays file status (readonly status, modified status)
 	path = 0, -- 0 = just filename, 1 = relative path, 2 = absolute path},
-	color = { fg = "#BDCBD6" },
-	separator = { right = "" },
+	separator = { left = "█", right = "█" },
 	symbols = {
 		modified = "", -- Text to show when the file is modified.
 		readonly = "", -- Text to show when the file is non-modifiable or readonly.
 	},
+	color = { bg = "#1D1D20", fg = "#BDCBD6" },
+}
+
+local filetypes = {
+	"filetype",
+	color = { bg = "#1D1D20", fg = "#BDCBD6" },
+	icon_only = true, -- Display only an icon for filetype
 }
 
 local indent = function()
@@ -191,12 +202,14 @@ lualine.setup({
 		always_divide_middle = true,
 	},
 	sections = {
-		lualine_a = {},
-		lualine_b = {
+		lualine_a = {
 			icons,
-            filetype,
+			filetypes,
 			filename,
 		},
+		lualine_b = {
+
+        },
 		lualine_c = {
 			branch,
 			diff,
@@ -236,7 +249,8 @@ lualine.setup({
 				end,
 				-- separator = { left = "█", right = "█" },
 				separator = { left = "", right = "█" },
-				color = { bg = "#78B892", fg = "#000000" },
+                color = { bg = "#6791C9", fg = "#000000" },
+				-- color = { bg = "#78B892", fg = "#000000" },
 				padding = -10000,
 			},
 
