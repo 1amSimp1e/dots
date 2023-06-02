@@ -1,12 +1,19 @@
+-- ██   ██  █████  ███    ██ ███████  ██████  
+-- ██  ██  ██   ██ ████   ██ ██      ██    ██ 
+-- █████   ███████ ██ ██  ██ ███████ ██    ██ 
+-- ██  ██  ██   ██ ██  ██ ██      ██ ██    ██ 
+-- ██   ██ ██   ██ ██   ████ ███████  ██████  
+
+
 -- General 
 vim.cmd("hi NormalFloat guibg=#151519")
 vim.cmd("hi FloatBorder guibg=#151519 guifg=#151519")
 
 -- cmp completions menu
 vim.cmd("hi CmpItemAbbrDeprecated guifg=#3E4450")
-vim.cmd("hi CmpItemAbbr guifg=#BABABE")
+vim.cmd("hi CmpItemAbbr guifg=#838ea0")
 vim.cmd("hi CmpItemAbbrMatchFuzzy guifg=#FCCF67")
-vim.cmd("hi CmpItemAbbrMatch guifg=#79DCAA")
+vim.cmd("hi CmpItemAbbrMatch guifg=#7faaf4")
 vim.cmd("hi CmpItemKindClass guifg=#E89982")
 vim.cmd("hi CmpItemKindColor guifg=#84A0C6")
 vim.cmd("hi CmpItemKindConstant guifg=#FF6666")
@@ -41,6 +48,7 @@ vim.cmd("hi PmenuThumb guibg=#151519")
 
 -- Telescope highlighting
 vim.cmd("highlight TelescopeMatching gui=bold guifg=#E6CFA1")
+
 vim.cmd("highlight TelescopePreviewBorder guibg=#101011 guifg=#101011")
 vim.cmd("highlight TelescopePreviewLine guibg=#27272C")
 vim.cmd("highlight TelescopePreviewNormal guibg=#101011 guifg=#BABABE")
@@ -49,12 +57,13 @@ vim.cmd("highlight TelescopePreviewTitle guibg=#84A0C6 guifg=#101317")
 vim.cmd("highlight TelescopePromptBorder guibg=#121214 guifg=#121214")
 vim.cmd("highlight TelescopePromptCounter guibg=#121214 gui=bold guifg=#E6CFA1")
 vim.cmd("highlight telescopepromptnormal guibg=#121214 guifg=#bababe")
-vim.cmd("highlight TelescopePromptPrefix guibg=#121214 guifg=#E89982")
+vim.cmd("highlight TelescopePromptPrefix guibg=#121214 guifg=#BDCBD6")
 vim.cmd("highlight TelescopePromptTitle guibg=#E89982 guifg=#101317")
 
 vim.cmd("highlight TelescopeResultsBorder guibg=#101011 guifg=#101011")
 vim.cmd("highlight TelescopeResultsNormal guibg=#101011 guifg=#BABABE")
 vim.cmd("highlight TelescopeResultsTitle guibg=#78B892 guifg=#101317")
+
 vim.cmd("highlight TelescopeSelectionCaret guibg=#27272C guifg=#E89982")
 vim.cmd("highlight TelescopeSelection guibg=#191b1c guifg=#6791C9")
 
@@ -102,6 +111,7 @@ vim.cmd("hi BufferLineTabSeparatorSelected guifg=#101317")
 vim.cmd("hi NeoTreeDirectoryIcon guifg=#BDCBD6")
 vim.cmd("hi NeoTreeNormalNC guibg=#111214")
 vim.cmd("hi NeoTreeNormal guibg=#161719")
+vim.cmd("hi NeoTreeFloatTitle guibg=#84A0C6")
 
 -- Monark Highlighting
 vim.cmd("hi monarkVisual guifg=#6791C9")
@@ -110,3 +120,38 @@ vim.cmd("hi monarkNormal guifg=#E89982")
 
 -- Rnvimr Highlighting
 vim.cmd("hi RnvimrNormal guibg=#101011 guifg=#BDCBD6")
+
+-- Notify
+vim.cmd('hi NotifyBackground guibg=#101317 guifg=#D4D4D5')
+
+vim.cmd('hi NotifyDEBUGBody guibg=#101011 guifg=#C397D8')
+vim.cmd('hi NotifyDEBUGBorder guibg=#101011 guifg=#101011')
+vim.cmd('hi NotifyDEBUGIcon guibg=#101011 guifg=#B77EE0')
+vim.cmd('hi NotifyDEBUGTitle guibg=#101011 guifg=#C397D8')
+vim.cmd('hi NotifyERRORBody guibg=#101011 guifg=#F87070')
+vim.cmd('hi NotifyERRORBorder guibg=#101011 guifg=#101011')
+vim.cmd('hi NotifyERRORIcon guibg=#101011 guifg=#FB7373')
+vim.cmd('hi NotifyERRORTitle guibg=#101011 guifg=#F87070')
+vim.cmd('hi NotifyINFOBody guibg=#101011 guifg=#809BBF')
+vim.cmd('hi NotifyINFOBorder guibg=#101011 guifg=#101011')
+vim.cmd('hi NotifyINFOIcon guibg=#101011 guifg=#5FB0FC')
+vim.cmd('hi NotifyINFOTitle guibg=#101011 guifg=#809BBF')
+
+vim.cmd('hi NotifyLogTime guifg=#515C68')
+vim.cmd('hi NotifyLogTitle guifg=#FB7373')
+
+vim.cmd('hi NotifyTRACEBody guibg=#101011 guifg=#79DCAA')
+vim.cmd('hi NotifyTRACEBorder guibg=#101011 guifg=#101011')
+vim.cmd('hi NotifyTRACEIcon guibg=#101011 guifg=#36C692')
+vim.cmd('hi NotifyTRACETitle guibg=#101011 guifg=#79DCAA')
+
+vim.cmd('hi NotifyWARNBody guibg=#101011 guifg=#FFE59E')
+vim.cmd('hi NotifyWARNBorder guibg=#101011 guifg=#101011')
+vim.cmd('hi NotifyWARNIcon guibg=#101011 guifg=#FCCF67')
+vim.cmd('hi NotifyWARNTitle guibg=#101011 guifg=#FFE59E')
+
+
+-- Indent Blank Line
+vim.cmd('hi IndentBlanklineChar guifg=#22272C')
+vim.cmd('hi IndentBlanklineContextChar guifg=#7AB0DF')
+vim.cmd('hi IndentBlanklineContextStart guibg=#16191F')
