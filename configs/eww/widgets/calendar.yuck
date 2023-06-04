@@ -1,0 +1,81 @@
+(defpoll minute :interval "5s"
+	"date '+%M'")
+(defpoll hour :interval "5s"
+	"date '+%H'")
+(defpoll weekday :interval "24h"
+	"date '+%A'")
+(defpoll monthday :interval "24h"
+	"date '+%d %b'")
+(defpoll month_year :interval "24h"
+    "date '+%B %Y'")
+(defpoll wd-m-d :interval "24h"
+	"date '+%d %B %Y'")
+
+(defpoll calendar_day :interval "10h"
+	"date '+%d'")
+(defpoll calendar_month :interval "10h"
+	"date '+%m'")
+(defpoll calendar_year :interval "10h"
+	"date '+%Y'")
+
+(defwidget calendar-win []
+        (box :class "cal-box"
+            :orientation "v"
+            :space-evenly "false"
+            (label :class "month-year" :text month_year)
+            (box :class "day-names" :orientation "h" :space-evenly "true"
+                (label :text "Su")
+                (label :text "Mo")
+                (label :text "Tu")
+                (label :text "We")
+                (label :text "Th")
+                (label :text "Fr")
+                (label :text "Sa")
+            )
+            (calendar :class "cal" 
+                :show-details false :show-heading false :show-day-names false
+                :day calendar_day :month calendar_month :year calendar_year)
+                (box 
+                    :class "weather-box"
+                    (box 
+                        :space-evenly false 
+                        :orientation "v"
+                        (label 
+                            :class "weather-desc" 
+                            :halign "start" 
+                            :text weather_desc
+                        )
+                        (label 
+                            :class "weather-temp" 
+                            :halign "start" 
+                            :text "${weather_temp}°C"
+                        )
+                        (label
+                            :class "weather-feels_like"
+                            :halign "start"
+                            :text "Feels like: ${weather_feels_like}°C"
+                        )
+                    )
+                    (box 
+                        (label 
+                            :class "weather-icon" 
+                            :halign "end" 
+                            :valign "end" 
+                            :text weather_icon 
+                            :style "color: ${weather_hex}"
+                        )
+                    )
+                )
+        )
+)
+
+(defwindow calendar
+  :monitor 0
+  :geometry (geometry
+    :x "12px"
+    :y "8px"
+  	:anchor "top right"
+    :width "10px"
+    :style "font-family: Iosevka Nerd Font;"
+    :height "10px")
+  (calendar-win))

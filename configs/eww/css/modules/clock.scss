@@ -1,0 +1,38 @@
+.calendar_icon {
+  font-size: 10px;
+  font-family: 'Font Awesome 6 Free';
+  color: $orange;
+  padding-right: 15px;
+  margin-left: -4px;
+  padding-bottom: 1px;
+}
+
+.hour {
+  padding-left: 3px;
+  font-size: 10px;
+  color: $white;
+}
+
+.minute {
+  font-size: 10px;
+  padding-right: 3px;
+  color: $white;
+}
+
+.time {
+  @include rounding;
+  background-color: $bg2;
+  margin: 5px 10px 5px 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  &:hover {
+    background-color: $grey;
+  }
+}
+
+.day {
+  font-size: 10px;
+  color: $white;
+  margin-right: 0.1rem;
+  margin-left: -0.3rem;
+}

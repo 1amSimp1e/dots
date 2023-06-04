@@ -1,0 +1,20 @@
+(defwidget music []
+    (box
+          :class "music_modules"
+          (box
+              :space-evenly false
+              (box
+                :class "song-cover-art"
+                :style "background-image: url(\"${art}\");")
+              (eventbox
+                  (box
+                      :space-evenly false
+                      (label
+                        :class "music_title-modules"
+                        :limit-width 15
+                        :text {media-title})
+                      (button
+                         :class "song-button_status" 
+                         :onclick "playerctl -p spotify,mpd play-pause" 
+                         player_status
+                      ))))))

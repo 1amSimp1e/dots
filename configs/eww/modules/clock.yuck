@@ -1,0 +1,31 @@
+(defvar date_rev false)
+
+(defwidget clock_module []
+  (eventbox
+    :style "border-radius: 12.5px"
+    (overlay
+      :class "module"
+      (button
+        :class "time"
+        :onclick "${EWW_CMD} open --toggle calendar"
+          (box
+            :space-evenly false
+            :style "font-family: Roboto Medium; margin-left: 1.2em; margin-top: 0.2em"
+            (label 
+               :text ""
+               :class "calendar_icon"
+            )
+            (label
+              :text {time.day}
+              :class "day"
+            )
+            (label
+              :text {time.hour} 
+              :style "margin-left: 5px"
+              :class "hour")
+            (label
+              :text ":")
+            (label
+              :text {time.minute}
+              :style "margin-right: 8px"
+              :class "minute"))))))

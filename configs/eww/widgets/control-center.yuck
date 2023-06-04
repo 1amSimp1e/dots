@@ -1,0 +1,181 @@
+(defwidget control-center []
+  (box
+    :class "system-panel"
+    :space-evenly false
+    :orientation "v"
+    (box
+      :class "top-row"
+      :space-evenly false
+      (box
+        :class "image"
+          (image
+            :path "assets/profile.jpg"
+            :image-width 55))
+      (box
+        :class "ur_name"
+        :space-evenly false
+        (label
+          :class "user"
+          :text {user})
+        (button
+            :class "lock_menu"
+            :onclick "swaylock &"
+            :style "font-family: Iosevka Nerd Font"
+            :tooltip "lock"
+            "")
+        (button
+             :class "power_menu"
+             :onclick "${EWW_CMD} open --toggle powermenu"
+             :style "font-family: Iosevka Nerd Font"
+             :tooltip "turn off"
+             "")
+        ))
+    (box
+      :class "sliders"
+      :orientation "v"
+      (box
+        :class "volume-slider-box"
+        :space-evenly false
+        (button
+          :class "volume-icon"
+          :onclick "scripts/volume.sh mute SINK"
+          (image 
+            :class "volume-icon"
+            :path {volume.icon}
+            :image-width 30
+          ))
+        (scale        :class "volume-bar"
+                      :value volume_percent 
+                      :orientation "h"
+                      :tooltip "${volume_percent}%"
+                      :max 100
+                      :min 0
+                      :onchange "wpctl set-volume @DEFAULT_AUDIO_SINK@ {}%" )
+        (label
+          :class "vol-percent"
+          :style "margin-left: -4px"
+          :text "${volume.percent}")
+        (label
+          :style "padding-right: 15px; color: #BFC3C9"
+          :class "percent"
+          :text "%")
+        )
+      (box
+        :class "brightness-slider-box"
+        :space-evenly false
+        (button
+          :class "brightness-slider-icon icon"
+          "")
+        (scale
+          :class "brightness-slider" 
+          :value {brightness_percent} 
+          :marks true 
+          :onchange "light -S {}")
+        (label
+          :class "brightness-percent"
+          :text {brightness_percent})
+        (label
+           :style "padding-right: 15px; color:#BFC3C9"
+           :text "%")
+        ))
+
+      (box
+        :class "media-main"
+        :space-evenly false
+        :hexpand "false"
+        :width 510
+        :limit-width 15
+        :style "background-color: $grey; margin-top: 10px"
+		(box 
+            :class "song-art" 
+            :orientation "h" 
+            :style "background-image: url('${art}')")
+        (box
+          :class "music-info" 
+          :orientation "v"
+          :halign "start"
+          :space-evenly false
+          :hexpand true
+            (label
+              :class "media-title"
+              :hexpand "true"
+              :valign "start"
+              :limit-width 14
+              :style "margin-top: 20px"
+              :text media-title
+              :orientation "v"
+              )
+            (label
+              :class "media-artist"
+              :halign "start"
+              :limit-width 35 
+              :text media-artist))
+        (box :class "song-controls" :orientation "h"
+          :hexpand "false"
+          :limit-width 15
+          :width 100
+            (button :class "media-prev"  :onclick "scripts/song.sh prev" "")
+            (button :class "media-pause" :onclick "playerctl -p spotify,mpd play-pause" player_status)
+            (button :class "media-next"  :onclick "scripts/song.sh next" "")
+    ))
+
+    (centerbox
+      :class "system-row"
+        ;; Wifi Elements
+            (eventbox
+                :onclick "~/.config/eww/scripts/toggle-net/rofi-network-manager.sh"
+                (box
+                    :orientation "v"
+                    :class "element icon ${net.class}"
+                    (button
+                        :onclick "~/.config/eww/scripts/toggle-net/rofi-network-manager.sh"
+                        :class "wifi-button_menu"
+                        "${net.icon}")
+                    (label
+                      :class "wifi-label_menu"
+                      :text {net.status})))
+
+        ;; Bluetooth Elements
+            (box
+              :class "element icon ${bluetooth.class}"
+              :space-evenly true
+              :orientation "v"
+              (button
+                :class "bluetooth-button_menu"
+                :onclick "scripts/bluetooth.sh toggle"
+                {bluetooth.icon})
+              (label
+                :class "bluetooth-label_menu"
+                :text "Bluetooth"
+                :yalign 0.5
+                :style "padding-right: 10px"
+                :tooltip "${bluetooth.text} ${bluetooth.battery}"
+                :limit-width 18
+                ))
+
+        (box
+            :class "element icon airplane-box"
+            :space-evenly true
+            :orientation "v"
+          (button
+            :class "airplane-button"
+            :onclick "scripts/airplane.sh toggle"
+            :style "margin-bottom: -10px;padding-top:20px"
+            airplane)
+          (label
+            :class "airplane-label_menu"
+            :style "margin-top: -20px"
+            :text "Airplane"
+            :yalign 0.5))
+          )))
+
+(defwindow control-center 
+  :stacking "fg" 
+  :monitor 0
+  :geometry (geometry
+    :x "10px"
+    :y "8px"
+    :width "0%"
+    :height "0%"
+    :anchor "left top")
+  (control-center))

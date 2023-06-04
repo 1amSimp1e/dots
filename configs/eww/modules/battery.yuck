@@ -1,0 +1,21 @@
+;; Battery Widgets ;;
+(defwidget bat []
+	(box	:orientation "h"	
+			:space-evenly "false"
+    (button
+       :class "battery-module"
+        (box
+           (image 
+              :class "bat-img"
+              :path "${battery-icon}"
+              :image-width 45
+              :image-height 55
+           )
+        
+        (label	:class "bat"		
+                :halign "end"		
+                :text "${battery-cappacity}%"
+                :tooltip "Battery: ${battery-cappacity}%")))))
+
+(defpoll battery-icon		:interval "1s"	"scripts/battery.sh icon")
+(defpoll battery-cappacity	:interval "1s"	"scripts/battery.sh percent")

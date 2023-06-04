@@ -1,0 +1,23 @@
+(defwidget powermenu[]
+	(box :class "powermenu-box" :space-evenly false :spacing 10
+		(box :class "buttons-box" :orientation "v" :space-evenly false :spacing 20 :valign "center"
+			(box :class "first-row" :space-evenly false :spacing 20
+				(button :class "shutdown" :onclick "systemctl poweroff -i" "" )
+				(button :class "reboot" :onclick "systemctl reboot -i" "")
+			)
+			(box :class "second-row" :space-evenly false :spacing 20
+				(button :class "suspend" :onclick "systemctl suspend" "")
+				(button :class "exit" :onclick "eww close powermenu" "")
+			)
+		)
+	)
+)
+
+(defwindow powermenu
+	:stacking "fg" 
+    :monitor 0
+      :geometry (geometry
+        :width "10%"
+        :height "0%"
+        :anchor "center")
+	(powermenu))

@@ -1,0 +1,22 @@
+.notification-button {
+  font-family: 'Font Awesome 5 Free';
+  color: $blue;
+  margin-right: 12px;
+  margin-left: 5px;
+}
+
+.notification {
+  @include rounding;
+  margin: 5px 0px 5px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 3px;
+  margin-left: -10px;
+  &:hover {
+    background-color: $grey;
+    margin: 5px 0px 5px 0px;
+    margin-left: -10px;
+    border-radius: 10px;
+  }
+}

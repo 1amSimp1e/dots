@@ -1,0 +1,34 @@
+(defwidget weather_modules []
+    (button
+     :class "weather_modules-button"
+     :space-evenly false
+     :hexpand false
+     :width 30
+      (box
+        :orientation "h"
+        :style "margin-left: -40px; margin-right: -10px;"
+        :hexpand false
+        :width 10
+        (label
+            :class "weather_modules-icons"
+            :halign "start" 
+            :text weather_icon 
+            :style "color: ${weather_hex}; font-size: 26.5px;"
+            )
+      (box
+        :orientation "v"
+        :class "weather_modules-temp_desc"
+        :style "${weather_style}"
+        :spacing -10; 
+        :hexpand false
+        :width 10
+        (label
+            :class "weather_modules-temp"
+            :halign "start" 
+            :style "font-size: 18px"
+            :text "${weather_temp}°C")
+        (label
+            :class "weather_modules-desc"
+            :halign "start" 
+            :style "font-size: 16px"
+            :text weather_desc)))))

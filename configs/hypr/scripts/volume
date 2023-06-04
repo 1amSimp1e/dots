@@ -1,0 +1,34 @@
+#!/bin/sh
+
+down() {
+pamixer -d 2
+volume=$(pamixer --get-volume)
+[$volume -gt 0 ] && volume=`expr $volume`  
+notify-send -a "VOLUME" "Decreasing to $volume%" -h int:value:"$volume" -i ~/.config/dunst/assets/ui/volume_up.png -r 1 -u normal
+canberra-gtk-play -i audio-volume-change -d "changevolume"
+}
+
+up() {
+pamixer -i 2
+volume=$(pamixer --get-volume)
+[ $volume -lt 1000 ] && volume=`expr $volume`  
+dunstify -a "VOLUME" "Increasing to $volume%" -h int:value:"$volume" -i ~/.config/dunst/assets/ui/volume_up.png -r 1 -u normal
+canberra-gtk-play -i audio-volume-change -d "changevolume"
+}
+
+mute() {
+muted="$(pamixer --get-mute)"
+if $muted; then
+  pamixer -u
+  dunstify -a "VOLUME" "UNMUTED" -i ~/.config/dunst/assets/ui/volume_up.png -r 2593 -u normal
+else 
+  pamixer -m
+  dunstify -a "VOLUME" "MUTED" -i ~/.config/dunst/assets/ui/volume_muted.svg -r 2593 -u normal
+fi
+}
+
+case "$1" in
+  up) up;;
+  down) down;;
+  mute) mute;;
+esac

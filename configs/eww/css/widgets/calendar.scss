@@ -1,0 +1,76 @@
+.calendar-win {
+  @include window;
+  background-color: #101012;
+  border: 1px solid $border;
+  color: $fg;
+  font-weight: bold;
+  padding-right: 0.2em;
+}
+
+calendar {
+  @include rounding;
+  font-family: 'Roboto Medium';
+  font-weight: bold;
+
+  &:selected {
+    color: $blue;
+  }
+  &:indeterminate {
+    color: rgba(205, 219, 249, 0.3);
+  }
+}
+
+.calendar {
+  background-color:#101012;
+  margin: 1em;
+  border-radius: 18px;
+
+  .cal-box {
+  background-color:#101012;
+  border-radius: inherit;
+
+    padding: 0.5em;
+    margin: 1em;
+
+    .month-year {
+      color: $nord_blue;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0.5em 0em 0em;
+    }
+
+    .day-names {
+      margin: 1em 1em 0em;
+      font-size: 14px;
+      font-weight: bold;
+      color: $dark_blue;
+    }
+
+    .cal {
+      padding: 1em 0.75em 0em;
+    }
+  }
+  .weather-box {
+    background-color: $bg4;
+    padding: 20px;
+    border-radius: 18px;
+    label {
+      font-family: Iosevka Nerd Font;
+    }
+    .weather-icon {
+      font-size: 52px;
+      font-family: 'Material Icons';
+      margin-bottom: 10px;
+    }
+  }
+  .weather-desc {
+    color: $lighter_grey;
+    font-size: 15px;
+  }
+  .weather-feels_like{
+      color: $mint
+  }
+  .weather-temp {
+    font-size: 25px;
+  }
+}

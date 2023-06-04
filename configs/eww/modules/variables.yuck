@@ -1,0 +1,63 @@
+(defvar time_rev false)
+(defpoll time :interval "5s" `date +'{"date": "%d/%m", "hour": "%H", "minute": "%M", "day": "%a %b %d"}'`)
+(defpoll date :interval "10s"  "date '+%b %d'")
+
+(deflisten memory "scripts/memory.sh")
+(defpoll cpu :interval "15s" "scripts/cpu.sh")
+(defvar memory-rev false)
+(defvar cpu-rev false)
+
+(deflisten battery "scripts/battery")
+(deflisten net "scripts/wifi.sh")
+(deflisten workspace "scripts/workspaces")
+
+(defvar music_reveal false)
+(defvar hover_mus false)
+(defpoll song_art :interval "0.01s" "scripts/songArt.sh")
+(defpoll song_artist :interval "100ms"  "scripts/music.sh --song")
+(defpoll song_status :interval "100ms"  "scripts/music.sh --status")
+
+(defpoll brightness_percent :interval "0.2s" "brightnessctl -m -d amdgpu_bl0 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
+(defvar br_reveal false)
+
+(deflisten volume "scripts/volume.sh")
+(defpoll volume_percent :interval "1s"  "pamixer --get-volume")
+(defvar vol_reveal false)
+
+;; Menu
+
+;; Get User
+(deflisten user "echo $USER")
+
+; System Control
+(deflisten bluetooth "scripts/bluetooth.sh")
+(deflisten airplane "scripts/airplane.sh")
+
+;; Music 
+(defpoll media-title :interval "1s" "scripts/song.sh title")
+(defpoll media-artist :interval "1s" "scripts/song.sh artist")
+(defpoll media-curr :interval "1s" "scripts/song.sh current-time")
+(defpoll media-total :interval "1s" "scripts/song.sh total-time")
+(defpoll media-track :interval "1s" "scripts/song.sh percent")
+(defpoll player_status :interval "0.1s" "scripts/song.sh player_status")
+
+(defpoll art :interval "1s"
+	"echo \"$HOME/.cache/eww/cover.png\"")
+
+;; Weather
+(defpoll weather_temp :interval "3h" :initial "0"
+	"scripts/weather.sh current_temp")
+(defpoll weather_temp_f :interval "3h" :initial "0"
+	"scripts/weather.sh current_temp_fahrenheit")
+(defpoll weather_desc :interval "3h"
+	"scripts/weather.sh weather_desc")
+(defpoll weather_feels_like :interval "3h"
+	"scripts/weather.sh feels_like")
+(defpoll weather_humidity :interval "3h"
+	"scripts/weather.sh humidity")
+(defpoll weather_icon :interval "3h"
+	"scripts/weather.sh icon")
+(defpoll weather_hex :interval "3h"
+	"scripts/weather.sh hex")
+(defpoll weather_style :interval "3h"
+	"scripts/weather.sh style")

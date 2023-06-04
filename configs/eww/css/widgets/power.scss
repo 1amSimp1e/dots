@@ -1,0 +1,60 @@
+.powermenu-box {
+	background-color: #0d0e0c;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+
+.buttons-box {
+	font-family: "Font Awesome 6 Free Solid";
+	font-size: 25px;
+}
+
+.shutdown {
+	color: $red;
+}
+
+.reboot {
+	color: $green;
+}
+
+.reboot:hover,
+.shutdown:hover,
+.exit:hover,
+.suspend:hover {
+	background-color: $grey;
+}
+
+.reboot,
+.shutdown,
+.exit,
+.suspend {
+	font-family: "Font Awesome 6 Free Solid";
+	font-size: 50px;
+	border-radius: 80px;
+	padding: 20px;
+	min-width: 100px;
+	min-height: 100px;
+	background-color: $bg4;
+    color: $white;
+}
+
+.suspend:hover,
+.exit:hover,
+.shutdown:hover,
+.reboot:hover{
+	background-color: $green;
+	color: $black;
+}
+
+.shutdown:hover{
+    background-color: $red;
+}
+
+.exit:hover{
+    background-color: $lavender;
+}
+
+.suspend:hover{
+    background-color: $pink;
+}

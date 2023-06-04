@@ -1,0 +1,48 @@
+.workspaces {
+  background: $bg;
+  @include rounding;
+  margin: 5px 3px 5px 8px;
+  inner {
+    &:hover {
+      background-color: $grey;
+    }
+  }
+  button {
+    border-style: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background-color: $dark_grey;
+
+    margin: 5px 12px 5px 6px;
+    padding-left: 7px;
+    min-width: 10px;
+    min-height: 17.5px;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: $light_grey;
+    }
+    &.occupied {
+      background: $light_grey;
+      margin-left: 8px;
+      margin-right: 10px;
+
+      min-width: 12px;
+      min-height: 18px;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: $grey;
+      }
+    }
+    &.active {
+      background: $light_blue;
+      margin-left: 6px;
+      margin-right: 8px;
+      border-radius: 9px;
+
+      min-height: 19px;
+      min-width: 27px;
+    }
+  }
+}

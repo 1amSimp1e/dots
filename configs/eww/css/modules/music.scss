@@ -1,0 +1,79 @@
+.music_modules {
+  @include rounding;
+  background-color: $bg2;
+  padding: 0px 10px 0px 12px;
+  margin: 5px 0px 5px 8px;
+  &:hover{
+      background-color: $grey;
+  }
+}
+
+.music_title-modules {
+  font-family: Iosevka Nerd Font;
+  margin-left: 8px;
+}
+
+.song-cover-art {
+  background-position: center;
+  background-size: cover;
+  margin: 4px 2px 4px -1px;
+  min-height: 24px;
+  min-width: 24px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.music-window {
+  @include window;
+  background-color: $bg;
+  border: 1px solid $border;
+  color: $fg;
+}
+
+.music-cover-art {
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  margin: 1em;
+  min-height: 170px;
+  min-width: 170px;
+}
+
+.music-box {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.music-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.music-artist {
+  color: $grey_fg;
+}
+
+.music-button label {
+  color: $grey_fg;
+  font-size: 2rem;
+}
+
+.music-time {
+  color: $grey_fg;
+  margin: 0 1rem;
+}
+
+.song-button_previous,
+.song-button_next,
+.song-button_status,
+.music_modules-icon {
+  font-family: 'Font Awesome 6 Free';
+  animation: 100ms;
+  padding: 4px;
+  &:hover {
+    color: $grey;
+  }
+}
+
+.song-button_status {
+  margin-left: 10px;
+}

@@ -1,0 +1,85 @@
+.system-module {
+  @include rounding;
+  background-color: $bg3;
+  margin: 5px 5px 5px 8px;
+
+  &:hover {
+    background-color: $grey;
+  }
+}
+.system{
+  @include rounding;
+  &:hover {
+    background-color: $grey;
+  }
+}
+.wifi-icon {
+  margin-bottom: 0.1rem;
+  padding-right: 5px;
+  padding-left: 11px;
+  margin-right: 0.12em;
+  font-family: 'Iosevka Nerd Font';
+  color: $mint;
+}
+
+.volume_label {
+  color: $mint;
+  font-family: 'Font Awesome 6 Free';
+  padding-right: 8px;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+}
+
+.bat {
+  font-family: Roboto Medium;
+  font-size: 0em;
+  padding-right: 0.4rem;
+  color: $white;
+  margin: 0.2em 0em 0.1em 0em;
+  padding-left: 6px;
+}
+
+.bat-img {
+  padding-right: 0.2rem;
+  margin: 0.1em -4px 0.1em 0em;
+  padding-left: 0.6rem;
+  color: $green;
+}
+
+.battery-module {
+  @include rounding;
+  margin: 5px -1px 5px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  &:hover {
+    background-color: $grey;
+    margin: 5px -1px 5px 0px;
+  }
+}
+
+// .memory-info,
+// .cpu-info {
+//   font-family: 'SF Pro';
+//   font-size: 8px;
+//   font-weight: bold;
+// }
+//
+// .memory-inside,
+// .cpu-inside {
+//   padding: 12px;
+// }
+//
+// .memory-bar {
+//   color: $dark_green;
+//   background-color: $bg2;
+//   margin-left: 12px;
+// }
+//
+// .cpu-bar {
+//   color: $red;
+//   background-color: $bg2;
+// }
+//
+// .cpu-inside {
+//   padding: 13px;
+// }

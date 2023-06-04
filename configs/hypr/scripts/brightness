@@ -1,0 +1,18 @@
+#!/bin/sh
+
+down() {
+brillo -u 150000 -U 2
+brightness=$(light -g)
+dunstify -a "BRIGHTNESS" "Decreasing to $brightness%" -h int:value:"$brightness" -i ~/.config/dunst/assets/ui/brightness_down.png -r 1 -u normal
+}
+
+up() {
+brillo -u 150000 -A 2
+brightness=$(light -g)
+dunstify -a "BRIGHTNESS" "Increasing to $brightness%" -h int:value:"$brightness" -i ~/.config/dunst/assets/ui/brightness_up.png -r 1 -u normal
+}
+
+case "$1" in
+  up) up;;
+  down) down;;
+esac

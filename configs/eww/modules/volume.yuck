@@ -1,0 +1,12 @@
+(defwidget volume []
+  (eventbox
+      :class "volume"
+      :onscroll "echo {} | sed -e 's/up/-/g' -e 's/down/+/g' | xargs -I% wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.005%"
+      :onclick "pavucontrol &"
+      :onrightclick "scripts/volume mute SINK"
+    (image 
+        :class "volume_label"
+        :path {volume.icon}
+        :image-width 22
+        :tooltip "${"Volume at"} ${volume.percent} ${"%"}"
+)))

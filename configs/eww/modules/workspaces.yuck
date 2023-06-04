@@ -1,0 +1,11 @@
+(deflisten workspaces_var `$HOME/.config/eww/scripts/workspaces.sh`)
+
+(defwidget workspaces []
+    (box :orientation "h" :class "workspaces" :space-evenly "false" :halign "center" :spacing -1
+        (button :class {workspaces_var[0]} :valign "center" :onclick "hyprctl dispatch workspace 1")
+        (button :class {workspaces_var[1]} :valign "center" :onclick "hyprctl dispatch workspace 2")
+        (button :class {workspaces_var[2]} :valign "center" :onclick "hyprctl dispatch workspace 3")
+        (button :class {workspaces_var[3]} :valign "center" :onclick "hyprctl dispatch workspace 4")
+        (button :class {workspaces_var[4]} :valign "center" :onclick "hyprctl dispatch workspace 5")
+        (button :class {workspaces_var[5]} :valign "center" :onclick "hyprctl dispatch workspace 6")
+	))

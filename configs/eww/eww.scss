@@ -1,0 +1,41 @@
+@mixin rounding {
+  border-radius: 13px;
+}
+
+@mixin window {
+  @include rounding;
+  border: 1px solid $border;
+  box-shadow: 0 2px 3px $shadow;
+  margin: 5px 5px 10px;
+}
+
+* {
+  all: unset;
+  transition: 400ms ease;
+}
+
+// Colors
+@import 'css/colors';
+
+// Bar Modules
+@import 'css/modules/music';
+@import 'css/modules/system';
+@import 'css/modules/weather';
+@import 'css/modules/workspaces';
+@import 'css/modules/others';
+@import 'css/modules/launcher';
+@import 'css/modules/noti';
+@import 'css/modules/clock';
+
+// Widgets Modules
+@import 'css/widgets/menu';
+@import 'css/widgets/calendar';
+@import 'css/widgets/power';
+
+.bar {
+  background-color: $bg;
+  color: $fg;
+  label {
+    font-size: 1.32rem;
+  }
+}

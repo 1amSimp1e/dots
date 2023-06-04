@@ -1,0 +1,11 @@
+(defwidget launcher []
+  (button
+    :class "launcher_module"
+    :orientation "h"
+    :tooltip "Menu"
+    :onclick "${EWW_CMD} open --toggle control-center"
+    (eventbox
+          (image
+            :class "launcher-icon"
+            :path "assets/menu.png"
+          :image-width 20))))

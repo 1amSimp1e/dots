@@ -1,0 +1,25 @@
+.weather_modules-button {
+  @include rounding;
+  background-color: $bg3;
+  margin: 5px 2px;
+  &:hover {
+    background-color: $grey;
+  }
+}
+
+.weather_modules-icons {
+  margin-right: -10rem;
+  margin-left: -30px;
+  padding-left: 10px;
+
+}
+
+.weather_modules-temp_desc {
+  font-family: Roboto;
+  padding-right: 20px;
+  padding-left: 0.7rem;
+}
+
+.weather_modules-temp {
+  font-weight: bold;
+}

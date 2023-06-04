@@ -1,0 +1,23 @@
+tooltip {
+  background: $bg;
+  border: 1px solid $border;
+  border-radius: 8px;
+  margin-top: 90rem;
+
+  label {
+    font-size: 1.2rem;
+    font-family: Iosevka Nerd Font;
+  }
+}
+
+.module {
+  margin: 0 5px;
+}
+
+scale trough {
+  background-color: $bg1;
+  border-radius: 24px;
+  margin: 0 1rem;
+  min-height: 10px;
+  min-width: 70px;
+}
