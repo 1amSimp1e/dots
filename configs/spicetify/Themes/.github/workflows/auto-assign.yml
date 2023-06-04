@@ -1,0 +1,58 @@
+name: 'Auto Assing on Theme'
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Naturalclar/issue-action@v2.0.2
+        with:
+          title-or-body: 'both'
+          parameters: |
+            [
+              {
+                "keywords": ["BurntSienna"],
+                "assignees": ["pjaspinski"]
+              },
+              {
+                "keywords": ["Default"],
+                "assignees": ["Blacksuan19"]
+              },
+              {
+                "keywords": ["Dreary"],
+                "assignees": ["CharlieS1103"]
+              },
+              {
+                "keywords": ["Dribbblish"],
+                "assignees": ["khanhas"]
+              },
+              {
+                "keywords": ["Glaze"],
+                "assignees": ["CharlieS1103"]
+              },
+              {
+                "keywords": ["Onepunch"],
+                "assignees": ["okarin001"]
+              },
+              {
+                "keywords": ["Sleek"],
+                "assignees": ["harbassan"]
+              },
+              {
+                "keywords": ["Turntable"],
+                "assignees": ["grasonchan"]
+              },
+              {
+                "keywords": ["Ziro"],
+                "assignees": ["schnensch0"]
+              },
+              {
+                "keywords": ["Flow"],
+                "assignees": ["ian-Liaozy", "Ruixi-Zhang"]
+              }
+            ]
+          github-token: '${{ secrets.GITHUB_TOKEN }}'

@@ -1,0 +1,8 @@
+[20:01:13 2023-03-12] FETCHING Version 2.16.2
+[20:01:13 2023-03-12] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.16.2/spicetify-2.16.2-linux-amd64.tar.gz
+[20:01:14 2023-03-12] EXTRACTING /home/peter/.spicetify/spicetify.tar.gz
+[20:01:14 2023-03-12] SETTING EXECUTABLE PERMISSIONS TO /home/peter/.spicetify/spicetify
+[20:01:14 2023-03-12] REMOVING /home/peter/.spicetify/spicetify.tar.gz
+[20:01:14 2023-03-12] spicetify path already set in /home/peter/.zshrc, continuing...
+[20:01:14 2023-03-12] spicetify v2.16.2 was installed successfully to /home/peter/.spicetify
+[20:01:14 2023-03-12] Run 'spicetify --help' to get started
