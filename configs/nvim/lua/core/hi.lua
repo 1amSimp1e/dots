@@ -57,7 +57,7 @@ vim.cmd("highlight TelescopePreviewTitle guibg=#84A0C6 guifg=#101317")
 vim.cmd("highlight TelescopePromptBorder guibg=#121214 guifg=#121214")
 vim.cmd("highlight TelescopePromptCounter guibg=#121214 gui=bold guifg=#E6CFA1")
 vim.cmd("highlight telescopepromptnormal guibg=#121214 guifg=#bababe")
-vim.cmd("highlight TelescopePromptPrefix guibg=#121214 guifg=#BDCBD6")
+vim.cmd("highlight TelescopePromptPrefix guibg=#121214 guifg=#6791C9")
 vim.cmd("highlight TelescopePromptTitle guibg=#E89982 guifg=#101317")
 
 vim.cmd("highlight TelescopeResultsBorder guibg=#101011 guifg=#101011")
