@@ -1,7 +1,7 @@
 (defwidget wifi []
   (button
     :class "wifi-icon"
-    :onclick "~/.config/eww/scripts/toggle-net/rofi-network-manager.sh"
-    :tooltip {net.essid}
-    :style "color: ${net.color}; background-color: red"
+    :onclick "scripts/wifi.sh toggle"
+    :tooltip {net.name}
+    :style "color: ${net.color}"
     {net.icon}))

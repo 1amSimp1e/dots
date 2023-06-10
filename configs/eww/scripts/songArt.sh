@@ -8,8 +8,8 @@ if [[ ! -d $TMP_DIR ]]; then
 	mkdir -p $TMP_DIR
 fi
 
-ART_FROM_SPOTIFY="$(playerctl -p spotify metadata mpris:artUrl | sed -e 's/open.spotify.com/i.scdn.co/g')"
-ART_FROM_BROWSER="$(playerctl -p mpd metadata mpris:artUrl | sed -e 's/file:\/\///g')"
+ART_FROM_SPOTIFY="$(playerctl -p %any,spotify metadata mpris:artUrl | sed -e 's/open.spotify.com/i.scdn.co/g')"
+ART_FROM_BROWSER="$(playerctl -p %any,mpd,firefox,chromium,brave metadata mpris:artUrl | sed -e 's/file:\/\///g')"
 
 if [[ $(playerctl -p spotify,%any,firefox,chromium,brave,mpd metadata mpris:artUrl) ]]; then
 	curl -s "$ART_FROM_SPOTIFY" --output $TMP_TEMP_PATH
@@ -27,3 +27,4 @@ cp $TMP_TEMP_PATH $TMP_COVER_PATH
 # 	-sparse-color Barycentric '%[fx:w*2/32],0 transparent  %[fx:w+0.5],0 opaque' \
 # 	-evaluate multiply 0.45 \
 # 	$TMP_COVER_PATH
+

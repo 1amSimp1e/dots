@@ -1,6 +1,5 @@
-(defvar time_rev false)
-(defpoll time :interval "5s" `date +'{"date": "%d/%m", "hour": "%H", "minute": "%M", "day": "%a %b %d"}'`)
-(defpoll date :interval "10s"  "date '+%b %d'")
+(defpoll time :interval "0.1s" `date +'{"date": "%d/%m", "hour": "%H", "minute": "%M", "day": "%a %b %d"}'`)
+(defpoll date :interval "100s"  "date '+%b %d'")
 
 (deflisten memory "scripts/memory.sh")
 (defpoll cpu :interval "15s" "scripts/cpu.sh")
@@ -12,17 +11,13 @@
 (deflisten workspace "scripts/workspaces")
 
 (defvar music_reveal false)
-(defvar hover_mus false)
 (defpoll song_art :interval "0.01s" "scripts/songArt.sh")
-(defpoll song_artist :interval "100ms"  "scripts/music.sh --song")
-(defpoll song_status :interval "100ms"  "scripts/music.sh --status")
 
 (defpoll brightness_percent :interval "0.2s" "brightnessctl -m -d amdgpu_bl0 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
 (defvar br_reveal false)
 
 (deflisten volume "scripts/volume.sh")
 (defpoll volume_percent :interval "1s"  "pamixer --get-volume")
-(defvar vol_reveal false)
 
 ;; Menu
 

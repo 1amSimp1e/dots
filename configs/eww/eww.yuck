@@ -24,7 +24,6 @@
     (launcher)
     (weather_modules)
     (music)
-    song_art
     ))
 
 (defwidget system-module []

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PLAYERS="spotify,mpd"
+PLAYERS="%all,spotify,mpd,firefox"
 ARTIST=$(playerctl -p $PLAYERS metadata --format '{{artist}}')
-TITLE=$(playerctl -p $PLAYERS metadata --format {{title}})
+TITLE=$(playerctl -p $PLAYERS metadata --format '{{title}}')
 STATUS=$(playerctl -p $PLAYERS status)
 
 artist() {
