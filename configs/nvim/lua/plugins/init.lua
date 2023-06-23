@@ -66,9 +66,9 @@ lazy.setup({
 		dependencies = {
 			"kyazdani42/nvim-web-devicons",
 		},
-		config = function()
-			require("plugins.configs.ui.lualine")
-		end,
+		-- config = function()
+		-- 	require("plugins.configs.ui.lualine")
+		-- end,
 	},
 	{
 		"mfussenegger/nvim-dap",
@@ -263,5 +263,48 @@ lazy.setup({
 			--   If not available, we use `mini` as the fallback
 			"rcarriga/nvim-notify",
 		},
+        config = function ()
+          require('plugins.configs.ui.noice')
+        end
 	},
+    { "anuvyklack/windows.nvim",
+       dependencies = {
+          "anuvyklack/middleclass",
+          "anuvyklack/animation.nvim"
+       },
+       config = function()
+          vim.o.winwidth = 10
+          vim.o.winminwidth = 10
+          vim.o.equalalways = false
+          require('windows').setup()
+       end
+    },
+    { 'freddiehaddad/feline.nvim',
+        config = function ()
+			require("plugins.configs.ui.feline")
+        end
+    },
+    {
+      "folke/flash.nvim",
+      event = "VeryLazy",
+      ---@type Flash.Config
+      opts = {},
+      keys = {
+        {
+          "s",
+          mode = { "n", "x", "o" },
+          function()
+            -- default options: exact mode, multi window, all directions, with a backdrop
+            require("flash").jump()
+          end,
+        },
+        {
+          "S",
+          mode = { "o", "x" },
+          function()
+            require("flash").treesitter()
+          end,
+        },
+      },
+    }
 })

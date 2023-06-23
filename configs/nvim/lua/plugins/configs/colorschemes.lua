@@ -61,28 +61,28 @@ require("onedarkpro").setup({
 
 -- -- Transparent
 --
-vim.api.nvim_create_autocmd("ColorScheme", {
-	pattern = "*",
-	callback = function()
-		local hl_groups = {
-			"Normal",
-			"SignColumn",
-			"NormalNC",
-			"TelescopeBorder",
-			"NeoTreeNormal",
-			"EndOfBuffer",
-			"MsgArea",
-            "LuaLine",
-            "LineNr",
-            "Bufferline",
-		}
-		for _, name in ipairs(hl_groups) do
-			vim.cmd(string.format("highlight %s ctermbg=none guibg=none", name))
-		end
-	end,
-})
+-- vim.api.nvim_create_autocmd("ColorScheme", {
+-- 	pattern = "*",
+-- 	callback = function()
+-- 		local hl_groups = {
+-- 			"Normal",
+-- 			"SignColumn",
+-- 			"NormalNC",
+-- 			"TelescopeBorder",
+-- 			"NeoTreeNormal",
+-- 			"EndOfBuffer",
+-- 			"MsgArea",
+--             "LuaLine",
+--             "LineNr",
+--             "Bufferline",
+-- 		}
+-- 		for _, name in ipairs(hl_groups) do
+-- 			vim.cmd(string.format("highlight %s ctermbg=none guibg=none", name))
+-- 		end
+-- 	end,
+-- })
 --
-vim.opt.fillchars = "eob: "
+-- vim.opt.fillchars = "eob: "
 --
 local colorscheme = "onedark"
 

@@ -106,3 +106,9 @@ keymap("n", "<leader>mp", "<cmd>PeekOpen<CR>", opts)
 
 -- Open Ranger
 keymap("n", "<leader>t", "<cmd>RnvimrToggle<CR>", opts)
+
+-- Other Ultilities
+keymap('n', '<C-w>z', '<cmd>WindowsMaximize')
+keymap('n', '<C-w>_', '<cmd>WindowsMaximizeVertically')
+keymap('n', '<C-w>|', '<cmd>WindowsMaximizeHorizontally')
+keymap('n', '<C-w>=', '<cmd>WindowsEqualize')

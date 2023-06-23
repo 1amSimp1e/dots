@@ -20,7 +20,21 @@ local icons = {
 	type = require("plugins.configs.icons").get("type"),
 	cmp = require("plugins.configs.icons").get("cmp"),
 }
+  -- local cmp_window = require "cmp.config.window"
 
+local function border(hl_name)
+  return {
+    { "╭", hl_name },
+    { "─", hl_name },
+    { "╮", hl_name },
+    { "│", hl_name },
+    { "╯", hl_name },
+    { "─", hl_name },
+    { "╰", hl_name },
+    { "│", hl_name },
+  }
+
+end
 local function cmp_format(opts)
 	opts = opts or {}
 
@@ -32,7 +46,7 @@ local function cmp_format(opts)
 		local kind_symbol = opts.symbol_map[vim_item.kind] or icons.kind.Undefined
 		local source_symbol = opts.symbol_map[entry.source.name] or icons.cmp.undefined
 
-		vim_item.menu = "" 
+		vim_item.menu = ""
 		vim_item.kind = string.format("%s %s" , kind_symbol, vim_item.kind)
 
 		if opts.maxwidth ~= nil then
@@ -103,7 +117,7 @@ cmp.setup({
 	format = function(entry, vim_item)
 		local kind_map = vim.tbl_deep_extend("force", icons.kind, icons.type, icons.cmp)
 		local kind = cmp_format({
-			maxwidth = 25,
+			maxwidth = 28,
 			symbol_map = kind_map,
 		})(entry, vim_item)
 		return kind
@@ -125,7 +139,11 @@ cmp.setup({
 		select = false,
 	},
 	window = {
-        border = "solid",
+      winhighlight = "Normal:CmpDoc",
+      completion = {
+            border='rounded',
+            scrollbar = false,
+        },
 	},
 	sorting = {
 		comparators = {

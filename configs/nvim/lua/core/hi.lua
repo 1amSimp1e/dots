@@ -7,13 +7,13 @@
 
 -- General 
 vim.cmd("hi NormalFloat guibg=#151519")
-vim.cmd("hi FloatBorder guibg=#151519 guifg=#151519")
+vim.cmd("hi FloatBorder guifg=#2C2E2F")
 
 -- cmp completions menu
 vim.cmd("hi CmpItemAbbrDeprecated guifg=#3E4450")
-vim.cmd("hi CmpItemAbbr guifg=#838ea0")
+vim.cmd("hi CmpItemAbbr guifg=#b7bdc9")
 vim.cmd("hi CmpItemAbbrMatchFuzzy guifg=#FCCF67")
-vim.cmd("hi CmpItemAbbrMatch guifg=#7faaf4")
+vim.cmd("hi CmpItemAbbrMatch guifg=#8AB3F7")
 vim.cmd("hi CmpItemKindClass guifg=#E89982")
 vim.cmd("hi CmpItemKindColor guifg=#84A0C6")
 vim.cmd("hi CmpItemKindConstant guifg=#FF6666")
@@ -41,8 +41,9 @@ vim.cmd("hi CmpItemKindUnit guifg=#54CED6")
 vim.cmd("hi CmpItemKindValue guifg=#79DCAA")
 vim.cmd("hi CmpItemKindVariable guifg=#36C692")
 vim.cmd("hi CmpItemMenu guifg=#6791C9")
-vim.cmd("hi Pmenu guibg=#151519 guifg=#A0A0A5")
-vim.cmd("hi PmenuSbar guibg=#151519 guifg=#A0A0A5")
+
+vim.cmd("hi Pmenu guibg=#151519 guifg=#585859")
+vim.cmd("hi PmenuSbar guibg=#151519 guifg=#585859")
 vim.cmd("hi PmenuSel guibg=#2C2E2F")
 vim.cmd("hi PmenuThumb guibg=#151519")
 
@@ -71,7 +72,7 @@ vim.cmd("highlight TelescopeSelection guibg=#191b1c guifg=#6791C9")
 vim.cmd("hi CursorColumn guibg=#101317")
 vim.cmd("hi Cursor guibg=#FFFFFF guifg=#101317")
 vim.cmd("hi CursorLineFold guibg=#101317 guifg=#70C0BA")
-vim.cmd("hi CursorLine guibg=#2C2E2F")
+vim.cmd("hi CursorLine guibg=none")
 vim.cmd("hi CursorLineNr gui=bold guifg=#FFFFFF")
 vim.cmd("hi CursorLineSign guibg=none")
 
@@ -155,3 +156,6 @@ vim.cmd('hi NotifyWARNTitle guibg=#101011 guifg=#FFE59E')
 vim.cmd('hi IndentBlanklineChar guifg=#22272C')
 vim.cmd('hi IndentBlanklineContextChar guifg=#7AB0DF')
 vim.cmd('hi IndentBlanklineContextStart guibg=#16191F')
+
+-- Lsp Saga
+vim.cmd('hi SagaNormal guibg=#101011')
