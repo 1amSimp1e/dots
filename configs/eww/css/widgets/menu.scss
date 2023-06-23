@@ -52,7 +52,7 @@
 
 .element {
   @include rounding;
-  background-color: $bg1;
+  background-color: #18181A;
   margin: 10px;
 
   button {
@@ -204,7 +204,7 @@
 
 .wifi-button_menu,
 .bluetooth-button_menu {
-  font-family: 'Iosevka Nerd Font';
+  font-family: 'Material Icons';
   border-radius: 30px;
   margin-bottom: -15px;
 }
@@ -273,10 +273,26 @@
   background-position: center;
   background-size: cover;
   margin: 6px 5px 6px 15px;
-  padding-left: 75px;
+  padding-left: 80px;
   padding-top: 40px;
   padding-bottom: 20px;
   min-height: 40px;
   min-width: 20px;
   border-radius: 12px;
+}
+
+
+// Network Elements
+.net-connected{
+    background-color: #87B0F2;
+  font-family: Roboto Medium;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.net-disconnected{
+  font-family: Roboto Medium;
+    background-color: #18181A;
+    margin-right: 50px;
+    border-radius: 20px;
 }

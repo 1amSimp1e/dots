@@ -9,7 +9,7 @@
 
 # get initialize network device info and states
 nm="$(nmcli d | jc --nmcli | jaq -r '.[] | select(.type | test("^(wifi|ethernet)$", "ix"))')"
-icons=("" "" "" "" "")
+icons=("" "" "" "")
 
 function toggle() {
   status=$(rfkill -J | jaq -r '.rfkilldevices[] | select(.type == "wlan") | .soft' | head -1)
@@ -32,10 +32,11 @@ function gen_wifi() {
   color="#BDCBD6"
   class="net-connected"
   name=$(echo "$nm" | jaq -r 'select(.type == "wifi") .connection')
+  status=$(echo "$(nmcli -f state g| tail -1)")
 }
 
 
-status() {
+function status() {
   echo "$(nmcli -f state g| tail -1)"
 }
 
@@ -44,6 +45,7 @@ function gen_ethernet() {
   class="net-connected"
   color="#BDCBD6"
   name=$(echo "$nm" | jaq -r 'select(.type == "ethernet") .connection')
+  status=$(echo "$(nmcli -f state g| tail -1)")
 }
 
 function make_content() {
@@ -68,7 +70,8 @@ function make_content() {
     --arg name "$name" \
     --arg color "$color" \
     --arg class "$class" \
-    '{"icon": $icon, "name": $name, "color": $color, "class": $class}'
+    --arg status "$status" \
+    '{"icon": $icon, "name": $name, "color": $color, "class": $class, "status": $status}'
 }
 
 # first run

@@ -8,10 +8,10 @@ if [[ ! -d $TMP_DIR ]]; then
 	mkdir -p $TMP_DIR
 fi
 
-ART_FROM_SPOTIFY="$(playerctl -p %any,spotify metadata mpris:artUrl | sed -e 's/open.spotify.com/i.scdn.co/g')"
-ART_FROM_BROWSER="$(playerctl -p %any,mpd,firefox,chromium,brave metadata mpris:artUrl | sed -e 's/file:\/\///g')"
+ART_FROM_SPOTIFY="$(playerctl -p spotify metadata mpris:artUrl | sed -e 's/open.spotify.com/i.scdn.co/g')"
+# ART_FROM_BROWSER="$(playerctl -p %any,mpd,chromium,brave metadata mpris:artUrl | sed -e 's/file:\/\///g')"
 
-if [[ $(playerctl -p spotify,%any,firefox,chromium,brave,mpd metadata mpris:artUrl) ]]; then
+if [[ $(playerctl -p spotify metadata mpris:artUrl) ]]; then
 	curl -s "$ART_FROM_SPOTIFY" --output $TMP_TEMP_PATH
 elif [[ -n $ART_FROM_BROWSER ]]; then
 	cp $ART_FROM_BROWSER $TMP_TEMP_PATH

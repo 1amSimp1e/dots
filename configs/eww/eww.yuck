@@ -23,6 +23,7 @@
     :space-evenly false
     (launcher)
     (weather_modules)
+    song_art
     (music)
     ))
 

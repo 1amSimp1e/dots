@@ -84,7 +84,7 @@
         :space-evenly false
         :hexpand "false"
         :width 510
-        :limit-width 15
+        :limit-width 12
         :style "background-color: $grey; margin-top: 10px"
 		(box 
             :class "song-art" 
@@ -138,7 +138,6 @@
         ;; Bluetooth Elements
             (box
               :class "element icon ${bluetooth.class}"
-              :space-evenly true
               :orientation "v"
               (button
                 :class "bluetooth-button_menu"

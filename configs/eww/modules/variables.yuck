@@ -10,8 +10,6 @@
 (deflisten net "scripts/wifi.sh")
 (deflisten workspace "scripts/workspaces")
 
-(defvar music_reveal false)
-(defpoll song_art :interval "0.01s" "scripts/songArt.sh")
 
 (defpoll brightness_percent :interval "0.2s" "brightnessctl -m -d amdgpu_bl0 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
 (defvar br_reveal false)
@@ -20,7 +18,6 @@
 (defpoll volume_percent :interval "1s"  "pamixer --get-volume")
 
 ;; Menu
-
 ;; Get User
 (deflisten user "echo $USER")
 
@@ -29,6 +26,7 @@
 (deflisten airplane "scripts/airplane.sh")
 
 ;; Music 
+(defpoll song_art :interval "2s" "scripts/song.sh art")
 (defpoll media-title :interval "1s" "scripts/song.sh title")
 (defpoll media-artist :interval "1s" "scripts/song.sh artist")
 (defpoll media-curr :interval "1s" "scripts/song.sh current-time")
