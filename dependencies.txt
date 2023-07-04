@@ -1,3 +1,5 @@
+hyprland-git
+eww-wayland-git
 blueberry
 bluez
 brillo
@@ -27,3 +29,19 @@ blueman
 bluez-utils
 swayosd
 swaylock
+jq
+grimblast
+grim 
+slurp
+wl-clipboard
+pipewire-pulse
+ttf-material-design-icons
+noto-fonts-emoji
+ttf-font-awesome
+brillo
+pamixer
+brightnessctl
+nwg-look-bin
+hyprpicker-git
+bc
+nwg-dock-hyprland-bin
