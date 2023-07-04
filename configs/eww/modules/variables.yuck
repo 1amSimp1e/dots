@@ -1,3 +1,5 @@
+(defvar hover_bar false)
+
 (defpoll time :interval "0.1s" `date +'{"date": "%d/%m", "hour": "%H", "minute": "%M", "day": "%a %b %d"}'`)
 (defpoll date :interval "100s"  "date '+%b %d'")
 

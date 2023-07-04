@@ -1,60 +1,22 @@
-(defwidget memory []
-	(eventbox 
-		:onhover "eww update memory-rev=true" 
-		:onhoverlost "eww update memory-rev=false"
-		(box 
-			:class "memory" 
-			:space-evenly false 
-			:spacing 5
-			(circular-progress 
-                :value {memory.percent}
-				:class "memory-bar" 
-				:thickness 5
-				(label 
-					:class "memory-inside" 
-                    :tooltip "using ${round(memory.percent,0)}% ram"
-					:text ""
-				)
-			)
-			(revealer 
-				:transition "slideright" 
-				:reveal memory-rev 
-				:duration "500ms"
-				(label 
-					:class "memory-info" 
-                    :text "MEM: ${memory.percent}%"
-				)
-			)
-		)
-	)
-)
+(defwidget sys []
+  (box
+    :class "module"
+    :space-evenly false
+    :spacing 5
+    (circular-progress
+      :value {EWW_CPU.avg}
+      :class "cpubar"
+      :thickness 3
+      (button
+        :tooltip "using ${round(EWW_CPU.avg,0)}% cpu"
+        :onclick "${EWW_CMD} open --toggle system-menu"
+        (label :class "icon-text" :text "")))
 
-(defwidget cpu []
-	(eventbox 
-		:onhover "eww update cpu-rev=true" 
-		:onhoverlost "eww update cpu-rev=false"
-		(box 
-			:class "cpu" 
-			:space-evenly false 
-			:spacing 5
-			(circular-progress 
-				:class "cpu-bar" 
-				:value cpu 
-				:thickness 5
-				(label 
-					:class "cpu-inside" 
-					:text ""
-				)
-			)
-			(revealer 
-				:transition "slideright" 
-				:reveal cpu-rev 
-				:duration "500ms"
-				(label 
-					:class "cpu-info" 
-					:text "CPU: ${cpu}%"
-				)
-			)
-		)
-	)
-)
+    (circular-progress
+      :value {memory.percent}
+      :class "membar"
+      :thickness 3
+      (button
+        :tooltip "using ${round(memory.percent,0)}% ram"
+        :onclick "${EWW_CMD} open --toggle system-menu"
+        (label :class "icon-text" :text "")))))

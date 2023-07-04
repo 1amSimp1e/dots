@@ -1,7 +1,7 @@
 .system-module {
   @include rounding;
   background-color: $bg3;
-  margin: 5px 5px 5px 8px;
+  margin: 5px 4px 5px 8px;
 
   &:hover {
     background-color: $grey;
@@ -41,14 +41,14 @@
 
 .bat-img {
   padding-right: 0.2rem;
-  margin: 0.1em -4px 0.1em 0em;
+  margin: 0.1em -5.5rem 0.1em -90px;
   padding-left: 0.6rem;
   color: $green;
 }
 
 .battery-module {
   @include rounding;
-  margin: 5px -1px 5px 0px;
+  margin: 5px 4px 5px 0px;
   padding-top: 5px;
   padding-bottom: 5px;
   &:hover {
@@ -57,29 +57,8 @@
   }
 }
 
-// .memory-info,
-// .cpu-info {
-//   font-family: 'SF Pro';
-//   font-size: 8px;
-//   font-weight: bold;
-// }
-//
-// .memory-inside,
-// .cpu-inside {
-//   padding: 12px;
-// }
-//
-// .memory-bar {
-//   color: $dark_green;
-//   background-color: $bg2;
-//   margin-left: 12px;
-// }
-//
-// .cpu-bar {
-//   color: $red;
-//   background-color: $bg2;
-// }
-//
-// .cpu-inside {
-//   padding: 13px;
-// }
+.battery_status{
+    font-family: "Font Awesome 6 Free";
+    margin-left: -20px;
+    margin-right: -20px
+}

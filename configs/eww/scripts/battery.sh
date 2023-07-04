@@ -5,8 +5,6 @@ per="$(cat "$bat/capacity")"
 
 icon() {
 
-[ $(cat "$bat/status") = Charging ] && echo "assets/battery_charging.png" && exit
-
 if [ "$per" -gt "90" ]; then
 	icon="assets/battery_full.png"
 elif [ "$per" -gt "80" ]; then
@@ -26,7 +24,7 @@ elif [ "$per" -gt "10" ]; then
 	# notify-send -u critical "Battery Low" "Connect Charger"
 elif [ "$per" -gt "0" ]; then
 	icon="assets/battery_low.png"
-	notify-send -u critical "Battery Low" "Connect Charger"
+	# notify-send -u critical "Battery Low" "Connect Charger"
 else
         echo  && exit
 fi
@@ -37,6 +35,14 @@ percent() {
 echo $per
 }
 
+status(){
+    if [ $(cat "$bat/status") = Charging ]; then
+        status=""
+    fi
+    echo "$status"
+}
+
 [ "$1" = "icon" ] && icon && exit
 [ "$1" = "percent" ] && percent && exit
+[ "$1" = "status" ] && status && exit
 exit
