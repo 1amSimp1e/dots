@@ -36,10 +36,10 @@ echo $per
 }
 
 status(){
-    if [ $(cat "$bat/status") = Charging ]; then
+    if [ $(cat "/sys/class/power_supply/BAT0/status") = Charging]; then
         status=""
     fi
-    echo "$status"
+    echo ""
 }
 
 [ "$1" = "icon" ] && icon && exit

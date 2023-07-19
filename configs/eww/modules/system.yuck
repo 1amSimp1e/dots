@@ -1,12 +1,12 @@
 (defwidget sys []
   (box
-    :class "module"
+    :class "sys_module"
     :space-evenly false
-    :spacing 5
+    :spacing 10
     (circular-progress
       :value {EWW_CPU.avg}
       :class "cpubar"
-      :thickness 3
+      :thickness 4
       (button
         :tooltip "using ${round(EWW_CPU.avg,0)}% cpu"
         :onclick "${EWW_CMD} open --toggle system-menu"
@@ -15,7 +15,7 @@
     (circular-progress
       :value {memory.percent}
       :class "membar"
-      :thickness 3
+      :thickness 4
       (button
         :tooltip "using ${round(memory.percent,0)}% ram"
         :onclick "${EWW_CMD} open --toggle system-menu"

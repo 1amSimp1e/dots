@@ -1,4 +1,4 @@
-(defwidget notification-menu []
+(defwidget notification_module []
 	(button     
         :class "notification"
         :orientation "h"

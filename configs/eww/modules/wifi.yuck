@@ -2,6 +2,6 @@
   (button
     :class "wifi-icon"
     :onclick "scripts/wifi.sh toggle"
-    :tooltip {net.name}
+    :tooltip {net.essid}
     :style "color: ${net.color}"
     {net.icon}))

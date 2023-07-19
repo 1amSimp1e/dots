@@ -1,9 +1,9 @@
 .workspaces {
-  background: $bg4;
+  background: $bg2;
   @include rounding;
   margin: 5px 3px 5px 8px;
   padding: 10px;
-  border-radius: 30px;
+  border-radius: 28px;
   inner {
     &:hover {
       background-color: $grey;
@@ -39,12 +39,12 @@
     }
     &.active {
       background: $light_blue;
-      margin-left: 6px;
+      margin-left: 7px;
       margin-right: 8px;
-      border-radius: 9px;
+      border-radius: 15px;
 
-      min-height: 19px;
-      min-width: 27px;
+      min-height: 20px;
+      min-width: 35px;
     }
   }
 }

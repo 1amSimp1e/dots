@@ -23,8 +23,9 @@
     :space-evenly false
     (launcher)
     (weather_modules)
-    song_art
     (music)
+    song_art
+    (sys)
     ))
 
 (defwidget system-module []
@@ -45,6 +46,7 @@
     (bat)
     (system-module)
     (clock_module)
+    (notification_module)
     ))
 
 (defwidget center []
@@ -64,8 +66,8 @@
 (defwindow bar
     :monitor 0
     :geometry (geometry :x "0%"
-      :y "0px"
-      :width "100%"
+      :y "2px"
+      :width "99%"
       :height "20px"
       :anchor "top center")
     :stacking "fg"

@@ -12,7 +12,6 @@
 (deflisten net "scripts/wifi.sh")
 (deflisten workspace "scripts/workspaces")
 
-
 (defpoll brightness_percent :interval "0.2s" "brightnessctl -m -d amdgpu_bl0 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
 (defvar br_reveal false)
 
@@ -38,6 +37,15 @@
 
 (defpoll art :interval "1s"
 	"echo \"$HOME/.cache/eww/cover.png\"")
+
+;; Notification
+(defpoll dunst_history :interval "250ms" :run-while noticenter
+	"dunstctl history")
+(defpoll dunst_count :interval "250ms" :run-while noticenter
+	"dunstctl count history")
+(defpoll reveal_no_notification_text :interval "5m"
+	"./scripts/getNotificationCount.sh")
+
 
 ;; Weather
 (defpoll weather_temp :interval "3h" :initial "0"

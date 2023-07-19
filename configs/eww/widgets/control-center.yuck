@@ -117,56 +117,7 @@
             (button :class "media-prev"  :onclick "scripts/song.sh prev" "")
             (button :class "media-pause" :onclick "playerctl -p spotify,mpd play-pause" player_status)
             (button :class "media-next"  :onclick "scripts/song.sh next" "")
-    ))
-
-    (centerbox
-      :class "system-row"
-        ;; Wifi Elements
-            (eventbox
-                :onclick "~/.config/eww/scripts/toggle-net/rofi-network-manager.sh"
-                (box
-                    :orientation "v"
-                    :class "element icon ${net.class}"
-                    (button
-                        :onclick "~/.config/eww/scripts/toggle-net/rofi-network-manager.sh"
-                        :class "wifi-button_menu"
-                        "${net.icon}")
-                    (label
-                      :class "wifi-label_menu"
-                      :text {net.status})))
-
-        ;; Bluetooth Elements
-            (box
-              :class "element icon ${bluetooth.class}"
-              :orientation "v"
-              (button
-                :class "bluetooth-button_menu"
-                :onclick "scripts/bluetooth.sh toggle"
-                {bluetooth.icon})
-              (label
-                :class "bluetooth-label_menu"
-                :text "Bluetooth"
-                :yalign 0.5
-                :style "padding-right: 10px"
-                :tooltip "${bluetooth.text} ${bluetooth.battery}"
-                :limit-width 18
-                ))
-
-        (box
-            :class "element icon airplane-box"
-            :space-evenly true
-            :orientation "v"
-          (button
-            :class "airplane-button"
-            :onclick "scripts/airplane.sh toggle"
-            :style "margin-bottom: -10px;padding-top:20px"
-            airplane)
-          (label
-            :class "airplane-label_menu"
-            :style "margin-top: -20px"
-            :text "Airplane"
-            :yalign 0.5))
-          )))
+    ))))
 
 (defwindow control-center 
   :stacking "fg" 

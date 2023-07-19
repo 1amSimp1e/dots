@@ -57,9 +57,8 @@
 
   button {
     @include rounding;
-    padding: 20px;
     label {
-      font-size: 1.7rem;
+      font-size: 2rem;
     }
   }
 }
@@ -191,10 +190,6 @@
   margin-right: 105px;
 }
 
-.bt-connected,
-.bt-disconnected {
-  margin-left: -5.5rem;
-}
 
 .airplane-box {
   border-radius: 22px;
@@ -206,16 +201,13 @@
 .bluetooth-button_menu {
   font-family: 'Material Icons';
   border-radius: 30px;
-  margin-bottom: -15px;
 }
 
 .wifi-label_menu,
 .bluetooth-label_menu {
   font-family: Roboto;
-  font-size: 1px;
-  padding-left: 4px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  font-size: 30px;
+  padding-right: 8px;
 }
 
 .airplane-button {
@@ -272,7 +264,7 @@
 .song-art {
   background-position: center;
   background-size: cover;
-  margin: 6px 5px 6px 15px;
+  margin: 6px 5px 6px 20px;
   padding-left: 80px;
   padding-top: 40px;
   padding-bottom: 20px;
