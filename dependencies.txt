@@ -45,3 +45,4 @@ nwg-look-bin
 hyprpicker-git
 bc
 nwg-dock-hyprland-bin
+swaybg
