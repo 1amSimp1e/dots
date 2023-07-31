@@ -8,4 +8,4 @@
           (image
             :class "launcher-icon"
             :path "assets/menu.png"
-          :image-width 20))))
+          :image-width 22))))

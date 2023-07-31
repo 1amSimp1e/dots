@@ -1,11 +1,8 @@
 .music_modules {
   @include rounding;
   background-color: $bg2;
-  padding: 0px 10px 0px 12px;
-  margin: 5px 10px 5px 10px;
-  &:hover{
-      background-color: $grey;
-  }
+  padding: 2px 12px;
+  margin: 5px 10px 5px 4px;
 }
 
 .music_title-modules {
@@ -16,11 +13,11 @@
 .song-cover-art {
   background-position: center;
   background-size: cover;
-  margin: 4px 2px 4px -1px;
+  margin: 4.5px 2px 4.5px 1px;
   min-height: 24px;
   min-width: 24px;
   padding: 10px;
-  border-radius: 6px;
+  border-radius: 3px;
 }
 
 .music-window {

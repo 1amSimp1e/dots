@@ -1,17 +1,18 @@
+.notification_module {
+  @include rounding;
+  background-color: $bg2;
+  padding-left: 12px;
+  padding-right: 2px;
+  margin: 5px 12px 5px 1px;
+  &:hover {
+    background-color: $grey;
+    margin: 5px 12px 5px 1px;
+  }
+}
+
 .notification-button {
   font-family: 'Font Awesome 5 Free';
   color: $blue;
   margin-right: 15px;
   margin-left: 5px;
-}
-
-.notification {
-  padding-left: 10px;
-  padding-right: 3px;
-  margin-left: -10px;
-  &:hover {
-    background-color: $grey;
-    margin-left: -10px;
-    border-radius: 12px;
-  }
 }

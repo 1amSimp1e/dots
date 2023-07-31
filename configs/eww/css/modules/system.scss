@@ -1,6 +1,6 @@
 .system-module {
   @include rounding;
-  background-color: $bg3;
+  background-color: #1D1D20;
   margin: 5px 4px 5px 8px;
 
   &:hover {
@@ -16,7 +16,7 @@
 .wifi-icon {
   margin-bottom: 0.1rem;
   padding-right: 5px;
-  padding-left: 11px;
+  padding-left: 15px;
   margin-right: 0.12em;
   font-family: 'Material Icons';
   color: $mint;
@@ -25,46 +25,15 @@
 .volume_label {
   color: $mint;
   font-family: 'Font Awesome 6 Free';
-  padding-right: 8px;
+  padding-right: 10px;
   margin-right: 0.2em;
   margin-left: 0.2em;
-}
-
-.bat {
-  font-family: Roboto Medium;
-  font-size: 0em;
-  color: $white;
-  margin: 0.2em 0em 0em 0em;
-}
-
-.bat-img {
-  padding-right: 1rem;
-  margin: 0.1em -2rem 0.1em -3rem;
-}
-
-.battery-module {
-  border-radius: 15px;
-  margin: 5px 2px 5px 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 10px;
-  &:hover {
-    background-color: $grey;
-    margin: 5px -1px 5px 0px;
-  }
-}
-
-.battery_status{
-    font-family: "Font Awesome 6 Free";
-    margin-right: 20px;
-    margin-left: 10px;
 }
 
 
 /* right modules (circular-progress) */
 .cpu-bar { color: $blue; }
 .membar { color: $orange; }
-.batbar { color: $green; }
 
 .cpu-bar,
 .membar,
@@ -115,7 +84,7 @@
 .sys_module{
   @include rounding;
   background-color: $bg2;
-  margin: 5px 4px 5px 4px;
+  margin: 5px 8px 5px 8px;
   padding: 0px 8px 0px 8px;
 }
 
@@ -126,3 +95,17 @@
 .membar{
     background-color: #141416;
 }
+
+.bat_module{
+  @include rounding;
+  margin: 0px 2px 0px 5px;
+  padding: 0px 5px 0px 1px;
+}
+
+.batbar {
+  background-color: $dark_grey;
+  color: $green;
+
+  .low { color: $red; }
+}
+

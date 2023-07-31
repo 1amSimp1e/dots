@@ -1,41 +1,49 @@
 .system-panel {
   @include window;
-  background-color: #101012;
+  background-color: $black;
   color: $white;
   font-family: Roboto Medium;
   border-radius: 20px;
 }
 
 .top-row {
-  margin: 1rem 1.5rem 0;
-
-  .ur_name {
+  margin: 1rem 1.1rem 0;
+  .user-uptime {
+    margin-top: 5px;
+    margin-left: 12px;
+    label {
+      font-size: 1.3rem;
+    }
+    .uptime {
+      color: $light_grey;
+    }
+  }
+  .sys_button {
     margin: 0 1rem;
     label {
       font-size: 1.3rem;
     }
-    .power_menu{
+    .power_menu {
+      background-color: $bg2;
       padding-right: 23px;
       padding-left: 16px;
       margin-top: 5px;
-      background-color: $bg2;
       border-radius: 30px;
-      margin-left: 12px;
+      margin-left: 15px;
       &:hover {
-          background-color: $red;
-          color: $black;
+        background-color: $red;
+        color: $black;
       }
     }
-    .lock_menu{
-      margin-left: 17rem;
+    .lock_menu {
       margin-top: 5px;
       padding-right: 22px;
       padding-left: 20px;
       background-color: $bg2;
       border-radius: 30px;
       &:hover {
-          background-color: $yellow;
-          color: $black;
+        background-color: $yellow;
+        color: $black;
       }
     }
   }
@@ -52,7 +60,7 @@
 
 .element {
   @include rounding;
-  background-color: #18181A;
+  background-color: #18181a;
   margin: 10px;
 
   button {
@@ -95,9 +103,9 @@
 
 .vol-percent,
 .brightness-percent {
-  color: #BFC3C9;
+  color: #bfc3c9;
   font-size: 3px;
-  padding-left:5px;
+  padding-left: 5px;
 }
 
 .volume-slider-box,
@@ -107,7 +115,8 @@
   }
 }
 
-.volume-bar,.brightness-slider {
+.volume-bar,
+.brightness-slider {
   border-radius: 9999px;
   transition: 0ms cubic-bezier(0.05, 0.7, 0.1, 1);
 
@@ -127,17 +136,17 @@
 
   slider {
     border-radius: 9999px;
-    border: 3.2px solid #1E1E21;
+    border: 3.2px solid #1e1e21;
     min-height: 13px;
     min-width: 13px;
-    background-color: $nord_blue;
+    background-color: $blue;
     margin: -10px;
     transition: 0ms cubic-bezier(0.05, 0.7, 0.1, 1);
   }
 
   slider:hover {
     border-radius: 9999px;
-    border: 4px solid #1D1D20;
+    border: 4px solid #1d1d20;
     min-height: 13px;
     min-width: 13px;
     background-color: $primary;
@@ -146,7 +155,7 @@
 
   slider:active {
     border-radius: 9999px;
-    border: 6px solid #1D1D20;
+    border: 6px solid #1d1d20;
     min-height: 9px;
     min-width: 9px;
     background-color: $primary;
@@ -154,71 +163,59 @@
   }
 }
 
-
 .brightness-slider-box scale highlight {
   @include rounding;
-  background-color: #8ab4f8;
+  background-color: $blue;
 }
 
-.bt-connected,
-.wifi-connected,
-.bt-disconnected,
-.wifi-diconnected {
-  background-color: $nord_blue;
-  color: $black;
+.sys_win {
   border-radius: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 5px;
+  margin: 0rem 2rem 0rem 2rem;
+  scale {
+    margin-right: 0.6rem;
+    min-width: 25rem;
+    trough {
+      margin-right: 0.6rem;
+    }
+  }
 }
 
-.bt-disconnected {
-  background-color: $bg4;
+.sys_icon_temp,
+.sys_icon_mem,
+.sys_icon_cpu {
+  font-family: 'Font Awesome 6 Free';
+  font-size: 29;
+  margin: 40px;
   color: $white;
-  border-radius: 25px;
 }
 
-.wifi-diconnected {
-  background-color: $bg4;
-  color: $white;
-  border-radius: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
+.sys_mem,
+.sys_temp,
+.sys_cpu {
+  color: $blue;
+  background-color: #111317;
+  border-radius: 10px;
+}
+.sys_temp_box {
+  background-color: #17191d;
+  border-radius: 16px;
+  margin: 10px 5px 5px -2px;
+  padding: 20px;
 }
 
-.wifi-connected, .wifi-diconnected{
-  margin-right: 105px;
+.sys_cpu_box {
+  background-color: #17191d;
+  border-radius: 16px;
+  margin: 10px 35px 10px 30px;
+  padding: 15px;
 }
 
-
-.airplane-box {
-  border-radius: 22px;
-  margin-left: 20px;
-  background-color: $bg4;
+.sys_mem_box {
+  background-color: #17191d;
+  border-radius: 16px;
+  margin: 10px 0px 10px 0px;
+  padding: 15px;
 }
-
-.wifi-button_menu,
-.bluetooth-button_menu {
-  font-family: 'Material Icons';
-  border-radius: 30px;
-}
-
-.wifi-label_menu,
-.bluetooth-label_menu {
-  font-family: Roboto;
-  font-size: 30px;
-  padding-right: 8px;
-}
-
-.airplane-button {
-  padding-top: 5px;
-}
-
-.airplane-label_menu {
-  font-family: Roboto;
-  margin-top: -20px;
-}
-
 .media-main {
   font-family: Roboto Medium;
   font-size: 18px;
@@ -242,8 +239,8 @@
 .media-next {
   font-family: 'Font Awesome 6 Free';
   padding: 8px;
-  &:hover{
-      color: $light_grey
+  &:hover {
+    color: $light_grey;
   }
 }
 
@@ -273,18 +270,49 @@
   border-radius: 12px;
 }
 
-
-// Network Elements
-.net-connected{
-    background-color: #87B0F2;
-  font-family: Roboto Medium;
-    margin-right: 50px;
-    border-radius: 20px;
+.footer {
+  margin: 10px 1.8rem 10px 1.3rem;
+  border-radius: 10px;
 }
 
-.net-disconnected{
-  font-family: Roboto Medium;
-    background-color: #18181A;
-    margin-right: 50px;
-    border-radius: 20px;
+.battery {
+  border-radius: 15px;
+  margin: 5px 10px 5px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  &:hover {
+    background-color: $grey;
+    margin: 5px -1px 5px 0px;
+  }
 }
+
+.battery-percent_menu{
+    padding: 5px;
+    font-size: 20px;
+    margin-right: -20px;
+}
+
+.bat-img {
+  padding-left: 1rem;
+  padding-right: 0.7rem;
+}
+
+.day-time_menu{
+  margin: 5px 0px 5px 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  label{
+      font-size: 20px;
+  }
+}
+
+// Save for future
+// .battery_status{
+//     font-family: "Font Awesome 6 Free";
+//     margin-right: 20px;
+//     margin-left: 10px;
+// }
+
+

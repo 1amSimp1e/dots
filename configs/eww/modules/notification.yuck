@@ -1,10 +1,8 @@
 (defwidget notification_module []
 	(button     
-        :class "notification"
+        :class "notification_module"
         :orientation "h"
         :tooltip "Notifications Menu"		 
-        ;; Note that you have to middle click in order to bring eww back to normal (some stuffs doesn't work when click it example like hover)
-        :onclick "swaync-client --open-panel &"	
         (eventbox
             (image
                 :class "notification-button"					

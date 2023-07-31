@@ -1,22 +1,14 @@
 ;; Battery Widgets ;;
 (defwidget bat []
-        (box
-           :class "battery-module"
-            (label
-               :class "battery_status"
-               :text "${battery-status}")
-           (image 
-              :class "bat-img"
-              :path "${battery-icon}"
-              :image-width 45
-              :image-height 55
-           )
-        
-        (label	:class "bat"		
-                :halign "end"		
-                :text "${battery-cappacity}%"
-                :tooltip "Battery: ${battery-cappacity}%")))
-
-(defpoll battery-icon		:interval "1s"	"scripts/battery.sh icon")
-(defpoll battery-cappacity	:interval "1s"	"scripts/battery.sh percent")
-(defpoll battery-status	:interval "1s"	"scripts/battery.sh status")
+   (box
+    :class "bat_module"
+    :space-evenly false
+  (circular-progress
+      :value battery-capacity
+      :class "batbar"
+      :thickness 4
+      :style "${battery-style}"
+      (button
+        :tooltip "battery on ${round(EWW_BATTERY.total_avg,0)}%"
+        :onclick "${EWW_CMD} open --toggle system-menu"
+        (label :class "icon-text" :text "")))))

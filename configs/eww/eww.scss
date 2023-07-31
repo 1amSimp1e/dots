@@ -1,5 +1,5 @@
 @mixin rounding {
-  border-radius: 13px;
+  border-radius: 10px;
 }
 
 @mixin window {
@@ -35,7 +35,6 @@
 .bar {
   background-color: $bg;
   color: $fg;
-  border-radius: 14px;
   label {
     font-size: 1.32rem;
   }

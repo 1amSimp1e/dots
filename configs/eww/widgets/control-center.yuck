@@ -12,23 +12,43 @@
             :path "assets/profile.jpg"
             :image-width 55))
       (box
-        :class "ur_name"
         :space-evenly false
+        :orientation "v"
+        :class "user-uptime"
+        :halign "start"
+        :valign "start"
+        :hexpand true
+        :vexpand true
+        (box
+            :halign "start"
+            (label
+              :class "user"
+              :text {user}
+              ))
         (label
-          :class "user"
-          :text {user})
-        (button
-            :class "lock_menu"
-            :onclick "swaylock &"
-            :style "font-family: Iosevka Nerd Font"
-            :tooltip "lock"
-            "")
-        (button
-             :class "power_menu"
-             :onclick "${EWW_CMD} open --toggle powermenu"
-             :style "font-family: Iosevka Nerd Font"
-             :tooltip "turn off"
-             "")
+          :class "uptime"
+          :text "${uptime}"
+          )
+        )
+        (box
+          :class "sys_button"
+          :space-evenly false
+          :halign "end"
+          :orientation "h"
+          :space-evenly false
+          :hexpand true
+            (button
+                :class "lock_menu"
+                :onclick "swaylock &"
+                :style "font-family: Iosevka Nerd Font"
+                :tooltip "lock"
+                "")
+            (button
+                 :class "power_menu"
+                 :onclick "${EWW_CMD} open --toggle powermenu"
+                 :style "font-family: Iosevka Nerd Font"
+                 :tooltip "turn off"
+                 "")
         ))
     (box
       :class "sliders"
@@ -78,6 +98,38 @@
            :style "padding-right: 15px; color:#BFC3C9"
            :text "%")
         ))
+      (box
+        :class "sys_win" :orientation "h" :space-evenly "false" :hexpand "false" :vexpand "false" :spacing 0 
+              (box :class "sys_temp_box" :orientation "h" :space-evenly "false" :hexpand "false" :vexpand "false" :halign "start"
+              (circular-progress :value {round(EWW_TEMPS.AMDGPU_EDGE, 0)} 
+                        :class "sys_temp"
+                        :thickness 11
+                    (label :text ""
+                        :class "sys_icon_temp"
+                        :limit-width 2
+                        :show_truncated false
+                        :wrap false)))
+              (box :class "sys_cpu_box" :orientation "h" :space-evenly "false" :hexpand "false" :vexpand "false"
+              (circular-progress 
+                        :value {EWW_CPU.avg}
+                        :class "sys_cpu"
+                        :thickness 11
+                    (label :text ""
+                        :class "sys_icon_cpu"
+                        :limit-width 2
+                        :show_truncated false
+                        :wrap false)))
+              (box :class "sys_mem_box" :orientation "h" :space-evenly "false" :hexpand "false" :vexpand "false" :halign "end"
+              (circular-progress 
+                        :value {memory.percent}
+                        :class "sys_mem"
+                        :thickness 11
+                    (label :text ""
+                        :class "sys_icon_mem"
+                        :limit-width 2
+                        :show_truncated false
+                        :wrap false
+                        :angle 0.0))))
 
       (box
         :class "media-main"
@@ -117,7 +169,44 @@
             (button :class "media-prev"  :onclick "scripts/song.sh prev" "")
             (button :class "media-pause" :onclick "playerctl -p spotify,mpd play-pause" player_status)
             (button :class "media-next"  :onclick "scripts/song.sh next" "")
-    ))))
+    ))
+    (box
+        :class "footer"
+      (box 
+          :class "day-time_menu"
+          :space-evenly false
+          :hexpand "false"
+          :halign "start"
+          :spacing 4
+            (label
+              :text {time.day}
+              :class "day_menu"
+            )
+            (label
+              :text ", "
+            )
+            (label
+              :text calendar_year
+              :class "day_menu"
+            )
+            )
+      (box
+          :class "battery"
+          :space-evenly false
+          :hexpand "false"
+          :halign "end"
+           (image 
+              :class "bat-img"
+              :path "${battery-icon}"
+              :image-width 45
+              :image-height 55
+           )
+           (label
+               :class "battery-percent_menu"
+               :text "${battery-capacity} %"
+            )
+           ))
+))
 
 (defwindow control-center 
   :stacking "fg" 
