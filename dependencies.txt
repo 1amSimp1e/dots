@@ -28,7 +28,7 @@ light
 blueman
 bluez-utils
 swayosd
-swaylock
+swaylock-effects
 jq
 grimblast
 grim 
