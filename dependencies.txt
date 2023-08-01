@@ -7,7 +7,6 @@ coreutils
 dbus
 findutils
 gawk
-gnused
 imagemagick
 jaq
 jc
@@ -35,7 +34,7 @@ grim
 slurp
 wl-clipboard
 pipewire-pulse
-ttf-material-design-icons
+ttf-material-icons-git
 noto-fonts-emoji
 ttf-font-awesome
 brillo
@@ -44,5 +43,10 @@ brightnessctl
 nwg-look-bin
 hyprpicker-git
 bc
-nwg-dock-hyprland-bin
 swaybg
+nautilus
+neovim-git
+rofi-lbonn-wayland-git
+sddm-git
+ttf-iosevka-nerd
+rofi-emoji
