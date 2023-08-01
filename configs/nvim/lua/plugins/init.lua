@@ -307,4 +307,7 @@ lazy.setup({
         },
       },
     },
+    {
+        "ChristianChiarulli/onedark.nvim"
+    }
 })

@@ -6,8 +6,8 @@
 
 
 -- General 
-vim.cmd("hi Normal guibg=#101012")
-vim.cmd("hi NormalNC guibg=#191919")
+-- vim.cmd("hi Normal guibg=#101012")
+-- vim.cmd("hi NormalNC guibg=#191919")
 vim.cmd("hi NormalFloat guibg=#151519")
 vim.cmd("hi FloatBorder guifg=#2C2E2F")
 
@@ -125,7 +125,7 @@ vim.cmd("hi monarkNormal guifg=#E89982")
 vim.cmd("hi RnvimrNormal guibg=#101011 guifg=#BDCBD6")
 
 -- Notify
-vim.cmd('hi NotifyBackground guibg=#101317 guifg=#D4D4D5')
+vim.cmd('hi NotifyBackground guibg=#101317 guifg=#FFFFFF')
 
 vim.cmd('hi NotifyDEBUGBody guibg=#101011 guifg=#C397D8')
 vim.cmd('hi NotifyDEBUGBorder guibg=#101011 guifg=#101011')
