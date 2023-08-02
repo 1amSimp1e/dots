@@ -50,3 +50,6 @@ rofi-lbonn-wayland-git
 sddm-git
 ttf-iosevka-nerd
 rofi-emoji
+ffmpegthumbnailer 
+gst-libav 
+gst-plugins-ugly 
