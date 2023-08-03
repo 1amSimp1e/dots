@@ -53,3 +53,4 @@ rofi-emoji
 ffmpegthumbnailer 
 gst-libav 
 gst-plugins-ugly 
+viewnior
