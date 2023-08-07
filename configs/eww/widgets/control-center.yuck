@@ -90,7 +90,7 @@
           :class "brightness-slider" 
           :value {brightness_percent} 
           :marks true 
-          :onchange "light -S {}")
+          :onchange "brillo -S {}")
         (label
           :class "brightness-percent"
           :text {brightness_percent})
@@ -148,20 +148,23 @@
           :halign "start"
           :space-evenly false
           :hexpand true
-            (label
-              :class "media-title"
-              :hexpand "true"
-              :valign "start"
-              :limit-width 14
-              :style "margin-top: 20px"
-              :text media-title
-              :orientation "v"
-              )
+          (box
+            :halign "start"
+                (label
+                  :class "media-title"
+                  :hexpand "true"
+                  :valign "start"
+                  :limit-width 14
+                  :style "margin-top: 20px"
+                  :text media-title
+                  :orientation "v"
+                  ))
+          (box
+              :halign "start"
             (label
               :class "media-artist"
-              :halign "start"
-              :limit-width 35 
-              :text media-artist))
+              :limit-width 14
+              :text media-artist)))
         (box :class "song-controls" :orientation "h"
           :hexpand "false"
           :limit-width 15

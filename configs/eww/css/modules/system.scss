@@ -1,8 +1,7 @@
 .system-module {
   @include rounding;
   background-color: #1D1D20;
-  margin: 5px 4px 5px 8px;
-
+  margin: 5px 12px 5px 2px;
   &:hover {
     background-color: $grey;
   }
@@ -96,9 +95,32 @@
     background-color: #141416;
 }
 
+// .battery {
+// 	scale trough {
+//         @include rounding;
+// 		background-color: #485156;
+// 		min-height: 2.8em;
+// 		min-width: 7.2em;
+//         border-radius: 30px;
+// 	}
+//
+// 	trough highlight {
+//         @include rounding;
+// 		background-image: linear-gradient(to right, $blue);
+//         border-radius: 30px;
+// 	}
+//
+// 	.battery_label {
+// 		color: $black;
+//         font-family: 'Font Awesome 6 Free';
+// 		font-size: 26px;
+// 		margin: .1em 0em 0em;
+// 	}
+// }
+
 .bat_module{
   @include rounding;
-  margin: 0px 2px 0px 5px;
+  margin: 0px 2px 0px 6px;
   padding: 0px 5px 0px 1px;
 }
 

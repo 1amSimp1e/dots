@@ -170,7 +170,7 @@
 
 .sys_win {
   border-radius: 20px;
-  margin: 0rem 2rem 0rem 2rem;
+  margin: 0rem 1.5rem 0rem 1.5rem;
   scale {
     margin-right: 0.6rem;
     min-width: 25rem;
@@ -196,26 +196,28 @@
   background-color: #111317;
   border-radius: 10px;
 }
+
 .sys_temp_box {
   background-color: #17191d;
   border-radius: 16px;
-  margin: 10px 5px 5px -2px;
-  padding: 20px;
+  margin: 10px 5px 5px 2px;
+  padding: 25px;
 }
 
 .sys_cpu_box {
   background-color: #17191d;
   border-radius: 16px;
-  margin: 10px 35px 10px 30px;
-  padding: 15px;
+  margin: 10px 30px 10px 30px;
+  padding: 25px;
 }
 
 .sys_mem_box {
   background-color: #17191d;
   border-radius: 16px;
   margin: 10px 0px 10px 0px;
-  padding: 15px;
+  padding: 25px;
 }
+
 .media-main {
   font-family: Roboto Medium;
   font-size: 18px;

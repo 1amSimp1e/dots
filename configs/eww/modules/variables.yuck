@@ -1,5 +1,5 @@
 ;; Time & Date
-(defpoll time :interval "0.1s" `date +'{"date": "%d/%m", "hour": "%H", "minute": "%M", "day": "%a %b %d"}'`)
+(defpoll time :interval "0.1s" `date +'{"date": "%d/%m", "hour": "%H", "minute": "%M", "day": "%A %b %d"}'`)
 (defpoll date :interval "100s"  "date '+%b %d'")
 
 ;; System Configurations
@@ -45,7 +45,7 @@
 (defpoll dunst_count :interval "250ms" :run-while noticenter
 	"dunstctl count history")
 (defpoll reveal_no_notification_text :interval "5m"
-	"./scripts/getNotificationCount.sh")
+	"scripts/noti.sh")
 
 ;; Weather
 (defpoll weather_temp :interval "3h" :initial "0"

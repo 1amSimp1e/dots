@@ -35,11 +35,15 @@ percent() {
 echo $per
 }
 
+
 status(){
-    if [ $(cat "/sys/class/power_supply/BAT0/status") = Charging]; then
-        status=""
-    fi
-    echo ""
+		if [[ -d /sys/class/power_supply/ACAD ]]; then
+			echo ""
+		elif [[ -d /sys/class/power_supply/BAT0 ]]; then
+			[[ $(cat /sys/class/power_supply/BAT0/status) == "Discharging" ]] && echo "" || echo ""
+		else
+			echo ""
+		fi
 }
 
 class() {

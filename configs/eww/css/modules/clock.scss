@@ -8,9 +8,9 @@
 }
 
 .hour {
-  padding-left: 3px;
-  font-size: 10px;
   color: $white;
+      font-family: Iosevka Nerd Font;
+      font-size: 20px;
 }
 
 .minute {
@@ -32,7 +32,9 @@
 
 .day {
   font-size: 10px;
-  color: $white;
+  font-family: Iosevka Nerd Font;
+  color: #9C9C9A;
   margin-right: 0.1rem;
-  margin-left: -0.3rem;
+  margin-left: 0.3rem;
+  padding-right: 18px;
 }

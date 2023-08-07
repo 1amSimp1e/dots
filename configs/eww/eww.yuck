@@ -16,6 +16,7 @@
 (include "./widgets/calendar.yuck")
 (include "./widgets/control-center.yuck")
 (include "./widgets/power.yuck")
+(include "./widgets/notifications.yuck")
 
 
 (defwidget left []
@@ -44,8 +45,8 @@
   (box
     :space-evenly false
     :halign "end"
-    (system-module)
     (clock_module)
+    (system-module)
     (notification_module)
     ))
 

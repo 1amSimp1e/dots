@@ -12,3 +12,26 @@
         :tooltip "battery on ${round(EWW_BATTERY.total_avg,0)}%"
         :onclick "${EWW_CMD} open --toggle system-menu"
         (label :class "icon-text" :text "")))))
+
+;; (defwidget battery []
+;; 	(box :class "battery"
+;; 		:orientation "h"
+;; 		:space-evenly "false"
+;; 		:tooltip "battery on ${round(EWW_BATTERY.total_avg,0)}%"
+;; 		(eventbox
+;; 			:onclick "${EWW_CMD} update bat=${EWW_BATTERY.total_avg}"
+;; 			(overlay
+;; 				(scale :class "battery-scale"
+;; 					:min 0
+;; 					:max 100
+;; 					:orientation "h"
+;; 					:value {EWW_BATTERY.total_avg}
+;; 				)
+;; 				(label :class "battery_label"
+;; 					:text {battery-status}
+;; 				)
+;; 			)
+;; 		)
+;; 	)
+;; )
+;; (defvar bat false)

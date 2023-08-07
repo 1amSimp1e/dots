@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 volicons=("assets/volume-low.svg" "assets/volume-medium.svg" "assets/volume-high.svg")
+
 if [ ! "$XDG_CACHE_HOME" ]; then
   XDG_CACHE_HOME="/home/peter/.local/cache"
 fi
