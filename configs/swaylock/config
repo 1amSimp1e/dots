@@ -1,17 +1,17 @@
 ignore-empty-password
-font=Roboto-Bold
+font=Roboto
 
 clock
 timestr=%R
 
-image=~/.config/hypr/wallpapers/moutain-grey.png
+image=~/.config/hypr/wallpapers/moutain.png
 
 fade-in=0.4
 
 effect-blur=95x2
 
 indicator
-indicator-radius=180
+indicator-radius=170
 indicator-thickness=18
 indicator-caps-lock
 
