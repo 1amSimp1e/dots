@@ -54,3 +54,4 @@ ffmpegthumbnailer
 gst-libav 
 gst-plugins-ugly 
 viewnior
+swayidle
