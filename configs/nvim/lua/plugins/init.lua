@@ -190,14 +190,6 @@ lazy.setup({
 		end,
 		ft = { "markdown" },
 	},
-	{
-		"toppair/peek.nvim",
-		build = "deno task --quiet build:fast",
-		config = function()
-			vim.api.nvim_create_user_command("PeekOpen", require("peek").open, {})
-			vim.api.nvim_create_user_command("PeekClose", require("peek").close, {})
-		end,
-	},
 	{ "github/copilot.vim" },
 	{
 		"christoomey/vim-tmux-navigator",
@@ -309,5 +301,8 @@ lazy.setup({
     },
     {
         "ChristianChiarulli/onedark.nvim"
+    },
+    {
+        'marko-cerovac/material.nvim'
     }
 })
