@@ -4,9 +4,6 @@ if not ok then
 end
 
 lazy.setup({
-	install = {
-		colorscheme = { "catppuccin" },
-	},
 	root = vim.fn.stdpath("data") .. "/lazy",
 	{
 		"neovim/nvim-lspconfig",
@@ -50,8 +47,6 @@ lazy.setup({
 			require("plugins.configs.colorschemes")
 		end,
 	},
-	{ "catppuccin/nvim", name = "catppuccin" },
-	{ "olimorris/onedarkpro.nvim" },
 	{
 		"akinsho/bufferline.nvim",
 		dependencies = {
@@ -66,9 +61,9 @@ lazy.setup({
 		dependencies = {
 			"kyazdani42/nvim-web-devicons",
 		},
-		-- config = function()
-		-- 	require("plugins.configs.ui.lualine")
-		-- end,
+		config = function()
+			require("plugins.configs.ui.lualine")
+		end,
 	},
 	{
 		"mfussenegger/nvim-dap",
@@ -270,11 +265,6 @@ lazy.setup({
           vim.o.equalalways = false
           require('windows').setup()
        end
-    },
-    { 'freddiehaddad/feline.nvim',
-        config = function ()
-			require("plugins.configs.ui.feline")
-        end
     },
     {
       "folke/flash.nvim",

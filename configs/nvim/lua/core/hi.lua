@@ -4,12 +4,11 @@
 -- ██  ██  ██   ██ ██  ██ ██      ██ ██    ██ 
 -- ██   ██ ██   ██ ██   ████ ███████  ██████  
 
-
 -- General 
 -- vim.cmd("hi Normal guibg=#101012")
 -- vim.cmd("hi NormalNC guibg=#191919")
-vim.cmd("hi FloatBorder guifg=#2C2E2F")
-vim.cmd("hi NormalFloat guibg=#151519")
+vim.cmd("hi FloatBorder guifg=#090B10")
+vim.cmd("hi NormalFloat guibg=#1A1C25")
 
 -- cmp completions menu
 vim.cmd("hi CmpItemAbbrDeprecated guifg=#3E4450")
@@ -55,12 +54,13 @@ vim.cmd("highlight TelescopeMatching gui=bold guifg=#E6CFA1")
 vim.cmd("highlight TelescopePreviewBorder guibg=#0F111A guifg=#0F111A")
 vim.cmd("highlight TelescopePreviewLine guibg=#27272C")
 vim.cmd("highlight TelescopePreviewNormal guibg=#0F111A guifg=#BABABE")
-vim.cmd("highlight TelescopePreviewTitle guibg=#84A0C6 guifg=#101317")
+vim.cmd("highlight TelescopePreviewTitle guibg=#6791C9 guifg=#101317")
 
-vim.cmd("highlight TelescopePromptBorder guibg=#121214 guifg=#121214")
-vim.cmd("highlight TelescopePromptCounter guibg=#121214 gui=bold guifg=#E6CFA1")
-vim.cmd("highlight telescopepromptnormal guibg=#121214 guifg=#bababe")
-vim.cmd("highlight TelescopePromptPrefix guibg=#121214 guifg=#6791C9")
+-- Telescope Prompt
+vim.cmd("highlight TelescopePromptBorder guibg=#1F2233 guifg=#1F2233")
+vim.cmd("highlight TelescopePromptCounter guibg=#1F2233 gui=bold guifg=#E6CFA1")
+vim.cmd("highlight telescopepromptnormal guibg=#1F2233 guifg=#bababe")
+vim.cmd("highlight TelescopePromptPrefix guibg=#1F2233 guifg=#6791C9")
 vim.cmd("highlight TelescopePromptTitle guibg=#E89982 guifg=#101317")
 
 vim.cmd("highlight TelescopeResultsBorder guibg=#0F111A guifg=#0F111A")
@@ -68,7 +68,7 @@ vim.cmd("highlight TelescopeResultsNormal guibg=#0F111A guifg=#BABABE")
 vim.cmd("highlight TelescopeResultsTitle guibg=#78B892 guifg=#101317")
 
 vim.cmd("highlight TelescopeSelectionCaret guibg=#27272C guifg=#E89982")
-vim.cmd("highlight TelescopeSelection guibg=#191b1c guifg=#6791C9")
+vim.cmd("highlight TelescopeSelection guibg=#1F2233 guifg=#6791C9")
 
 -- Line Numbers
 vim.cmd("hi CursorColumn guibg=#101317")
@@ -77,38 +77,6 @@ vim.cmd("hi CursorLineFold guibg=#101317 guifg=#70C0BA")
 vim.cmd("hi CursorLine guibg=none")
 vim.cmd("hi CursorLineNr gui=bold guifg=#FFFFFF")
 vim.cmd("hi CursorLineSign guibg=none")
-
--- Bufferline
--- vim.cmd("hi BufferLineBackground guibg=#1D1D20")
--- vim.cmd("hi BufferLineBuffer guibg=#14171E guifg=#14171E")
--- vim.cmd("hi BufferLineBufferSelected guibg=#84A0C6 gui=bold guifg=#101317")
--- vim.cmd("hi BufferLineBufferVisible guibg=#14171E guifg=#84A0C6")
--- vim.cmd("hi BufferLineCloseButton guibg=#14171E guifg=#F87070")
--- vim.cmd("hi BufferLinecloseButtonSelected guibg=#84A0C6 guifg=#101317")
--- vim.cmd("hi BufferLineCloseButtonVisible guibg=#14171E guifg=#F87070")
--- vim.cmd("hi BufferLineDuplicate guibg=#14171E guifg=#242A36")
--- vim.cmd("hi BufferLineDuplicateSelected guibg=#14171E guifg=#242A36")
--- vim.cmd("hi BufferLineDuplicateVisible guibg=#14171E guifg=#242A36")
--- vim.cmd("hi BufferLineFill guibg=#0b0b0c guifg=#313743")
--- vim.cmd("hi BufferLineIndicatorSelected guibg=#84A0C6 guifg=#84A0C6")
--- vim.cmd("hi BufferLineIndicatorVisible guibg=#14171E guifg=#14171E")
--- vim.cmd("hi BufferLineModified guibg=#14171E guifg=#79DCAA")
--- vim.cmd("hi BufferLineModifiedSelected guibg=#84A0C6 guifg=#101317")
--- vim.cmd("hi BufferLineModifiedVisible guibg=#14171E guifg=#79DCAA")
--- vim.cmd("hi BufferLineOffsetSeparator guibg=#84A0C6 guifg=#84A0C6")
--- vim.cmd("hi BufferLinePick guibg=#14171E gui=bold guifg=#D997C8")
--- vim.cmd("hi BufferLinePickSelected guibg=#84A0C6 gui=bold guifg=#E6CFA1")
--- vim.cmd("hi BufferLinePickVisible guibg=#14171E gui=bold guifg=#FCCF67")
--- vim.cmd("hi BufferLineSeparator guibg=#14171E guifg=#14171E")
--- vim.cmd("hi BufferLineSeparatorSelected guibg=#84A0C6 guifg=#84A0C6")
--- vim.cmd("hi BufferLineSeparatorVisible guibg=#14171E guifg=#14171E")
--- vim.cmd("hi BufferLineTabClose guibg=#1D1D20 guifg=#F87070")
--- vim.cmd("hi BufferLineTab guibg=#14171E guifg=#242A36")
--- vim.cmd("hi BufferLineTabSelected guibg=#101317 gui=bold")
--- vim.cmd("hi BufferLineTabSeparator guibg=#14171E")
--- vim.cmd("hi BufferLineTabSeparatorSelected guifg=#101317")
--- vim.cmd("hi BufferLineTabSeparatorSelected guifg=#101317")
--- vim.cmd("hi BufferLineTabSeparatorSelected guifg=#101317")
 
 -- Neo Tree Higlights
 vim.cmd("hi NeoTreeDirectoryIcon guifg=#BDCBD6")
@@ -135,10 +103,10 @@ vim.cmd('hi NotifyERRORBody guibg=#0F111A guifg=#F87070')
 vim.cmd('hi NotifyERRORBorder guibg=#0F111A guifg=#0F111A')
 vim.cmd('hi NotifyERRORIcon guibg=#0F111A guifg=#FB7373')
 vim.cmd('hi NotifyERRORTitle guibg=#0F111A guifg=#F87070')
-vim.cmd('hi NotifyINFOBody guibg=#0F111A guifg=#809BBF')
+vim.cmd('hi NotifyINFOBody guibg=#0F111A guifg=#6791C9')
 vim.cmd('hi NotifyINFOBorder guibg=#0F111A guifg=#0F111A')
 vim.cmd('hi NotifyINFOIcon guibg=#0F111A guifg=#5FB0FC')
-vim.cmd('hi NotifyINFOTitle guibg=#0F111A guifg=#809BBF')
+vim.cmd('hi NotifyINFOTitle guibg=#0F111A guifg=#6791C9')
 
 vim.cmd('hi NotifyLogTime guifg=#515C68')
 vim.cmd('hi NotifyLogTitle guifg=#FB7373')
@@ -160,4 +128,4 @@ vim.cmd('hi IndentBlanklineContextChar guifg=#7AB0DF')
 vim.cmd('hi IndentBlanklineContextStart guibg=#16191F')
 
 -- Lsp Saga
-vim.cmd('hi SagaNormal guibg=#0F111A')
+vim.cmd('hi SagaNormal guibg=#1A1C25')

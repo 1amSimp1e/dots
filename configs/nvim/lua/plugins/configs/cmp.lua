@@ -4,7 +4,6 @@ if not present then
   return
 end
 
-vim.opt.completeopt = 'menuone,noselect'
 
 local kind_icons = {
     Array = "  ",
@@ -92,6 +91,7 @@ cmp.setup({
     end,
    },
   sources = cmp.config.sources({
+		{ name = "path" },
 		{ name = "nvim_lsp" },
 		{ name = "copilot" },
 		{ name = "luasnip_choice" },
@@ -100,7 +100,6 @@ cmp.setup({
 		{ name = "vsnip" },
 		{ name = "luasnip" },
 		{ name = "buffer" },
-		{ name = "path" },
   }),
 })
 
