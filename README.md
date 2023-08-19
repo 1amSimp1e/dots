@@ -36,9 +36,6 @@
     - [Oh My Zsh](https://ohmyz.sh/#install)
     - **Plugin Manager**: [Zap](https://www.zapzsh.org/)
     - **🤖 Prompt**: [StarShip Prompt 🚀](https://starship.rs/guide/#%F0%9F%9A%80-installation)
-- [✏️ Text Editor & IDE]():
-  - [💫 NeoVim](#neovim)
-  - [🔱 VsCodium](#VsCodium) 
 
 # Hyprland 🍚<a name = "hypr"></a>:
 
