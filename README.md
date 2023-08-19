@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <h1> 1amSimp1e's Dot Files 📁</h1>
+    <h3> 1amSimp1e's Dot Files 📁</h3>
     <img src="https://readme-typing-svg.demolab.com?font=Iosevka+Nerd+Font&weight=900&pause=1000&color=6791C9&background=0C0E0F00&center=true&vCenter=true&width=435&lines=A+place++I+store+my+Aesthetic+Customizations"
 </div>
 
