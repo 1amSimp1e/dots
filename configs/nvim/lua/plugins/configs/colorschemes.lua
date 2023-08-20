@@ -6,7 +6,6 @@ require('material').setup({
         floating_windows = false, -- Enable contrast for floating windows
         cursor_line = false, -- Enable darker background for the cursor line
         non_current_windows = false, -- Enable contrasted background for non-current windows
-	{ "olimorris/onedarkpro.nvim" },
         filetypes = {}, -- Specify which filetypes get the contrasted (darker) background
     },
 
@@ -55,9 +54,10 @@ require('material').setup({
 
     custom_highlights = {
         Pmenu = {bg = '#0F111A'},
-        PmenuSel = {bg = '#8AB4F8', fg = '#0F111A'},
+        PmenuSel = {bg = '#191c28'},
         Normal = {bg = '#090b0f'},
         NormalNC = {bg = '#090b0f'},
+        NvimTreeOpenedFolderName = {fg="#799be5"}
     }, -- Overwrite highlights with your own
 })
 

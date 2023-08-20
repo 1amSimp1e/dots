@@ -24,4 +24,3 @@ vim.opt.runtimepath:prepend(lazypath)
 require("plugins")
 -- Highlighting
 require("core.hi")
-

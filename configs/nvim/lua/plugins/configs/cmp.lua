@@ -51,8 +51,8 @@ cmp.setup({
     end,
   },
   window = {
-    completion = { border = "solid" },
-    documentation = { border = "solid" }
+    completion = { border = "solid", scrollbar = false, },
+    documentation = { border = "solid", scrollbar = false, }
   },
   mapping = cmp.mapping.preset.insert({
     ['<C-Space>'] = cmp.mapping.complete(),
@@ -102,20 +102,3 @@ cmp.setup({
 		{ name = "buffer" },
   }),
 })
-
-cmp.setup.cmdline('/', {
-  mapping = cmp.mapping.preset.cmdline(),
-  sources = {
-    { name = 'buffer' }
-  }
-})
-
-cmp.setup.cmdline(':', {
-  mapping = cmp.mapping.preset.cmdline(),
-  sources = cmp.config.sources({
-    { name = 'path' }
-  }, {
-    { name = 'cmdline' }
-  })
-})
-

@@ -84,20 +84,15 @@ lazy.setup({
 		},
 		opts = require("plugins.configs.lsp.bbq"),
 	},
-	{
-		"nvim-neo-tree/neo-tree.nvim",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"MunifTanjim/nui.nvim",
-		},
+    {
+        "nvim-tree/nvim-tree.lua",
+        config = function ()
+			require("plugins.configs.ui.nvim-tree")
+        end,
 		keys = {
-			{ "<leader>e", "<cmd>NeoTreeFocusToggle<cr>", desc = "NeoTree" },
+			{ "<leader>e", "<cmd>NvimTreeToggle<cr>", desc = "NeoTree" },
 		},
-		config = function()
-			require("plugins.configs.ui.neotree")
-		end,
-	},
-
+    },
 	{
 		"lukas-reineke/indent-blankline.nvim",
 		event = "BufEnter",
