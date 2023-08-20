@@ -55,3 +55,4 @@ gst-libav
 gst-plugins-ugly 
 viewnior
 swayidle
+gross-git
