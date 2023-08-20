@@ -122,6 +122,13 @@ lazy.setup({
 		"nvim-telescope/telescope-file-browser.nvim",
 		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
 	},
+    {
+      "nvim-telescope/telescope-frecency.nvim",
+      config = function()
+        require"telescope".load_extension("frecency")
+      end,
+      dependencies = {"kkharji/sqlite.lua"}
+    },
 	{ "ahmedkhalf/project.nvim" },
 	{ "numToStr/Comment.nvim", config = true, event = "BufEnter" },
 	{ "lewis6991/gitsigns.nvim", config = true, event = "BufEnter" },

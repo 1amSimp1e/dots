@@ -129,3 +129,6 @@ vim.cmd('hi IndentBlanklineContextStart guibg=#16191F')
 
 -- Lsp Saga
 vim.cmd('hi SagaNormal guibg=#1A1C25')
+
+-- Barbeque
+vim.cmd('hi barbecue_normal guibg=#090B0F')

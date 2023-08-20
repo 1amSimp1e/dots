@@ -12,6 +12,8 @@ dashboard.section.header.val = {
       "▄ █ █▄█ █▄█ █ █ █▄█ █ █▄█ ▄▄▄ █ █",
       "█▄█ ▄ █▄▄█▄▄█ █ ▄▄█ █ ▄ █ █▄█▄█ █",
       "    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ █▄█▄▄▄█    ",
+      "                                 ",
+      "       [ ━━━━━━ ❖  ━━━━━━ ]      ",
 }
 dashboard.section.header.opts.hl = "AlphaHeader"
 
