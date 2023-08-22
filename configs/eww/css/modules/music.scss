@@ -1,21 +1,31 @@
 .music_modules {
   @include rounding;
-  background-color: $bg2;
-  padding: 2px 12px;
-  margin: 5px 10px 5px 4px;
+  background-size: cover;
+  margin: 6px 8px 6px 10px;
+  min-height: 35px;
+  min-width: 80px;
+  .music_art{
+      background-position: center;
+      background-size: cover;
+      min-width: 30px;
+      min-height: 25px;
+      margin: 6px 1px 6px 10px;
+      padding: 8px;
+      border-radius: 6px;
+  }
 }
 
 .music_title-modules {
-  font-family: Iosevka Nerd Font;
-  margin-left: 8px;
+  font-family: "Iosevka Nerd Font";
+  margin-left: 0.9rem;
 }
 
 .song-cover-art {
   background-position: center;
   background-size: cover;
   margin: 4.5px 2px 4.5px 1px;
-  min-height: 24px;
-  min-width: 24px;
+  min-height: 22px;
+  min-width: 22px;
   padding: 10px;
   border-radius: 3px;
 }
@@ -72,5 +82,13 @@
 }
 
 .song-button_status {
-  margin-left: 10px;
+  margin: 0px 2px 0px 2px;
+}
+
+.song-button_previous{
+  margin: 0px 0px 0px 18px;
+}
+
+.song-button_next{
+  margin: 0px 10px 0px 0px;
 }

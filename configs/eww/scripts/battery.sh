@@ -56,9 +56,9 @@ class() {
     elif [ "$per" -gt "60" ]; then
         class="color: #81c19b"
     elif [ "$per" -gt "49" ]; then
-        class="color: #8FA7A9"
+        class="color: #81c19b"
     elif [ "$per" -gt "40" ]; then
-        class="color: #8FA7A9"
+        class="color: #81c19b"
     elif [ "$per" -gt "20" ]; then
         class="color: #ecd28b"
     elif [ "$per" -gt "10" ]; then

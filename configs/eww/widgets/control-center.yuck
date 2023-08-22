@@ -131,48 +131,48 @@
                         :wrap false
                         :angle 0.0))))
 
-      (box
-        :class "media-main"
-        :space-evenly false
-        :hexpand "false"
-        :width 510
-        :limit-width 12
-        :style "background-color: $grey; margin-top: 10px"
-		(box 
-            :class "song-art" 
-            :orientation "h" 
-            :style "background-image: url('${art}')")
-        (box
-          :class "music-info" 
-          :orientation "v"
-          :halign "start"
-          :space-evenly false
-          :hexpand true
-          (box
-            :halign "start"
-                (label
-                  :class "media-title"
-                  :hexpand "true"
-                  :valign "start"
-                  :limit-width 14
-                  :style "margin-top: 20px"
-                  :text media-title
-                  :orientation "v"
-                  ))
-          (box
-              :halign "start"
-            (label
-              :class "media-artist"
-              :limit-width 14
-              :text media-artist)))
-        (box :class "song-controls" :orientation "h"
-          :hexpand "false"
-          :limit-width 15
-          :width 100
-            (button :class "media-prev"  :onclick "scripts/song.sh prev" "")
-            (button :class "media-pause" :onclick "playerctl -p spotify,mpd play-pause" player_status)
-            (button :class "media-next"  :onclick "scripts/song.sh next" "")
-    ))
+  ;;     (box
+  ;;       :class "media-main"
+  ;;       :space-evenly false
+  ;;       :hexpand "false"
+  ;;       :width 510
+  ;;       :limit-width 12
+  ;;       :style "background-color: $grey; margin-top: 10px"
+		;; (box 
+  ;;           :class "song-art" 
+  ;;           :orientation "h" 
+  ;;           :style "background-image: url('${art}')")
+  ;;       (box
+  ;;         :class "music-info" 
+  ;;         :orientation "v"
+  ;;         :halign "start"
+  ;;         :space-evenly false
+  ;;         :hexpand true
+  ;;         (box
+  ;;           :halign "start"
+  ;;               (label
+  ;;                 :class "media-title"
+  ;;                 :hexpand "true"
+  ;;                 :valign "start"
+  ;;                 :limit-width 14
+  ;;                 :style "margin-top: 20px"
+  ;;                 :text media-title
+  ;;                 :orientation "v"
+  ;;                 ))
+  ;;         (box
+  ;;             :halign "start"
+  ;;           (label
+  ;;             :class "media-artist"
+  ;;             :limit-width 14
+  ;;             :text media-artist)))
+  ;;       (box :class "song-controls" :orientation "h"
+  ;;         :hexpand "false"
+  ;;         :limit-width 15
+  ;;         :width 100
+  ;;           (button :class "media-prev"  :onclick "scripts/song.sh prev" "")
+  ;;           (button :class "media-pause" :onclick "playerctl -p spotify,mpd play-pause" player_status)
+  ;;           (button :class "media-next"  :onclick "scripts/song.sh next" "")
+  ;;   ))
     (box
         :class "footer"
       (box 

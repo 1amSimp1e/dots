@@ -75,7 +75,7 @@
   border-radius: 20px;
   background-color: $bg4;
   padding: 1rem 0.1rem;
-  margin: 1rem 1.7rem 1.1rem 1.3rem;
+  margin: 1rem 1.7rem 0.2rem 1.3rem;
   scale {
     margin-right: 0.6rem;
     min-width: 25rem;
@@ -200,22 +200,22 @@
 .sys_temp_box {
   background-color: #17191d;
   border-radius: 16px;
-  margin: 10px 5px 5px 2px;
-  padding: 25px;
+  margin: 20px 5px 20px 2px;
+  padding: 18px;
 }
 
 .sys_cpu_box {
   background-color: #17191d;
   border-radius: 16px;
-  margin: 10px 30px 10px 30px;
-  padding: 25px;
+  margin: 20px 30px 20px 30px;
+  padding: 18px;
 }
 
 .sys_mem_box {
   background-color: #17191d;
   border-radius: 16px;
-  margin: 10px 0px 10px 0px;
-  padding: 25px;
+  margin: 20px 0px 20px 0px;
+  padding: 18px;
 }
 
 .media-main {
@@ -223,7 +223,7 @@
   font-size: 18px;
   background-color: $bg4;
   padding: 6px 0px 6px 0px;
-  margin: 10px 1.8rem 10px 1.3rem;
+  margin: 2px 1.8rem 10px 1.3rem;
   border-radius: 22px;
 }
 

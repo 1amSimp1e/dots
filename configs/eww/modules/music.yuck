@@ -1,20 +1,44 @@
 (defwidget music []
-    (box
-          :class "music_modules"
-          (box
+     (box
+      :space-evenly false
+      :class "music_modules"
+      :style 
+          "
+          background-image: url('${music.background}');
+          "
+          ;; (box
+          ;;   :space-evenly false
+          ;;   :class "music_art"
+          ;;   :style "
+          ;;      background-image: url('${music.cover}');
+          ;;   "
+          ;;   )
+          (eventbox
               :space-evenly false
               (box
-                :class "song-cover-art"
-                :style "background-image: url(\"${art}\");")
-              (eventbox
-                  (box
-                      :space-evenly false
-                      (label
-                        :class "music_title-modules"
-                        :limit-width 15
-                        :text {media-title})
-                      (button
-                         :class "song-button_status" 
-                         :onclick "playerctl -p spotify,mpd play-pause" 
-                         player_status
-                      ))))))
+                  :space-evenly false
+                  (label
+                    :class "music_title-modules"
+                    :limit-width 25
+                    ;; :text {music.title}
+                    :text media-title
+                    :style "color: ${music.foreground}")
+                  (button
+                     :class "song-button_previous"
+                     :style "color: ${music.foreground}"
+                     :onclick "song_prev" 
+                     ""
+                  )
+                  (button
+                     :class "song-button_status" 
+                     :onclick "playerctl -p spotify,mpd play-pause" 
+                     :style "color: ${music.foreground}"
+                     player_status
+                  )
+                  (button
+                     :class "song-button_next"
+                     :style "color: ${music.foreground}"
+                     :onclick "${song_next}" 
+                     ""
+                  )
+                  ))))

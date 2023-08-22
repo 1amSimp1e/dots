@@ -2,10 +2,10 @@
   (button
     :class "launcher_module"
     :orientation "h"
-    :tooltip "Menu"
+    :tooltip "Control Center"
     :onclick "${EWW_CMD} open --toggle control-center"
     (eventbox
           (image
             :class "launcher-icon"
-            :path "assets/menu.png"
-          :image-width 22))))
+            :path "assets/arch.png"
+          :image-width 30))))

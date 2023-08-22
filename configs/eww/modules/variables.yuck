@@ -12,7 +12,7 @@
 (defvar br_reveal false)
 (deflisten net "scripts/wifi.sh")
 (deflisten workspace "scripts/workspaces")
-(defpoll brightness_percent :interval "0.2s" "brightnessctl -m -d amdgpu_bl0 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
+(defpoll brightness_percent :interval "0.2s" "brightnessctl -m -d amdgpu_bl1 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
 (deflisten volume "scripts/volume.sh")
 (defpoll volume_percent :interval "1s"  "pamixer --get-volume")
 
@@ -29,15 +29,20 @@
 (deflisten uptime "uptime -p")
 
 ;; Music 
-(defpoll art :interval "1s"
-	"echo \"$HOME/.cache/eww/cover.png\"")
-(defpoll song_art :interval "2s" "scripts/song.sh art")
+
+(defvar song_next "scripts/song.sh next")
+(defvar song_prev "scripts/song.sh prev")
+(deflisten music "gross music")
+(defpoll song_title :interval "2s" "scripts/song.sh art")
 (defpoll media-title :interval "1s" "scripts/song.sh title")
-(defpoll media-artist :interval "1s" "scripts/song.sh artist")
-(defpoll media-curr :interval "1s" "scripts/song.sh current-time")
-(defpoll media-total :interval "1s" "scripts/song.sh total-time")
-(defpoll media-track :interval "1s" "scripts/song.sh percent")
 (defpoll player_status :interval "0.1s" "scripts/song.sh player_status")
+
+;; (defpoll player_status_text :interval "2s" "scripts/song.sh player_status_text")
+;; (defpoll media-artist :interval "1s" "scripts/song.sh artist")
+;; (defpoll media-curr :interval "1s" "scripts/song.sh current-time")
+;; (defpoll media-total :interval "1s" "scripts/song.sh total-time")
+;; (defpoll media-track :interval "1s" "scripts/song.sh percent")
+
 
 ;; Notification
 (defpoll dunst_history :interval "250ms" :run-while noticenter
