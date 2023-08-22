@@ -9,7 +9,11 @@
 ### Install dependencies
 
 ```
-    paru -S hyprland-git eww-wayland-git blueberry bluez brillo coreutils dbus findutils gawk jaq jc libnotify networkmanager pavucontrol playerctl procps pipewire-pulse ripgrep socat udev upower util-linux wireplumber light bluez-utils swayosd swaylock-effects jq grimblast grim slurp wl-clipboard pamixer brightnessctl nwg-look-bin hyprpicker-git nemo bc swaybg rofi-lbonn-wayland-git rofi-emoji ffmpegthumbnailer gst-libav gst-plugins-ugly swayidle gross-git dunst
+paru -S hyprland-git eww-wayland-git blueberry bluez brillo coreutils dbus findutils \
+gawk jaq jc libnotify networkmanager pavucontrol playerctl procps pipewire-pulse \
+ripgrep socat udev upower util-linux wireplumber light bluez-utils swayosd swaylock-effects \
+jq grimblast grim slurp wl-clipboard pamixer brightnessctl nwg-look-bin hyprpicker-git nemo \
+bc swaybg rofi-lbonn-wayland-git rofi-emoji ffmpegthumbnailer gst-libav gst-plugins-ugly swayidle gross-git dunst
 ```
 
 > Next provided packaged udev rules + adding the user to video group by running 
