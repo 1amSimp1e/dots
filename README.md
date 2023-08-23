@@ -22,6 +22,8 @@ sudo usermod -a -G video $USER
 ```
 Now, everything should work as expected.
 
+> Note that to make Hyprland work flawlessly refer to [Hyprland Wiki](https://wiki.hyprland.org/Useful-Utilities/Must-have/)
+
 ### Install Kanso 🌙
 
 ```
