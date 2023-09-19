@@ -6,10 +6,10 @@
     "margin-bottom": 0,
     "margin-right": 10,
     "spacing": 5, // Gaps between modules (4px)
-    "modules-left": ["custom/launcher", "cpu", "memory", "wlr/workspaces", "custom/weather"],
+    "modules-left": ["custom/launcher", "cpu", "memory", "hyprland/workspaces", "custom/weather"],
     "modules-center": ["custom/spotify"],
     "modules-right": ["tray", "backlight", "pulseaudio", "network", "battery", "clock", "custom/power-menu"],
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
       "format-icons": {
