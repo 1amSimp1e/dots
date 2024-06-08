@@ -106,7 +106,7 @@
       "restart-interval": 300,
       "return-type": "json",
       "on-click": "xdg-open https://weather.com/en-IN/weather/today/l/a319796a4173829988d68c4e3a5f90c1b6832667ea7aaa201757a1c887ec667a"
-    },   
+    },
 
    "custom/spotify": {
     "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
@@ -119,10 +119,9 @@
     "custom/power-menu": {
         "format": " <span color='#6a92d7'>⏻ </span>",
         "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
-    }, 
+    },
     "custom/launcher": {
         "format": " <span color='#6a92d7'> </span>",
         "on-click": "rofi -show drun",
     },
 }
-
