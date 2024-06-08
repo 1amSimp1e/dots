@@ -139,13 +139,14 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "workbench.editor.tabActionCloseVisibility": false,
   "zenMode.showTabs": "single",
-  "window.commandCenter": false,
   "workbench.editor.empty.hint": "hidden",
   "explorer.confirmDragAndDrop": false,
   "git.openRepositoryInParentFolders": "always",
   "security.workspace.trust.untrustedFiles": "open",
-  "window.menuBarVisibility": "toggle",
   "workbench.preferredDarkColorTheme": "Noir Poimandres Darker",
   "editor.lineNumbers": "off",
-  "workbench.activityBar.visible": false
+  "window.menuBarVisibility": "toggle",
+  "codesnap.roundedCorners":true,
+  "codesnap.transparentBackground":true,
+  "codesnap.boxShadow":"rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
 }
