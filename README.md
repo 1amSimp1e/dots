@@ -4,9 +4,9 @@
 
 <div align="center">
     <h3> 1amSimp1e's Dot Files 📁</h3>
-    <img src="https://readme-typing-svg.demolab.com?font=Iosevka+Nerd+Font&weight=900&pause=1000&color=6791C9&background=0C0E0F00&center=true&vCenter=true&width=435&lines=A+place++I+store+my+Aesthetic+Customizations"
+    <img src="https://readme-typing-svg.herokuapp.com?font=Iosevka&weight=800&size=20&pause=1000&color=6791C9&background=0C0E0F&center=true&vCenter=true&random=false&width=435&lines=The+Place+Of+Aesthetic+Customization"
 </div>
-
+    
 ![](https://img.shields.io/github/last-commit/iamverysimp1e/dots?&style=for-the-badge&color=8D748C&logoColor=D9E0EE&labelColor=252733)
 ![](https://img.shields.io/github/stars/iamverysimp1e/dots?style=for-the-badge&logo=starship&color=AB6C6A&logoColor=D9E0EE&labelColor=252733)
 [![](https://img.shields.io/github/repo-size/iamverysimp1e/dots?color=%23DDB&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=252733)](https://github.com/1amSimp1e/dots)
