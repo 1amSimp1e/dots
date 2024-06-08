@@ -22,7 +22,7 @@ rofi_cmd() {
 	rofi -dmenu \
 		-p "$host" \
 		-mesg "Uptime: $uptime" \
-		-theme ${dir}/${theme}.rasi
+		-theme "$dir/$theme".rasi
 }
 
 # Confirmation CMD
@@ -35,7 +35,7 @@ confirm_cmd() {
 		-dmenu \
 		-p 'Confirmation' \
 		-mesg 'Are you Sure?' \
-		-theme ${dir}/${theme}.rasi
+		-theme "$dir/$theme".rasi
 }
 
 # Ask for confirmation
@@ -80,7 +80,7 @@ run_cmd() {
 
 # Actions
 chosen="$(run_rofi)"
-case ${chosen} in
+case $chosen in
     $shutdown)
 		run_cmd --shutdown
         ;;
